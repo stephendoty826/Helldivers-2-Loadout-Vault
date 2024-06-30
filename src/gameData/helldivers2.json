@@ -1,0 +1,1849 @@
+{
+  "primaries": [
+    {
+      "name": "AR-23 Liberator",
+      "class": "Assault Rifle",
+      "description": "The SEAF standard assault rifle, balancing power, fire rate, and weight for a reliable weapon against smaller targets.",
+      "damage": 60,
+      "capacity": 45,
+      "recoil": 15,
+      "fire rate": 640,
+      "spare magazines": 7,
+      "reload time": "3s",
+      "tactical reload": "2s",
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2596",
+      "image": "./images/liberator.png"
+    },
+    {
+      "name": "AR-23P Liberator Penetrator",
+      "class": "Assault Rifle",
+      "description": "A modified Liberator fitted with a scope and firing armor-piercing rounds, to help users take down armored targets.",
+      "damage": 45,
+      "capacity": 30,
+      "recoil": 19,
+      "fire rate": 640,
+      "spare magazines": 10,
+      "reload time": "3s",
+      "tactical reload": "2s",
+      "weapon traits": ["medium armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2591",
+      "image": "./images/liberator_penetrator.png"
+    },
+    {
+      "name": "AR-23C Liberator Concussive",
+      "class": "Assault Rifle",
+      "description": "A modified Liberator firing concussive rounds which do less damage but stagger enemies.",
+      "damage": 65,
+      "capacity": 30,
+      "recoil": 28,
+      "fire rate": 320,
+      "spare magazines": 10,
+      "reload time": "3s",
+      "tactical reload": "2s",
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2597",
+      "image": "./images/liberator_concussive.webp"
+    },
+    {
+      "name": "AR-23A Liberator Carbine",
+      "class": "Assault Rifle",
+      "description": "A compact version of the Liberator designed to increase viability in close quarters. Has an increased fire rate at the cost of higher spread.",
+      "damage": 60,
+      "capacity": 45,
+      "recoil": 26,
+      "fire rate": 920,
+      "spare magazines": 7,
+      "reload time": "3s",
+      "tactical reload": "2s",
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6745",
+      "image": "./images/liberator_carbine.webp"
+    },
+    {
+      "name": "AR-61 Tenderizer",
+      "class": "Assault Rifle",
+      "description": "A high-caliber assault rifle with a restrictive magazine size but more stopping power.",
+      "damage": 95,
+      "capacity": 30,
+      "recoil": 10,
+      "fire rate": 600,
+      "spare magazines": 7,
+      "reload time": "3.3s",
+      "tactical reload": "2.2s",
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6271",
+      "image": "./images/tenderizer.png"
+    },
+    {
+      "name": "BR-14 Adjudicator",
+      "class": "Assault Rifle",
+      "description": "An accurate, armor-penetrating rifle, the BR-14 Adjudicator delivers righteous judgement to medium-sized enemies, though its restrictive magazine limits its effectiveness against large groups.",
+      "damage": 80,
+      "capacity": 30,
+      "recoil": 40,
+      "fire rate": 550,
+      "spare magazines": 8,
+      "reload time": "3s",
+      "tactical reload": "1.7s",
+      "weapon traits": ["medium armor penetrating"]
+    },
+    {
+      "name": "R-63 Diligence",
+      "class": "Marksman Rifle",
+      "description": "This high-caliber marksman rifle trades magazine capacity and rate of fire for powerful, accurate shots.",
+      "damage": 125,
+      "capacity": 20,
+      "recoil": 35,
+      "fire rate": 350,
+      "spare magazines": 8,
+      "reload time": "3s",
+      "tactical reload": "1.9s",
+      "weapon traits": ["light armor penetrating"]
+    },
+    {
+      "name": "R-63CS Diligence Counter Sniper",
+      "class": "Marksman Rifle",
+      "description": "A modified Diligence rifle offering increased damage, but a reduced rate of fire. Fires a single bullet at a time.",
+      "damage": 140,
+      "capacity": 15,
+      "recoil": 53,
+      "fire rate": 350,
+      "spare magazines": 8,
+      "reload time": "3s",
+      "tactical reload": "1.9s",
+      "weapon traits": ["medium armor penetrating"]
+    },
+    {
+      "name": "SMG-37 Defender",
+      "class": "Submachine Gun",
+      "description": "A high-caliber submachine gun which can be fired with one hand. Has a relatively low rate of fire.",
+      "damage": 70,
+      "capacity": 45,
+      "recoil": 10,
+      "fire rate": 520,
+      "spare magazines": 7,
+      "reload time": "2.8s",
+      "tactical reload": "2s",
+      "weapon traits": ["light armor penetrating", "one handed"]
+    },
+    {
+      "name": "SMG-72 Pummeler",
+      "class": "Submachine Gun",
+      "description": "Fires concussive rounds that stagger enemies. Slower rate of fire than other SMGs.",
+      "damage": 65,
+      "capacity": 45,
+      "recoil": 10,
+      "fire rate": 475,
+      "spare magazines": 7,
+      "reload time": "3s",
+      "tactical reload": "2.1s",
+      "weapon traits": ["light armor penetrating", "one handed"]
+    },
+    {
+      "name": "SG-8 Punisher",
+      "class": "Shotgun",
+      "description": "A powerful dual magazine pump-action shotgun, with limited armor penetration. Ideal for small and fast targets.",
+      "damage": 405,
+      "capacity": 16,
+      "recoil": 120,
+      "fire rate": 80,
+      "spare magazines": 60,
+      "reload time": "6.9s",
+      "tactical reload": "0.8s per round",
+      "weapon traits": ["light armor penetrating", "rounds reload"]
+    },
+    {
+      "name": "SG-8S Slugger",
+      "class": "Shotgun",
+      "description": "A modified Punisher shotgun firing heavy, high-damage slug rounds. Perfect for punching big holes in big targets.",
+      "damage": 250,
+      "capacity": 16,
+      "recoil": 120,
+      "fire rate": 80,
+      "spare magazines": 60,
+      "reload time": "6.9s",
+      "tactical reload": "0.8s per round",
+      "weapon traits": ["medium armor penetrating", "rounds reload"]
+    },
+    {
+      "name": "SG-225 Breaker",
+      "class": "Shotgun",
+      "description": "A fully-automatic shotgun with a high rate of fire, excellent for controlling crowds. Requires frequent reloading.",
+      "damage": 330,
+      "capacity": 13,
+      "recoil": 55,
+      "fire rate": 300,
+      "spare magazines": 7,
+      "reload time": "2.5s",
+      "tactical reload": "1.8s",
+      "weapon traits": ["light armor penetrating"]
+    },
+    {
+      "name": "SG-225SP Breaker Spray&Pray",
+      "class": "Shotgun",
+      "description": "A modified Breaker Shotgun firing birdshot, small pellets which saturate an area to clear up smaller targets.",
+      "damage": 192,
+      "capacity": 26,
+      "recoil": 45,
+      "fire rate": 330,
+      "spare magazines": 8,
+      "reload time": "3s",
+      "tactical reload": "2.1s",
+      "weapon traits": ["light armor penetrating"]
+    },
+    {
+      "name": "SG-225IE Breaker Incendiary",
+      "class": "Shotgun",
+      "description": "A modified Breaker Shotgun firing incendiary projectiles. Generates heat during use, so limited to burst fire.",
+      "damage": 240,
+      "capacity": 25,
+      "recoil": 28,
+      "fire rate": 300,
+      "spare magazines": 6,
+      "reload time": "2.5s",
+      "tactical reload": "1.8s",
+      "weapon traits": ["light armor penetrating", "incendiary"]
+    },
+    {
+      "name": "CB-9 Exploding Crossbow",
+      "class": "Explosive",
+      "description": "Fires powerful exploding bolts which do maximum damage upon direct impact. Gravity must be accounted for when aiming.",
+      "damage": 420,
+      "capacity": 5,
+      "recoil": 35,
+      "fire rate": 50,
+      "spare magazines": 8,
+      "reload time": "3.3s",
+      "tactical reload": "",
+      "weapon traits": ["medium armor penetrating", "explosive"]
+    },
+    {
+      "name": "JAR-5 Dominator",
+      "class": "Explosive",
+      "description": "Firing jet-propelled rounds, the Dominator trades fire rate and magazine capacity for increased damage per projectile.",
+      "damage": 275,
+      "capacity": 15,
+      "recoil": 75,
+      "fire rate": 250,
+      "spare magazines": 6,
+      "reload time": "3.8s",
+      "tactical reload": "2.6s",
+      "weapon traits": ["medium armor penetrating"]
+    },
+    {
+      "name": "R-35 Eruptor",
+      "class": "Explosive",
+      "description": "This bolt-action rifle fires jet-assisted shells that explode shrapnel in all directions upon impact. Not recommended for close-quarters use.",
+      "damage": 570,
+      "capacity": 5,
+      "recoil": 75,
+      "fire rate": 25,
+      "spare magazines": 6,
+      "reload time": "4.7s",
+      "tactical reload": "2.8s",
+      "weapon traits": ["medium armor penetrating", "explosive"]
+    },
+    {
+      "name": "SG-8P Punisher Plasma",
+      "class": "Energy-Based",
+      "description": "A modified Punisher shotgun firing exploding plasma rounds. Fire carefully - exploding plasma can injure squadmates.",
+      "damage": 250,
+      "capacity": 8,
+      "recoil": 110,
+      "fire rate": 80,
+      "spare magazines": 8,
+      "reload time": "2.5s",
+      "weapon traits": ["explosive"]
+    },
+    {
+      "name": "ARC-12",
+      "class": "Energy-Based",
+      "description": "This shotgun blasts a wide burst of high-voltage electricity that arcs between all units—enemy or otherwise—within range.",
+      "damage": 250,
+      "capacity": "infinite",
+      "recoil": 60,
+      "fire rate": 45
+    },
+    {
+      "name": "LAS-5 Scythe",
+      "class": "Energy-Based",
+      "description": "A laser rifle firing a continuous beam. Does not need reloading, but if it overheats a new heat sink must be fitted.",
+      "damage/sec": 350,
+      "fire limit": 8,
+      "recoil": 1,
+      "spare magazines": 4,
+      "reload time": "1.8s",
+      "tactical reload": "3s",
+      "weapon traits": ["light armor penetrating", "beam", "heat"]
+    },
+    {
+      "name": "LAS-16 Sickle",
+      "class": "Energy-Based",
+      "description": "A laser rifle, firing in short bursts. Does not need reloading, but if it overheats a new heat sink must be fitted.",
+      "damage": 55,
+      "fire limit": 9,
+      "recoil": 2,
+      "fire rate": 750,
+      "spare magazines": 3,
+      "reload time": "2.1s",
+      "tactical reload": "3s",
+      "weapon traits": ["light armor penetrating", "heat"]
+    },
+    {
+      "name": "PLAS-1 Scorcher",
+      "class": "Energy-Based",
+      "description": "A plasma rifle, firing a bolt of superheated gas which explodes on impact. Avoid standing in proximity to the blast.",
+      "damage": 200,
+      "capacity": 15,
+      "recoil": 20,
+      "fire rate": 250,
+      "spare magazines": 6,
+      "reload time": "2.5s",
+      "weapon traits": ["light armor penetrating", "explosive"]
+    },
+    {
+      "name": "PLAS-101 Purifier",
+      "class": "Energy-Based",
+      "description": "A plasma rifle firing a bolt of superheated gase which explodes on impact. Each shot must be charged up fully before it can be fired.",
+      "damage": 250,
+      "capacity": 15,
+      "recoil": 20,
+      "fire rate": 250,
+      "spare magazines": 6,
+      "reload time": "2.5s",
+      "weapon traits": ["medium armor penetrating", "chargeup", "explosive"]
+    }
+  ],
+  "secondaries": [
+    {
+      "name": "SG-22 Bushwhacker",
+      "class": "Shotgun",
+      "description": "A triple-barreled, break-action, sawed-off shotgun. Switch firing modes to fire all three barrels at once.",
+      "damage": 405,
+      "capacity": 3,
+      "recoil": 170,
+      "fire rate": 650,
+      "spare magazines": 30,
+      "reload time": "2.1s",
+      "tactical reload": "1.2s for 1 round & 1.7 for 2 rounds",
+      "weapon traits": ["light armor penetrating", "one handed"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6767",
+      "image": "./images/bushwacker.png"
+    },
+    {
+      "name": "P-2 Peacemaker",
+      "class": "Pistol",
+      "description": "The SEAF standard pistol - offering a high fire rate, generous capacity, and fast reloading.",
+      "damage": 75,
+      "capacity": 15,
+      "recoil": 23,
+      "fire rate": 900,
+      "spare magazines": 5,
+      "reload time": "1.8s",
+      "tactical reload": "1.4s",
+      "weapon traits": ["light armor penetrating", "one handed"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2598",
+      "image": "./images/peacemaker.png"
+    },
+    {
+      "name": "P-19 Redeemer",
+      "class": "Pistol",
+      "description": "A fully-automatic pistol with an extremely high fire rate, allowing for efficient crowd control.",
+      "damage": 60,
+      "capacity": 31,
+      "recoil": 15,
+      "fire rate": 1100,
+      "spare magazines": 4,
+      "reload time": "2.1s",
+      "tactical reload": "1.4s",
+      "weapon traits": ["light armor penetrating", "one handed"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2600",
+      "image": "./images/redeemer.png"
+    },
+    {
+      "name": "GP-31 Grenade Pistol",
+      "class": "Pistol",
+      "description": "A pistol that fires grenades. Must be reloaded between shots.",
+      "damage": 650,
+      "capacity": 1,
+      "recoil": 43,
+      "fire rate": 900,
+      "spare magazines": 8,
+      "reload time": "2s",
+      "weapon traits": ["one handed", "explosive"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5467",
+      "image": "./images/grenade_pistol.webp"
+    },
+    {
+      "name": "LAS-7 Dagger",
+      "class": "Pistol",
+      "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
+      "damage/sec": 200,
+      "fire limit": 5,
+      "recoil": 1,
+      "spare magazines": 3,
+      "reload time": "1.8s",
+      "tactical reload": "2.3s",
+      "weapon traits": [
+        "light armor penetrating",
+        "one handed",
+        "beam",
+        "heat"
+      ],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3500",
+      "image": "./images/dagger.png"
+    },
+    {
+      "name": "P-113 Verdict",
+      "class": "Pistol",
+      "description": "The gas-operated, semiautomatic P-113 chambers the 14mm \"Rapid Deliberation,\" the largest centerfire cartridge of any magazine-fed pistol.",
+      "damage": 125,
+      "capacity": 10,
+      "recoil": 40,
+      "fire rate": 450,
+      "spare magazines": 8,
+      "reload time": "2s",
+      "tactical reload": "1.4s",
+      "weapon traits": ["light armor penetrating", "one handed"]
+    },
+    {
+      "name": "P-4 Senator",
+      "class": "Pistol",
+      "description": "A high-damage revolver, which can be reloaded with single rounds. A heavy-hitting and reliable sidearm.",
+      "damage": 175,
+      "capacity": 6,
+      "recoil": 43,
+      "fire rate": 200,
+      "spare magazines": 40,
+      "reload time": "2.8s",
+      "tactical reload": "2.2s for 1 round & 4.8s for 5 rounds",
+      "weapon traits": [
+        "medium armor penetrating",
+        "one handed",
+        "rounds reload"
+      ]
+    }
+  ],
+  "throwables": [
+    {
+      "name": "G-6 Frag",
+      "class": "Standard Throwable",
+      "description": "An antipersonnel fragmentation grenade. Creates damage over a large area when detonated.",
+      "damage": 250,
+      "Penetration": 3,
+      "Outer Radius": 8,
+      "fuse time": "2.4s",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2539",
+      "image": "./images/frag.png"
+    },
+    {
+      "name": "G-10 Incendiary",
+      "class": "Standard Throwable",
+      "description": "An incendiary grenade which ignites any targets and terrain within the blast radius. Use with caution.",
+      "damage": 150,
+      "Penetration": 3,
+      "Outer Radius": 7,
+      "fuse time": "2.9s",
+      "weapon traits": ["incendiary"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3265",
+      "image": "./images/incendiary.png"
+    },
+    {
+      "name": "G-12 High Explosive",
+      "class": "Standard Throwable",
+      "description": "A high explosive grenade which damages lightly armored targets. Creates high damage over a small area when detonated.",
+      "damage": 400,
+      "Penetration": 4,
+      "Outer Radius": 7,
+      "fuse time": "3.5s",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
+      "image": "./images/high_explosive.png"
+    },
+    {
+      "name": "G-16 Impact",
+      "class": "Special Throwable",
+      "description": "A high explosive grenade which detonates on first impact.",
+      "damage": 400,
+      "Penetration": 4,
+      "Outer Radius": 7,
+      "fuse time": "0.0s",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2590",
+      "image": "./images/impact.png"
+    },
+    {
+      "name": "G-13 Incendiary Impact",
+      "class": "Special Throwable",
+      "description": "Detonates on impact, covering the immediate vicinity in self-igniting white phosphorus.",
+      "damage": 400,
+      "Penetration": 4,
+      "Outer Radius": 7,
+      "fuse time": "0.0s",
+      "weapon traits": ["incendiary"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6265",
+      "image": "./images/incendiary_impact.png"
+    },
+    {
+      "name": "G-23 Stun",
+      "class": "Special Throwable",
+      "description": "Temporarily stuns all targets within the effective radius.",
+      "damage": 0,
+      "Penetration": 6,
+      "Outer Radius": 10,
+      "fuse time": "1.8s"
+    },
+    {
+      "name": "G-3 Smoke",
+      "class": "Special Throwable",
+      "description": "A 'compliance weapon' to modify enemy behaviour. Creates a thick smoke screen to block targets' line of sight.",
+      "damage": 0,
+      "Penetration": 0,
+      "Outer Radius": 5,
+      "fuse time": "2.4s"
+    },
+    {
+      "name": "G-123 Thermite",
+      "class": "Special Throwable",
+      "description": "A thermite grenade designed to adhere to surfaces before burning at 2000°C. Capable of burning through some armor.",
+      "damage": 100,
+      "Penetration": 7,
+      "Outer Radius": 2,
+      "fuse time": "2.9s"
+    },
+    {
+      "name": "K-2 Throwing Knife",
+      "class": "Special Throwable",
+      "description": "Delivers silent justice to Freedom's enemies.",
+      "damage": 250,
+      "Penetration": 3
+    }
+  ],
+  "armor": [
+    {
+      "name": "FS-37 Ravager",
+      "description": "Contains many small pockets, allowing the user to evenly distribute weight of ammunition sample, and cool rocks.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5580",
+      "image": "./images/ravager_armor.webp"
+    },
+    {
+      "name": "CW-4 Arctic Ranger",
+      "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Scout",
+        "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6325",
+      "image": "./images/arctic_ranger.png"
+    },
+    {
+      "name": "CE-74 Breaker",
+      "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2571",
+      "image": "./images/breaker_armor.webp"
+    },
+    {
+      "name": "CE-67 Titan",
+      "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
+      "armor rating": 79,
+      "speed": 521,
+      "stamina regen": 111,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3296",
+      "image": "./images/titan.webp"
+    },
+    {
+      "name": "CM-21 Trench Paramedic",
+      "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
+      "armor rating": 64,
+      "speed": 536,
+      "stamina regen": 118,
+      "armor Passive": {
+        "name": "Med-Kit",
+        "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2829",
+      "image": "./images/trench_paramedic.webp"
+    },
+    {
+      "name": "CE-07 Demolition Specialist",
+      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity.",
+      "armor rating": 64,
+      "speed": 536,
+      "stamina regen": 118,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      }
+    },
+    {
+      "name": "FS-38 Eradicator",
+      "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "EX-00 Prototype X",
+      "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\"",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Electrical Conduit",
+        "description": "Provides 95% resistance to arc damage."
+      }
+    },
+    {
+      "name": "B-08 Light Gunner",
+      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
+      "armor rating": 100,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Extra Padding",
+        "description": "Provides a higher armor rating."
+      }
+    },
+    {
+      "name": "SC-30 TrailBlazer Scout",
+      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Scout",
+        "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
+      }
+    },
+    {
+      "name": "SC-34 Infiltrator",
+      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
+      "armor rating": 70,
+      "speed": 530,
+      "stamina regen": 115,
+      "armor Passive": {
+        "name": "Scout",
+        "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
+      }
+    },
+    {
+      "name": "PH-9 Predator",
+      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Peak Physique",
+        "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
+      }
+    },
+    {
+      "name": "SA-25 Steel Trooper",
+      "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Servo-Assisted",
+        "description": "Increased throwing range by 30%. Provides +50% limb health."
+      }
+    },
+    {
+      "name": "SA-12 Servo Assisted",
+      "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Servo-Assisted",
+        "description": "Increased throwing range by 30%. Provides +50% limb health."
+      }
+    },
+    {
+      "name": "CE-35 Trench Engineer",
+      "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      }
+    },
+    {
+      "name": "CE-27 Ground Breaker",
+      "description": "\"The ground is just another obstable that hasn't yet been cleared.\" - SGM Janet Jones, Excavation Corps Founder",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      }
+    },
+    {
+      "name": "CM-09 Bonesnapper",
+      "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Med-Kit",
+        "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+      }
+    },
+    {
+      "name": "SC-15 Drone Master",
+      "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      }
+    },
+    {
+      "name": "EX-03 Prototype 3",
+      "description": "Because this prototype's wire operates at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Electrical Conduit",
+        "description": "Provides 95% resistance to arc damage."
+      }
+    },
+    {
+      "name": "EX-16 Prototype 16",
+      "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vinicity of stapled paperwork.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Electrical Conduit",
+        "description": "Provides 95% resistance to arc damage."
+      }
+    },
+    {
+      "name": "FS-34 Exterminator",
+      "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "DP-40 Hero of the Federation",
+      "description": "Though originally indended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Democracy Protects",
+        "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
+      }
+    },
+    {
+      "name": "DP-11 Champion of the People",
+      "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor passive": "democracy protects"
+    },
+    {
+      "name": "CM-14 Physician",
+      "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signals to all Helldivers that help is at hand.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Med-Kit",
+        "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+      }
+    },
+    {
+      "name": "CE-81 Jugganaut",
+      "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      }
+    },
+    {
+      "name": "B-24 Enforcer",
+      "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
+      "armor rating": 129,
+      "speed": 471,
+      "stamina regen": 71,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "B-01 Tactical",
+      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
+      "armor rating": 150,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Extra Padding",
+        "description": "Provides a higher armor rating."
+      }
+    },
+    {
+      "name": "SA-04 Combat Technician",
+      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Scout",
+        "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
+      }
+    },
+    {
+      "name": "FS-55 Devastator",
+      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "CW-22 Kodiak",
+      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "SA-32 Dynamo",
+      "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Servo-Assisted",
+        "description": "Increased throwing range by 30%. Provides +50% limb health."
+      }
+    },
+    {
+      "name": "CM-17 Butcher",
+      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Med-Kit",
+        "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+      }
+    },
+    {
+      "name": "B-27 Fortified Commando",
+      "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
+      "armor rating": 200,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Extra Padding",
+        "description": "Provides a higher armor rating."
+      }
+    },
+    {
+      "name": "FS-05 Marksman",
+      "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "FS-11 Executioner",
+      "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical \"Lost My Heart to a Man in a Helmet\".",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "CE-64 Grenadier",
+      "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      }
+    },
+    {
+      "name": "PH-202 Twigsnapper",
+      "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Peak Physique",
+        "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
+      }
+    },
+    {
+      "name": "FS-23 Battle Master",
+      "description": "This aim-stabalizing armor found suprising secondary market success among alien birdwatching enthusiasts.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Fortified",
+        "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
+      }
+    },
+    {
+      "name": "CW-Winter Warrior",
+      "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Servo-Assisted",
+        "description": "Increased throwing range by 30%. Provides +50% limb health."
+      }
+    }
+  ],
+  "helmets": [
+    {
+      "name": "FS-37 Ravager",
+      "description": "Contains many small pockets, allowing the user to evenly distribute weight of ammunition sample, and cool rocks.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5582",
+      "image": "./images/ravager_helmet.webp"
+    },
+    {
+      "name": "CW-4 Arctic Ranger",
+      "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6490",
+      "image": "./images/arctic_ranger_helmet.webp"
+    },
+    {
+      "name": "CE-74 Breaker",
+      "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6488",
+      "image": "./images/breaker_helmet.png"
+    },
+    {
+      "name": "CE-67 Titan",
+      "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6487",
+      "image": "./images/titan_helmet.png"
+    },
+    {
+      "name": "CM-21 Trench Paramedic",
+      "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6489",
+      "image": "./images/trench_paramedic_helmet.webp"
+    },
+    {
+      "name": "CE-07 Demolition Specialist",
+      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity."
+    },
+    {
+      "name": "FS-38 Eradicator",
+      "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns."
+    },
+    {
+      "name": "EX-00 Prototype X",
+      "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\""
+    },
+    {
+      "name": "B-08 Light Gunner",
+      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests."
+    },
+    {
+      "name": "SC-30 TrailBlazer Scout",
+      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species."
+    },
+    {
+      "name": "SC-34 Infiltrator",
+      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation."
+    },
+    {
+      "name": "PH-9 Predator",
+      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes."
+    },
+    {
+      "name": "SA-25 Steel Trooper",
+      "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods."
+    },
+    {
+      "name": "SA-12 Servo Assisted",
+      "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health."
+    },
+    {
+      "name": "CE-35 Trench Engineer",
+      "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born."
+    },
+    {
+      "name": "CE-27 Ground Breaker",
+      "description": "\"The ground is just another obstable that hasn't yet been cleared.\" - SGM Janet Jones, Excavation Corps Founder"
+    },
+    {
+      "name": "CM-09 Bonesnapper",
+      "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties."
+    },
+    {
+      "name": "SC-15 Drone Master",
+      "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts."
+    },
+    {
+      "name": "EX-03 Prototype 3",
+      "description": "Because this prototype's wire operates at 400,000 volts, it also includes a handy rubber underlayer for insulation."
+    },
+    {
+      "name": "EX-16 Prototype 16",
+      "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vinicity of stapled paperwork."
+    },
+    {
+      "name": "FS-34 Exterminator",
+      "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing."
+    },
+    {
+      "name": "DP-40 Hero of the Federation",
+      "description": "Though originally indended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield."
+    },
+    {
+      "name": "DP-11 Champion of the People",
+      "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity."
+    },
+    {
+      "name": "CM-14 Physician",
+      "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signals to all Helldivers that help is at hand."
+    },
+    {
+      "name": "CE-81 Jugganaut",
+      "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger."
+    },
+    {
+      "name": "B-24 Enforcer",
+      "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem."
+    },
+    {
+      "name": "B-01 Tactical",
+      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull."
+    },
+    {
+      "name": "SA-04 Combat Technician",
+      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues."
+    },
+    {
+      "name": "FS-55 Devastator",
+      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks."
+    },
+    {
+      "name": "CW-22 Kodiak",
+      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program."
+    },
+    {
+      "name": "SA-32 Dynamo",
+      "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill."
+    },
+    {
+      "name": "CM-17 Butcher",
+      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart."
+    },
+    {
+      "name": "B-27 Fortified Commando",
+      "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'."
+    },
+    {
+      "name": "FS-05 Marksman",
+      "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes."
+    },
+    {
+      "name": "FS-11 Executioner",
+      "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical \"Lost My Heart to a Man in a Helmet\"."
+    },
+    {
+      "name": "CE-64 Grenadier",
+      "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years."
+    },
+    {
+      "name": "PH-202 Twigsnapper",
+      "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates."
+    },
+    {
+      "name": "FS-23 Battle Master",
+      "description": "This aim-stabalizing armor found suprising secondary market success among alien birdwatching enthusiasts."
+    },
+    {
+      "name": "CW-Winter Warrior",
+      "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike."
+    }
+  ],
+  "capes": [
+    {
+      "name": "Tyrant Hunter",
+      "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom."
+    },
+    {
+      "name": "Will of the People",
+      "description": "Contains a grain of sand from Super Earth—so its bearers carry a small piece of Liberty with them, wherever they go.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2589",
+      "image": "./images/will_of_the_people.webp"
+    },
+    {
+      "name": "Bastion of Integrity",
+      "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aeriel recovery crews."
+    },
+    {
+      "name": "Cloak of Posterity's Gratitude",
+      "description": "A representation of the thankfulness of those infinite descendents whose liberated existence we strive to ensure."
+    },
+    {
+      "name": "Botslayer",
+      "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it."
+    },
+    {
+      "name": "Martyris Rex",
+      "description": "It is said that only the truly Democratic can lift this cape to their shoulders."
+    },
+    {
+      "name": "Agent of Oblivion",
+      "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's \"Greener Galaxy\" campaign."
+    },
+    {
+      "name": "Eagle's Fury",
+      "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes."
+    },
+    {
+      "name": "Judgement Day",
+      "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak upon those wearing this cape."
+    },
+    {
+      "name": "Fallen Hero's Vengeance",
+      "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them."
+    },
+    {
+      "name": "Blazing Samaritan",
+      "description": "Emblazoned with the red, white, and green of the 676th Democracy Regiment, who made their final stand on the slopes of Justice Hill."
+    },
+    {
+      "name": "The Cape of Stars and Suffrage",
+      "description": "A symbol of Super Earth's Astral Promise: that every star shall one day illuminate throngs of joyous voters."
+    },
+    {
+      "name": "Mantle of True Citizenship",
+      "description": "The featherlight construction belies the heavy burden this cape entails—to live the Creed of the True Citizen."
+    },
+    {
+      "name": "Freedom's Tapestry",
+      "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets."
+    },
+    {
+      "name": "Harbinger of True Equality",
+      "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead."
+    },
+    {
+      "name": "Dissident's Nightmare",
+      "description": "After extensive testing in Patriotic Rehabilitation Centers, this design was proved most terrifying to dissent-afflicted individuals."
+    },
+    {
+      "name": "Pinions of Everlasting Glory",
+      "description": "All but ensure ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts."
+    },
+    {
+      "name": "Order of the Venerated Ballot",
+      "description": "Adorned with the insignia of the Order of the Venerated Ballot, a Ministry-sanctioned Patriot's Club for citizens who pledge themselves to preserving the sanctity of voting."
+    },
+    {
+      "name": "Mark of the Crimson Fang",
+      "description": "Marks the most obedient of the obedient, those who will strike headlong at the veins of Tyranny and administer the sweet antidote of Freedom."
+    },
+    {
+      "name": "Executioner's Canopy",
+      "descripti": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice."
+    },
+    {
+      "name": "Tideturner",
+      "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory."
+    },
+    {
+      "name": "Light of Eternal Liberty",
+      "description": "The unimpeachable justice of this cape's design is said to blind the enemies of Freedom with its glorious light.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4404",
+      "image": "./images/light_of_eternal_liberty.webp"
+    },
+    {
+      "name": "Cresting Honor",
+      "description": "The yellow is the exact shade of the Ministry of Unity's 'Golden Gate', leading to the Chamber of Unanimous Decision.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4381",
+      "image": "./images/cresting_honor.webp"
+    },
+    {
+      "name": "Liberty's Herald",
+      "description": "The two stripes serve as a reminder of the two pillars of successful military campaigns: attack, and further attack.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2584",
+      "image": "./images/libertys_herald.webp"
+    },
+    {
+      "name": "Foesmasher",
+      "description": "Durable, waterproof, and thermally-lined, surplus units of this cape are favored by domestic campers, to make tents.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2582",
+      "image": "./images/foesmasher.webp"
+    },
+    {
+      "name": "Independence Bringer",
+      "description": "This cape's cropped length symbolizes the brevity of galatic conflicts, thanks to the efficiency of the Helldivers."
+    },
+    {
+      "name": "Umblemished Allegiance",
+      "description": "A choir of patriotic schoolchildren sings the Super Earth anthem to each cape as the final step in its productions."
+    },
+    {
+      "name": "Drape of Glory",
+      "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic."
+    }
+  ],
+  "stratagems": {
+    "eagle": [
+      {
+        "name": "Eagle Strafing Run",
+        "description": "A strafing run of the battlefield to clear small targets, delivered almost instantly.",
+        "call-in time": "0s",
+        "uses": "4 — 5 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["eagle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3097",
+        "image": "./images/eagle_strafing_run.webp"
+      },
+      {
+        "name": "Eagle Airstrike",
+        "description": "A barrage of bombs creating a non-targeted carpet of explosions.",
+        "call-in time": "0s",
+        "uses": "2 — 3 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["explosive", "eagle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3092",
+        "image": "./images/eagle_airstrike.webp"
+      },
+      {
+        "name": "Eagle Cluster Bomb",
+        "description": "A targeted air strike unable to destroy buildings, but efficient at clearing smaller targets.",
+        "call-in time": "0s",
+        "uses": "4 — 5 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["explosive", "eagle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3094",
+        "image": "./images/eagle_cluster_bomb.webp"
+      },
+      {
+        "name": "Eagle Napalm Strike",
+        "description": "A barrage of napalm bombs, creating a wall of fire which will stop enemies in their tracks.",
+        "call-in time": "0s",
+        "uses": "2 — 3 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["explosive", "eagle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3095",
+        "image": "./images/eagle_napalm_strike.webp"
+      },
+      {
+        "name": "Eagle Smoke Strike",
+        "description": "A barrage of smoke grenades, creating a thick smoke screen to block enemies' line of sight.",
+        "call-in time": "0s",
+        "uses": "2 — 3 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["explosive", "eagle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3096",
+        "image": "./images/eagle_smoke_strike.webp"
+      },
+      {
+        "name": "Eagle 110mm Rocket Pods",
+        "description": "A barrage of rocket pods, which the Eagle pilot will release on the largest target near the stratagem beacon.",
+        "call-in time": "0s",
+        "uses": "2 — 3 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["explosive", "eagle"]
+      },
+      {
+        "name": "Eagle 500kg Bomb",
+        "description": "A large bomb obliterating almost any target close to impact. Make sure to clear the area.",
+        "call-in time": "0s",
+        "uses": "1 — 2 with upgrade",
+        "cooldown time": "15s — 8s with upgrade",
+        "strategem traits": ["explosive", "eagle"]
+      }
+    ],
+    "orbital": [
+      {
+        "name": "Orbital Gatling Barrage",
+        "description": "A barrage of high explosive rounds, fired from the Destroyer's high speed rotary autocannons.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "70s — 63s with upgrade",
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3083",
+        "image": "./images/orbital_gatling_barrage.webp"
+      },
+      {
+        "name": "Orbital Airburst Strike",
+        "description": "A projectile which explodes while airborne, creating a deadly rain of shrapnel. Not effective against heavy armor.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "100s — 90s with upgrade",
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3080",
+        "image": "./images/orbital_airburst_strike.webp"
+      },
+      {
+        "name": "Orbital 120mm HE Barrage",
+        "description": "A precision artillery salvo over a small area, perfect for taking out concentrated enemy units.",
+        "call-in time": "5s — 4s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "240s — 216s with upgrade",
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3078",
+        "image": "./images/orbital_120mm_HE_barrage.webp"
+      },
+      {
+        "name": "Orbital 380mm HE Barrage",
+        "description": "A prolonged barrage, wreaking extended destruction over a large area. Communication with teammates is advised.",
+        "call-in time": "6s — 5s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "240s — 216s with upgrade",
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3079",
+        "image": "./images/orbital_380mm_HE_barrage.webp"
+      },
+      {
+        "name": "Orbital Walking Barrage",
+        "description": "A linear artillery barrage which moves at intervals, driving the enemy out from cover while allowing an advance.",
+        "call-in time": "3s — 2s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "240s — 216s with upgrade",
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3088",
+        "image": "./images/orbital_walking_barrage.webp"
+      },
+      {
+        "name": "Orbital Laser",
+        "description": "The Destroyer's laser cannon will sweep over the designated area, vaporizing all targets within the effective radius.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "3",
+        "cooldown time": "300s — 270s with upgrade",
+        "strategem traits": ["orbital"]
+      },
+      {
+        "name": "Orbital Railcannon Strike",
+        "description": "A high-velocity railcannon round fired at the largest target in close proximity to the beacon. Targeting is automatic.",
+        "call-in time": "1s — 0s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "210s — 189s with upgrade",
+        "strategem traits": ["orbital"]
+      },
+      {
+        "name": "Orbital Precision Strike",
+        "description": "A single precision shot from the Destroyer's 'ATLAS' cannon.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "90s — 81s with upgrade",
+        "strategem traits": ["explosive", "orbital"]
+      },
+      {
+        "name": "Orbital Gas Strike",
+        "description": "A projectile which releases a cloud of corrosive gas, harmful to both organic and robotic lifeforms.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "75s — 68s with upgrade",
+        "strategem traits": ["explosive", "orbital"]
+      },
+      {
+        "name": "Orbital EMS Strike",
+        "description": "A \"compliance weapon\" to modify enemy behavior. The projectile temporarily stuns all targets within the strike radius.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "75s — 68s with upgrade",
+        "strategem traits": ["orbital"]
+      },
+      {
+        "name": "Orbital Smoke Strike",
+        "description": "Creates a large, thick smoke screen to block targets' line of sight.",
+        "call-in time": "2s — 1s with upgrade",
+        "uses": "unlimited",
+        "cooldown time": "100s — 90s with upgrade",
+        "strategem traits": ["explosive", "orbital"]
+      }
+    ],
+    "support weapons": [
+      {
+        "name": "MG-43 Machine Gun",
+        "description": "A machine gun designed for stationary use. Trades higher power for increased recoil and reduced accuracy.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 150,
+        "fire rate": "630, 760, 900",
+        "spare magazines": 3,
+        "reload time": "5s",
+        "tactical reload": "4.2s",
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2989",
+        "image": "./images/machine_gun.webp"
+      },
+      {
+        "name": "APW-1 Anti-Materiel Rifle",
+        "description": "A high-caliber sniper rifle effective over long distances against light vehicle armor. This rifle must be aimed downscope.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 7,
+        "fire rate": "350",
+        "spare magazines": 6,
+        "reload time": "3.2s",
+        "tactical reload": "2.6s",
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2972",
+        "image": "./images/anti-materiel_rifle.webp"
+      },
+      {
+        "name": "M-105 Stalwart",
+        "description": "A compact, low caliber machine gun. Trades power for ease of use, with faster reloading than heavier machine guns.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 250,
+        "fire rate": "700, 850, 1150",
+        "spare magazines": 3,
+        "reload time": "5.8s",
+        "tactical reload": "4.4s",
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2996",
+        "image": "./images/stalwart.webp"
+      },
+      {
+        "name": "EAT-17 Expendable Anti-tank",
+        "description": "A single-use weapon specialized for damaging vehicle armor. Discards after every use.",
+        "call-in time": "2s",
+        "uses": "unlimited",
+        "cooldown time": "70s - 63 with upgrade",
+        "capacity": 1,
+        "strategem traits": ["support weapon", "hellpod", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2979",
+        "image": "./images/expendable_anti-tank.webp"
+      },
+      {
+        "name": "GR-8 Recoilless Rifle",
+        "description": "A recoiless rifle effective against vehicle armor. Includes support backpack required for reloading.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 1,
+        "spare magazines": 5,
+        "reload time": "6s",
+        "strategem traits": [
+          "support weapon",
+          "hellpod",
+          "explosive",
+          "support backpack"
+        ],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2991",
+        "image": "./images/recoilless_rifle.webp"
+      },
+      {
+        "name": "FLAM-40 Flamethrower",
+        "description": "An incendiary weapon for close range. Will ignite targets, terrain, and any flammable teammates.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "fire limit": "12.5s",
+        "spare magazines": 4,
+        "reload time": "3.9s",
+        "strategem traits": ["support weapon", "hellpod", "incendiary"]
+      },
+      {
+        "name": "AC-8 Autocannon",
+        "description": "A fully-automatic cannon effective against light vehicle armor. Includes support backpack required for reloading.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 10,
+        "fire rate": 250,
+        "spare magazines": 10,
+        "reload time": "5.2s",
+        "tactical reload": "1.7s",
+        "strategem traits": ["support weapon", "hellpod", "support backpack"]
+      },
+      {
+        "name": "MG-206 Heavy Machine Gun",
+        "description": "A very powerful but difficult-to-wield machine gun with intense recoil.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 75,
+        "fire rate": "450, 600, 750",
+        "spare magazines": 2,
+        "reload time": "5.5s",
+        "tactical reload": "3.9s",
+        "strategem traits": ["support weapon", "hellpod"]
+      },
+      {
+        "name": "RL-77 Airburst Rocket Launcher",
+        "description": "Fires a rocket that detonates within proximity of a target, and deploys a cluster of explosive bomblets.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 1,
+        "spare magazines": 5,
+        "reload time": "6.7s",
+        "strategem traits": ["support weapon", "hellpod", "support backpack"]
+      },
+      {
+        "name": "RS-422 Railgun",
+        "description": "An experimental weapon which prioritizes armor penetration. Must be charged between shots - so choose targets carefully.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 1,
+        "spare magazines": 20,
+        "reload time": "1.3s",
+        "strategem traits": ["support weapon", "hellpod"]
+      },
+      {
+        "name": "FAF-14 Spear",
+        "description": "An anti-tank homing missile which must lock onto its target before launch. Effective against large and armored enemies.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 1,
+        "spare magazines": 3,
+        "reload time": "5s",
+        "strategem traits": ["support weapon", "hellpod", "support backpack"]
+      },
+      {
+        "name": "GL-21 Grenade Launcher",
+        "description": "A grenade launcher effective against armored infantry. Not intended for use against vehicle armor or fortified buildings.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": 10,
+        "fire rate": "176",
+        "spare magazines": 2,
+        "reload time": "3.5s",
+        "tactical reload": "3s",
+        "strategem traits": ["support weapon", "hellpod", "explosive"]
+      },
+      {
+        "name": "LAS-98 Laser Cannon",
+        "description": "A laser weapon firing a continuous beam. Doesn't require ammunition, but will need a heat sink replaced if it overheats.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": "infinite",
+        "fire limit": "10s",
+        "spare magazines": 1,
+        "reload time": "3.6s",
+        "tactical reload": "5s",
+        "strategem traits": ["support weapon", "hellpod"]
+      },
+      {
+        "name": "ARC-3 Arc Thrower",
+        "description": "Projects an arc of lightning at close range. Charges up to project bolts, and may discharge through multiple targets.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": "infinite",
+        "fire rate": 60,
+        "strategem traits": ["support weapon", "hellpod"]
+      },
+      {
+        "name": "LAS-99 Quasar Cannon",
+        "description": "Charges up to fire a powerful, explosive energy burst. Has a long cooldown period after firing.",
+        "call-in time": "3s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "capacity": "infinite",
+        "charge time": "3s",
+        "recharge time": "15s",
+        "strategem traits": ["support weapon", "hellpod"]
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "LIFT-850 Jump Pack",
+        "description": "Enables the user to jump higher than 'gravity' and 'safety' would normally allow. Must be charged before use.",
+        "call-in time": "5s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "recharge time": "20s",
+        "strategem traits": ["hellpod", "backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2986",
+        "image": "./images/jump_pack.webp"
+      },
+      {
+        "name": "B-1 Supply Pack",
+        "description": "Supply boxes containing ammunition, with a backpack that allows the user to distribute boxes to fellow Helldivers.",
+        "call-in time": "5s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "strategem traits": ["hellpod", "backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2997",
+        "image": "./images/supply_pack.webp"
+      },
+      {
+        "name": "AX/LAS-5 \"Guard Dog\" Rover",
+        "description": "An autonomous drone equipped with a laser rifle, providing 360° cover. Returns to backpack to cool down.",
+        "call-in time": "5s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "strategem traits": ["hellpod", "backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2984",
+        "image": "./images/rover.webp"
+      },
+      {
+        "name": "SH-20 Ballistic Shield Backpack",
+        "description": "A backpack which can be wielded as a one-handed balistic shield, protecting against small arms fire.",
+        "call-in time": "5s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "strategem traits": ["hellpod", "backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2977",
+        "image": "./images/ballistic_shield_backpack.webp"
+      },
+      {
+        "name": "SH-32 Shield Generator Pack",
+        "description": "Encloses the wearer in a spherical shield which blocks high-speed projectiles. Has a limited lifetime once deployed.",
+        "call-in time": "5s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "recharge time": "12s",
+        "strategem traits": ["hellpod", "backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2993",
+        "image": "./images/shield_generator_pack.webp"
+      },
+      {
+        "name": "AX/AR-23 \"Guard Dog\"",
+        "description": "An autonomous drone equipped with a Liberator assault rifle, providing 360° cover. Returns to backpack to rearm.",
+        "call-in time": "5s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 432s with upgrade",
+        "reload time": "",
+        "strategem traits": ["hellpod", "backpack"]
+      }
+    ],
+    "walkers": [
+      {
+        "name": "EXO-45 Patriot Exosuit",
+        "description": "A heavily-armored walking exosuit equipped with a rocket launcher and a heavy machine gun.",
+        "call-in time": "0s",
+        "uses": "2",
+        "cooldown time": "600s",
+        "strategem traits": ["explosive", "vehicle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3099",
+        "image": "./images/patriot_exosuit.webp"
+      },
+      {
+        "name": "EXO-49 Emancipator Exosuit",
+        "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
+        "call-in time": "0s",
+        "uses": "2",
+        "cooldown time": "600s",
+        "strategem traits": ["explosive", "vehicle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=6622",
+        "image": "./images/emancipator_exosuit.webp"
+      }
+    ],
+    "defensive": [
+      {
+        "name": "E/MG-101 HMG Emplacement",
+        "description": "A manned fortification offering superior firepower against lightly armored targets. Slow to turn, so place it wisely.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "capacity": 300,
+        "fire rate": 660,
+        "strategem traits": ["hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2985",
+        "image": "./images/hmg_emplacement.webp"
+      },
+      {
+        "name": "A/ARC-3 Tesla Tower",
+        "description": "A turret which fires electrical charges at targets in close range. To avoid frendly fire, remain prone.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "150s - 135s with upgrade",
+        "strategem traits": ["hellpod", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2998",
+        "image": "./images/tesla_tower.webp"
+      },
+      {
+        "name": "MD-6 Anti-personnel Minefield",
+        "description": "Deploys a defensive anti-personnel minefield, to halt enemy advance.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "strategem traits": ["hellpod", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2973",
+        "image": "./images/anti-personnel_minefield.webp"
+      },
+      {
+        "name": "MD-I4 Incendiary Mines",
+        "description": "Deploys a defensive incendiary minefield, which will set both terrane and targets alight when triggered.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "strategem traits": ["hellpod", "explosive"]
+      },
+      {
+        "name": "A/MG-43 Machine Gun Sentry",
+        "description": "An agile automated machine gun turret. Will fire at targets even if Helldivers will be caught in the crossfire.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "120s - 108s with upgrade",
+        "fire rate": 660,
+        "capacity": "130 — 195 with upgrade",
+        "strategem traits": ["hellpod", "sentry"]
+      },
+      {
+        "name": "A/G-16 Gatling Sentry",
+        "description": "An automated turret with an extremely high rate of fire. Caution: does not check if friendly units are in line of fire.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "fire rate": 1560,
+        "capacity": "390 — 585 with upgrade",
+        "strategem traits": ["hellpod", "sentry"]
+      },
+      {
+        "name": "A/M-12 Mortar Sentry",
+        "description": "A turret firing powerful shells in a high arc. Effective at long ranges, and able to strike targets behind cover.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "fire rate": 32,
+        "capacity": "36 — 54 with upgrade",
+        "strategem traits": ["hellpod", "explosive", "sentry"]
+      },
+      {
+        "name": "A/AC-8 Autocannon Sentry",
+        "description": "An automated cannon turrent firing anti-tank ammunition over long ranges. Sacrifices agility for range and power.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "fire rate": 42,
+        "capacity": "24 — 36 with upgrade",
+        "strategem traits": ["hellpod", "sentry"]
+      },
+      {
+        "name": "A/MLS-4X Rocket Sentry",
+        "description": "A powerful automated turret, effective against armored targets. The turret will primarily aim at larger enemies.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "fire rate": 80,
+        "capacity": "32 — 40 with upgrade",
+        "strategem traits": ["hellpod", "explosive", "sentry"]
+      },
+      {
+        "name": "A/M-23 EMS Mortar Sentry",
+        "description": "A turret firing static field generators that slow the advance of enemies.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 162s with upgrade",
+        "fire rate": 10,
+        "capacity": "15 — 22 with upgrade",
+        "strategem traits": ["hellpod", "explosive", "sentry"]
+      }
+    ]
+  },
+  "loading screen tips": [
+    "Did you know tips are shown during these transition sequences?",
+    "Don't die!",
+    "Helldivers traveling the galaxy might come across ancient ruins and other curiosities. Just remember: Only a traitor is curious about alien artifacts!",
+    "Practice your daily desensitization exercises to ensure you remain unfazed by enemy atrocities.",
+    "If at first you don't succeed, dive, dive again. And again. And again. And again. And again. And again. And again. And again. And again. And again. And again. And again. And again. And again.",
+    "Don't drink and drive.",
+    "Use the Eagle Rearm stratagem during calmer periods to ensure you have those Eagle Strikes available when you need them.",
+    "Super Earth recommends spending at least 2.4 seconds per mission enjoying the scenery. A happy Helldiver is a deadly Helldiver.",
+    "Friendly Fire isn't.",
+    "Don't go it alone – join a squad in order to unleash maximum liberation!",
+    "Super Earth has many holidays, but the most important is October 26th – Liberty Day!",
+    "The Ministry of Expansion tirelessly works to expand the reach of Freedom and secures vital resources for our society to thrive.",
+    "The Super Destroyer can only stay in low orbit for a limited time – watch that mission clock!",
+    "The closer you are to the edge of the map, the steeper the angle of incoming orbital bombardments. Physics!",
+    "Make sure to pick up your fallen squadmates' sample containers. They're critical for our collective scientific progress!",
+    "All Stratagems have their strengths and weaknesses. Choose your Stratagem loadout to best fit the mission and your squad composition.",
+    "Don't worry – stims have zero addictive properties!* *Study paid for by Permacura. Permacura: put your life in our hands.",
+    "Don't forget to take breaks! ... That is, if you want to be remembered as a coward.",
+    "While the Helldiver training program is undeniably infallible, you can always repeat your training from the game menu.",
+    "Most enemies have both weak spots and armored spots. The S.E.A.F. training manual recommends aiming for the weak spots.",
+    "Most weapons have different fire modes or functions – hold Reload to access them.",
+    "Nine out of ten doctors agree that a wound to the chest will make you bleed out if unattended.",
+    "Remember: Freedom!",
+    "Pay attention to these tips! They've been carefully calibrated to ensure your success.",
+    "Don't Panic.",
+    "As a last resort, you can use melee attacks to fend off enemies. Remember: death is better than cowardice!",
+    "The Automatons are equipped with hyper reactive protocols, making them susceptible to suppressive fire. The more you shoot at them, the less accurate they'll be.",
+    "Unhappy with who you are? Change your appearance, voice, and personality in the customization chamber. It's that easy!",
+    "If an enemy ever attempts to engage in diplomacy, SHOOT THEM. We mustn't believe their lies.",
+    "When you're up against the bots, remember the 3 C's: Cover, Courage, and more Cover.",
+    "Remember to fill in your C-01 permit before any act that could result in a child.",
+    "Failure to complete mission objectives will NOT result in you being sent to a freedom camp, those are merely dissent rumors.",
+    "You are Super Earth's Elite. Remember that.",
+    "If you notice a squadmate sympathizing with an enemy, report them to your Democracy Officer. Thoughtcrimes kill!",
+    "Diving to the ground can be a life-saver, but it also makes you an easy target for melee units.",
+    "It pays to be a straight shooter – angled fire might glance off your target or even ricochet into your squadmates!",
+    "The longer you stay in a mission, the heavier the enemy presence becomes.",
+    "Day and night sides of a planet are visible during mission selection, allowing you to choose the mission that's right for you!",
+    "If the enemies just keep coming, find out where they're coming from and unleash hell. Bug hive? Destroy! Bot factory? Destroy!",
+    "Every citizen is equally important to the war effort, but Helldivers are the most important.",
+    "Check your Ammo by holding the Reload button.",
+    "Grenades detonation time starts when you pull back for a throw – time your throw for an air-burst detonation.",
+    "More challenging missions yield greater rewards.",
+    "If a squadmate dies during a mission, make sure you pick up their dropped samples. There will be time for mourning later!",
+    "Reloading discards the remaining rounds in your magazine.",
+    "Your stance has a significant impact on accuracy. The S.E.A.F. manual lists the following stances in order of least to most accurate: Moving < Standing < Crouching < Prone."
+  ]
+}
