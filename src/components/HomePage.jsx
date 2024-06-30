@@ -22,7 +22,7 @@ const HomePage = () => {
     <div>
       <Container className="mt-5">
         <div className="d-flex align-items-center flex-column vh-90">
-          <text className="display-1 mb-3">Helldivers 2</text>
+          <text className="display-1 mb-2">Helldivers 2</text>
           <text className="display-6">Loadout Vault</text>
           <div className="px-4 pt-5 text-center">
             <p className="fs-5">Welcome, fellow Helldivers</p>
@@ -38,7 +38,7 @@ const HomePage = () => {
               Choose your stratagems, weapons, and armor...for Liberty.
             </p>
           </div>
-          <Button variant="secondary" className="my-5 fs-1">
+          <Button variant="secondary" className="mt-4 fs-1">
             Build Loadout
           </Button>{" "}
           <div className="text-center mx-3 h-100 d-flex align-items-center">
