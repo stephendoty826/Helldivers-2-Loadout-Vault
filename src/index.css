@@ -15,5 +15,11 @@ code {
 }
 
 .vh-90{
-  height: 90vh;
+  height: 85vh;
+}
+
+@media all and (max-device-height: 700px){
+    text, p{
+      font-size: 12px;
+    }
 }
