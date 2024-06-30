@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import helldivers2 from "../gameData/helldivers2.json";
 
 const HomePage = () => {
+  const [tip, setTip] = useState("");
+
+  useEffect(() => {
+    getRandomTip()
+  }, [])
+
+  function getRandomTip() {
+    let tipsArray = helldivers2["loading screen tips"];
+
+    let tempTip = tipsArray[(tipsArray.length * Math.random()) | 0];
+
+    setTip(tempTip);
+  }
+
   return (
     <div>
       <Container className="mt-5">
@@ -19,16 +34,16 @@ const HomePage = () => {
               This vault will allow you to save loadouts as you continue to
               spread Managed Democracy across the galaxy.
             </p>
-            <p className="fs-5">Choose your stratagems, weapons, and armor...for Liberty.</p>
+            <p className="fs-5">
+              Choose your stratagems, weapons, and armor...for Liberty.
+            </p>
           </div>
           <Button variant="secondary" className="my-5 fs-1">
             Build Loadout
           </Button>{" "}
-          <text className="text-center mx-3">
-            If at first you don't succeed, dive, dive again. And again. And
-            again. And again. And again. And again. And again. And again. And
-            again. And again. And again. And again. And again. And again.
-          </text>
+          <div className="text-center mx-3 h-100 d-flex align-items-center">
+            <text className="text-center mx-3">{tip}</text>
+          </div>
         </div>
       </Container>
     </div>
