@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,16 +10,41 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.vh-90{
+.vh-85 {
   height: 85vh;
 }
 
-@media all and (max-device-height: 700px){
-    text, p{
-      font-size: 12px;
-    }
+.stratButton {
+  height: 16vw;
+  width: 16vw;
+}
+
+.equipmentButton {
+  height: 16vw;
+  width: 21.5vw;
+}
+
+@media all and (max-device-height: 700px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .stratButton {
+    height: 10vw;
+    width: 10vw;
+    max-width: 175px;
+    max-height: 175px;
+  }
+  .equipmentButton {
+    height: 10vw;
+    width: 14vw;
+    max-width: 235px;
+    max-height: 175px;
+  }
 }
