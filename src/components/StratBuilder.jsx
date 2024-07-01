@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-const StratBuilder = () => {
+const StratBuilder = ({ helldivers2Data }) => {
   return (
     <div>
       <label className="h3 mt-4">Stratagems</label>
