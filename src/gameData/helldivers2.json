@@ -86,7 +86,9 @@
       "spare magazines": 8,
       "reload time": "3s",
       "tactical reload": "1.7s",
-      "weapon traits": ["medium armor penetrating"]
+      "weapon traits": ["medium armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5361",
+      "image": "./images/adjudicator.png"
     },
     {
       "name": "R-63 Diligence",
@@ -99,7 +101,9 @@
       "spare magazines": 8,
       "reload time": "3s",
       "tactical reload": "1.9s",
-      "weapon traits": ["light armor penetrating"]
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2593",
+      "image": "./images/diligence.webp"
     },
     {
       "name": "R-63CS Diligence Counter Sniper",
@@ -112,7 +116,9 @@
       "spare magazines": 8,
       "reload time": "3s",
       "tactical reload": "1.9s",
-      "weapon traits": ["medium armor penetrating"]
+      "weapon traits": ["medium armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3102",
+      "image": "./images/diligence_counter_sniper.png"
     },
     {
       "name": "SMG-37 Defender",
@@ -125,7 +131,9 @@
       "spare magazines": 7,
       "reload time": "2.8s",
       "tactical reload": "2s",
-      "weapon traits": ["light armor penetrating", "one handed"]
+      "weapon traits": ["light armor penetrating", "one handed"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2595",
+      "image": "./images/defender.webp"
     },
     {
       "name": "SMG-72 Pummeler",
@@ -138,7 +146,9 @@
       "spare magazines": 7,
       "reload time": "3s",
       "tactical reload": "2.1s",
-      "weapon traits": ["light armor penetrating", "one handed"]
+      "weapon traits": ["light armor penetrating", "one handed"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6274",
+      "image": "./images/pummeler.png"
     },
     {
       "name": "SG-8 Punisher",
@@ -151,7 +161,9 @@
       "spare magazines": 60,
       "reload time": "6.9s",
       "tactical reload": "0.8s per round",
-      "weapon traits": ["light armor penetrating", "rounds reload"]
+      "weapon traits": ["light armor penetrating", "rounds reload"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2594",
+      "image": "./images/punisher.png"
     },
     {
       "name": "SG-8S Slugger",
@@ -164,7 +176,9 @@
       "spare magazines": 60,
       "reload time": "6.9s",
       "tactical reload": "0.8s per round",
-      "weapon traits": ["medium armor penetrating", "rounds reload"]
+      "weapon traits": ["medium armor penetrating", "rounds reload"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3262",
+      "image": "./images/slugger.webp"
     },
     {
       "name": "SG-225 Breaker",
@@ -177,7 +191,9 @@
       "spare magazines": 7,
       "reload time": "2.5s",
       "tactical reload": "1.8s",
-      "weapon traits": ["light armor penetrating"]
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3103",
+      "image": "./images/breaker.webp"
     },
     {
       "name": "SG-225SP Breaker Spray&Pray",
@@ -190,7 +206,9 @@
       "spare magazines": 8,
       "reload time": "3s",
       "tactical reload": "2.1s",
-      "weapon traits": ["light armor penetrating"]
+      "weapon traits": ["light armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3263",
+      "image": "./images/breaker_spray&pray.webp"
     },
     {
       "name": "SG-225IE Breaker Incendiary",
@@ -203,7 +221,9 @@
       "spare magazines": 6,
       "reload time": "2.5s",
       "tactical reload": "1.8s",
-      "weapon traits": ["light armor penetrating", "incendiary"]
+      "weapon traits": ["light armor penetrating", "incendiary"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3256",
+      "image": "./images/breaker_incendiary.webp"
     },
     {
       "name": "CB-9 Exploding Crossbow",
@@ -216,7 +236,9 @@
       "spare magazines": 8,
       "reload time": "3.3s",
       "tactical reload": "",
-      "weapon traits": ["medium armor penetrating", "explosive"]
+      "weapon traits": ["medium armor penetrating", "explosive"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5515",
+      "image": "./images/crossbow.webp"
     },
     {
       "name": "JAR-5 Dominator",
@@ -229,7 +251,9 @@
       "spare magazines": 6,
       "reload time": "3.8s",
       "tactical reload": "2.6s",
-      "weapon traits": ["medium armor penetrating"]
+      "weapon traits": ["medium armor penetrating"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2999",
+      "image": "./images/dominator.webp"
     },
     {
       "name": "R-35 Eruptor",
@@ -242,7 +266,9 @@
       "spare magazines": 6,
       "reload time": "4.7s",
       "tactical reload": "2.8s",
-      "weapon traits": ["medium armor penetrating", "explosive"]
+      "weapon traits": ["medium armor penetrating", "explosive"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5360",
+      "image": "./images/eruptor.webp"
     },
     {
       "name": "SG-8P Punisher Plasma",
@@ -254,7 +280,9 @@
       "fire rate": 80,
       "spare magazines": 8,
       "reload time": "2.5s",
-      "weapon traits": ["explosive"]
+      "weapon traits": ["explosive"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3264",
+      "image": "./images/punisher_plasma.webp"
     },
     {
       "name": "ARC-12",
@@ -263,7 +291,9 @@
       "damage": 250,
       "capacity": "infinite",
       "recoil": 60,
-      "fire rate": 45
+      "fire rate": 45,
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3499",
+      "image": "./images/blitzer.webp"
     },
     {
       "name": "LAS-5 Scythe",
@@ -275,7 +305,9 @@
       "spare magazines": 4,
       "reload time": "1.8s",
       "tactical reload": "3s",
-      "weapon traits": ["light armor penetrating", "beam", "heat"]
+      "weapon traits": ["light armor penetrating", "beam", "heat"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3000",
+      "image": "./images/scythe.webp"
     },
     {
       "name": "LAS-16 Sickle",
@@ -288,7 +320,9 @@
       "spare magazines": 3,
       "reload time": "2.1s",
       "tactical reload": "3s",
-      "weapon traits": ["light armor penetrating", "heat"]
+      "weapon traits": ["light armor penetrating", "heat"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3240",
+      "image": "./images/sickle.webp"
     },
     {
       "name": "PLAS-1 Scorcher",
@@ -300,7 +334,9 @@
       "fire rate": 250,
       "spare magazines": 6,
       "reload time": "2.5s",
-      "weapon traits": ["light armor penetrating", "explosive"]
+      "weapon traits": ["light armor penetrating", "explosive"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3249",
+      "image": "./images/scorcher.webp"
     },
     {
       "name": "PLAS-101 Purifier",
@@ -312,7 +348,9 @@
       "fire rate": 250,
       "spare magazines": 6,
       "reload time": "2.5s",
-      "weapon traits": ["medium armor penetrating", "chargeup", "explosive"]
+      "weapon traits": ["medium armor penetrating", "chargeup", "explosive"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6285",
+      "image": "./images/purifier.webp"
     }
   ],
   "secondaries": [
@@ -405,7 +443,9 @@
       "spare magazines": 8,
       "reload time": "2s",
       "tactical reload": "1.4s",
-      "weapon traits": ["light armor penetrating", "one handed"]
+      "weapon traits": ["light armor penetrating", "one handed"],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6286",
+      "image": "./images/verdict.webp"
     },
     {
       "name": "P-4 Senator",
@@ -422,7 +462,9 @@
         "medium armor penetrating",
         "one handed",
         "rounds reload"
-      ]
+      ],
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2599",
+      "image": "./images/senator.webp"
     }
   ],
   "throwables": [
@@ -490,7 +532,9 @@
       "damage": 0,
       "Penetration": 6,
       "Outer Radius": 10,
-      "fuse time": "1.8s"
+      "fuse time": "1.8s",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
+      "image": "./images/stun.webp"
     },
     {
       "name": "G-3 Smoke",
@@ -499,7 +543,9 @@
       "damage": 0,
       "Penetration": 0,
       "Outer Radius": 5,
-      "fuse time": "2.4s"
+      "fuse time": "2.4s",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3266",
+      "image": "./images/smoke.webp"
     },
     {
       "name": "G-123 Thermite",
@@ -508,14 +554,18 @@
       "damage": 100,
       "Penetration": 7,
       "Outer Radius": 2,
-      "fuse time": "2.9s"
+      "fuse time": "2.9s",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
+      "image": "./images/thermite.webp"
     },
     {
       "name": "K-2 Throwing Knife",
       "class": "Special Throwable",
       "description": "Delivers silent justice to Freedom's enemies.",
       "damage": 250,
-      "Penetration": 3
+      "Penetration": 3,
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
+      "image": "./images/throwing_knife.webp"
     }
   ],
   "armor": [
@@ -530,7 +580,7 @@
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
       },
       "credit": "https://helldivers.wiki.gg/index.php?curid=5580",
-      "image": "./images/ravager_armor.webp"
+      "image": "./images/ravager.webp"
     },
     {
       "name": "CW-4 Arctic Ranger",
@@ -543,7 +593,7 @@
         "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
       },
       "credit": "https://helldivers.wiki.gg/index.php?curid=6325",
-      "image": "./images/arctic_ranger.png"
+      "image": "./images/arctic_ranger.webp"
     },
     {
       "name": "CE-74 Breaker",
@@ -593,7 +643,9 @@
       "armor Passive": {
         "name": "Engineering Kit",
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6035",
+      "image": "./images/demolition_specialist.webp"
     },
     {
       "name": "FS-38 Eradicator",
@@ -604,7 +656,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2831",
+      "image": "./images/eradicator.webp"
     },
     {
       "name": "EX-00 Prototype X",
@@ -615,7 +669,9 @@
       "armor Passive": {
         "name": "Electrical Conduit",
         "description": "Provides 95% resistance to arc damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5824",
+      "image": "./images/prototype_x.webp"
     },
     {
       "name": "B-08 Light Gunner",
@@ -626,7 +682,9 @@
       "armor Passive": {
         "name": "Extra Padding",
         "description": "Provides a higher armor rating."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2797",
+      "image": "./images/light_gunner.webp"
     },
     {
       "name": "SC-30 TrailBlazer Scout",
@@ -637,7 +695,9 @@
       "armor Passive": {
         "name": "Scout",
         "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2833",
+      "image": "./images/trailblazer_scout.webp"
     },
     {
       "name": "SC-34 Infiltrator",
@@ -648,7 +708,9 @@
       "armor Passive": {
         "name": "Scout",
         "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2577",
+      "image": "./images/infiltrator.webp"
     },
     {
       "name": "PH-9 Predator",
@@ -659,7 +721,9 @@
       "armor Passive": {
         "name": "Peak Physique",
         "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6750",
+      "image": "./images/predator.webp"
     },
     {
       "name": "SA-25 Steel Trooper",
@@ -670,7 +734,9 @@
       "armor Passive": {
         "name": "Servo-Assisted",
         "description": "Increased throwing range by 30%. Provides +50% limb health."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2838",
+      "image": "./images/steel_trooper.webp"
     },
     {
       "name": "SA-12 Servo Assisted",
@@ -681,7 +747,9 @@
       "armor Passive": {
         "name": "Servo-Assisted",
         "description": "Increased throwing range by 30%. Provides +50% limb health."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2840",
+      "image": "./images/servo_assisted.webp"
     },
     {
       "name": "CE-35 Trench Engineer",
@@ -692,7 +760,9 @@
       "armor Passive": {
         "name": "Engineering Kit",
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2842",
+      "image": "./images/trench_engineer.webp"
     },
     {
       "name": "CE-27 Ground Breaker",
@@ -703,7 +773,9 @@
       "armor Passive": {
         "name": "Engineering Kit",
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6036",
+      "image": "./images/ground_breaker.png"
     },
     {
       "name": "CM-09 Bonesnapper",
@@ -714,7 +786,9 @@
       "armor Passive": {
         "name": "Med-Kit",
         "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2572",
+      "image": "./images/bonesnapper.webp"
     },
     {
       "name": "SC-15 Drone Master",
@@ -725,7 +799,9 @@
       "armor Passive": {
         "name": "Engineering Kit",
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2845",
+      "image": "./images/drone_master.webp"
     },
     {
       "name": "EX-03 Prototype 3",
@@ -736,7 +812,9 @@
       "armor Passive": {
         "name": "Electrical Conduit",
         "description": "Provides 95% resistance to arc damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5818",
+      "image": "./images/prototype_3.webp"
     },
     {
       "name": "EX-16 Prototype 16",
@@ -747,7 +825,9 @@
       "armor Passive": {
         "name": "Electrical Conduit",
         "description": "Provides 95% resistance to arc damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6037",
+      "image": "./images/prototype_16.png"
     },
     {
       "name": "FS-34 Exterminator",
@@ -758,7 +838,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2847",
+      "image": "./images/exterminator.webp"
     },
     {
       "name": "DP-40 Hero of the Federation",
@@ -769,7 +851,9 @@
       "armor Passive": {
         "name": "Democracy Protects",
         "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2849",
+      "image": "./images/hero_of_the_federation.webp"
     },
     {
       "name": "DP-11 Champion of the People",
@@ -777,7 +861,12 @@
       "armor rating": 100,
       "speed": 500,
       "stamina regen": 100,
-      "armor passive": "democracy protects"
+      "armor passive": {
+        "name": "Democracy Protects",
+        "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2851",
+      "image": "./images/champion_of_the_people.png"
     },
     {
       "name": "CM-14 Physician",
@@ -788,7 +877,9 @@
       "armor Passive": {
         "name": "Med-Kit",
         "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2853",
+      "image": "./images/physician.png"
     },
     {
       "name": "CE-81 Jugganaut",
@@ -799,7 +890,9 @@
       "armor Passive": {
         "name": "Engineering Kit",
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2855",
+      "image": "./images/juggernaut.webp"
     },
     {
       "name": "B-24 Enforcer",
@@ -810,7 +903,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3295",
+      "image": "./images/enforcer.webp"
     },
     {
       "name": "B-01 Tactical",
@@ -821,7 +916,9 @@
       "armor Passive": {
         "name": "Extra Padding",
         "description": "Provides a higher armor rating."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2581",
+      "image": "./images/tactical.webp"
     },
     {
       "name": "SA-04 Combat Technician",
@@ -832,7 +929,9 @@
       "armor Passive": {
         "name": "Scout",
         "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2859",
+      "image": "./images/combat_technician.webp"
     },
     {
       "name": "FS-55 Devastator",
@@ -843,7 +942,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6038",
+      "image": "./images/devastator.webp"
     },
     {
       "name": "CW-22 Kodiak",
@@ -854,7 +955,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6263",
+      "image": "./images/kodiak.webp"
     },
     {
       "name": "SA-32 Dynamo",
@@ -865,7 +968,9 @@
       "armor Passive": {
         "name": "Servo-Assisted",
         "description": "Increased throwing range by 30%. Provides +50% limb health."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2868",
+      "image": "./images/dynamo.webp"
     },
     {
       "name": "CM-17 Butcher",
@@ -876,7 +981,9 @@
       "armor Passive": {
         "name": "Med-Kit",
         "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3294",
+      "image": "./images/butcher.webp"
     },
     {
       "name": "B-27 Fortified Commando",
@@ -887,7 +994,9 @@
       "armor Passive": {
         "name": "Extra Padding",
         "description": "Provides a higher armor rating."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2870",
+      "image": "./images/fortified_commando.webp"
     },
     {
       "name": "FS-05 Marksman",
@@ -898,7 +1007,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2575",
+      "image": "./images/marksman.webp"
     },
     {
       "name": "FS-11 Executioner",
@@ -909,7 +1020,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2576",
+      "image": "./images/executioner.webp"
     },
     {
       "name": "CE-64 Grenadier",
@@ -920,7 +1033,9 @@
       "armor Passive": {
         "name": "Engineering Kit",
         "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6304",
+      "image": "./images/grenadier.webp"
     },
     {
       "name": "PH-202 Twigsnapper",
@@ -931,7 +1046,9 @@
       "armor Passive": {
         "name": "Peak Physique",
         "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6751",
+      "image": "./images/twigsnapper.webp"
     },
     {
       "name": "FS-23 Battle Master",
@@ -942,7 +1059,9 @@
       "armor Passive": {
         "name": "Fortified",
         "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2874",
+      "image": "./images/battle_master.webp"
     },
     {
       "name": "CW-Winter Warrior",
@@ -953,7 +1072,9 @@
       "armor Passive": {
         "name": "Servo-Assisted",
         "description": "Increased throwing range by 30%. Provides +50% limb health."
-      }
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2874",
+      "image": "./images/winter_warrior.png"
     }
   ],
   "helmets": [
@@ -989,139 +1110,207 @@
     },
     {
       "name": "CE-07 Demolition Specialist",
-      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity."
+      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6486",
+      "image": "./images/demolition_specialist_helmet.png"
     },
     {
       "name": "FS-38 Eradicator",
-      "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns."
+      "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6493",
+      "image": "./images/eradicator_helmet.png"
     },
     {
       "name": "EX-00 Prototype X",
-      "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\""
+      "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\"",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6491",
+      "image": "./images/prototype_x_helmet.png"
     },
     {
       "name": "B-08 Light Gunner",
-      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests."
+      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6485",
+      "image": "./images/light_gunner_helmet.webp"
     },
     {
       "name": "SC-30 TrailBlazer Scout",
-      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species."
+      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5937",
+      "image": "./images/trailblazer_scout_helmet.webp"
     },
     {
       "name": "SC-34 Infiltrator",
-      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation."
+      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2569",
+      "image": "./images/infiltrator_helmet.webp"
     },
     {
       "name": "PH-9 Predator",
-      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes."
+      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6748",
+      "image": "./images/predator_helmet.webp"
     },
     {
       "name": "SA-25 Steel Trooper",
-      "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods."
+      "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2568",
+      "image": "./images/steel_trooper_helmet.png"
     },
     {
       "name": "SA-12 Servo Assisted",
-      "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health."
+      "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6505",
+      "image": "./images/servo_assisted_helmet.webp"
     },
     {
       "name": "CE-35 Trench Engineer",
-      "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born."
+      "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5902",
+      "image": "./images/trench_engineer_helmet.png"
     },
     {
       "name": "CE-27 Ground Breaker",
-      "description": "\"The ground is just another obstable that hasn't yet been cleared.\" - SGM Janet Jones, Excavation Corps Founder"
+      "description": "\"The ground is just another obstable that hasn't yet been cleared.\" - SGM Janet Jones, Excavation Corps Founder",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6499",
+      "image": "./images/ground_breaker_helmet.png"
     },
     {
       "name": "CM-09 Bonesnapper",
-      "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties."
+      "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2563",
+      "image": "./images/bonesnapper_helmet.png"
     },
     {
       "name": "SC-15 Drone Master",
-      "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts."
+      "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6506",
+      "image": "./images/drone_master_helmet.webp"
     },
     {
       "name": "EX-03 Prototype 3",
-      "description": "Because this prototype's wire operates at 400,000 volts, it also includes a handy rubber underlayer for insulation."
+      "description": "Because this prototype's wire operates at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6502",
+      "image": "./images/prototype_3_helmet.png"
     },
     {
       "name": "EX-16 Prototype 16",
-      "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vinicity of stapled paperwork."
+      "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vinicity of stapled paperwork.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6503",
+      "image": "./images/prototype_16_helmet.webp"
     },
     {
       "name": "FS-34 Exterminator",
-      "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing."
+      "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6504",
+      "image": "./images/exterminator_helmet.webp"
     },
     {
       "name": "DP-40 Hero of the Federation",
-      "description": "Though originally indended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield."
+      "description": "Though originally indended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2564",
+      "image": "./images/hero_of_the_federation_helmet.png"
     },
     {
       "name": "DP-11 Champion of the People",
-      "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity."
+      "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6501",
+      "image": "./images/champion_of_the_people_helmet.png"
     },
     {
       "name": "CM-14 Physician",
-      "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signals to all Helldivers that help is at hand."
+      "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signals to all Helldivers that help is at hand.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5939",
+      "image": "./images/physician_helmet.webp"
     },
     {
-      "name": "CE-81 Jugganaut",
-      "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger."
+      "name": "CE-81 Juggernaut",
+      "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6500",
+      "image": "./images/juggernaut_helmet.webp"
     },
     {
       "name": "B-24 Enforcer",
-      "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem."
+      "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6498",
+      "image": "./images/enforcer_helmet.webp"
     },
     {
       "name": "B-01 Tactical",
-      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull."
+      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2562",
+      "image": "./images/tactical_helmet.webp"
     },
     {
       "name": "SA-04 Combat Technician",
-      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues."
+      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "FS-55 Devastator",
-      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks."
+      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "CW-22 Kodiak",
-      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program."
+      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "SA-32 Dynamo",
-      "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill."
+      "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "CM-17 Butcher",
-      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart."
+      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "B-27 Fortified Commando",
-      "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'."
+      "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "FS-05 Marksman",
-      "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes."
+      "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "FS-11 Executioner",
-      "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical \"Lost My Heart to a Man in a Helmet\"."
+      "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical \"Lost My Heart to a Man in a Helmet\".",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "CE-64 Grenadier",
-      "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years."
+      "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "PH-202 Twigsnapper",
-      "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates."
+      "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "FS-23 Battle Master",
-      "description": "This aim-stabalizing armor found suprising secondary market success among alien birdwatching enthusiasts."
+      "description": "This aim-stabalizing armor found suprising secondary market success among alien birdwatching enthusiasts.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "CW-Winter Warrior",
-      "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike."
+      "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike.",
+      "credit": "",
+      "image": "./images/"
     }
   ],
   "capes": [
@@ -1844,6 +2033,7 @@
     "More challenging missions yield greater rewards.",
     "If a squadmate dies during a mission, make sure you pick up their dropped samples. There will be time for mourning later!",
     "Reloading discards the remaining rounds in your magazine.",
-    "Your stance has a significant impact on accuracy. The S.E.A.F. manual lists the following stances in order of least to most accurate: Moving < Standing < Crouching < Prone.", "Remember to share when calling down supplies. An armed helldiver is a happy helldiver."
+    "Your stance has a significant impact on accuracy. The S.E.A.F. manual lists the following stances in order of least to most accurate: Moving < Standing < Crouching < Prone.",
+    "Remember to share when calling down supplies. An armed helldiver is a happy helldiver."
   ]
 }

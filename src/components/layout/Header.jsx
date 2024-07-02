@@ -13,6 +13,7 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/loadout_builder">Loadout Builder</Nav.Link>
             <Nav.Link as={Link} to="/saved_loadouts">Saved Loadouts</Nav.Link>
+            <Nav.Link as={Link} to="/image_path_checker">Image Path Checker</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

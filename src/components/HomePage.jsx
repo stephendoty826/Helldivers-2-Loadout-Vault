@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import helldivers2 from "../gameData/helldivers2.json";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const [tip, setTip] = useState("");
@@ -36,7 +37,12 @@ const HomePage = () => {
             </p>
             <p>Choose your stratagems, weapons, and armor...for Liberty.</p>
           </div>
-          <Button variant="secondary" className="mt-4 fs-3">
+          <Button
+            variant="secondary"
+            className="mt-4 fs-3"
+            as={Link}
+            to="/loadout_builder"
+          >
             Build Loadout
           </Button>{" "}
           <div className="text-center mx-3 h-100 d-flex align-items-center">
