@@ -726,6 +726,19 @@
       "image": "./images/predator.webp"
     },
     {
+      "name": "SC-37 Legionnaire",
+      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
+      "armor rating": 50,
+      "speed": 550,
+      "stamina regen": 125,
+      "armor Passive": {
+        "name": "Servo-Assisted",
+        "description": "Increased throwing range by 30%. Provides +50% limb health."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2835",
+      "image": "./images/legionnaire.webp"
+    },
+    {
       "name": "SA-25 Steel Trooper",
       "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
       "armor rating": 100,
@@ -934,6 +947,84 @@
       "image": "./images/combat_technician.webp"
     },
     {
+      "name": "CM-10 Clinician",
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Med-Kit",
+        "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5579",
+      "image": "./images/clinician.webp"
+    },
+    {
+      "name": "CW-9 White Wolf",
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "armor rating": 150,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Extra Padding",
+        "description": "Provides a higher armor rating."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
+      "image": "./images/white_wolf.webp"
+    },
+    {
+      "name": "DP-53 Savior of the Free",
+      "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor passive": {
+        "name": "Democracy Protects",
+        "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
+      "image": "./images/savior_of_the_free.webp"
+    },
+    {
+      "name": "PH-56 Jaguar",
+      "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Peak Physique",
+        "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
+      "image": "./images/jaguar.webp"
+    },
+    {
+      "name": "TR-7 Ambassador of the Brand",
+      "description": "Promotional armor made by SUMY Corp. as part of a highly successful marketing campaign for frozen yogurt.",
+      "armor rating": 150,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Extra Padding",
+        "description": "Provides a higher armor rating."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3302",
+      "image": "./images/ambassador_of_the_brand.webp"
+    },
+    {
+      "name": "TR-117 Alpha Commander",
+      "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
+      "armor rating": 100,
+      "speed": 500,
+      "stamina regen": 100,
+      "armor Passive": {
+        "name": "Med-Kit",
+        "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
+      "image": "./images/alpha_commander.webp"
+    },
+    {
       "name": "FS-55 Devastator",
       "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
       "armor rating": 150,
@@ -1075,6 +1166,32 @@
       },
       "credit": "https://helldivers.wiki.gg/index.php?curid=2874",
       "image": "./images/winter_warrior.png"
+    },
+    {
+      "name": "CE-101 Guerilla Gorilla",
+      "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Engineering Kit",
+        "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
+      "image": "./images/guerilla_gorilla.webp"
+    },
+    {
+      "name": "FS-61 Dreadnought",
+      "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
+      "armor rating": 150,
+      "speed": 450,
+      "stamina regen": 50,
+      "armor Passive": {
+        "name": "Servo-Assisted",
+        "description": "Increased throwing range by 30%. Provides +50% limb health."
+      },
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
+      "image": "./images/dreadnought.webp"
     }
   ],
   "helmets": [
@@ -1149,6 +1266,12 @@
       "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6748",
       "image": "./images/predator_helmet.webp"
+    },
+    {
+      "name": "SC-37 Legionnaire",
+      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6494",
+      "image": "./images/legionnaire_helmet.webp"
     },
     {
       "name": "SA-25 Steel Trooper",
@@ -1247,6 +1370,42 @@
       "image": "./images/combat_technician_helmet.webp"
     },
     {
+      "name": "CM-10 Clinician",
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6315",
+      "image": "./images/clinician_helmet.webp"
+    },
+    {
+      "name": "CW-9 White Wolf",
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
+      "image": "./images/white_wolf_helmet.webp"
+    },
+    {
+      "name": "DP-53 Savior of the Free",
+      "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
+      "image": "./images/savior_of_the_free_helmet.webp"
+    },
+    {
+      "name": "PH-56 Jaguar Armor",
+      "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
+      "image": "./images/jaguar_helmet.webp"
+    },
+    {
+      "name": "TR-7 Ambassador of the Brand",
+      "description": "Promotional armor made by SUMY Corp. as part of a highly successful marketing campaign for frozen yogurt.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3302",
+      "image": "./images/ambassador_of_the_brand_helmet.webp"
+    },
+    {
+      "name": "TR-117 Alpha Commander",
+      "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
+      "image": "./images/alpha_commander.webp"
+    },
+    {
       "name": "FS-55 Devastator",
       "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6512",
@@ -1311,6 +1470,19 @@
       "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6511",
       "image": "./images/winter_warrior_helmet.png"
+    },
+    {
+      "name": "CE-101 Guerilla Gorilla",
+      "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
+
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
+      "image": "./images/guerilla_gorilla.webp"
+    },
+    {
+      "name": "FS-61 Dreadnought",
+      "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
+      "image": "./images/dreadnought.webp"
     }
   ],
   "capes": [
@@ -1753,8 +1925,8 @@
         "spare magazines": 4,
         "reload time": "3.9s",
         "strategem traits": ["support weapon", "hellpod", "incendiary"],
-        "credit": "",
-        "image": "./images/"
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2980",
+        "image": "./images/flamethrower.webp"
       },
       {
         "name": "AC-8 Autocannon",
@@ -1767,7 +1939,9 @@
         "spare magazines": 10,
         "reload time": "5.2s",
         "tactical reload": "1.7s",
-        "strategem traits": ["support weapon", "hellpod", "support backpack"]
+        "strategem traits": ["support weapon", "hellpod", "support backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2976",
+        "image": "./images/autocannon.webp"
       },
       {
         "name": "MG-206 Heavy Machine Gun",
@@ -1780,7 +1954,9 @@
         "spare magazines": 2,
         "reload time": "5.5s",
         "tactical reload": "3.9s",
-        "strategem traits": ["support weapon", "hellpod"]
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=4167",
+        "image": "./images/heavy_machine_gun.webp"
       },
       {
         "name": "RL-77 Airburst Rocket Launcher",
@@ -1791,7 +1967,9 @@
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6.7s",
-        "strategem traits": ["support weapon", "hellpod", "support backpack"]
+        "strategem traits": ["support weapon", "hellpod", "support backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=5880",
+        "image": "./images/airburst_rocket_launcher.webp"
       },
       {
         "name": "RS-422 Railgun",
@@ -1802,7 +1980,9 @@
         "capacity": 1,
         "spare magazines": 20,
         "reload time": "1.3s",
-        "strategem traits": ["support weapon", "hellpod"]
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2990",
+        "image": "./images/railgun.webp"
       },
       {
         "name": "FAF-14 Spear",
@@ -1813,7 +1993,9 @@
         "capacity": 1,
         "spare magazines": 3,
         "reload time": "5s",
-        "strategem traits": ["support weapon", "hellpod", "support backpack"]
+        "strategem traits": ["support weapon", "hellpod", "support backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2995",
+        "image": "./images/spear.webp"
       },
       {
         "name": "GL-21 Grenade Launcher",
@@ -1826,7 +2008,9 @@
         "spare magazines": 2,
         "reload time": "3.5s",
         "tactical reload": "3s",
-        "strategem traits": ["support weapon", "hellpod", "explosive"]
+        "strategem traits": ["support weapon", "hellpod", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2982",
+        "image": "./images/grenade_launcher.webp"
       },
       {
         "name": "LAS-98 Laser Cannon",
@@ -1839,7 +2023,9 @@
         "spare magazines": 1,
         "reload time": "3.6s",
         "tactical reload": "5s",
-        "strategem traits": ["support weapon", "hellpod"]
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2987",
+        "image": "./images/laser_cannon.webp"
       },
       {
         "name": "ARC-3 Arc Thrower",
@@ -1849,7 +2035,9 @@
         "cooldown time": "480s - 432s with upgrade",
         "capacity": "infinite",
         "fire rate": 60,
-        "strategem traits": ["support weapon", "hellpod"]
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2974",
+        "image": "./images/arc_thrower.webp"
       },
       {
         "name": "LAS-99 Quasar Cannon",
@@ -1860,7 +2048,9 @@
         "capacity": "infinite",
         "charge time": "3s",
         "recharge time": "15s",
-        "strategem traits": ["support weapon", "hellpod"]
+        "strategem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=4166",
+        "image": "./images/quasar_cannon.webp"
       }
     ],
     "backpacks": [
@@ -1923,7 +2113,9 @@
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
         "reload time": "",
-        "strategem traits": ["hellpod", "backpack"]
+        "strategem traits": ["hellpod", "backpack"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2983",
+        "image": "./images/guard_dog.webp"
       }
     ],
     "walkers": [
@@ -1982,12 +2174,14 @@
         "image": "./images/anti-personnel_minefield.webp"
       },
       {
-        "name": "MD-I4 Incendiary Mines",
+        "name": "MD-I4 Incendiary Minefield",
         "description": "Deploys a defensive incendiary minefield, which will set both terrane and targets alight when triggered.",
         "call-in time": "0s",
         "uses": "unlimited",
         "cooldown time": "180s - 162s with upgrade",
-        "strategem traits": ["hellpod", "explosive"]
+        "strategem traits": ["hellpod", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3501",
+        "image": "./images/incendiary_minefield.webp"
       },
       {
         "name": "A/MG-43 Machine Gun Sentry",
@@ -1997,7 +2191,9 @@
         "cooldown time": "120s - 108s with upgrade",
         "fire rate": 660,
         "capacity": "130 — 195 with upgrade",
-        "strategem traits": ["hellpod", "sentry"]
+        "strategem traits": ["hellpod", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2988",
+        "image": "./images/machine_gun_sentry.webp"
       },
       {
         "name": "A/G-16 Gatling Sentry",
@@ -2007,7 +2203,9 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 1560,
         "capacity": "390 — 585 with upgrade",
-        "strategem traits": ["hellpod", "sentry"]
+        "strategem traits": ["hellpod", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2981",
+        "image": "./images/gatling_sentry.webp"
       },
       {
         "name": "A/M-12 Mortar Sentry",
@@ -2017,7 +2215,9 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 32,
         "capacity": "36 — 54 with upgrade",
-        "strategem traits": ["hellpod", "explosive", "sentry"]
+        "strategem traits": ["hellpod", "explosive", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3077",
+        "image": "./images/mortar_sentry.webp"
       },
       {
         "name": "A/AC-8 Autocannon Sentry",
@@ -2027,7 +2227,9 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 42,
         "capacity": "24 — 36 with upgrade",
-        "strategem traits": ["hellpod", "sentry"]
+        "strategem traits": ["hellpod", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2975",
+        "image": "./images/autocannon_sentry.webp"
       },
       {
         "name": "A/MLS-4X Rocket Sentry",
@@ -2037,7 +2239,9 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 80,
         "capacity": "32 — 40 with upgrade",
-        "strategem traits": ["hellpod", "explosive", "sentry"]
+        "strategem traits": ["hellpod", "explosive", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2992",
+        "image": "./images/rocket_sentry.webp"
       },
       {
         "name": "A/M-23 EMS Mortar Sentry",
@@ -2047,7 +2251,9 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 10,
         "capacity": "15 — 22 with upgrade",
-        "strategem traits": ["hellpod", "explosive", "sentry"]
+        "strategem traits": ["hellpod", "explosive", "sentry"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3719",
+        "image": "./images/EMS_mortar_sentry.webp"
       }
     ]
   },

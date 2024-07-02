@@ -9,31 +9,30 @@ const EquipmentBuilder = () => {
       <div className="d-flex justify-content-around mt-3">
         <div class="d-flex flex-column">
           <Form.Label>Armor</Form.Label>
-          <Button variant="secondary" className="equipmentButton"></Button>
+          <Button variant="secondary" className="squareButton"></Button>
         </div>
         <div class="d-flex flex-column">
           <Form.Label>Helmet</Form.Label>
-          <Button variant="secondary" className="equipmentButton"></Button>
+          <Button variant="secondary" className="squareButton"></Button>
         </div>
         <div class="d-flex flex-column">
           <Form.Label>Cape</Form.Label>
-          <Button variant="secondary" className="equipmentButton"></Button>
+          <Button variant="secondary" className="squareButton"></Button>
         </div>
       </div>
       <div className="d-flex justify-content-around mt-3">
         <div class="d-flex flex-column">
           <Form.Label>Primary</Form.Label>
-          <Button variant="secondary" className="equipmentButton"></Button>
+          <Button variant="secondary" className="rectangleButton"></Button>
         </div>
         <div class="d-flex flex-column">
           <Form.Label>Secondary</Form.Label>
-          <Button variant="secondary" className="equipmentButton"></Button>
+          <Button variant="secondary" className="rectangleButton"></Button>
         </div>
         <div class="d-flex flex-column">
           <Form.Label>Throwable</Form.Label>
-          <Button variant="secondary" className="equipmentButton"></Button>
+          <Button variant="secondary" className="rectangleButton"></Button>
         </div>
-
       </div>
     </div>
   );

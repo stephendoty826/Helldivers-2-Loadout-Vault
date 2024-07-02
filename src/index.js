@@ -7,7 +7,6 @@ import BaseLayout from "./components/layout/BaseLayout";
 import HomePage from './components/HomePage';
 import LoadoutBuilder from './components/LoadoutBuilder';
 import SavedLoadouts from './components/SavedLoadouts';
-import ImagePathChecker from './components/ImagePathChecker'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +17,6 @@ root.render(
           <Route path="/" element={<HomePage />} />
           <Route path="/loadout_builder" element={<LoadoutBuilder />} />
           <Route path="/saved_loadouts" element={<SavedLoadouts />} />
-          <Route path="/image_path_checker" element={<ImagePathChecker />} />
         </Routes>
       </BaseLayout>
     </Router>

@@ -6,7 +6,7 @@ console.log(helldivers2Data);
 const ImagePathChecker = () => {
   return (
     <div>
-      {helldivers2Data.stratagems.orbital.map((el) => {
+      {helldivers2Data.armor.map((el) => {
         console.log(el);
         return <img src={el.image} alt="" />;
       })}

@@ -18,12 +18,12 @@ code {
   height: 85vh;
 }
 
-.stratButton {
+.squareButton {
   height: 16vw;
   width: 16vw;
 }
 
-.equipmentButton {
+.rectangleButton {
   height: 16vw;
   width: 21.5vw;
 }
@@ -48,3 +48,4 @@ code {
     max-height: 175px;
   }
 }
+

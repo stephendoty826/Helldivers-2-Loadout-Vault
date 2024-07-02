@@ -21,7 +21,7 @@ const LoadoutBuilder = () => {
 
   return (
     <div>
-      <Container className="">
+      <Container>
         <div className="d-flex align-items-center flex-column vh-85">
           <p className="display-6 mt-3">Loadout Builder</p>
           <div className="text-center w-100">

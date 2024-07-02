@@ -6,10 +6,10 @@ const StratBuilder = ({ helldivers2Data }) => {
     <div>
       <label className="h3 mt-4">Stratagems</label>
       <div className="d-flex justify-content-around mt-3">
-        <Button variant="secondary" className="stratButton"></Button>
-        <Button variant="secondary" className="stratButton"></Button>
-        <Button variant="secondary" className="stratButton"></Button>
-        <Button variant="secondary" className="stratButton"></Button>
+        <Button variant="secondary" className="squareButton"></Button>
+        <Button variant="secondary" className="squareButton"></Button>
+        <Button variant="secondary" className="squareButton"></Button>
+        <Button variant="secondary" className="squareButton"></Button>
       </div>
     </div>
   );
