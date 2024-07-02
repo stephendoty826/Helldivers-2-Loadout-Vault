@@ -1243,80 +1243,82 @@
     {
       "name": "SA-04 Combat Technician",
       "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5932",
+      "image": "./images/combat_technician_helmet.webp"
     },
     {
       "name": "FS-55 Devastator",
       "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6512",
+      "image": "./images/devastator_helmet.png"
     },
     {
       "name": "CW-22 Kodiak",
       "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6510",
+      "image": "./images/kodiak_helmet.webp"
     },
     {
       "name": "SA-32 Dynamo",
       "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6514",
+      "image": "./images/dynamo_helmet.png"
     },
     {
       "name": "CM-17 Butcher",
       "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6509",
+      "image": "./images/butcher_helmet.webp"
     },
     {
       "name": "B-27 Fortified Commando",
       "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6508",
+      "image": "./images/fortified_commando_helmet.webp"
     },
     {
       "name": "FS-05 Marksman",
       "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2566",
+      "image": "./images/marksman_helmet.png"
     },
     {
       "name": "FS-11 Executioner",
       "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical \"Lost My Heart to a Man in a Helmet\".",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2567",
+      "image": "./images/executioner_helmet.webp"
     },
     {
       "name": "CE-64 Grenadier",
       "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6305",
+      "image": "./images/grenadier_helmet.webp"
     },
     {
       "name": "PH-202 Twigsnapper",
       "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6749",
+      "image": "./images/twigsnapper_helmet.webp"
     },
     {
       "name": "FS-23 Battle Master",
       "description": "This aim-stabalizing armor found suprising secondary market success among alien birdwatching enthusiasts.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5922",
+      "image": "./images/battle_master_helmet.png"
     },
     {
       "name": "CW-Winter Warrior",
       "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike.",
-      "credit": "",
-      "image": "./images/"
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6511",
+      "image": "./images/winter_warrior_helmet.png"
     }
   ],
   "capes": [
     {
       "name": "Tyrant Hunter",
-      "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom."
+      "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2587",
+      "image": "./images/tyrant_hunter.png"
     },
     {
       "name": "Will of the People",
@@ -1326,79 +1328,117 @@
     },
     {
       "name": "Bastion of Integrity",
-      "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aeriel recovery crews."
+      "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aeriel recovery crews.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4400",
+      "image": "./images/bastion_of_integrity.png"
     },
     {
       "name": "Cloak of Posterity's Gratitude",
-      "description": "A representation of the thankfulness of those infinite descendents whose liberated existence we strive to ensure."
+      "description": "A representation of the thankfulness of those infinite descendents whose liberated existence we strive to ensure.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4403",
+      "image": "./images/cloak_of_posteritys_gratitude.png"
     },
     {
       "name": "Botslayer",
-      "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it."
+      "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4402",
+      "image": "./images/botslayer.png"
     },
     {
       "name": "Martyris Rex",
-      "description": "It is said that only the truly Democratic can lift this cape to their shoulders."
+      "description": "It is said that only the truly Democratic can lift this cape to their shoulders.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4405",
+      "image": "./images/martyris_rex.png"
     },
     {
       "name": "Agent of Oblivion",
-      "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's \"Greener Galaxy\" campaign."
+      "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's \"Greener Galaxy\" campaign.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4406",
+      "image": "./images/agent_of_oblivion.png"
     },
     {
       "name": "Eagle's Fury",
-      "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes."
+      "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5416",
+      "image": "./images/eagles_fury.png"
     },
     {
-      "name": "Judgement Day",
-      "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak upon those wearing this cape."
+      "name": "Judgment Day",
+      "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak upon those wearing this cape.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5416",
+      "image": "./images/judgment_day.png"
     },
     {
       "name": "Fallen Hero's Vengeance",
-      "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them."
+      "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5417",
+      "image": "./images/fallen_heros_vengeance.webp"
     },
     {
       "name": "Blazing Samaritan",
-      "description": "Emblazoned with the red, white, and green of the 676th Democracy Regiment, who made their final stand on the slopes of Justice Hill."
+      "description": "Emblazoned with the red, white, and green of the 676th Democracy Regiment, who made their final stand on the slopes of Justice Hill.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4401",
+      "image": "./images/blazing_samaritan.png"
     },
     {
       "name": "The Cape of Stars and Suffrage",
-      "description": "A symbol of Super Earth's Astral Promise: that every star shall one day illuminate throngs of joyous voters."
+      "description": "A symbol of Super Earth's Astral Promise: that every star shall one day illuminate throngs of joyous voters.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2585",
+      "image": "./images/cape_of_stars_and_suffrage.png"
     },
     {
       "name": "Mantle of True Citizenship",
-      "description": "The featherlight construction belies the heavy burden this cape entails—to live the Creed of the True Citizen."
+      "description": "The featherlight construction belies the heavy burden this cape entails—to live the Creed of the True Citizen.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=4380",
+      "image": "./images/mantle_of_true_citizenship.png"
     },
     {
       "name": "Freedom's Tapestry",
-      "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets."
+      "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5429",
+      "image": "./images/freedoms_tapestry.png"
     },
     {
       "name": "Harbinger of True Equality",
-      "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead."
+      "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead.",
+      "credit": "",
+      "image": "./images/"
     },
     {
       "name": "Dissident's Nightmare",
-      "description": "After extensive testing in Patriotic Rehabilitation Centers, this design was proved most terrifying to dissent-afflicted individuals."
+      "description": "After extensive testing in Patriotic Rehabilitation Centers, this design was proved most terrifying to dissent-afflicted individuals.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6518",
+      "image": "./images/dissidents_nightmare.png"
     },
     {
       "name": "Pinions of Everlasting Glory",
-      "description": "All but ensure ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts."
+      "description": "All but ensure ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6519",
+      "image": "./images/pinions_of_everlasting_glory.png"
     },
     {
       "name": "Order of the Venerated Ballot",
-      "description": "Adorned with the insignia of the Order of the Venerated Ballot, a Ministry-sanctioned Patriot's Club for citizens who pledge themselves to preserving the sanctity of voting."
+      "description": "Adorned with the insignia of the Order of the Venerated Ballot, a Ministry-sanctioned Patriot's Club for citizens who pledge themselves to preserving the sanctity of voting.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6525",
+      "image": "./images/order_of_the_venerated_ballot.png"
     },
     {
       "name": "Mark of the Crimson Fang",
-      "description": "Marks the most obedient of the obedient, those who will strike headlong at the veins of Tyranny and administer the sweet antidote of Freedom."
+      "description": "Marks the most obedient of the obedient, those who will strike headlong at the veins of Tyranny and administer the sweet antidote of Freedom.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6746",
+      "image": "./images/mark_of_the_crimson_fang.webp"
     },
     {
       "name": "Executioner's Canopy",
-      "descripti": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice."
+      "descripti": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6747",
+      "image": "./images/executioners_canopy.png"
     },
     {
       "name": "Tideturner",
-      "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory."
+      "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2586",
+      "image": "./images/tideturner.png"
     },
     {
       "name": "Light of Eternal Liberty",
@@ -1426,15 +1466,21 @@
     },
     {
       "name": "Independence Bringer",
-      "description": "This cape's cropped length symbolizes the brevity of galatic conflicts, thanks to the efficiency of the Helldivers."
+      "description": "This cape's cropped length symbolizes the brevity of galatic conflicts, thanks to the efficiency of the Helldivers.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2583",
+      "image": "./images/independence_bringer.webp"
     },
     {
       "name": "Umblemished Allegiance",
-      "description": "A choir of patriotic schoolchildren sings the Super Earth anthem to each cape as the final step in its productions."
+      "description": "A choir of patriotic schoolchildren sings the Super Earth anthem to each cape as the final step in its productions.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2588",
+      "image": "./images/unblemished_allegiance.png"
     },
     {
       "name": "Drape of Glory",
-      "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic."
+      "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6516",
+      "image": "./images/drape_of_glory.png"
     }
   ],
   "stratagems": {
@@ -1495,7 +1541,9 @@
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"]
+        "strategem traits": ["explosive", "eagle"],
+        "credit":"",
+        "image":"./images/eagle_110mm_rocket_pods.webp"
       },
       {
         "name": "Eagle 500kg Bomb",
@@ -1503,7 +1551,9 @@
         "call-in time": "0s",
         "uses": "1 — 2 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"]
+        "strategem traits": ["explosive", "eagle"],
+        "credit": "",
+        "image": "./images/eagle_500kg_bomb.webp"
       }
     ],
     "orbital": [
