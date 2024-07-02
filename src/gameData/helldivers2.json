@@ -1542,8 +1542,8 @@
         "uses": "2 — 3 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "strategem traits": ["explosive", "eagle"],
-        "credit":"",
-        "image":"./images/eagle_110mm_rocket_pods.webp"
+        "credit": "",
+        "image": "./images/eagle_110mm_rocket_pods.webp"
       },
       {
         "name": "Eagle 500kg Bomb",
@@ -1613,7 +1613,9 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "3",
         "cooldown time": "300s — 270s with upgrade",
-        "strategem traits": ["orbital"]
+        "strategem traits": ["orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3084",
+        "image": "./images/orbital_laser.webp"
       },
       {
         "name": "Orbital Railcannon Strike",
@@ -1621,7 +1623,9 @@
         "call-in time": "1s — 0s with upgrade",
         "uses": "unlimited",
         "cooldown time": "210s — 189s with upgrade",
-        "strategem traits": ["orbital"]
+        "strategem traits": ["orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3086",
+        "image": "./images/orbital_railcannon_strike.webp"
       },
       {
         "name": "Orbital Precision Strike",
@@ -1629,7 +1633,9 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "90s — 81s with upgrade",
-        "strategem traits": ["explosive", "orbital"]
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3085",
+        "image": "./images/orbital_precision_strike.webp"
       },
       {
         "name": "Orbital Gas Strike",
@@ -1637,7 +1643,9 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "75s — 68s with upgrade",
-        "strategem traits": ["explosive", "orbital"]
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3082",
+        "image": "./images/orbital_gas_strike.webp"
       },
       {
         "name": "Orbital EMS Strike",
@@ -1645,7 +1653,9 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "75s — 68s with upgrade",
-        "strategem traits": ["orbital"]
+        "strategem traits": ["orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3081",
+        "image": "./images/orbital_EMS_strike.webp"
       },
       {
         "name": "Orbital Smoke Strike",
@@ -1653,7 +1663,9 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "100s — 90s with upgrade",
-        "strategem traits": ["explosive", "orbital"]
+        "strategem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3087",
+        "image": "./images/orbital_smoke.webp"
       }
     ],
     "support weapons": [
@@ -1740,7 +1752,9 @@
         "fire limit": "12.5s",
         "spare magazines": 4,
         "reload time": "3.9s",
-        "strategem traits": ["support weapon", "hellpod", "incendiary"]
+        "strategem traits": ["support weapon", "hellpod", "incendiary"],
+        "credit": "",
+        "image": "./images/"
       },
       {
         "name": "AC-8 Autocannon",
