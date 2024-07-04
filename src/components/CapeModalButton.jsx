@@ -1,36 +1,37 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import ArmorModal from "./ArmorModal";
+import CapeModal from "./CapeModal";
 
-const ArmorModalButton = ({
-  armor,
-  setArmor,
-  armorArray,
+const CapeModalButton = ({
+  cape,
+  setCape,
+  capesArray,
 }) => {
+
+  console.log(cape)
 
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
-      {/* <img src={image} alt="" /> */}
       <Button
         variant="secondary"
         className="armorButton"
         onClick={() => setShowModal(true)}
       >
-        {armor.image && (
-          <img src={armor.image} alt="" className="armorButton" />
+        {cape.image && (
+          <img src={cape.image} alt="" className="armorButton" />
         )}
       </Button>
-      <ArmorModal
-        armor={armor}
-        setArmor={setArmor}
+      <CapeModal
+        cape={cape}
+        setCape={setCape}
         show={showModal}
         onHide={() => setShowModal(false)}
-        armorArray={armorArray}
+        capesArray={capesArray}
       />
     </>
   );
 };
 
-export default ArmorModalButton;
+export default CapeModalButton;

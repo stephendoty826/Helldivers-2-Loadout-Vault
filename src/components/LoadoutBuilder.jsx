@@ -18,6 +18,10 @@ const LoadoutBuilder = () => {
   const [throwable, setThrowable] = useState({});
   const [loadoutName, setLoadoutName] = useState({});
 
+  console.log("armor", armor)
+  console.log("helmet", helmet)
+  console.log("cape", cape)
+
   return (
     <div>
       <Container>
@@ -25,7 +29,7 @@ const LoadoutBuilder = () => {
           <p className="display-6 mt-3">Loadout Builder</p>
           <div className="text-center w-100">
             <StratBuilder helldivers2Data={helldivers2Data} />
-            <EquipmentBuilder />
+            <EquipmentBuilder armor={armor} setArmor={setArmor} helmet={helmet} setHelmet={setHelmet} cape={cape} setCape={setCape}/>
             <div className="d-flex flex-column align-items-center w-100">
               <Form.Group className="mb-4 mt-5  w-75">
                 <Form.Label>Loadout Name</Form.Label>

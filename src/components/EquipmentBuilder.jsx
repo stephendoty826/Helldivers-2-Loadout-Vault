@@ -2,13 +2,11 @@ import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import ArmorModalButton from "./ArmorModalButton";
+import HelmetModalButton from "./HelmetModalButton";
+import CapeModalButton from "./CapeModalButton";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-const EquipmentBuilder = () => {
-
-  const [showModal, setShowModal] = useState(false);
-
-  let itemsArray = helldivers2Data.armor
+const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape}) => {
 
   return (
     <div className="mt-5">
@@ -17,18 +15,26 @@ const EquipmentBuilder = () => {
         <div className="d-flex flex-column">
           <Form.Label>Armor</Form.Label>
           <ArmorModalButton
-            showModal={showModal}
-            setShowModal={setShowModal}
-            itemsArray={itemsArray}
+            armor={armor}
+            setArmor={setArmor}
+            armorArray={helldivers2Data.armor}
           />
         </div>
         <div className="d-flex flex-column">
           <Form.Label>Helmet</Form.Label>
-          <Button variant="secondary" className="armorButton"></Button>
+          <HelmetModalButton
+            helmet={helmet}
+            setHelmet={setHelmet}
+            helmetArray={helldivers2Data.helmets}
+          />
         </div>
         <div className="d-flex flex-column">
           <Form.Label>Cape</Form.Label>
-          <Button variant="secondary" className="armorButton"></Button>
+          <CapeModalButton
+            cape={cape}
+            setCape={setCape}
+            capesArray={helldivers2Data.capes}
+          />
         </div>
       </div>
       <div className="d-flex justify-content-around mt-3">

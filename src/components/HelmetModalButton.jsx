@@ -1,36 +1,35 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import ArmorModal from "./ArmorModal";
+import HelmetModal from "./HelmetModal";
 
-const ArmorModalButton = ({
-  armor,
-  setArmor,
-  armorArray,
+const HelmetModalButton = ({
+  helmet,
+  setHelmet,
+  helmetArray,
 }) => {
 
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
-      {/* <img src={image} alt="" /> */}
       <Button
         variant="secondary"
         className="armorButton"
         onClick={() => setShowModal(true)}
       >
-        {armor.image && (
-          <img src={armor.image} alt="" className="armorButton" />
+        {helmet.image && (
+          <img src={helmet.image} alt="" className="armorButton" />
         )}
       </Button>
-      <ArmorModal
-        armor={armor}
-        setArmor={setArmor}
+      <HelmetModal
+        helmet={helmet}
+        setHelmet={setHelmet}
         show={showModal}
         onHide={() => setShowModal(false)}
-        armorArray={armorArray}
+        helmetArray={helmetArray}
       />
     </>
   );
 };
 
-export default ArmorModalButton;
+export default HelmetModalButton;
