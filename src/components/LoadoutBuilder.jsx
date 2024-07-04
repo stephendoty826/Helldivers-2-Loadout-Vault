@@ -4,20 +4,19 @@ import StratBuilder from "./StratBuilder";
 import EquipmentBuilder from "./EquipmentBuilder";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import helldivers2Data from "../gameData/helldivers2test.json";
+import helldivers2Data from "../gameData/helldivers2.json";
 
 const LoadoutBuilder = () => {
-
-  const [stratagem1, setStatagem1] = useState({})
-  const [stratagem2, setStatagem2] = useState({})
-  const [stratagem3, setStatagem3] = useState({})
-  const [armor, setArmor] = useState({})
-  const [helmet, setHelmet] = useState({})
-  const [cape, setCape] = useState({})
-  const [primary, setPrimary] = useState({})
-  const [secondary, setSecondary] = useState({})
-  const [throwable, setThrowable] = useState({})
-  const [loadoutName, setLoadoutName] = useState({})
+  const [stratagem1, setStatagem1] = useState({});
+  const [stratagem2, setStatagem2] = useState({});
+  const [stratagem3, setStatagem3] = useState({});
+  const [armor, setArmor] = useState({});
+  const [helmet, setHelmet] = useState({});
+  const [cape, setCape] = useState({});
+  const [primary, setPrimary] = useState({});
+  const [secondary, setSecondary] = useState({});
+  const [throwable, setThrowable] = useState({});
+  const [loadoutName, setLoadoutName] = useState({});
 
   return (
     <div>
