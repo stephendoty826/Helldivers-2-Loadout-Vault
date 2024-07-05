@@ -10,6 +10,7 @@ const LoadoutBuilder = () => {
   const [stratagem1, setStatagem1] = useState({});
   const [stratagem2, setStatagem2] = useState({});
   const [stratagem3, setStatagem3] = useState({});
+  const [stratagem4, setStatagem4] = useState({});
   const [armor, setArmor] = useState({});
   const [helmet, setHelmet] = useState({});
   const [cape, setCape] = useState({});
@@ -18,9 +19,7 @@ const LoadoutBuilder = () => {
   const [throwable, setThrowable] = useState({});
   const [loadoutName, setLoadoutName] = useState({});
 
-  console.log("armor", armor)
-  console.log("helmet", helmet)
-  console.log("cape", cape)
+  console.log("stratagem1", stratagem1)
 
   return (
     <div>

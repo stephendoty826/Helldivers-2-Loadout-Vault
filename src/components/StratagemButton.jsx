@@ -1,36 +1,35 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import ArmorModal from "./ArmorModal";
+import StratagemModal from "./StratagemModal";
 
-const ArmorModalButton = ({
-  armor,
-  setArmor,
-  armorArray,
+const StratagemButton = ({
+  stratagem,
+  setStratagem,
+  stratagemArray,
 }) => {
 
   const [showModal, setShowModal] = useState(false);
 
   return (
     <>
-      {/* <img src={image} alt="" /> */}
       <Button
         variant="secondary"
         className="armorButton"
         onClick={() => setShowModal(true)}
       >
-        {armor.image && (
-          <img src={armor.image} alt="" className="armorButton" />
+        {stratagem.image && (
+          <img src={stratagem.image} alt="" className="armorButton" />
         )}
       </Button>
-      <ArmorModal
-        armor={armor}
-        setArmor={setArmor}
+      <StratagemModal
+        stratagem={stratagem}
+        setStratagem={setStratagem}
         show={showModal}
         onHide={() => setShowModal(false)}
-        armorArray={armorArray}
+        stratagemArray={stratagemArray}
       />
     </>
   );
 };
 
-export default ArmorModalButton;
+export default StratagemButton;
