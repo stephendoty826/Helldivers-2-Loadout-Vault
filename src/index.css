@@ -80,6 +80,7 @@ code {
 
 .itemSelector{
   width: 27vw;
+  max-width: 175px;
   margin-bottom: 3vw;
 }
 
