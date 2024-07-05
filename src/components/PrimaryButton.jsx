@@ -18,7 +18,7 @@ const PrimaryButton = ({
         onClick={() => setShowModal(true)}
       >
         {primary.image && (
-          <img src={primary.image} alt="" className="centerImage" />
+          <img src={primary.image} alt="" className="centerWeaponImage" />
         )}
       </Button>
       <PrimaryModal

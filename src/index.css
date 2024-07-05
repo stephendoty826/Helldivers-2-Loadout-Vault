@@ -87,11 +87,18 @@ code {
   background-color: #3b4249;
 }
 
-.centerImage{
+.centerWeaponImage{
   height: 100%;
   width: auto;
   /* height: auto;  */
   /* width: 100% */
+}
+
+.centerThrowableImage{
+  /* height: 100%; */
+  /* width: auto; */
+  height: auto; 
+  width: 100%
 }
 
 .custom-modal .modal-content {

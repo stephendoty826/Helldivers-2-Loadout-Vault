@@ -5,8 +5,6 @@ import Modal from "react-bootstrap/Modal";
 function PrimaryModal({ show, setPrimary, onHide, primaryArray}) {
   const [selected, setSelected] = useState({});
 
-  console.log(primaryArray)
-
   const equipItem = () => {
     setPrimary(selected);
     onHide();

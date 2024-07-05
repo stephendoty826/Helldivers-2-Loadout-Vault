@@ -479,7 +479,7 @@
           "rounds reload"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2599",
-        "image": "./images/senator.webp"
+        "image": "./images/senator.JPEG"
       }
     ]
   },
@@ -490,34 +490,34 @@
         "class": "Standard Throwable",
         "description": "An antipersonnel fragmentation grenade. Creates damage over a large area when detonated.",
         "damage": 250,
-        "Penetration": 3,
-        "Outer Radius": 8,
-        "fuse time": "2.4s",
+        "penetration": 3,
+        "outer_radius": 8,
+        "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2539",
-        "image": "./images/frag.png"
+        "image": "./images/frag.JPEG"
       },
       {
         "name": "G-10 Incendiary",
         "class": "Standard Throwable",
         "description": "An incendiary grenade which ignites any targets and terrain within the blast radius. Use with caution.",
         "damage": 150,
-        "Penetration": 3,
-        "Outer Radius": 7,
-        "fuse time": "2.9s",
+        "penetration": 3,
+        "outer_radius": 7,
+        "fuse_time": "2.9s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3265",
-        "image": "./images/incendiary.png"
+        "image": "./images/incendiary.JPEG"
       },
       {
         "name": "G-12 High Explosive",
         "class": "Standard Throwable",
         "description": "A high explosive grenade which damages lightly armored targets. Creates high damage over a small area when detonated.",
         "damage": 400,
-        "Penetration": 4,
-        "Outer Radius": 7,
-        "fuse time": "3.5s",
+        "penetration": 4,
+        "outer_radius": 7,
+        "fuse_time": "3.5s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
-        "image": "./images/high_explosive.png"
+        "image": "./images/high_explosive.JPEG"
       }
     ],
     "Special Throwables": [
@@ -526,65 +526,65 @@
         "class": "Special Throwable",
         "description": "A high explosive grenade which detonates on first impact.",
         "damage": 400,
-        "Penetration": 4,
-        "Outer Radius": 7,
-        "fuse time": "0.0s",
+        "penetration": 4,
+        "outer_radius": 7,
+        "fuse_time": "0.0s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2590",
-        "image": "./images/impact.png"
+        "image": "./images/impact.JPEG"
       },
       {
         "name": "G-13 Incendiary Impact",
         "class": "Special Throwable",
         "description": "Detonates on impact, covering the immediate vicinity in self-igniting white phosphorus.",
         "damage": 400,
-        "Penetration": 4,
-        "Outer Radius": 7,
-        "fuse time": "0.0s",
+        "penetration": 4,
+        "outer_radius": 7,
+        "fuse_time": "0.0s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6265",
-        "image": "./images/incendiary_impact.png"
+        "image": "./images/incendiary_impact.JPEG"
       },
       {
         "name": "G-23 Stun",
         "class": "Special Throwable",
         "description": "Temporarily stuns all targets within the effective radius.",
         "damage": 0,
-        "Penetration": 6,
-        "Outer Radius": 10,
-        "fuse time": "1.8s",
+        "penetration": 6,
+        "outer_radius": 10,
+        "fuse_time": "1.8s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
-        "image": "./images/stun.webp"
+        "image": "./images/stun.JPEG"
       },
       {
         "name": "G-3 Smoke",
         "class": "Special Throwable",
         "description": "A 'compliance weapon' to modify enemy behaviour. Creates a thick smoke screen to block targets' line of sight.",
         "damage": 0,
-        "Penetration": 0,
-        "Outer Radius": 5,
-        "fuse time": "2.4s",
+        "penetration": 0,
+        "outer_radius": 5,
+        "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3266",
-        "image": "./images/smoke.webp"
+        "image": "./images/smoke.JPEG"
       },
       {
         "name": "G-123 Thermite",
         "class": "Special Throwable",
         "description": "A thermite grenade designed to adhere to surfaces before burning at 2000°C. Capable of burning through some armor.",
         "damage": 100,
-        "Penetration": 7,
-        "Outer Radius": 2,
-        "fuse time": "2.9s",
+        "penetration": 7,
+        "outer_radius": 2,
+        "fuse_time": "2.9s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
-        "image": "./images/thermite.webp"
+        "image": "./images/thermite.JPEG"
       },
       {
         "name": "K-2 Throwing Knife",
         "class": "Special Throwable",
         "description": "Delivers silent justice to Freedom's enemies.",
         "damage": 250,
-        "Penetration": 3,
+        "penetration": 3,
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
-        "image": "./images/throwing_knife.webp"
+        "image": "./images/throwing_knife.JPEG"
       }
     ]
   },

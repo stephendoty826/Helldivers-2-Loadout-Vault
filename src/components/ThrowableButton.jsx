@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
-import SecondaryModal from "./SecondaryModal";
+import ThrowableModal from "./ThrowableModal";
 
-const SecondaryButton = ({ secondary, setSecondary, secondaryArray }) => {
+const ThrowableButton = ({ throwable, setThrowable, throwableArray }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -12,19 +12,19 @@ const SecondaryButton = ({ secondary, setSecondary, secondaryArray }) => {
         className="weaponButton"
         onClick={() => setShowModal(true)}
       >
-        {secondary.image && (
-          <img src={secondary.image} alt="" className="centerWeaponImage" />
+        {throwable.image && (
+          <img src={throwable.image} alt="" className="centerThrowableImage" />
         )}
       </Button>
-      <SecondaryModal
-        secondary={secondary}
-        setSecondary={setSecondary}
+      <ThrowableModal
+        throwable={throwable}
+        setThrowable={setThrowable}
         show={showModal}
         onHide={() => setShowModal(false)}
-        secondaryArray={secondaryArray}
+        throwableArray={throwableArray}
       />
     </>
   );
 };
 
-export default SecondaryButton;
+export default ThrowableButton;

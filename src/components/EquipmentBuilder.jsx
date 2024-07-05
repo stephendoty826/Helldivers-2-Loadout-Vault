@@ -5,9 +5,11 @@ import ArmorButton from "./ArmorButton";
 import HelmetButton from "./HelmetButton";
 import CapeButton from "./CapeButton";
 import PrimaryButton from "./PrimaryButton"
+import SecondaryButton from "./SecondaryButton";
+import ThrowableButton from "./ThrowableButton";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape, primary, setPrimary}) => {
+const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape, primary, setPrimary, secondary, setSecondary, throwable, setThrowable}) => {
 
   return (
     <div className="mt-5">
@@ -49,11 +51,19 @@ const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape, pr
         </div>
         <div className="d-flex flex-column align-items-center">
           <Form.Label>Secondary</Form.Label>
-          <Button variant="secondary" className="weaponButton"></Button>
+          <SecondaryButton
+            secondary={secondary}
+            setSecondary={setSecondary}
+            secondaryArray={helldivers2Data.secondaries}
+          />
         </div>
         <div className="d-flex flex-column align-items-center">
           <Form.Label>Throwable</Form.Label>
-          <Button variant="secondary" className="weaponButton"></Button>
+          <ThrowableButton
+            throwable={throwable}
+            setThrowable={setThrowable}
+            throwableArray={helldivers2Data.throwables}
+          />
         </div>
       </div>
     </div>

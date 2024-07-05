@@ -2,11 +2,11 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-function SecondaryModal({ show, setSecondary, onHide, secondaryArray}) {
+function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
   const [selected, setSelected] = useState({});
 
   const equipItem = () => {
-    setSecondary(selected);
+    setThrowable(selected);
     onHide();
   };
 
@@ -22,14 +22,14 @@ function SecondaryModal({ show, setSecondary, onHide, secondaryArray}) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Select Secondary
+          Select Throwable
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <div className="modalTop">
-          <p>Shotgun</p>
+          <p>Standard Throwables</p>
           <div className="col-12 d-flex flex-wrap justify-content-between">
-            {secondaryArray.Shotgun.map((equipment) => {
+            {throwableArray["Standard Throwables"].map((equipment) => {
               let isSelected = selected.name === equipment.name;
               return (
                 <img
@@ -45,9 +45,9 @@ function SecondaryModal({ show, setSecondary, onHide, secondaryArray}) {
             })}
           </div>
           <hr />
-          <p>Pistol</p>
+          <p>Special Throwables</p>
           <div className="d-flex flex-wrap justify-content-between">
-            {secondaryArray.Pistol.map((equipment) => {
+            {throwableArray["Special Throwables"].map((equipment) => {
               let isSelected = selected.name === equipment.name;
               return (
                 <img
@@ -73,23 +73,37 @@ function SecondaryModal({ show, setSecondary, onHide, secondaryArray}) {
                 <div className="mx-2 fs-5">STATS</div>
                 <div className="px-2 infoBox">
                   <div className="pt-1">DAMAGE: {selected.damage}</div>
-                  <div className="pt-1">CAPACITY: {selected.capacity}</div>
-                  <div className="py-1">RECOIL: {selected.recoil}</div>
+                  <div className="pt-1">
+                    PENETRATION: {selected.penetration}
+                  </div>
+                  {selected.outer_radius &&
+                  <div className="pt-1">
+                    OUTER RADIUS: {selected.outer_radius}
+                  </div>}
+                  {selected.fuse_time && (
+                    <div className="py-1">FUSE TIME: {selected.fuse_time}</div>
+                  )}
                 </div>
               </div>
               <div className="mt-2">
-                  {selected["weapon traits"] && <div>
+                {selected["weapon traits"] && (
+                  <div>
                     <div className="mx-2 fs-5">WEAPON TRAITS</div>
                     <div className="px-2 infoBox">
                       <div className="pt-1">
                         <ul>
                           {selected["weapon traits"].map((trait, idx) => {
-                            return <li key={idx} className="pb-1">{trait.toUpperCase()}</li>;
+                            return (
+                              <li key={idx} className="pb-1">
+                                {trait.toUpperCase()}
+                              </li>
+                            );
                           })}
                         </ul>
                       </div>
                     </div>
-                  </div>}
+                  </div>
+                )}
               </div>
             </>
           ) : (
@@ -106,4 +120,4 @@ function SecondaryModal({ show, setSecondary, onHide, secondaryArray}) {
   );
 }
 
-export default SecondaryModal;
+export default ThrowableModal;

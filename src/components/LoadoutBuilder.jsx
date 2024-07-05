@@ -43,6 +43,10 @@ const LoadoutBuilder = () => {
               setCape={setCape}
               primary={primary}
               setPrimary={setPrimary}
+              secondary={secondary}
+              setSecondary={setSecondary}
+              throwable={throwable}
+              setThrowable={setThrowable}
             />
             <div className="d-flex flex-column align-items-center w-100">
               <Form.Group className="mb-4 mt-5  w-75">
