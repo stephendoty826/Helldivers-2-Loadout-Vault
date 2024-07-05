@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
 import ArmorModal from "./ArmorModal";
 
-const ArmorModalButton = ({
+const ArmorButton = ({
   armor,
   setArmor,
   armorArray,
@@ -32,4 +32,4 @@ const ArmorModalButton = ({
   );
 };
 
-export default ArmorModalButton;
+export default ArmorButton;

@@ -296,7 +296,7 @@
         "image": "./images/punisher_plasma.webp"
       },
       {
-        "name": "ARC-12",
+        "name": "ARC-12 Blitzer",
         "class": "Energy-Based",
         "description": "This shotgun blasts a wide burst of high-voltage electricity that arcs between all units—enemy or otherwise—within range.",
         "damage": 250,
