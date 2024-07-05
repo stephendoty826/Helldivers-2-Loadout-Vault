@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
 import CapeModal from "./CapeModal";
 
-const CapeModalButton = ({
+const CapeButton = ({
   cape,
   setCape,
   capesArray,
@@ -32,4 +32,4 @@ const CapeModalButton = ({
   );
 };
 
-export default CapeModalButton;
+export default CapeButton;

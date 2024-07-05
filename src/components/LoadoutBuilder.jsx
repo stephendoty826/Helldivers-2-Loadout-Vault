@@ -18,8 +18,6 @@ const LoadoutBuilder = () => {
   const [throwable, setThrowable] = useState({});
   const [loadoutName, setLoadoutName] = useState({});
 
-  console.log("stratagem1", stratagem1)
-
   return (
     <div>
       <Container>
@@ -43,6 +41,12 @@ const LoadoutBuilder = () => {
               setHelmet={setHelmet}
               cape={cape}
               setCape={setCape}
+              primary={primary}
+              setPrimary={setPrimary}
+              secondary={secondary}
+              setSecondary={setSecondary}
+              throwable={throwable}
+              setThrowable={setThrowable}
             />
             <div className="d-flex flex-column align-items-center w-100">
               <Form.Group className="mb-4 mt-5  w-75">

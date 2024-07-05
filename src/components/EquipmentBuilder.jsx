@@ -4,9 +4,12 @@ import Form from "react-bootstrap/Form";
 import ArmorButton from "./ArmorButton";
 import HelmetButton from "./HelmetButton";
 import CapeButton from "./CapeButton";
+import PrimaryButton from "./PrimaryButton"
+import SecondaryButton from "./SecondaryButton";
+import ThrowableButton from "./ThrowableButton";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape}) => {
+const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape, primary, setPrimary, secondary, setSecondary, throwable, setThrowable}) => {
 
   return (
     <div className="mt-5">
@@ -40,15 +43,27 @@ const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape}) =
       <div className="d-flex justify-content-around mt-3">
         <div className="d-flex flex-column align-items-center">
           <Form.Label>Primary</Form.Label>
-          <Button variant="secondary" className="weaponButton"></Button>
+          <PrimaryButton
+            primary={primary}
+            setPrimary={setPrimary}
+            primaryArray={helldivers2Data.primaries}
+          />
         </div>
         <div className="d-flex flex-column align-items-center">
           <Form.Label>Secondary</Form.Label>
-          <Button variant="secondary" className="weaponButton"></Button>
+          <SecondaryButton
+            secondary={secondary}
+            setSecondary={setSecondary}
+            secondaryArray={helldivers2Data.secondaries}
+          />
         </div>
         <div className="d-flex flex-column align-items-center">
           <Form.Label>Throwable</Form.Label>
-          <Button variant="secondary" className="weaponButton"></Button>
+          <ThrowableButton
+            throwable={throwable}
+            setThrowable={setThrowable}
+            throwableArray={helldivers2Data.throwables}
+          />
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
 import HelmetModal from "./HelmetModal";
 
-const HelmetModalButton = ({
+const HelmetButton = ({
   helmet,
   setHelmet,
   helmetArray,
@@ -32,4 +32,4 @@ const HelmetModalButton = ({
   );
 };
 
-export default HelmetModalButton;
+export default HelmetButton;

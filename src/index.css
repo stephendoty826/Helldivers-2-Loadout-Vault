@@ -35,6 +35,11 @@ code {
 .weaponButton {
   height: 16vw;
   width: 21.5vw;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .modalTop{
@@ -80,6 +85,20 @@ code {
 
 .infoBox{
   background-color: #3b4249;
+}
+
+.centerWeaponImage{
+  height: 100%;
+  width: auto;
+  /* height: auto;  */
+  /* width: 100% */
+}
+
+.centerThrowableImage{
+  /* height: 100%; */
+  /* width: auto; */
+  height: auto; 
+  width: 100%
 }
 
 .custom-modal .modal-content {
