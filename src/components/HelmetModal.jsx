@@ -33,7 +33,7 @@ function HelmetAndCapeModal({ show, setHelmet, onHide, helmetArray }) {
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={equipment.image}
                   key={equipment.image}
@@ -74,7 +74,7 @@ function HelmetAndCapeModal({ show, setHelmet, onHide, helmetArray }) {
               </div>
             </>
           ) : (
-            <div className="fs-1">Select armor to view its stats</div>
+            <div className="fs-1">Select item to view its stats</div>
           )}
         </div>
       </Modal.Body>

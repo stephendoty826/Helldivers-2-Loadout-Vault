@@ -1807,8 +1807,8 @@
         "call-in time": "0s",
         "uses": "1 — 2 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"],
-        "credit": "",
+        "stratagem traits": ["explosive", "eagle"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3091",
         "image": "./images/eagle_500kg_bomb.webp"
       },
       {
@@ -1817,7 +1817,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "70s — 63s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3083",
         "image": "./images/orbital_gatling_barrage.webp"
       },
@@ -1827,7 +1827,7 @@
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"],
+        "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3092",
         "image": "./images/eagle_airstrike.webp"
       },
@@ -1837,7 +1837,7 @@
         "call-in time": "3s — 2s with upgrade",
         "uses": "unlimited",
         "cooldown time": "240s — 216s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3088",
         "image": "./images/orbital_walking_barrage.webp"
       },
@@ -1847,7 +1847,7 @@
         "call-in time": "0s",
         "uses": "4 — 5 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["eagle"],
+        "stratagem traits": ["eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3097",
         "image": "./images/eagle_strafing_run.webp"
       },
@@ -1857,7 +1857,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "75s — 68s with upgrade",
-        "strategem traits": ["orbital"],
+        "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3081",
         "image": "./images/orbital_EMS_strike.webp"
       },
@@ -1867,7 +1867,7 @@
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"],
+        "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3096",
         "image": "./images/eagle_smoke_strike.webp"
       },
@@ -1877,7 +1877,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "75s — 68s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3082",
         "image": "./images/orbital_gas_strike.webp"
       },
@@ -1887,7 +1887,7 @@
         "call-in time": "1s — 0s with upgrade",
         "uses": "unlimited",
         "cooldown time": "210s — 189s with upgrade",
-        "strategem traits": ["orbital"],
+        "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3086",
         "image": "./images/orbital_railcannon_strike.webp"
       },
@@ -1897,7 +1897,7 @@
         "call-in time": "0s",
         "uses": "4 — 5 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"],
+        "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3094",
         "image": "./images/eagle_cluster_bomb.webp"
       },
@@ -1907,7 +1907,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "100s — 90s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3087",
         "image": "./images/orbital_smoke_strike.webp"
       },
@@ -1917,7 +1917,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "100s — 90s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3080",
         "image": "./images/orbital_airburst_strike.webp"
       },
@@ -1927,7 +1927,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "3",
         "cooldown time": "300s — 270s with upgrade",
-        "strategem traits": ["orbital"],
+        "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3084",
         "image": "./images/orbital_laser.webp"
       },
@@ -1937,7 +1937,7 @@
         "call-in time": "2s — 1s with upgrade",
         "uses": "unlimited",
         "cooldown time": "90s — 81s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3085",
         "image": "./images/orbital_precision_strike.webp"
       },
@@ -1947,7 +1947,7 @@
         "call-in time": "6s — 5s with upgrade",
         "uses": "unlimited",
         "cooldown time": "240s — 216s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3079",
         "image": "./images/orbital_380mm_HE_barrage.webp"
       },
@@ -1957,7 +1957,7 @@
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"],
+        "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3095",
         "image": "./images/eagle_napalm_strike.webp"
       },
@@ -1967,7 +1967,7 @@
         "call-in time": "5s — 4s with upgrade",
         "uses": "unlimited",
         "cooldown time": "240s — 216s with upgrade",
-        "strategem traits": ["explosive", "orbital"],
+        "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3078",
         "image": "./images/orbital_120mm_HE_barrage.webp"
       },
@@ -1977,7 +1977,7 @@
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
         "cooldown time": "15s — 8s with upgrade",
-        "strategem traits": ["explosive", "eagle"],
+        "stratagem traits": ["explosive", "eagle"],
         "credit": "",
         "image": "./images/eagle_110mm_rocket_pods.webp"
       }
@@ -1989,7 +1989,7 @@
         "call-in time": "0s",
         "uses": "2",
         "cooldown time": "600s",
-        "strategem traits": ["explosive", "vehicle"],
+        "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6622",
         "image": "./images/emancipator_exosuit.webp"
       },
@@ -2004,7 +2004,7 @@
         "spare magazines": 3,
         "reload time": "5.8s",
         "tactical reload": "4.4s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2996",
         "image": "./images/stalwart.webp"
       },
@@ -2019,7 +2019,7 @@
         "spare magazines": 10,
         "reload time": "5.2s",
         "tactical reload": "1.7s",
-        "strategem traits": ["support weapon", "hellpod", "support backpack"],
+        "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2976",
         "image": "./images/autocannon.webp"
       },
@@ -2029,7 +2029,7 @@
         "call-in time": "0s",
         "uses": "2",
         "cooldown time": "600s",
-        "strategem traits": ["explosive", "vehicle"],
+        "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3099",
         "image": "./images/patriot_exosuit.webp"
       },
@@ -2044,7 +2044,7 @@
         "spare magazines": 2,
         "reload time": "5.5s",
         "tactical reload": "3.9s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=4167",
         "image": "./images/heavy_machine_gun.webp"
       },
@@ -2055,7 +2055,7 @@
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
         "recharge time": "12s",
-        "strategem traits": ["hellpod", "backpack"],
+        "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2993",
         "image": "./images/shield_generator_pack.webp"
       },
@@ -2068,7 +2068,7 @@
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6.7s",
-        "strategem traits": ["support weapon", "hellpod", "support backpack"],
+        "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5880",
         "image": "./images/airburst_rocket_launcher.webp"
       },
@@ -2081,7 +2081,7 @@
         "capacity": 1,
         "spare magazines": 20,
         "reload time": "1.3s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2990",
         "image": "./images/railgun.webp"
       },
@@ -2096,7 +2096,7 @@
         "spare magazines": 1,
         "reload time": "3.6s",
         "tactical reload": "5s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2987",
         "image": "./images/laser_cannon.webp"
       },
@@ -2108,7 +2108,7 @@
         "cooldown time": "480s - 432s with upgrade",
         "capacity": "infinite",
         "fire rate": 60,
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2974",
         "image": "./images/arc_thrower.webp"
       },
@@ -2119,7 +2119,7 @@
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
         "reload time": "",
-        "strategem traits": ["hellpod", "backpack"],
+        "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2983",
         "image": "./images/guard_dog.webp"
       },
@@ -2132,7 +2132,7 @@
         "capacity": 1,
         "spare magazines": 3,
         "reload time": "5s",
-        "strategem traits": ["support weapon", "hellpod", "support backpack"],
+        "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2995",
         "image": "./images/spear.webp"
       },
@@ -2147,7 +2147,7 @@
         "spare magazines": 2,
         "reload time": "3.5s",
         "tactical reload": "3s",
-        "strategem traits": ["support weapon", "hellpod", "explosive"],
+        "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2982",
         "image": "./images/grenade_launcher.webp"
       },
@@ -2162,7 +2162,7 @@
         "spare magazines": 3,
         "reload time": "5s",
         "tactical reload": "4.2s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2989",
         "image": "./images/machine_gun.webp"
       },
@@ -2172,7 +2172,7 @@
         "call-in time": "5s",
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
-        "strategem traits": ["hellpod", "backpack"],
+        "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2977",
         "image": "./images/ballistic_shield_backpack.webp"
       },
@@ -2182,7 +2182,7 @@
         "call-in time": "5s",
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
-        "strategem traits": ["hellpod", "backpack"],
+        "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2997",
         "image": "./images/supply_pack.webp"
       },
@@ -2195,7 +2195,7 @@
         "fire limit": "12.5s",
         "spare magazines": 4,
         "reload time": "3.9s",
-        "strategem traits": ["support weapon", "hellpod", "incendiary"],
+        "stratagem traits": ["support weapon", "hellpod", "incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2980",
         "image": "./images/flamethrower.webp"
       },
@@ -2205,7 +2205,7 @@
         "call-in time": "5s",
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
-        "strategem traits": ["hellpod", "backpack"],
+        "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2984",
         "image": "./images/rover.webp"
       },
@@ -2218,7 +2218,7 @@
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6s",
-        "strategem traits": [
+        "stratagem traits": [
           "support weapon",
           "hellpod",
           "explosive",
@@ -2234,7 +2234,7 @@
         "uses": "unlimited",
         "cooldown time": "480s - 432s with upgrade",
         "recharge time": "20s",
-        "strategem traits": ["hellpod", "backpack"],
+        "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2986",
         "image": "./images/jump_pack.webp"
       },
@@ -2249,7 +2249,7 @@
         "spare magazines": 6,
         "reload time": "3.2s",
         "tactical reload": "2.6s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2972",
         "image": "./images/anti-materiel_rifle.webp"
       },
@@ -2260,7 +2260,7 @@
         "uses": "unlimited",
         "cooldown time": "70s - 63 with upgrade",
         "capacity": 1,
-        "strategem traits": ["support weapon", "hellpod", "explosive"],
+        "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2979",
         "image": "./images/expendable_anti-tank.webp"
       },
@@ -2273,7 +2273,7 @@
         "capacity": "infinite",
         "charge time": "3s",
         "recharge time": "15s",
-        "strategem traits": ["support weapon", "hellpod"],
+        "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=4166",
         "image": "./images/quasar_cannon.webp"
       }
@@ -2285,7 +2285,7 @@
         "call-in time": "0s",
         "uses": "unlimited",
         "cooldown time": "90s - 81s with upgrade",
-        "strategem traits": ["hellpod"],
+        "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2994",
         "image": "./images/shield_generator_relay.webp"
       },
@@ -2297,7 +2297,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 10,
         "capacity": "15 — 22 with upgrade",
-        "strategem traits": ["hellpod", "explosive", "sentry"],
+        "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3719",
         "image": "./images/EMS_mortar_sentry.webp"
       },
@@ -2309,7 +2309,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 80,
         "capacity": "32 — 40 with upgrade",
-        "strategem traits": ["hellpod", "explosive", "sentry"],
+        "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2992",
         "image": "./images/rocket_sentry.webp"
       },
@@ -2321,7 +2321,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 1560,
         "capacity": "390 — 585 with upgrade",
-        "strategem traits": ["hellpod", "sentry"],
+        "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2981",
         "image": "./images/gatling_sentry.webp"
       },
@@ -2331,7 +2331,7 @@
         "call-in time": "0s",
         "uses": "unlimited",
         "cooldown time": "150s - 135s with upgrade",
-        "strategem traits": ["hellpod", "sentry"],
+        "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2998",
         "image": "./images/tesla_tower.webp"
       },
@@ -2343,7 +2343,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 32,
         "capacity": "36 — 54 with upgrade",
-        "strategem traits": ["hellpod", "explosive", "sentry"],
+        "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3077",
         "image": "./images/mortar_sentry.webp"
       },
@@ -2353,7 +2353,7 @@
         "call-in time": "0s",
         "uses": "unlimited",
         "cooldown time": "180s - 162s with upgrade",
-        "strategem traits": ["hellpod", "explosive"],
+        "stratagem traits": ["hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2973",
         "image": "./images/anti-personnel_minefield.webp"
       },
@@ -2365,7 +2365,7 @@
         "cooldown time": "120s - 108s with upgrade",
         "fire rate": 660,
         "capacity": "130 — 195 with upgrade",
-        "strategem traits": ["hellpod", "sentry"],
+        "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2988",
         "image": "./images/machine_gun_sentry.webp"
       },
@@ -2377,7 +2377,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "fire rate": 42,
         "capacity": "24 — 36 with upgrade",
-        "strategem traits": ["hellpod", "sentry"],
+        "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2975",
         "image": "./images/autocannon_sentry.webp"
       },
@@ -2387,7 +2387,7 @@
         "call-in time": "0s",
         "uses": "unlimited",
         "cooldown time": "180s - 162s with upgrade",
-        "strategem traits": ["hellpod", "explosive"],
+        "stratagem traits": ["hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3501",
         "image": "./images/incendiary_minefield.webp"
       },
@@ -2399,7 +2399,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "capacity": 300,
         "fire rate": 660,
-        "strategem traits": ["hellpod"],
+        "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2985",
         "image": "./images/hmg_emplacement.webp"
       }

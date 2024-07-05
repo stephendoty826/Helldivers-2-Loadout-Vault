@@ -12,7 +12,6 @@ const ArmorModalButton = ({
 
   return (
     <>
-      {/* <img src={image} alt="" /> */}
       <Button
         variant="secondary"
         className="armorButton"

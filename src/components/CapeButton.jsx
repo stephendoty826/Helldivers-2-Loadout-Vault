@@ -8,8 +8,6 @@ const CapeModalButton = ({
   capesArray,
 }) => {
 
-  console.log(cape)
-
   const [showModal, setShowModal] = useState(false);
 
   return (

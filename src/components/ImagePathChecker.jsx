@@ -1,8 +1,6 @@
 import React from "react";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-console.log(helldivers2Data);
-
 const ImagePathChecker = () => {
   return (
     <div>
