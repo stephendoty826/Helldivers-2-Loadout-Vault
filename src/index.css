@@ -21,6 +21,8 @@ code {
 .stratButton {
   height: 16vw;
   width: 16vw;
+  padding: 0px;
+  overflow: hidden;
 }
 
 .armorButton {
@@ -67,7 +69,11 @@ code {
   box-shadow: 0px 0px 10px 0px #fff1ca;
 }
 
-.armorSelector{
+.equipped{
+  box-shadow: 0px 0px 10px 0px #fffca3;
+}
+
+.itemSelector{
   width: 27vw;
   margin-bottom: 3vw;
 }

@@ -4,13 +4,12 @@ import StratBuilder from "./StratBuilder";
 import EquipmentBuilder from "./EquipmentBuilder";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import helldivers2Data from "../gameData/helldivers2.json";
 
 const LoadoutBuilder = () => {
-  const [stratagem1, setStatagem1] = useState({});
-  const [stratagem2, setStatagem2] = useState({});
-  const [stratagem3, setStatagem3] = useState({});
-  const [stratagem4, setStatagem4] = useState({});
+  const [stratagem1, setStratagem1] = useState({});
+  const [stratagem2, setStratagem2] = useState({});
+  const [stratagem3, setStratagem3] = useState({});
+  const [stratagem4, setStratagem4] = useState({});
   const [armor, setArmor] = useState({});
   const [helmet, setHelmet] = useState({});
   const [cape, setCape] = useState({});
@@ -27,8 +26,24 @@ const LoadoutBuilder = () => {
         <div className="d-flex align-items-center flex-column vh-85">
           <p className="display-6 mt-3">Loadout Builder</p>
           <div className="text-center w-100">
-            <StratBuilder helldivers2Data={helldivers2Data} />
-            <EquipmentBuilder armor={armor} setArmor={setArmor} helmet={helmet} setHelmet={setHelmet} cape={cape} setCape={setCape}/>
+            <StratBuilder
+              stratagem1={stratagem1}
+              setStratagem1={setStratagem1}
+              stratagem2={stratagem2}
+              setStratagem2={setStratagem2}
+              stratagem3={stratagem3}
+              setStratagem3={setStratagem3}
+              stratagem4={stratagem4}
+              setStratagem4={setStratagem4}
+            />
+            <EquipmentBuilder
+              armor={armor}
+              setArmor={setArmor}
+              helmet={helmet}
+              setHelmet={setHelmet}
+              cape={cape}
+              setCape={setCape}
+            />
             <div className="d-flex flex-column align-items-center w-100">
               <Form.Group className="mb-4 mt-5  w-75">
                 <Form.Label>Loadout Name</Form.Label>

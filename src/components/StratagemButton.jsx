@@ -14,11 +14,11 @@ const StratagemButton = ({
     <>
       <Button
         variant="secondary"
-        className="armorButton"
+        className="stratButton"
         onClick={() => setShowModal(true)}
       >
         {stratagem.image && (
-          <img src={stratagem.image} alt="" className="armorButton" />
+          <img src={stratagem.image} alt="" className="stratButton" />
         )}
       </Button>
       <StratagemModal

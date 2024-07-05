@@ -2,7 +2,12 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
+function StratagemModal({
+  show,
+  setStratagem,
+  onHide,
+  stratagemArray,
+}) {
   const [selected, setSelected] = useState({});
 
   const equipItem = () => {
@@ -27,14 +32,15 @@ function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
       </Modal.Header>
       <Modal.Body>
         <div className="modalTop">
-          <p>Light Armor</p>
+          <p>Offensive</p>
           <div className="col-12 d-flex flex-wrap justify-content-between">
             {stratagemArray.offensive.map((stratagem) => {
               let isSelected = selected.name === stratagem.name;
+
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={stratagem.image}
                   key={stratagem.image}
@@ -45,14 +51,14 @@ function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
             })}
           </div>
           <hr />
-          <p>Medium Armor</p>
+          <p>Supply</p>
           <div className="d-flex flex-wrap justify-content-between">
             {stratagemArray.supply.map((stratagem) => {
               let isSelected = selected.name === stratagem.name;
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={stratagem.image}
                   key={stratagem.image}
@@ -63,14 +69,14 @@ function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
             })}
           </div>
           <hr />
-          <p>Heavy Armor</p>
+          <p>Defensive</p>
           <div className="d-flex flex-wrap justify-content-between">
-            {stratagemArray.offensive.map((stratagem) => {
+            {stratagemArray.defensive.map((stratagem) => {
               let isSelected = selected.name === stratagem.name;
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={stratagem.image}
                   key={stratagem.image}
@@ -91,28 +97,29 @@ function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
                 <div className="mx-2 fs-5">STATS</div>
                 <div className="px-2 infoBox">
                   <div className="pt-1">
-                    ARMOR RATING: {selected["armor rating"]}
+                    CALL-IN TIME: {selected["call-in time"]}
                   </div>
-                  <div className="pt-1">SPEED: {selected.speed}</div>
+                  <div className="pt-1">USES: {selected.uses}</div>
                   <div className="py-1">
-                    STAMINA REGEN: {selected["stamina regen"]}
+                    COOLDOWN TIME: {selected["cooldown time"]}
                   </div>
                 </div>
               </div>
               <div className="mt-2">
-                <div className="mx-2 fs-5">ARMOR PASSIVE</div>
+                <div className="mx-2 fs-5">STRATAGEM TRAITS</div>
                 <div className="px-2 infoBox">
                   <div className="pt-1">
-                    {selected["armor passive"].name.toUpperCase()}
-                  </div>
-                  <div className="py-1 ">
-                    {selected["armor passive"].description}
+                    <ul>
+                      {selected["stratagem traits"].map((trait) => {
+                        return <li>{trait.toUpperCase()}</li>;
+                      })}
+                    </ul>
                   </div>
                 </div>
               </div>
             </>
           ) : (
-            <div className="fs-1">Select armor to view its stats</div>
+            <div className="fs-1">Select item to view its stats</div>
           )}
         </div>
       </Modal.Body>

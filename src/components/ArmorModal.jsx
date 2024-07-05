@@ -34,7 +34,7 @@ function ArmorModal({ show, setArmor, onHide, armorArray}) {
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={equipment.image}
                   key={equipment.image}
@@ -52,7 +52,7 @@ function ArmorModal({ show, setArmor, onHide, armorArray}) {
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={equipment.image}
                   key={equipment.image}
@@ -70,7 +70,7 @@ function ArmorModal({ show, setArmor, onHide, armorArray}) {
               return (
                 <img
                   className={
-                    isSelected ? "selected armorSelector" : "armorSelector"
+                    isSelected ? "selected itemSelector" : "itemSelector"
                   }
                   src={equipment.image}
                   key={equipment.image}
@@ -112,7 +112,7 @@ function ArmorModal({ show, setArmor, onHide, armorArray}) {
               </div>
             </>
           ) : (
-            <div className="fs-1">Select armor to view its stats</div>
+            <div className="fs-1">Select item to view its stats</div>
           )}
         </div>
       </Modal.Body>
