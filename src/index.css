@@ -91,8 +91,8 @@ code {
 .centerWeaponImage{
   height: 100%;
   width: auto;
-  /* height: auto;  */
-  /* width: 100% */
+  /* height: auto; 
+  width: 100% */
 }
 
 .centerThrowableImage{
@@ -123,7 +123,9 @@ code {
   color: #fff;
 }
 
-
+.e-caret-hide .dropdown-toggle::after {
+  display: none;
+}
 
 @media all and (max-device-height: 700px) {
   p {

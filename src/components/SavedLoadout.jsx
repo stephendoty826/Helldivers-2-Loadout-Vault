@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronUp,
   faChevronDown,
-  faEllipsisVertical,
 } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
 import { useContext } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import AccordionContext from "react-bootstrap/AccordionContext";
 import { useAccordionButton } from "react-bootstrap/AccordionButton";
+import EllipsisDropDown from "./EllipsisDropdown";
 
 function ContextAwareToggle({ eventKey, callback }) {
   const { activeEventKey } = useContext(AccordionContext);
@@ -51,10 +51,45 @@ const SavedLoadout = ({ savedLoadout }) => {
                 <img src={stratagem.image} alt="" style={{ width: "15vw" }} />
               );
             })}
-            <FontAwesomeIcon icon={faEllipsisVertical} />
+            <EllipsisDropDown />
           </Card.Header>
           <Accordion.Collapse eventKey="0">
-            <Card.Body>Hello! I'm the body</Card.Body>
+            <Card.Body className="d-flex justify-content-between">
+              <div className="d-flex flex-column w-100">
+                <div className="d-flex justify-content-between">
+                  {savedLoadout.armorSet.map((armorPiece) => {
+                    return (
+                      <div className="armorButton">
+                        <img
+                          src={armorPiece.image}
+                          alt=""
+                          className="armorButton"
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+                <br />
+                <div className="d-flex justify-content-between">
+                  {savedLoadout.equipment.map((equipment) => {
+                    let isThrowable = equipment.class.includes("Throwable");
+                    return (
+                      <div className="weaponButton">
+                        <img
+                          src={equipment.image}
+                          alt=""
+                          className={
+                            isThrowable
+                              ? "centerThrowableImage"
+                              : "centerWeaponImage"
+                          }
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </Card.Body>
           </Accordion.Collapse>
         </Card>
       </Accordion>
