@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import StratBuilder from "./StratBuilder";
 import EquipmentBuilder from "./EquipmentBuilder";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { v4 as uuidv4 } from "uuid";
 
 const LoadoutBuilder = () => {
   const [stratagem1, setStratagem1] = useState({});
@@ -17,6 +18,15 @@ const LoadoutBuilder = () => {
   const [secondary, setSecondary] = useState({});
   const [throwable, setThrowable] = useState({});
   const [loadoutName, setLoadoutName] = useState("");
+  const [savedLoadouts, setSavedLoadouts] = useState([])
+
+  useEffect(() => {
+    let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
+
+    if(savedLoadoutsJSON){
+      setSavedLoadouts(JSON.parse(savedLoadoutsJSON))
+    }
+  }, [])
 
   const resetLoadout = () => {
     setStratagem1({});
@@ -32,38 +42,25 @@ const LoadoutBuilder = () => {
     setLoadoutName("");
   };
 
-  console.log("savedLoadouts", localStorage.getItem("savedLoadouts"));
-
   const saveLoadout = () => {
     let loadout = {
       loadoutName,
       stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
       armorSet: [armor, helmet, cape],
-      equipment: [primary, secondary, throwable]
+      equipment: [primary, secondary, throwable],
+      id: uuidv4(),
     };
 
-    // get array from local storage
-    let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
+    // using temp array to ensure latest savedloadouts are saved to localStorage
+    let tempSavedLoadouts = savedLoadouts
 
-    if (savedLoadoutsJSON) {
-      // parse array
-      let savedLoadouts = JSON.parse(savedLoadoutsJSON);
-      // push new loadout array
-      savedLoadouts.push(loadout);
-      // stringify array
-      savedLoadoutsJSON = JSON.stringify(savedLoadouts);
-      // save array to local storage
-      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
-    } else {
-      // create array if array does not exist
-      let savedLoadouts = [];
-      // push new loadout array
-      savedLoadouts.push(loadout);
-      // stringify array
-      savedLoadoutsJSON = JSON.stringify(savedLoadouts);
-      // save array to local storage
-      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
-    }
+    tempSavedLoadouts.push(loadout)
+    // use setSavedLoadouts to update state
+    setSavedLoadouts(tempSavedLoadouts);
+    // stringify array
+    let savedLoadoutsJSON = JSON.stringify(tempSavedLoadouts);
+    // save array to local storage
+    localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
 
     resetLoadout();
   };
