@@ -28,7 +28,7 @@ const HomePage = () => {
           <div className="px-5 pt-5 text-center">
             <p className="fs-6">Welcome, fellow Helldivers</p>
             <p>
-              I am Hell Commander Pyro and Super Earth high command has
+              I am General Pyro and Super Earth high command has
               entrusted me with the creation of this loadout vault.
             </p>
             <p>

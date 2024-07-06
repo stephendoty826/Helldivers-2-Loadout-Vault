@@ -80,6 +80,7 @@ code {
 
 .itemSelector{
   width: 27vw;
+  max-width: 175px;
   margin-bottom: 3vw;
 }
 
@@ -90,8 +91,8 @@ code {
 .centerWeaponImage{
   height: 100%;
   width: auto;
-  /* height: auto;  */
-  /* width: 100% */
+  /* height: auto; 
+  width: 100% */
 }
 
 .centerThrowableImage{
@@ -104,6 +105,26 @@ code {
 .custom-modal .modal-content {
   background-color: #3b4249; /* Change this to your desired color */
   color: #fff; /* Change the text color if needed */
+}
+
+.custom-accordion .card-header{
+  background-color: #292C30;
+  color: #fff;
+  border: 2px solid, #262a2e;
+}
+
+.custom-accordion .card-body{
+  background-color: #212529;
+  color: #fff;
+}
+
+.custom-accordion .accordion-button{
+  background-color: purple;
+  color: #fff;
+}
+
+.e-caret-hide .dropdown-toggle::after {
+  display: none;
 }
 
 @media all and (max-device-height: 700px) {

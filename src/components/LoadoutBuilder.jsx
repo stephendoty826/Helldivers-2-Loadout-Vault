@@ -16,7 +16,57 @@ const LoadoutBuilder = () => {
   const [primary, setPrimary] = useState({});
   const [secondary, setSecondary] = useState({});
   const [throwable, setThrowable] = useState({});
-  const [loadoutName, setLoadoutName] = useState({});
+  const [loadoutName, setLoadoutName] = useState("");
+
+  const resetLoadout = () => {
+    setStratagem1({});
+    setStratagem2({});
+    setStratagem3({});
+    setStratagem4({});
+    setArmor({});
+    setHelmet({});
+    setCape({});
+    setPrimary({});
+    setSecondary({});
+    setThrowable({});
+    setLoadoutName("");
+  };
+
+  console.log("savedLoadouts", localStorage.getItem("savedLoadouts"));
+
+  const saveLoadout = () => {
+    let loadout = {
+      loadoutName,
+      stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
+      armorSet: [armor, helmet, cape],
+      equipment: [primary, secondary, throwable]
+    };
+
+    // get array from local storage
+    let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
+
+    if (savedLoadoutsJSON) {
+      // parse array
+      let savedLoadouts = JSON.parse(savedLoadoutsJSON);
+      // push new loadout array
+      savedLoadouts.push(loadout);
+      // stringify array
+      savedLoadoutsJSON = JSON.stringify(savedLoadouts);
+      // save array to local storage
+      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+    } else {
+      // create array if array does not exist
+      let savedLoadouts = [];
+      // push new loadout array
+      savedLoadouts.push(loadout);
+      // stringify array
+      savedLoadoutsJSON = JSON.stringify(savedLoadouts);
+      // save array to local storage
+      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+    }
+
+    resetLoadout();
+  };
 
   return (
     <div>
@@ -51,11 +101,20 @@ const LoadoutBuilder = () => {
             <div className="d-flex flex-column align-items-center w-100">
               <Form.Group className="mb-4 mt-5  w-75">
                 <Form.Label>Loadout Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter loadout name" />
+                <Form.Control
+                  type="text"
+                  onChange={(e) => setLoadoutName(e.target.value)}
+                  value={loadoutName}
+                  placeholder="Enter loadout name"
+                />
               </Form.Group>
               <div className="d-flex justify-content-between w-50 mb-3">
-                <Button variant="secondary">Reset</Button>
-                <Button variant="secondary">Save</Button>
+                <Button variant="secondary" onClick={resetLoadout}>
+                  Reset
+                </Button>
+                <Button variant="secondary" onClick={saveLoadout}>
+                  Save
+                </Button>
               </div>
             </div>
           </div>
