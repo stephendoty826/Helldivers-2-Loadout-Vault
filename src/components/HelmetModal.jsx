@@ -7,6 +7,7 @@ function HelmetModal({ show, setHelmet, onHide, helmetArray }) {
 
   const equipItem = () => {
     setHelmet(selected);
+    setSelected({});
     onHide();
   };
 

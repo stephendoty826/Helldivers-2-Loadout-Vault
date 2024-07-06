@@ -7,6 +7,7 @@ function PrimaryModal({ show, setPrimary, onHide, primaryArray}) {
 
   const equipItem = () => {
     setPrimary(selected);
+    setSelected({});
     onHide();
   };
 

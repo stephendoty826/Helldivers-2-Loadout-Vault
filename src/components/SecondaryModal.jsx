@@ -7,6 +7,7 @@ function SecondaryModal({ show, setSecondary, onHide, secondaryArray}) {
 
   const equipItem = () => {
     setSecondary(selected);
+    setSelected({});
     onHide();
   };
 

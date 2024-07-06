@@ -7,6 +7,7 @@ function ArmorModal({ show, setArmor, onHide, armorArray}) {
 
   const equipItem = () => {
     setArmor(selected);
+    setSelected({});
     onHide();
   };
 

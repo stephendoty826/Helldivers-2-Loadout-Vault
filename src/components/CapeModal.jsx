@@ -7,6 +7,7 @@ function CapeModal({ show, setCape, onHide, capesArray }) {
 
   const equipItem = () => {
     setCape(selected);
+    setSelected({});
     onHide();
   };
 
