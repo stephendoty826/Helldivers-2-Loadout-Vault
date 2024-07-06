@@ -107,6 +107,24 @@ code {
   color: #fff; /* Change the text color if needed */
 }
 
+.custom-accordion .card-header{
+  background-color: #292C30;
+  color: #fff;
+  border: 2px solid, #262a2e;
+}
+
+.custom-accordion .card-body{
+  background-color: #212529;
+  color: #fff;
+}
+
+.custom-accordion .accordion-button{
+  background-color: purple;
+  color: #fff;
+}
+
+
+
 @media all and (max-device-height: 700px) {
   p {
     font-size: 12px;
