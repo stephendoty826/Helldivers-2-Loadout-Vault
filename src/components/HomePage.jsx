@@ -46,12 +46,7 @@ const HomePage = () => {
             Build Loadout
           </Button>{" "}
           <div className="text-center mx-3 h-100 d-flex align-items-center">
-            <p className="text-center mx-3">{tip}</p>
-            {/* <text className="text-center mx-3">
-              If at first you don't succeed, dive, dive again. And again. And
-              again. And again. And again. And again. And again. And again. And
-              again. And again. And again. And again. And again. And again.
-            </text> */}
+            <p className="text-center mx-3 mt-4">{tip}</p>
           </div>
         </div>
       </Container>

@@ -1,26 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import SavedLoadout from "./SavedLoadout";
 
 const SavedLoadouts = () => {
-  let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
 
-  let savedLoadouts = JSON.parse(savedLoadoutsJSON);
+  const [savedLoadouts, setSavedLoadouts] = useState([]);
+
+  useEffect(() => {
+    let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
+
+    if (savedLoadoutsJSON) {
+      setSavedLoadouts(JSON.parse(savedLoadoutsJSON));
+    }
+  }, []);
 
   return (
     <div>
-      <Container>
+      <Container className="savedLoadoutContainer">
         <div className="d-flex align-items-center flex-column vh-85">
           <p className="display-6 mt-3">Saved Loadouts</p>
           <div className="text-center w-100">
-            {savedLoadouts.map((savedLoadout) => {
+            {savedLoadouts ? savedLoadouts.map((savedLoadout) => {
               return (
-                <>
-                  <SavedLoadout savedLoadout={savedLoadout} />
+                <div key={savedLoadout.id}>
+                  <SavedLoadout savedLoadout={savedLoadout} savedLoadouts={savedLoadouts} setSavedLoadouts={setSavedLoadouts}/>
                   <br />
-                </>
+                </div>
               );
-            })}
+            })
+            :
+            <p>No loadouts saved</p>}
           </div>
         </div>
       </Container>

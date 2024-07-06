@@ -34,7 +34,7 @@ code {
 
 .weaponButton {
   height: 16vw;
-  width: 21.5vw;
+  width: 20.5vw;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -91,13 +91,9 @@ code {
 .centerWeaponImage{
   height: 100%;
   width: auto;
-  /* height: auto; 
-  width: 100% */
 }
 
 .centerThrowableImage{
-  /* height: 100%; */
-  /* width: auto; */
   height: auto; 
   width: 100%
 }
@@ -127,6 +123,11 @@ code {
   display: none;
 }
 
+.savedLoadedImage{
+  width: 15vw;
+  max-width: 125px;
+}
+
 @media all and (max-device-height: 700px) {
   p {
     font-size: 12px;
@@ -145,13 +146,35 @@ code {
   }
   
   .weaponButton {
-    max-width: 235px;
-    max-height: 175px;
+    max-width: 190px;
+    max-height: 165px;
   }
+
   .armorSelector{
     max-width: 175px;
     max-height: 175px;
   }
+
+  .savedLoadoutContainer{
+    max-width: 75vw; 
+  }
+
+}
+
+@media all and (max-width: 992px){
+    .savedLoadedImage{
+      width: 13vw;
+    }
+    .weaponButton {
+      max-width: 175px;
+      max-height: 125px;
+    }
+}
+
+@media all and (min-width: 1400px){
+    .savedLoadoutContainer{
+      max-width: 60vw; 
+    }
 }
 
 

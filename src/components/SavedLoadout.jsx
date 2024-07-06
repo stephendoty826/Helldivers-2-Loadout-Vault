@@ -32,14 +32,8 @@ function ContextAwareToggle({ eventKey, callback }) {
   );
 }
 
-const SavedLoadout = ({ savedLoadout }) => {
+const SavedLoadout = ({savedLoadout, savedLoadouts, setSavedLoadouts }) => {
   return (
-    // <div className="mt-5">
-    //   <label className="h3">Loadout Name</label>
-    //   <div className="d-flex justify-content-around mt-3">
-
-    //   </div>
-    // </div>
     <div>
       <div className="fs-4 my-2`">{savedLoadout.loadoutName}</div>
       <Accordion className="custom-accordion">
@@ -48,18 +42,28 @@ const SavedLoadout = ({ savedLoadout }) => {
             <ContextAwareToggle eventKey="0" />
             {savedLoadout.stratagems.map((stratagem) => {
               return (
-                <img src={stratagem.image} alt="" style={{ width: "15vw" }} />
+                <img
+                  key={stratagem.image}
+                  src={stratagem.image}
+                  alt=""
+                  className="savedLoadedImage"
+                />
               );
             })}
-            <EllipsisDropDown />
+            <EllipsisDropDown
+              id={savedLoadout.id}
+              name={savedLoadout.loadoutName}
+              savedLoadouts={savedLoadouts}
+              setSavedLoadouts={setSavedLoadouts}
+            />
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Card.Body className="d-flex justify-content-between">
               <div className="d-flex flex-column w-100">
-                <div className="d-flex justify-content-between">
+                <div className="d-flex justify-content-around">
                   {savedLoadout.armorSet.map((armorPiece) => {
                     return (
-                      <div className="armorButton">
+                      <div className="armorButton" key={armorPiece.image}>
                         <img
                           src={armorPiece.image}
                           alt=""
@@ -70,11 +74,11 @@ const SavedLoadout = ({ savedLoadout }) => {
                   })}
                 </div>
                 <br />
-                <div className="d-flex justify-content-between">
+                <div className="d-flex justify-content-around">
                   {savedLoadout.equipment.map((equipment) => {
                     let isThrowable = equipment.class.includes("Throwable");
                     return (
-                      <div className="weaponButton">
+                      <div className="weaponButton" key={equipment.image}>
                         <img
                           src={equipment.image}
                           alt=""

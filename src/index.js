@@ -7,12 +7,10 @@ import BaseLayout from "./components/layout/BaseLayout";
 import HomePage from './components/HomePage';
 import LoadoutBuilder from './components/LoadoutBuilder';
 import SavedLoadouts from './components/SavedLoadouts';
-import ImagePathChecker from "./components/ImagePathChecker";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <ImagePathChecker/> */}
     <Router>
       <BaseLayout>
         <Routes>
