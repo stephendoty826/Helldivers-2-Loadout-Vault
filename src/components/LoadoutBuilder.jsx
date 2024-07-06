@@ -36,6 +36,7 @@ const LoadoutBuilder = () => {
 
   const saveLoadout = () => {
     let loadout = {
+      loadoutName,
       stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
       armorSet: [armor, helmet, cape],
       equipment: [primary, secondary, throwable]

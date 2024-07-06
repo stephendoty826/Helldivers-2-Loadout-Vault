@@ -1,27 +1,38 @@
-import React from 'react'
-import Accordion from "react-bootstrap/Accordion";
-import { useAccordionButton } from "react-bootstrap/AccordionButton";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronUp,
+  faChevronDown,
+  faEllipsisVertical,
+} from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
+import { useContext } from "react";
+import Accordion from "react-bootstrap/Accordion";
+import AccordionContext from "react-bootstrap/AccordionContext";
+import { useAccordionButton } from "react-bootstrap/AccordionButton";
 
-function CustomToggle({ children, eventKey }) {
-  const decoratedOnClick = useAccordionButton(eventKey, () =>
-    console.log("totally custom!")
+function ContextAwareToggle({ eventKey, callback }) {
+  const { activeEventKey } = useContext(AccordionContext);
+
+  const decoratedOnClick = useAccordionButton(
+    eventKey,
+    () => callback && callback(eventKey)
   );
 
+  const isCurrentEventKey = activeEventKey === eventKey;
+
   return (
-    <button
-      type="button"
-      style={{ backgroundColor: "pink" }}
-      onClick={decoratedOnClick}
-    >
-      {children}
-    </button>
+    <>
+      {isCurrentEventKey ? (
+        <FontAwesomeIcon icon={faChevronUp} onClick={decoratedOnClick} />
+      ) : (
+        <FontAwesomeIcon icon={faChevronDown} onClick={decoratedOnClick} />
+      )}
+    </>
   );
 }
 
-const SavedLoadout = () => {
+const SavedLoadout = ({ savedLoadout }) => {
   return (
     // <div className="mt-5">
     //   <label className="h3">Loadout Name</label>
@@ -30,28 +41,25 @@ const SavedLoadout = () => {
     //   </div>
     // </div>
     <div>
+      <div className="fs-4 my-2`">{savedLoadout.loadoutName}</div>
       <Accordion className="custom-accordion">
         <Card>
           <Card.Header className="d-flex justify-content-between">
-            <CustomToggle eventKey="0">
-              <FontAwesomeIcon icon={faChevronDown} />
-            </CustomToggle>{" "}
+            <ContextAwareToggle eventKey="0" />
+            {savedLoadout.stratagems.map((stratagem) => {
+              return (
+                <img src={stratagem.image} alt="" style={{ width: "15vw" }} />
+              );
+            })}
+            <FontAwesomeIcon icon={faEllipsisVertical} />
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Card.Body>Hello! I'm the body</Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Card>
-          <Card.Header>
-            <CustomToggle eventKey="1">Click me!</CustomToggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="1">
-            <Card.Body>Hello! I'm another body</Card.Body>
-          </Accordion.Collapse>
-        </Card>
       </Accordion>
     </div>
   );
-}
+};
 
-export default SavedLoadout
+export default SavedLoadout;

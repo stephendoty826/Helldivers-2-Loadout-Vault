@@ -2,7 +2,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-function HelmetAndCapeModal({ show, setHelmet, onHide, helmetArray }) {
+function HelmetModal({ show, setHelmet, onHide, helmetArray }) {
   const [selected, setSelected] = useState({});
 
   const equipItem = () => {
@@ -87,4 +87,4 @@ function HelmetAndCapeModal({ show, setHelmet, onHide, helmetArray }) {
   );
 }
 
-export default HelmetAndCapeModal;
+export default HelmetModal;
