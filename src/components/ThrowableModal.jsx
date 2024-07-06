@@ -7,6 +7,7 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
 
   const equipItem = () => {
     setThrowable(selected);
+    setSelected({});
     onHide();
   };
 

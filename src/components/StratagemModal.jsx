@@ -12,6 +12,7 @@ function StratagemModal({
 
   const equipItem = () => {
     setStratagem(selected);
+    setSelected({})
     onHide();
   };
 

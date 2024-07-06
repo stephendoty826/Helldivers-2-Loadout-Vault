@@ -20,7 +20,7 @@ const SavedLoadouts = () => {
         <div className="d-flex align-items-center flex-column vh-85">
           <p className="display-6 mt-3">Saved Loadouts</p>
           <div className="text-center w-100">
-            {savedLoadouts ? savedLoadouts.map((savedLoadout) => {
+            {savedLoadouts.length > 0 ? savedLoadouts.map((savedLoadout) => {
               return (
                 <div key={savedLoadout.id}>
                   <SavedLoadout savedLoadout={savedLoadout} savedLoadouts={savedLoadouts} setSavedLoadouts={setSavedLoadouts}/>
