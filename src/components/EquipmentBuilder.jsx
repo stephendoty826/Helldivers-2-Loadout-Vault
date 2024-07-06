@@ -16,19 +16,19 @@ const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape, pr
       <label className="h3">Equipment</label>
       <div className="d-flex justify-content-around mt-3">
         <div className="d-flex flex-column">
-          <Form.Label>Armor</Form.Label>
-          <ArmorButton
-            armor={armor}
-            setArmor={setArmor}
-            armorArray={helldivers2Data.armor}
-          />
-        </div>
-        <div className="d-flex flex-column">
           <Form.Label>Helmet</Form.Label>
           <HelmetButton
             helmet={helmet}
             setHelmet={setHelmet}
             helmetArray={helldivers2Data.helmets}
+          />
+        </div>
+        <div className="d-flex flex-column">
+          <Form.Label>Armor</Form.Label>
+          <ArmorButton
+            armor={armor}
+            setArmor={setArmor}
+            armorArray={helldivers2Data.armor}
           />
         </div>
         <div className="d-flex flex-column">
