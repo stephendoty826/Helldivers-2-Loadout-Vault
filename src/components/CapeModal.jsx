@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import DetailsAccordion from "./DetailsAccordion";
 
 function CapeModal({ show, setCape, onHide, capesArray }) {
   const [selected, setSelected] = useState({});
@@ -45,23 +45,11 @@ function CapeModal({ show, setCape, onHide, capesArray }) {
             })}
           </div>
         </div>
-        <hr />
-        <div className="modalSmallBottom">
-          {selected.name ? (
-            <>
-              <div className="fs-5">{selected.name?.toUpperCase()}</div>
-              <div>{selected.description}</div>
-            </>
-          ) : (
-            <div className="fs-1">Select item to view its stats</div>
-          )}
-        </div>
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={equipItem}>
-          {selected.name ? "Equip" : "Close"}
-        </Button>
-      </Modal.Footer>
+      <DetailsAccordion
+        equipItem={equipItem}
+        selected={selected}
+      />
     </Modal>
   );
 }

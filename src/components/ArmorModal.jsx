@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import DetailsAccordion from "./DetailsAccordion";
 
 function ArmorModal({ show, setArmor, onHide, armorArray}) {
   const [selected, setSelected] = useState({});
@@ -82,46 +82,12 @@ function ArmorModal({ show, setArmor, onHide, armorArray}) {
             })}
           </div>
         </div>
-        <hr />
-        <div className="modalBottom">
-          {selected.name ? (
-            <>
-              <div className="fs-5">{selected.name?.toUpperCase()}</div>
-              <div>{selected.description}</div>
-              <div className="mt-2">
-                <div className="mx-2 fs-5">STATS</div>
-                <div className="px-2 infoBox">
-                  <div className="pt-1">
-                    ARMOR RATING: {selected["armor rating"]}
-                  </div>
-                  <div className="pt-1">SPEED: {selected.speed}</div>
-                  <div className="py-1">
-                    STAMINA REGEN: {selected["stamina regen"]}
-                  </div>
-                </div>
-              </div>
-              <div className="mt-2">
-                <div className="mx-2 fs-5">ARMOR PASSIVE</div>
-                <div className="px-2 infoBox">
-                  <div className="pt-1">
-                    {selected["armor passive"].name.toUpperCase()}
-                  </div>
-                  <div className="py-1 ">
-                    {selected["armor passive"].description}
-                  </div>
-                </div>
-              </div>
-            </>
-          ) : (
-            <div className="fs-1">Select item to view its stats</div>
-          )}
-        </div>
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={equipItem}>
-          {selected.name ? "Equip" : "Close"}
-        </Button>
-      </Modal.Footer>
+      <DetailsAccordion
+        variant="armor"
+        equipItem={equipItem}
+        selected={selected}
+      />
     </Modal>
   );
 }

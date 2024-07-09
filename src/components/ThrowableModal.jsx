@@ -4,6 +4,7 @@ import Modal from "react-bootstrap/Modal";
 
 function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
   const [selected, setSelected] = useState({});
+  const [showDetails, setShowDetails] = useState(false)
 
   const equipItem = () => {
     setThrowable(selected);
@@ -26,8 +27,8 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
           Select Throwable
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>
-        <div className="modalTop">
+      <Modal.Body style={{padding: "0px"}}>
+        <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
           <p>Standard Throwables</p>
           <div className="col-12 d-flex flex-wrap justify-content-between">
             {throwableArray["Standard Throwables"].map((equipment) => {
@@ -64,8 +65,7 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
             })}
           </div>
         </div>
-        <hr />
-        <div className="modalBottom">
+        <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
           {selected.name ? (
             <>
               <div className="fs-5">{selected.name?.toUpperCase()}</div>
@@ -77,10 +77,11 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
                   <div className="pt-1">
                     PENETRATION: {selected.penetration}
                   </div>
-                  {selected.outer_radius &&
-                  <div className="pt-1">
-                    OUTER RADIUS: {selected.outer_radius}
-                  </div>}
+                  {selected.outer_radius && (
+                    <div className="pt-1">
+                      OUTER RADIUS: {selected.outer_radius}
+                    </div>
+                  )}
                   {selected.fuse_time && (
                     <div className="py-1">FUSE TIME: {selected.fuse_time}</div>
                   )}
@@ -113,6 +114,9 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
         </div>
       </Modal.Body>
       <Modal.Footer>
+        <Button variant="primary" onClick={() => setShowDetails(!showDetails)}>
+          Show Details
+        </Button>
         <Button variant="secondary" onClick={equipItem}>
           {selected.name ? "Equip" : "Close"}
         </Button>

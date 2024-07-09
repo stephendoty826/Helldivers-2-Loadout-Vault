@@ -1,18 +1,14 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import DetailsAccordion from "./DetailsAccordion";
 
-function StratagemModal({
-  show,
-  setStratagem,
-  onHide,
-  stratagemArray,
-}) {
+function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
   const [selected, setSelected] = useState({});
 
   const equipItem = () => {
     setStratagem(selected);
-    setSelected({})
+    setSelected({});
     onHide();
   };
 
@@ -31,8 +27,8 @@ function StratagemModal({
           Select Stratagem
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>
-        <div className="modalTop">
+      <Modal.Body className="modalTop">
+        <div>
           <p>Offensive</p>
           <div className="col-12 d-flex flex-wrap justify-content-between">
             {stratagemArray.offensive.map((stratagem) => {
@@ -88,7 +84,6 @@ function StratagemModal({
             })}
           </div>
         </div>
-        <hr />
         <div className="modalBottom">
           {selected.name ? (
             <>
@@ -161,6 +156,7 @@ function StratagemModal({
           {selected.name ? "Equip" : "Close"}
         </Button>
       </Modal.Footer>
+      <DetailsAccordion equipItem={equipItem} selected={selected}/>
     </Modal>
   );
 }
