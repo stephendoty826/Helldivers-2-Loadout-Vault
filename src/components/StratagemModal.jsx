@@ -2,17 +2,12 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-function StratagemModal({
-  show,
-  setStratagem,
-  onHide,
-  stratagemArray,
-}) {
+function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
   const [selected, setSelected] = useState({});
 
   const equipItem = () => {
     setStratagem(selected);
-    setSelected({})
+    setSelected({});
     onHide();
   };
 
@@ -157,9 +152,16 @@ function StratagemModal({
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={equipItem}>
-          {selected.name ? "Equip" : "Close"}
-        </Button>
+        {selected.name ? (
+
+          <Button variant="secondary" onClick={equipItem}>
+            Equip
+          </Button>
+        ) : (
+          <Button variant="secondary" onClick={onHide}>
+            Close
+          </Button>
+        )}
       </Modal.Footer>
     </Modal>
   );

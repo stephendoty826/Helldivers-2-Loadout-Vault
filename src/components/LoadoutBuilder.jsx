@@ -18,15 +18,15 @@ const LoadoutBuilder = () => {
   const [secondary, setSecondary] = useState({});
   const [throwable, setThrowable] = useState({});
   const [loadoutName, setLoadoutName] = useState("");
-  const [savedLoadouts, setSavedLoadouts] = useState([])
+  const [savedLoadouts, setSavedLoadouts] = useState([]);
 
   useEffect(() => {
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
 
-    if(savedLoadoutsJSON){
-      setSavedLoadouts(JSON.parse(savedLoadoutsJSON))
+    if (savedLoadoutsJSON) {
+      setSavedLoadouts(JSON.parse(savedLoadoutsJSON));
     }
-  }, [])
+  }, []);
 
   const resetLoadout = () => {
     setStratagem1({});
@@ -43,26 +43,45 @@ const LoadoutBuilder = () => {
   };
 
   const saveLoadout = () => {
-    let loadout = {
-      loadoutName,
-      stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
-      armorSet: [armor, helmet, cape],
-      equipment: [primary, secondary, throwable],
-      id: uuidv4(),
-    };
+    let isLoadoutFilled =
+      stratagem1.name &&
+      stratagem2.name &&
+      stratagem3.name &&
+      stratagem4.name &&
+      armor.name &&
+      helmet.name &&
+      cape.name &&
+      primary.name &&
+      secondary.name &&
+      throwable.name &&
+      loadoutName;
 
-    // using temp array to ensure latest savedloadouts are saved to localStorage
-    let tempSavedLoadouts = savedLoadouts
+    if (isLoadoutFilled) {
+      let loadout = {
+        loadoutName,
+        stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
+        armorSet: [armor, helmet, cape],
+        equipment: [primary, secondary, throwable],
+        id: uuidv4(),
+      };
 
-    tempSavedLoadouts.push(loadout)
-    // use setSavedLoadouts to update state
-    setSavedLoadouts(tempSavedLoadouts);
-    // stringify array
-    let savedLoadoutsJSON = JSON.stringify(tempSavedLoadouts);
-    // save array to local storage
-    localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+      // using temp array to ensure latest savedloadouts are saved to localStorage
+      let tempSavedLoadouts = savedLoadouts;
 
-    resetLoadout();
+      tempSavedLoadouts.push(loadout);
+      // use setSavedLoadouts to update state
+      setSavedLoadouts(tempSavedLoadouts);
+      // stringify array
+      let savedLoadoutsJSON = JSON.stringify(tempSavedLoadouts);
+      // save array to local storage
+      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+
+      resetLoadout();
+    } else {
+      alert(
+        "The current loadout seems to be missing a stratagem, piece of equipment or a name. Ensure the loadout is complete before saving."
+      );
+    }
   };
 
   return (
