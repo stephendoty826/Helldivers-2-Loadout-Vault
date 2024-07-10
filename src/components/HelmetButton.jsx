@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import HelmetModal from "./HelmetModal";
+import SelectorModal from "./SelectorModal";
 
 const HelmetButton = ({
   helmet,
@@ -21,12 +21,12 @@ const HelmetButton = ({
           <img src={helmet.image} alt="" className="armorButton" />
         )}
       </Button>
-      <HelmetModal
-        helmet={helmet}
-        setHelmet={setHelmet}
+      <SelectorModal
+        variant="helmet"
+        setItem={setHelmet}
         show={showModal}
         onHide={() => setShowModal(false)}
-        helmetArray={helmetArray}
+        itemArray={helmetArray}
       />
     </>
   );

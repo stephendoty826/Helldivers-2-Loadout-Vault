@@ -43,31 +43,28 @@ code {
 }
 
 .modalTop{
-  height: 38vh;
+  height: 85vh;
   background-color: #292d32;
   overflow: scroll;
-  padding: 3vw;
+  padding: 2vw;
+}
+
+.modalTopWithDetails{
+  height: 45vh;
+  background-color: #292d32;
+  overflow: scroll;
+  padding: 2vw;
 }
 
 .modalBottom{
-  height: 38vh;
+  height: 40vh;
   background-color: #55606a;
   overflow: scroll;
-  padding: 3vw;
+  padding: 2vw;
 }
 
-.modalBigTop{
-  height: 57vh;
-  background-color: #292d32;
-  overflow: scroll;
-  padding: 3vw;
-}
-
-.modalSmallBottom{
-  height: 19vh;
-  background-color: #55606a;
-  overflow: scroll;
-  padding: 3vw;
+.modalBottomClosed{
+  display: none;
 }
 
 .selected{
@@ -128,6 +125,24 @@ code {
   max-width: 125px;
 }
 
+.accordion-item {
+  position: relative;
+}
+
+.accordion-body {
+  position: absolute;
+  bottom: 100%; /* Position above the header */
+  width: 100%;
+  color: white;
+  background-color: #3b4249;
+  /* border-bottom: 1px solid white; */
+  z-index: 10;
+}
+
+.accordion-item.show .accordion-body {
+  display: block;
+}
+
 @media all and (max-device-height: 700px) {
   p {
     font-size: 12px;
@@ -168,6 +183,29 @@ code {
     .weaponButton {
       max-width: 175px;
       max-height: 125px;
+    }
+}
+
+@media all and (min-width: 992px){
+    .modalTop{
+      height: 80vh;
+      background-color: #292d32;
+      overflow: scroll;
+      padding: 2vw;
+    }
+
+    .modalTopWithDetails{
+      height: 42vh;
+      background-color: #292d32;
+      overflow: scroll;
+      padding: 2vw;
+    }
+
+    .modalBottom{
+      height: 38vh;
+      background-color: #55606a;
+      overflow: scroll;
+      padding: 2vw;
     }
 }
 

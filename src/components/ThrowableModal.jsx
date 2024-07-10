@@ -27,7 +27,7 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
           Select Throwable
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body style={{padding: "0px"}}>
+      <Modal.Body style={{ padding: "0px" }}>
         <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
           <p>Standard Throwables</p>
           <div className="col-12 d-flex flex-wrap justify-content-between">
@@ -66,57 +66,58 @@ function ThrowableModal({ show, setThrowable, onHide, throwableArray}) {
           </div>
         </div>
         <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-          {selected.name ? (
-            <>
-              <div className="fs-5">{selected.name?.toUpperCase()}</div>
-              <div>{selected.description}</div>
-              <div className="mt-2">
-                <div className="mx-2 fs-5">STATS</div>
-                <div className="px-2 infoBox">
-                  <div className="pt-1">DAMAGE: {selected.damage}</div>
+          <>
+            <div className="fs-5">{selected.name?.toUpperCase()}</div>
+            <div>{selected.description}</div>
+            <div className="mt-2">
+              <div className="mx-2 fs-5">STATS</div>
+              <div className="px-2 infoBox">
+                <div className="pt-1">DAMAGE: {selected.damage}</div>
+                <div className="pt-1">PENETRATION: {selected.penetration}</div>
+                {selected.outer_radius && (
                   <div className="pt-1">
-                    PENETRATION: {selected.penetration}
-                  </div>
-                  {selected.outer_radius && (
-                    <div className="pt-1">
-                      OUTER RADIUS: {selected.outer_radius}
-                    </div>
-                  )}
-                  {selected.fuse_time && (
-                    <div className="py-1">FUSE TIME: {selected.fuse_time}</div>
-                  )}
-                </div>
-              </div>
-              <div className="mt-2">
-                {selected["weapon traits"] && (
-                  <div>
-                    <div className="mx-2 fs-5">WEAPON TRAITS</div>
-                    <div className="px-2 infoBox">
-                      <div className="pt-1">
-                        <ul>
-                          {selected["weapon traits"].map((trait, idx) => {
-                            return (
-                              <li key={idx} className="pb-1">
-                                {trait.toUpperCase()}
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      </div>
-                    </div>
+                    OUTER RADIUS: {selected.outer_radius}
                   </div>
                 )}
+                {selected.fuse_time && (
+                  <div className="py-1">FUSE TIME: {selected.fuse_time}</div>
+                )}
               </div>
-            </>
-          ) : (
-            <div className="fs-1">Select item to view its stats</div>
-          )}
+            </div>
+            <div className="mt-2">
+              {selected["weapon traits"] && (
+                <div>
+                  <div className="mx-2 fs-5">WEAPON TRAITS</div>
+                  <div className="px-2 infoBox">
+                    <div className="pt-1">
+                      <ul>
+                        {selected["weapon traits"].map((trait, idx) => {
+                          return (
+                            <li key={idx} className="pb-1">
+                              {trait.toUpperCase()}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </>
         </div>
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="primary" onClick={() => setShowDetails(!showDetails)}>
-          Show Details
-        </Button>
+      <Modal.Footer
+        className={selected.name ? "d-flex justify-content-between" : ""}
+      >
+        {selected.name && (
+          <Button
+            variant="primary"
+            onClick={() => setShowDetails(!showDetails)}
+          >
+            {showDetails ? "Hide" : "Show"} Details
+          </Button>
+        )}
         <Button variant="secondary" onClick={equipItem}>
           {selected.name ? "Equip" : "Close"}
         </Button>
