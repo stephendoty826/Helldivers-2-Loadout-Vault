@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import PrimaryModal from "./PrimaryModal";
+import SelectorModal from "./SelectorModal";
 
 const PrimaryButton = ({
   primary,
@@ -21,12 +21,12 @@ const PrimaryButton = ({
           <img src={primary.image} alt="" className="centerWeaponImage" />
         )}
       </Button>
-      <PrimaryModal
-        primary={primary}
-        setPrimary={setPrimary}
+      <SelectorModal
+        variant="primary"
+        setItem={setPrimary}
         show={showModal}
         onHide={() => setShowModal(false)}
-        primaryArray={primaryArray}
+        itemArray={primaryArray}
       />
     </>
   );

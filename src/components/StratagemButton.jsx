@@ -1,13 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import SelectorModal from "./SelectorModal";
 
-const StratagemButton = ({
-  stratagem,
-  setStratagem,
-  stratagemArray,
-}) => {
-
+const StratagemButton = ({ stratagem, setStratagem, stratagemArray }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
