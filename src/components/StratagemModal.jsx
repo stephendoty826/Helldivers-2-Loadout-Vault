@@ -152,9 +152,16 @@ function StratagemModal({ show, setStratagem, onHide, stratagemArray }) {
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="secondary" onClick={equipItem}>
-          {selected.name ? "Equip" : "Close"}
-        </Button>
+        {selected.name ? (
+
+          <Button variant="secondary" onClick={equipItem}>
+            Equip
+          </Button>
+        ) : (
+          <Button variant="secondary" onClick={onHide}>
+            Close
+          </Button>
+        )}
       </Modal.Footer>
       <DetailsAccordion equipItem={equipItem} selected={selected}/>
     </Modal>
