@@ -42,7 +42,7 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
           </div>
         </div>
         :
-        "MAKE SELECTION"}
+        <div className="d-flex align-items-center fs-3" style={{height: "5vh"}}>MAKE SELECTION</div>}
       </Modal.Header>
       <Modal.Body style={{ padding: "0px" }}>
         {jsxSwitch(selected, setSelected, showDetails, itemArray, variant)}
