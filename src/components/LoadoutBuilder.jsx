@@ -128,7 +128,7 @@ const LoadoutBuilder = () => {
                 <Button variant="secondary" onClick={resetLoadout}>
                   Reset
                 </Button>
-                <Button variant="secondary" onClick={saveLoadout}>
+                <Button variant="primary" onClick={saveLoadout}>
                   Save
                 </Button>
               </div>

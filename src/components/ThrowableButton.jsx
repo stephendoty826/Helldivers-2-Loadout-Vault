@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
-import ThrowableModal from "./ThrowableModal";
+import SelectorModal from "./SelectorModal";
 
 const ThrowableButton = ({ throwable, setThrowable, throwableArray }) => {
   const [showModal, setShowModal] = useState(false);
@@ -16,12 +16,12 @@ const ThrowableButton = ({ throwable, setThrowable, throwableArray }) => {
           <img src={throwable.image} alt="" className="centerThrowableImage" />
         )}
       </Button>
-      <ThrowableModal
-        throwable={throwable}
-        setThrowable={setThrowable}
+      <SelectorModal
+        variant="throwable"
+        setItem={setThrowable}
         show={showModal}
         onHide={() => setShowModal(false)}
-        throwableArray={throwableArray}
+        itemArray={throwableArray}
       />
     </>
   );

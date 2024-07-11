@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
-import SecondaryModal from "./SecondaryModal";
+import SelectorModal from "./SelectorModal";
 
 const SecondaryButton = ({ secondary, setSecondary, secondaryArray }) => {
   const [showModal, setShowModal] = useState(false);
@@ -16,12 +16,12 @@ const SecondaryButton = ({ secondary, setSecondary, secondaryArray }) => {
           <img src={secondary.image} alt="" className="centerWeaponImage" />
         )}
       </Button>
-      <SecondaryModal
-        secondary={secondary}
-        setSecondary={setSecondary}
+      <SelectorModal
+        variant="secondary"
+        setItem={setSecondary}
         show={showModal}
         onHide={() => setShowModal(false)}
-        secondaryArray={secondaryArray}
+        itemArray={secondaryArray}
       />
     </>
   );

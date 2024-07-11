@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import ArmorModal from "./ArmorModal";
+import SelectorModal from "./SelectorModal";
 
 const ArmorButton = ({
   armor,
@@ -21,12 +21,12 @@ const ArmorButton = ({
           <img src={armor.image} alt="" className="armorButton" />
         )}
       </Button>
-      <ArmorModal
-        armor={armor}
-        setArmor={setArmor}
+      <SelectorModal
+        variant="armor"
+        setItem={setArmor}
         show={showModal}
         onHide={() => setShowModal(false)}
-        armorArray={armorArray}
+        itemArray={armorArray}
       />
     </>
   );
