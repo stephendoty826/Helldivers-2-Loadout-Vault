@@ -9,20 +9,41 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
   const equipItem = () => {
     setItem(selected);
     setSelected({});
+    setShowDetails(false)
     onHide();
   };
+
+  const closeModal = () => {
+    setSelected({})
+    setShowDetails(false);
+    onHide()
+  }
 
   return (
     <Modal
       show={show}
-      onHide={onHide}
+      onHide={closeModal}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
       className="custom-modal"
       fullscreen="lg-down"
     >
-      <Modal.Header closeButton></Modal.Header>
+      <Modal.Header closeButton>
+        {selected.name ? <div className="d-flex align-items-center" style={{padding: "0px"}}>
+          <img
+            src={selected.image}
+            alt=""
+            className="me-2"
+            style={{ height: "5vh"}}
+          />
+          <div className="d-flex">
+            <div className="fs-5">{selected.name?.toUpperCase()}</div>
+          </div>
+        </div>
+        :
+        "MAKE SELECTION"}
+      </Modal.Header>
       <Modal.Body style={{ padding: "0px" }}>
         {jsxSwitch(selected, setSelected, showDetails, itemArray, variant)}
       </Modal.Body>
@@ -37,9 +58,18 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
             {showDetails ? "Hide" : "Show"} Details
           </Button>
         )}
-        <Button variant="secondary" onClick={equipItem}>
-          {selected.name ? "Equip" : "Close"}
-        </Button>
+        {selected.name ? (
+          <Button variant="secondary" onClick={equipItem}>
+            Equip
+          </Button>
+        ) : (
+          <Button variant="secondary" onClick={onHide}>
+            Close
+          </Button>
+          // <Button variant="secondary" onClick={closeModal}>
+          //   Close
+          // </Button>
+        )}
       </Modal.Footer>
     </Modal>
   );
@@ -128,7 +158,6 @@ const stratagemJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <div className="fs-5">{selected.name?.toUpperCase()}</div>
         <div>{selected.description}</div>
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
@@ -208,17 +237,6 @@ const helmetJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <div className="d-flex">
-          <img
-            src={selected.image}
-            alt=""
-            className="me-2"
-            style={{ height: "5vh" }}
-          />
-          <div className="d-flex align-items-center">
-            <div className="fs-5">{selected.name?.toUpperCase()}</div>
-          </div>
-        </div>
         <div>{selected.description}</div>
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
@@ -300,17 +318,6 @@ const armorJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <div className="d-flex">
-          <img
-            src={selected.image}
-            alt=""
-            className="me-2"
-            style={{ height: "5vh" }}
-          />
-          <div className="d-flex align-items-center">
-            <div className="fs-5">{selected.name?.toUpperCase()}</div>
-          </div>
-        </div>
         <div>{selected.description}</div>
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
@@ -360,17 +367,6 @@ const capeJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <div className="d-flex">
-          <img
-            src={selected.image}
-            alt=""
-            className="me-2"
-            style={{ height: "5vh" }}
-          />
-          <div className="d-flex align-items-center">
-            <div className="fs-5">{selected.name?.toUpperCase()}</div>
-          </div>
-        </div>
         <div>{selected.description}</div>
       </div>
     </>
@@ -490,17 +486,6 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <div className="d-flex">
-          <img
-            src={selected.image}
-            alt=""
-            className="me-2"
-            style={{ height: "5vh" }}
-          />
-          <div className="d-flex align-items-center">
-            <div className="fs-5">{selected.name?.toUpperCase()}</div>
-          </div>
-        </div>
         <div>{selected.description}</div>
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
@@ -576,17 +561,6 @@ const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <div className="d-flex">
-          <img
-            src={selected.image}
-            alt=""
-            className="me-2"
-            style={{ height: "5vh" }}
-          />
-          <div className="d-flex align-items-center">
-            <div className="fs-5">{selected.name?.toUpperCase()}</div>
-          </div>
-        </div>
         <div>{selected.description}</div>
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
@@ -662,45 +636,40 @@ const throwableJSX = (selected, setSelected, showDetails, itemArray) => {
         </div>
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
-        <>
-          <div className="fs-5">{selected.name?.toUpperCase()}</div>
-          <div>{selected.description}</div>
-          <div className="mt-2">
-            <div className="mx-2 fs-5">STATS</div>
-            <div className="px-2 infoBox">
-              <div className="pt-1">DAMAGE: {selected.damage}</div>
-              <div className="pt-1">PENETRATION: {selected.penetration}</div>
-              {selected.outer_radius && (
-                <div className="pt-1">
-                  OUTER RADIUS: {selected.outer_radius}
-                </div>
-              )}
-              {selected.fuse_time && (
-                <div className="py-1">FUSE TIME: {selected.fuse_time}</div>
-              )}
-            </div>
-          </div>
-          <div className="mt-2">
-            {selected["weapon traits"] && (
-              <div>
-                <div className="mx-2 fs-5">WEAPON TRAITS</div>
-                <div className="px-2 infoBox">
-                  <div className="pt-1">
-                    <ul>
-                      {selected["weapon traits"].map((trait, idx) => {
-                        return (
-                          <li key={idx} className="pb-1">
-                            {trait.toUpperCase()}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                </div>
-              </div>
+        <div>{selected.description}</div>
+        <div className="mt-2">
+          <div className="mx-2 fs-5">STATS</div>
+          <div className="px-2 infoBox">
+            <div className="pt-1">DAMAGE: {selected.damage}</div>
+            <div className="pt-1">PENETRATION: {selected.penetration}</div>
+            {selected.outer_radius && (
+              <div className="pt-1">OUTER RADIUS: {selected.outer_radius}</div>
+            )}
+            {selected.fuse_time && (
+              <div className="py-1">FUSE TIME: {selected.fuse_time}</div>
             )}
           </div>
-        </>
+        </div>
+        <div className="mt-2">
+          {selected["weapon traits"] && (
+            <div>
+              <div className="mx-2 fs-5">WEAPON TRAITS</div>
+              <div className="px-2 infoBox">
+                <div className="pt-1">
+                  <ul>
+                    {selected["weapon traits"].map((trait, idx) => {
+                      return (
+                        <li key={idx} className="pb-1">
+                          {trait.toUpperCase()}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </>
   );

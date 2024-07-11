@@ -22,11 +22,11 @@ const HelmetButton = ({
         )}
       </Button>
       <SelectorModal
-        variant="helmet"
-        setItem={setHelmet}
         show={showModal}
-        onHide={() => setShowModal(false)}
+        setItem={setHelmet}
         itemArray={helmetArray}
+        onHide={() => setShowModal(false)}
+        variant="helmet"
       />
     </>
   );
