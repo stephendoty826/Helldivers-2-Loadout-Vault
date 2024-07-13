@@ -51,8 +51,7 @@ const SavedLoadout = ({savedLoadout, savedLoadouts, setSavedLoadouts }) => {
               );
             })}
             <EllipsisDropDown
-              id={savedLoadout.id}
-              name={savedLoadout.loadoutName}
+              loadout={savedLoadout}
               savedLoadouts={savedLoadouts}
               setSavedLoadouts={setSavedLoadouts}
             />

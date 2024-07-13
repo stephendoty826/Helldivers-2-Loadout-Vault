@@ -14,6 +14,8 @@ const SavedLoadouts = () => {
     }
   }, []);
 
+  console.log(savedLoadouts)
+
   return (
     <div>
       <Container className="savedLoadoutContainer">
