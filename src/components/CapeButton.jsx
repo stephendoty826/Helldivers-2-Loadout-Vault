@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Button from "react-bootstrap/Button";
-import CapeModal from "./CapeModal";
+import SelectorModal from "./SelectorModal";
 
 const CapeButton = ({
   cape,
@@ -17,16 +17,14 @@ const CapeButton = ({
         className="armorButton"
         onClick={() => setShowModal(true)}
       >
-        {cape.image && (
-          <img src={cape.image} alt="" className="armorButton" />
-        )}
+        {cape.image && <img src={cape.image} alt="" className="armorButton" />}
       </Button>
-      <CapeModal
-        cape={cape}
-        setCape={setCape}
+      <SelectorModal
+        variant="cape"
+        setItem={setCape}
         show={showModal}
         onHide={() => setShowModal(false)}
-        capesArray={capesArray}
+        itemArray={capesArray}
       />
     </>
   );

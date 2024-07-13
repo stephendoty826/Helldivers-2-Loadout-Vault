@@ -1,13 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
-import StratagemModal from "./StratagemModal";
+import SelectorModal from "./SelectorModal";
 
-const StratagemButton = ({
-  stratagem,
-  setStratagem,
-  stratagemArray,
-}) => {
-
+const StratagemButton = ({ stratagem, setStratagem, stratagemArray }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -21,12 +16,12 @@ const StratagemButton = ({
           <img src={stratagem.image} alt="" className="stratButton" />
         )}
       </Button>
-      <StratagemModal
-        stratagem={stratagem}
-        setStratagem={setStratagem}
+      <SelectorModal
+        variant="stratagem"
+        setItem={setStratagem}
         show={showModal}
         onHide={() => setShowModal(false)}
-        stratagemArray={stratagemArray}
+        itemArray={stratagemArray}
       />
     </>
   );
