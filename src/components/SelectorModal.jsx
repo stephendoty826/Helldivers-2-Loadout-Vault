@@ -99,6 +99,8 @@ const jsxSwitch = (selected, setSelected, showDetails, itemArray, variant) => {
       return secondaryJSX(selected, setSelected, showDetails, itemArray);
     case "throwable":
       return throwableJSX(selected, setSelected, showDetails, itemArray);
+    default: 
+      return
   }
 };
 

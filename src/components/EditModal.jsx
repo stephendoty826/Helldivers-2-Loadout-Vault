@@ -27,7 +27,7 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
     let updatedLoadout = {
       loadoutName,
       stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
-      armorSet: [armor, helmet, cape],
+      armorSet: [helmet, armor, cape],
       equipment: [primary, secondary, throwable],
       id: loadout.id,
     };
