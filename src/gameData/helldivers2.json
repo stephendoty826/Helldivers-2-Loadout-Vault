@@ -1984,6 +1984,16 @@
     ],
     "supply": [
       {
+        "name": "MLS-4X Commando",
+        "description": "An expendable missile launcher equipped with four laser-guided missiles.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "120s",
+        "stratagem traits": ["support weapon", "hellpod", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7113",
+        "image": "./images/commando.webp"
+      },
+      {
         "name": "EXO-49 Emancipator Exosuit",
         "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
         "call-in time": "0s",
@@ -2452,6 +2462,7 @@
     "If a squadmate dies during a mission, make sure you pick up their dropped samples. There will be time for mourning later!",
     "Reloading discards the remaining rounds in your magazine.",
     "Your stance has a significant impact on accuracy. The S.E.A.F. manual lists the following stances in order of least to most accurate: Moving < Standing < Crouching < Prone.",
-    "Remember to share when calling down supplies. An armed helldiver is a happy helldiver."
+    "Remember to share when calling down supplies. An armed helldiver is a happy helldiver.",
+    "Explosive grenades are great against crowds of smaller enemies. Super Earth grenades put the \"Demo\" in Democracy."
   ]
 }

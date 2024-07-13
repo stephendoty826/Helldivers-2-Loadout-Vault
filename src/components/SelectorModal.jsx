@@ -9,15 +9,15 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
   const equipItem = () => {
     setItem(selected);
     setSelected({});
-    setShowDetails(false)
+    setShowDetails(false);
     onHide();
   };
 
   const closeModal = () => {
-    setSelected({})
+    setSelected({});
     setShowDetails(false);
-    onHide()
-  }
+    onHide();
+  };
 
   return (
     <Modal
@@ -30,19 +30,26 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
       fullscreen="lg-down"
     >
       <Modal.Header closeButton>
-        {selected.name ? <div className="d-flex align-items-center" style={{padding: "0px"}}>
-          <img
-            src={selected.image}
-            alt=""
-            className="me-2"
-            style={{ height: "5vh"}}
-          />
-          <div className="d-flex">
-            <div className="fs-5">{selected.name?.toUpperCase()}</div>
+        {selected.name ? (
+          <div className="d-flex align-items-center" style={{ padding: "0px" }}>
+            <img
+              src={selected.image}
+              alt=""
+              className="me-2"
+              style={{ height: "5vh" }}
+            />
+            <div className="d-flex">
+              <div className="fs-5">{selected.name?.toUpperCase()}</div>
+            </div>
           </div>
-        </div>
-        :
-        <div className="d-flex align-items-center fs-3" style={{height: "5vh"}}>MAKE SELECTION</div>}
+        ) : (
+          <div
+            className="d-flex align-items-center fs-3"
+            style={{ height: "5vh" }}
+          >
+            MAKE SELECTION
+          </div>
+        )}
       </Modal.Header>
       <Modal.Body style={{ padding: "0px" }}>
         {jsxSwitch(selected, setSelected, showDetails, itemArray, variant)}
@@ -52,23 +59,20 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
       >
         {selected.name && (
           <Button
-            variant="primary"
+            variant="secondary"
             onClick={() => setShowDetails(!showDetails)}
           >
             {showDetails ? "Hide" : "Show"} Details
           </Button>
         )}
         {selected.name ? (
-          <Button variant="secondary" onClick={equipItem}>
+          <Button variant="primary" onClick={equipItem}>
             Equip
           </Button>
         ) : (
           <Button variant="secondary" onClick={onHide}>
             Close
           </Button>
-          // <Button variant="secondary" onClick={closeModal}>
-          //   Close
-          // </Button>
         )}
       </Modal.Footer>
     </Modal>
