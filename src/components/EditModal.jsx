@@ -99,7 +99,10 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
           </div>
         </Container>
       </Modal.Body>
-      <Modal.Footer>
+      <Modal.Footer className="d-flex justify-content-between">
+        <Button variant="secondary" onClick={onHide}>
+          Cancel
+        </Button>
         <Button variant="primary" onClick={updateLoadout}>
           Update Loadout
         </Button>

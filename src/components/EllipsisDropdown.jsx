@@ -34,12 +34,12 @@ function EllipsisDropDown({ loadout, savedLoadouts, setSavedLoadouts }) {
 
         <Dropdown.Menu>
           <Dropdown.Item onClick={() => setShowModal(true)}>
-            Edit Loadout
-            <FontAwesomeIcon icon={faPenToSquare} className="ms-3" />
+              <FontAwesomeIcon icon={faPenToSquare} className="me-2" />
+              Edit Loadout
           </Dropdown.Item>
-          <Dropdown.Item onClick={deleteLoadout}>
-            Delete Loadout
-            <FontAwesomeIcon icon={faTrashCan} className="ms-3" />
+          <Dropdown.Item onClick={deleteLoadout} style={{ color: "red" }}>
+              <FontAwesomeIcon icon={faTrashCan} className="me-2" />
+              <strong>Delete Loadout</strong>
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

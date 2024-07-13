@@ -59,23 +59,20 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
       >
         {selected.name && (
           <Button
-            variant="primary"
+            variant="secondary"
             onClick={() => setShowDetails(!showDetails)}
           >
             {showDetails ? "Hide" : "Show"} Details
           </Button>
         )}
         {selected.name ? (
-          <Button variant="secondary" onClick={equipItem}>
+          <Button variant="primary" onClick={equipItem}>
             Equip
           </Button>
         ) : (
           <Button variant="secondary" onClick={onHide}>
             Close
           </Button>
-          // <Button variant="secondary" onClick={closeModal}>
-          //   Close
-          // </Button>
         )}
       </Modal.Footer>
     </Modal>
