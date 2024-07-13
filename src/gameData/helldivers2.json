@@ -1984,6 +1984,16 @@
     ],
     "supply": [
       {
+        "name": "MLS-4X Commando",
+        "description": "An expendable missile launcher equipped with four laser-guided missiles.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "120s",
+        "stratagem traits": ["support weapon", "hellpod", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7113",
+        "image": "./images/commando.webp"
+      },
+      {
         "name": "EXO-49 Emancipator Exosuit",
         "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
         "call-in time": "0s",
