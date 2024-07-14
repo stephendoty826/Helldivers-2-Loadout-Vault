@@ -1,9 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronUp,
-  faChevronDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
 import { useContext } from "react";
 import Accordion from "react-bootstrap/Accordion";
@@ -32,10 +29,16 @@ function ContextAwareToggle({ eventKey, callback }) {
   );
 }
 
-const SavedLoadout = ({savedLoadout, savedLoadouts, setSavedLoadouts }) => {
+const SavedLoadout = ({
+  savedLoadout,
+  savedLoadouts,
+  setSavedLoadouts,
+}) => {
   return (
     <div>
-      <div className="fs-4 my-2`">{savedLoadout.loadoutName}</div>
+      <div className="fs-4 my-2`">
+        {savedLoadout.faction.toUpperCase() + " - " + savedLoadout.loadoutName}
+      </div>
       <Accordion className="custom-accordion">
         <Card>
           <Card.Header className="d-flex justify-content-between">

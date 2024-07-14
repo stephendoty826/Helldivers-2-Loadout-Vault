@@ -1,13 +1,20 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import StratagemButton from "./StratagemButton";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-const StratBuilder = ({ stratagem1, setStratagem1, stratagem2, setStratagem2, stratagem3, setStratagem3, stratagem4, setStratagem4 }) => {
-
+const StratBuilder = ({
+  stratagem1,
+  setStratagem1,
+  stratagem2,
+  setStratagem2,
+  stratagem3,
+  setStratagem3,
+  stratagem4,
+  setStratagem4,
+}) => {
   return (
     <div>
-      <label className="h3 mt-4">Stratagems</label>
+      <label className="h3 mt-2">Stratagems</label>
       <div className="d-flex justify-content-around mt-3">
         <StratagemButton
           stratagem={stratagem1}

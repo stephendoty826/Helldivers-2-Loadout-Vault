@@ -9,7 +9,29 @@ const HomePage = () => {
 
   useEffect(() => {
     getRandomTip();
+    checkAndAddFaction()
   }, []);
+
+  function checkAndAddFaction () {
+    let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
+
+    if (savedLoadoutsJSON) {
+      let savedLoadouts = JSON.parse(savedLoadoutsJSON);
+
+      //loop through savedLoadouts and check for faction key, if it exists, skip it, if it doesn't add faction: "all"
+      savedLoadouts = savedLoadouts.map((loadout) => {
+        if (!loadout.faction) {
+          loadout.faction = "all";
+        }
+        return loadout;
+      });
+
+      // stringify array
+      savedLoadoutsJSON = JSON.stringify(savedLoadouts);
+      // save array to local storage
+      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+    }
+  }
 
   function getRandomTip() {
     let tipsArray = helldivers2["loading screen tips"];
