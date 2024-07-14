@@ -17,6 +17,7 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
   const [primary, setPrimary] = useState(loadout.equipment[0]);
   const [secondary, setSecondary] = useState(loadout.equipment[1]);
   const [throwable, setThrowable] = useState(loadout.equipment[2]);
+  const [faction, setFaction] = useState(loadout.faction);
   const [loadoutName, setLoadoutName] = useState(loadout.loadoutName);
 
   function updateLoadout() {
@@ -26,6 +27,7 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
 
     let updatedLoadout = {
       loadoutName,
+      faction,
       stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
       armorSet: [helmet, armor, cape],
       equipment: [primary, secondary, throwable],
@@ -86,6 +88,41 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
               />
               <div className="d-flex flex-column align-items-center w-100">
                 <Form.Group className="mb-4 mt-5  w-75">
+                  <label className="h3">Faction</label>
+                  <div className="mb-4">
+                    <Form.Check
+                      inline
+                      type="radio"
+                      id="all"
+                      label="All"
+                      checked={faction === "all"}
+                      onChange={() => {
+                        setFaction("all");
+                      }}
+                    />
+                    <Form.Check
+                      inline
+                      type="radio"
+                      id="bugs"
+                      label="Bugs"
+                      className="me-3"
+                      checked={faction === "bugs"}
+                      onChange={() => {
+                        setFaction("bugs");
+                      }}
+                    />
+                    <Form.Check
+                      inline
+                      type="radio"
+                      id="bots"
+                      label="Bots"
+                      className="me-3"
+                      checked={faction === "bots"}
+                      onChange={() => {
+                        setFaction("bots");
+                      }}
+                    />
+                  </div>
                   <Form.Label>Loadout Name</Form.Label>
                   <Form.Control
                     type="text"
