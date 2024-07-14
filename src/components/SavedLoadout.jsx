@@ -30,7 +30,6 @@ function ContextAwareToggle({ eventKey, callback }) {
 }
 
 const SavedLoadout = ({
-  faction,
   savedLoadout,
   savedLoadouts,
   setSavedLoadouts,

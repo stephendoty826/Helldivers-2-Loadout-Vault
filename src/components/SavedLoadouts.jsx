@@ -72,7 +72,6 @@ const SavedLoadouts = () => {
                 return (
                   <div key={savedLoadout.id}>
                     <SavedLoadout
-                      faction={faction}
                       savedLoadout={savedLoadout}
                       savedLoadouts={savedLoadouts}
                       setSavedLoadouts={setSavedLoadouts}
