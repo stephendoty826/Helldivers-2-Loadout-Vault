@@ -59,7 +59,7 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
     >
       <Modal.Header closeButton>Editing {loadout.loadoutName}</Modal.Header>
       <Modal.Body style={{ padding: "0px" }}>
-        <Container>
+        <Container className="overflow-scroll">
           <div className="d-flex align-items-center flex-column vh-85">
             <div className="text-center w-100">
               <StratBuilder
