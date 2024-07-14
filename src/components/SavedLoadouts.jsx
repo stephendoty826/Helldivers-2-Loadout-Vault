@@ -19,7 +19,7 @@ const SavedLoadouts = () => {
   useEffect(() => {
     let filteredLoadouts = savedLoadouts.filter((loadout) => {
       if (faction !== "all") {
-        return faction === loadout.faction;
+        return loadout.faction === faction || loadout.faction === "all";
       } else {
         return true;
       }
