@@ -27,8 +27,6 @@ const SavedLoadouts = () => {
     setShownLoadouts(filteredLoadouts);
   }, [faction, savedLoadouts]);
 
-  console.log(faction)
-
   return (
     <div>
       <Container className="savedLoadoutContainer">
@@ -42,9 +40,9 @@ const SavedLoadouts = () => {
               label="All"
               value="all"
               checked={faction === "all"}
-              // onChange={(e) => {
-              //   setFaction(e.target.value);
-              // }}
+              onChange={(e) => {
+                setFaction(e.target.value);
+              }}
             />
             <Form.Check
               inline
@@ -54,9 +52,9 @@ const SavedLoadouts = () => {
               className="me-3"
               value="bugs"
               checked={faction === "bugs"}
-              // onChange={(e) => {
-              //   setFaction(e.target.value);
-              // }}
+              onChange={(e) => {
+                setFaction(e.target.value);
+              }}
             />
             <Form.Check
               inline
