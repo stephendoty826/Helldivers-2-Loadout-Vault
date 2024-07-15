@@ -75,6 +75,12 @@ const CopyOrEditModal = ({
     onHide();
   };
 
+  const handleKeyUp = (e) => {
+    if (e.key === "Enter") {
+      saveLoadout();
+    }
+  };
+
   return (
     <Modal
       show={show}
@@ -164,6 +170,7 @@ const CopyOrEditModal = ({
                     onChange={(e) => setLoadoutName(e.target.value)}
                     value={loadoutName}
                     placeholder="Enter loadout name"
+                    onKeyUp={(e) => handleKeyUp(e)}
                   />
                 </Form.Group>
               </div>
