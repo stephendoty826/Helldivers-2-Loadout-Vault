@@ -86,6 +86,12 @@ const LoadoutBuilder = () => {
       );
     }
   };
+  
+  const handleKeyUp = (e) => {
+    if (e.key === "Enter") {
+      saveLoadout()
+    }
+  }
 
   return (
     <div>
@@ -160,6 +166,7 @@ const LoadoutBuilder = () => {
                   onChange={(e) => setLoadoutName(e.target.value)}
                   value={loadoutName}
                   placeholder="Enter loadout name"
+                  onKeyUp={(e) => handleKeyUp(e)}
                 />
               </Form.Group>
               <div className="d-flex justify-content-between w-50 mb-3">
