@@ -5,11 +5,13 @@ import {
   faEllipsisVertical,
   faTrashCan,
   faPenToSquare,
+  faCopy
 } from "@fortawesome/free-solid-svg-icons";
-import EditModal from "./EditModal";
+import CopyOrEditModal from "./CopyOrEditModal";
 
 function EllipsisDropDown({ loadout, savedLoadouts, setSavedLoadouts }) {
-  const [showModal, setShowModal] = useState(false);
+  const [showEditModal, setShowEditModal] = useState(false);
+  const [showCopyModal, setShowCopyModal] = useState(false);
 
   const deleteLoadout = () => {
     let deleteLoadout = window.confirm(
@@ -33,23 +35,38 @@ function EllipsisDropDown({ loadout, savedLoadouts, setSavedLoadouts }) {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item onClick={() => setShowModal(true)}>
-              <FontAwesomeIcon icon={faPenToSquare} className="me-2" />
-              Edit Loadout
+          <Dropdown.Item onClick={() => setShowEditModal(true)}>
+            <FontAwesomeIcon icon={faPenToSquare} className="me-2" />
+            Edit Loadout
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => setShowCopyModal(true)}>
+            <FontAwesomeIcon icon={faCopy} className="me-2" />
+            Copy Loadout
           </Dropdown.Item>
           <Dropdown.Item onClick={deleteLoadout} style={{ color: "red" }}>
-              <FontAwesomeIcon icon={faTrashCan} className="me-2" />
-              <strong>Delete Loadout</strong>
+            <FontAwesomeIcon icon={faTrashCan} className="me-2" />
+            <strong>Delete Loadout</strong>
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      {showModal && (
-        <EditModal
+      {showEditModal && (
+        <CopyOrEditModal
           loadout={loadout}
-          onHide={() => setShowModal(false)}
+          onHide={() => setShowEditModal(false)}
           show={true}
           savedLoadouts={savedLoadouts}
           setSavedLoadouts={setSavedLoadouts}
+          variant="edit"
+        />
+      )}
+      {showCopyModal && (
+        <CopyOrEditModal
+          loadout={loadout}
+          onHide={() => setShowCopyModal(false)}
+          show={true}
+          savedLoadouts={savedLoadouts}
+          setSavedLoadouts={setSavedLoadouts}
+          variant="copy"
         />
       )}
     </>
