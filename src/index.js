@@ -8,6 +8,7 @@ import HomePage from './components/HomePage';
 import LoadoutBuilder from './components/LoadoutBuilder';
 import SavedLoadouts from './components/SavedLoadouts';
 import NotFound from './components/NotFound';
+import Feedback from './components/Feedback';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
           <Route path="/" element={<HomePage />} />
           <Route path="/loadout_builder" element={<LoadoutBuilder />} />
           <Route path="/saved_loadouts" element={<SavedLoadouts />} />
+          <Route path="/feedback" element={<Feedback />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BaseLayout>
