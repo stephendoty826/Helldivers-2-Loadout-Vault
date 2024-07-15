@@ -67,12 +67,9 @@ const CopyOrEditModal = ({
       id: uuidv4(),
     };
 
-    // using temp array to ensure latest savedloadouts are saved to localStorage
-    let tempSavedLoadouts = savedLoadouts;
-
-    setSavedLoadouts([...tempSavedLoadouts, loadout]);
+    setSavedLoadouts([...savedLoadouts, loadout]);
     // stringify array
-    let savedLoadoutsJSON = JSON.stringify([...tempSavedLoadouts, loadout]);
+    let savedLoadoutsJSON = JSON.stringify([...savedLoadouts, loadout]);
     // save array to local storage
     localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
     onHide();
