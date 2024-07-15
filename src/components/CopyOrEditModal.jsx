@@ -67,7 +67,7 @@ const CopyOrEditModal = ({
       id: uuidv4(),
     };
 
-    setSavedLoadouts([...savedLoadouts, loadout]);
+    setSavedLoadouts([loadout, ...savedLoadouts]);
     // stringify array
     let savedLoadoutsJSON = JSON.stringify([...savedLoadouts, loadout]);
     // save array to local storage
