@@ -5,8 +5,16 @@ import Container from "react-bootstrap/Container";
 import StratBuilder from "./StratBuilder";
 import EquipmentBuilder from "./EquipmentBuilder";
 import Form from "react-bootstrap/Form";
+import { v4 as uuidv4 } from "uuid";
 
-const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) => {
+const CopyOrEditModal = ({
+  loadout,
+  onHide,
+  show,
+  savedLoadouts,
+  setSavedLoadouts,
+  variant,
+}) => {
   const [stratagem1, setStratagem1] = useState(loadout.stratagems[0]);
   const [stratagem2, setStratagem2] = useState(loadout.stratagems[1]);
   const [stratagem3, setStratagem3] = useState(loadout.stratagems[2]);
@@ -18,7 +26,9 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
   const [secondary, setSecondary] = useState(loadout.equipment[1]);
   const [throwable, setThrowable] = useState(loadout.equipment[2]);
   const [faction, setFaction] = useState(loadout.faction);
-  const [loadoutName, setLoadoutName] = useState(loadout.loadoutName);
+  const [loadoutName, setLoadoutName] = useState(
+    variant === "edit" ? loadout.loadoutName : loadout.loadoutName + " copy"
+  );
 
   function updateLoadout() {
     let loadoutIndex = savedLoadouts.findIndex(
@@ -44,8 +54,29 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
     let savedLoadoutsJSON = JSON.stringify(tempSavedLoadouts);
     // save array to local storage
     localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
-    onHide()
+    onHide();
   }
+
+  const saveLoadout = () => {
+    let loadout = {
+      loadoutName,
+      faction,
+      stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
+      armorSet: [helmet, armor, cape],
+      equipment: [primary, secondary, throwable],
+      id: uuidv4(),
+    };
+
+    // using temp array to ensure latest savedloadouts are saved to localStorage
+    let tempSavedLoadouts = savedLoadouts;
+
+    setSavedLoadouts([...tempSavedLoadouts, loadout]);
+    // stringify array
+    let savedLoadoutsJSON = JSON.stringify([...tempSavedLoadouts, loadout]);
+    // save array to local storage
+    localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+    onHide();
+  };
 
   return (
     <Modal
@@ -57,7 +88,11 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
       className="custom-modal"
       fullscreen="lg-down"
     >
-      <Modal.Header closeButton>Editing {loadout.loadoutName}</Modal.Header>
+      {variant === "edit" ? (
+        <Modal.Header closeButton>Editing {loadout.loadoutName}</Modal.Header>
+      ) : (
+        <Modal.Header closeButton>{loadout.loadoutName + " copy"}</Modal.Header>
+      )}
       <Modal.Body style={{ padding: "0px" }}>
         <Container className="overflow-scroll">
           <div className="d-flex align-items-center flex-column vh-85">
@@ -140,12 +175,18 @@ const EditModal = ({ loadout, onHide, show, savedLoadouts, setSavedLoadouts }) =
         <Button variant="secondary" onClick={onHide}>
           Cancel
         </Button>
-        <Button variant="primary" onClick={updateLoadout}>
-          Update Loadout
-        </Button>
+        {variant === "edit" ? (
+          <Button variant="primary" onClick={updateLoadout}>
+            Update Loadout
+          </Button>
+        ) : (
+          <Button variant="primary" onClick={saveLoadout}>
+            Save Loadout Copy
+          </Button>
+        )}
       </Modal.Footer>
     </Modal>
   );
 };
 
-export default EditModal;
+export default CopyOrEditModal;
