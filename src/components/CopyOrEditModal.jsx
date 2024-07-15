@@ -125,33 +125,36 @@ const CopyOrEditModal = ({
                     <Form.Check
                       inline
                       type="radio"
-                      id="all"
+                      id="allEdit"
                       label="All"
+                      value="all"
                       checked={faction === "all"}
-                      onChange={() => {
-                        setFaction("all");
+                      onChange={(e) => {
+                        setFaction(e.target.value);
                       }}
                     />
                     <Form.Check
                       inline
                       type="radio"
-                      id="bugs"
+                      id="bugsEdit"
                       label="Bugs"
                       className="me-3"
+                      value="bugs"
                       checked={faction === "bugs"}
-                      onChange={() => {
-                        setFaction("bugs");
+                      onChange={(e) => {
+                        setFaction(e.target.value);
                       }}
                     />
                     <Form.Check
                       inline
                       type="radio"
-                      id="bots"
+                      id="botsEdit"
                       label="Bots"
                       className="me-3"
+                      value="bots"
                       checked={faction === "bots"}
-                      onChange={() => {
-                        setFaction("bots");
+                      onChange={(e) => {
+                        setFaction(e.target.value);
                       }}
                     />
                   </div>

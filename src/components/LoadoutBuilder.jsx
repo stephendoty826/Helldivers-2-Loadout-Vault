@@ -124,7 +124,7 @@ const LoadoutBuilder = () => {
                   <Form.Check
                     inline
                     type="radio"
-                    id="all"
+                    id="allBuilder"
                     label="All"
                     checked={faction === "all"}
                     onChange={() => {
@@ -134,7 +134,7 @@ const LoadoutBuilder = () => {
                   <Form.Check
                     inline
                     type="radio"
-                    id="bugs"
+                    id="bugsBuilder"
                     label="Bugs"
                     className="me-3"
                     checked={faction === "bugs"}
@@ -145,7 +145,7 @@ const LoadoutBuilder = () => {
                   <Form.Check
                     inline
                     type="radio"
-                    id="bots"
+                    id="botsBuilder"
                     label="Bots"
                     className="me-3"
                     checked={faction === "bots"}
