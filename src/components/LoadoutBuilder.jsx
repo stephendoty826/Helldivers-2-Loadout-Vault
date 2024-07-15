@@ -71,7 +71,7 @@ const LoadoutBuilder = () => {
       // using temp array to ensure latest savedloadouts are saved to localStorage
       let tempSavedLoadouts = savedLoadouts;
 
-      tempSavedLoadouts.push(loadout);
+      tempSavedLoadouts.unshift(loadout);
       // use setSavedLoadouts to update state
       setSavedLoadouts(tempSavedLoadouts);
       // stringify array
