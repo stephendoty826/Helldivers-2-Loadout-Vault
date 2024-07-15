@@ -89,9 +89,9 @@ const CopyOrEditModal = ({
       fullscreen="lg-down"
     >
       {variant === "edit" ? (
-        <Modal.Header closeButton>Editing {loadout.loadoutName}</Modal.Header>
+        <Modal.Header closeButton>Editing {loadoutName}</Modal.Header>
       ) : (
-        <Modal.Header closeButton>{loadout.loadoutName + " copy"}</Modal.Header>
+        <Modal.Header closeButton>{loadoutName}</Modal.Header>
       )}
       <Modal.Body style={{ padding: "0px" }}>
         <Container className="overflow-scroll">
