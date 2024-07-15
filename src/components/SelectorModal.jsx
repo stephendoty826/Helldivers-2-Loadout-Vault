@@ -59,23 +59,20 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
       >
         {selected.name && (
           <Button
-            variant="primary"
+            variant="secondary"
             onClick={() => setShowDetails(!showDetails)}
           >
             {showDetails ? "Hide" : "Show"} Details
           </Button>
         )}
         {selected.name ? (
-          <Button variant="secondary" onClick={equipItem}>
+          <Button variant="primary" onClick={equipItem}>
             Equip
           </Button>
         ) : (
           <Button variant="secondary" onClick={onHide}>
             Close
           </Button>
-          // <Button variant="secondary" onClick={closeModal}>
-          //   Close
-          // </Button>
         )}
       </Modal.Footer>
     </Modal>
@@ -102,6 +99,8 @@ const jsxSwitch = (selected, setSelected, showDetails, itemArray, variant) => {
       return secondaryJSX(selected, setSelected, showDetails, itemArray);
     case "throwable":
       return throwableJSX(selected, setSelected, showDetails, itemArray);
+    default:
+      return;
   }
 };
 
@@ -216,6 +215,9 @@ const stratagemJSX = (selected, setSelected, showDetails, itemArray) => {
               </ul>
             </div>
           </div>
+          <a href={selected.credit} target="_blank" rel="noreferrer">
+            Image credit
+          </a>
         </div>
       </div>
     </>
@@ -261,6 +263,9 @@ const helmetJSX = (selected, setSelected, showDetails, itemArray) => {
             <div className="py-1 ">No additional bonus</div>
           </div>
         </div>
+        <a href={selected.credit} target="_blank" rel="noreferrer">
+          Image credit
+        </a>
       </div>
     </>
   );
@@ -347,6 +352,9 @@ const armorJSX = (selected, setSelected, showDetails, itemArray) => {
             </div>
           </div>
         </div>
+        <a href={selected.credit} target="_blank" rel="noreferrer">
+          Image credit
+        </a>
       </div>
     </>
   );
@@ -355,7 +363,7 @@ const armorJSX = (selected, setSelected, showDetails, itemArray) => {
 const capeJSX = (selected, setSelected, showDetails, itemArray) => {
   return (
     <>
-      <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
+      <div className={showDetails ? "modalTopWithDetailsCape" : "modalTop"}>
         <div className="col-12 d-flex flex-wrap justify-content-between">
           {itemArray.map((equipment) => {
             let isSelected = selected.name === equipment.name;
@@ -373,9 +381,12 @@ const capeJSX = (selected, setSelected, showDetails, itemArray) => {
           })}
         </div>
       </div>
-      <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
+      <div className={showDetails ? "modalBottomCape" : "modalBottomClosed"}>
         <div>{selected.description}</div>
       </div>
+      <a href={selected.credit} target="_blank" rel="noreferrer">
+        Image credit
+      </a>
     </>
   );
 };
@@ -521,6 +532,9 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
               </div>
             </div>
           )}
+          <a href={selected.credit} target="_blank" rel="noreferrer">
+            Image credit
+          </a>
         </div>
       </div>
     </>
@@ -596,6 +610,9 @@ const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
               </div>
             </div>
           )}
+          <a href={selected.credit} target="_blank" rel="noreferrer">
+            Image credit
+          </a>
         </div>
       </div>
     </>
@@ -676,6 +693,9 @@ const throwableJSX = (selected, setSelected, showDetails, itemArray) => {
               </div>
             </div>
           )}
+          <a href={selected.credit} target="_blank" rel="noreferrer">
+            Image credit
+          </a>
         </div>
       </div>
     </>

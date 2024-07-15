@@ -1,9 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronUp,
-  faChevronDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
 import { useContext } from "react";
 import Accordion from "react-bootstrap/Accordion";
@@ -24,18 +21,29 @@ function ContextAwareToggle({ eventKey, callback }) {
   return (
     <>
       {isCurrentEventKey ? (
-        <FontAwesomeIcon icon={faChevronUp} onClick={decoratedOnClick} />
+        <FontAwesomeIcon
+          icon={faChevronDown}
+          onClick={decoratedOnClick}
+          rotation={180}
+          className="faChevronDown"
+        />
       ) : (
-        <FontAwesomeIcon icon={faChevronDown} onClick={decoratedOnClick} />
+        <FontAwesomeIcon
+          icon={faChevronDown}
+          onClick={decoratedOnClick}
+          className="faChevronDown"
+        />
       )}
     </>
   );
 }
 
-const SavedLoadout = ({savedLoadout, savedLoadouts, setSavedLoadouts }) => {
+const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
   return (
     <div>
-      <div className="fs-4 my-2`">{savedLoadout.loadoutName}</div>
+      <div className="fs-4 my-2`">
+        {savedLoadout.faction.toUpperCase() + " - " + savedLoadout.loadoutName}
+      </div>
       <Accordion className="custom-accordion">
         <Card>
           <Card.Header className="d-flex justify-content-between">
@@ -51,8 +59,7 @@ const SavedLoadout = ({savedLoadout, savedLoadouts, setSavedLoadouts }) => {
               );
             })}
             <EllipsisDropDown
-              id={savedLoadout.id}
-              name={savedLoadout.loadoutName}
+              loadout={savedLoadout}
               savedLoadouts={savedLoadouts}
               setSavedLoadouts={setSavedLoadouts}
             />

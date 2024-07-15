@@ -42,57 +42,71 @@ code {
   overflow: hidden;
 }
 
-.modalTop{
+.modalTop {
   height: 85vh;
   background-color: #292d32;
   overflow: scroll;
   padding: 2vw;
 }
 
-.modalTopWithDetails{
+.modalTopWithDetails {
   height: 45vh;
   background-color: #292d32;
   overflow: scroll;
   padding: 2vw;
 }
 
-.modalBottom{
+.modalTopWithDetailsCape {
+  height: 68vh;
+  background-color: #292d32;
+  overflow: scroll;
+  padding: 2vw;
+}
+
+.modalBottom {
   height: 40vh;
   background-color: #55606a;
   overflow: scroll;
   padding: 2vw;
 }
 
-.modalBottomClosed{
+.modalBottomCape {
+  height: 17vh;
+  background-color: #55606a;
+  overflow: scroll;
+  padding: 2vw;
+}
+
+.modalBottomClosed {
   display: none;
 }
 
-.selected{
+.selected {
   box-shadow: 0px 0px 10px 0px #fff1ca;
 }
 
-.equipped{
+.equipped {
   box-shadow: 0px 0px 10px 0px #fffca3;
 }
 
-.itemSelector{
+.itemSelector {
   width: 27vw;
   max-width: 175px;
   margin-bottom: 3vw;
 }
 
-.infoBox{
+.infoBox {
   background-color: #3b4249;
 }
 
-.centerWeaponImage{
+.centerWeaponImage {
   height: 100%;
   width: auto;
 }
 
-.centerThrowableImage{
-  height: auto; 
-  width: 100%
+.centerThrowableImage {
+  height: auto;
+  width: 100%;
 }
 
 .custom-modal .modal-content {
@@ -100,18 +114,18 @@ code {
   color: #fff; /* Change the text color if needed */
 }
 
-.custom-accordion .card-header{
-  background-color: #292C30;
+.custom-accordion .card-header {
+  background-color: #292c30;
   color: #fff;
   border: 2px solid, #262a2e;
 }
 
-.custom-accordion .card-body{
+.custom-accordion .card-body {
   background-color: #212529;
   color: #fff;
 }
 
-.custom-accordion .accordion-button{
+.custom-accordion .accordion-button {
   background-color: purple;
   color: #fff;
 }
@@ -120,7 +134,7 @@ code {
   display: none;
 }
 
-.savedLoadedImage{
+.savedLoadedImage {
   width: 15vw;
   max-width: 125px;
 }
@@ -143,6 +157,15 @@ code {
   display: block;
 }
 
+.faChevronDown {
+  font-size: 2.25em; /* Size for extra large devices */
+  padding: 8px;
+}
+
+a{
+  color: lightblue;
+}
+
 @media all and (max-device-height: 700px) {
   p {
     font-size: 12px;
@@ -159,60 +182,62 @@ code {
     max-width: 175px;
     max-height: 175px;
   }
-  
+
   .weaponButton {
     max-width: 190px;
     max-height: 165px;
   }
 
-  .armorSelector{
+  .armorSelector {
     max-width: 175px;
     max-height: 175px;
   }
 
-  .savedLoadoutContainer{
-    max-width: 75vw; 
+  .savedLoadoutContainer {
+    max-width: 75vw;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .savedLoadedImage {
+    width: 13vw;
+  }
+  .weaponButton {
+    max-width: 175px;
+    max-height: 125px;
   }
 
+  .faChevronDown {
+    font-size: 1.1em; /* Size for small devices */
+    padding: 3px
+  }
 }
 
-@media all and (max-width: 992px){
-    .savedLoadedImage{
-      width: 13vw;
-    }
-    .weaponButton {
-      max-width: 175px;
-      max-height: 125px;
-    }
+@media all and (min-width: 992px) {
+  .modalTop {
+    height: 80vh;
+    background-color: #292d32;
+    overflow: scroll;
+    padding: 2vw;
+  }
+
+  .modalTopWithDetails {
+    height: 42vh;
+    background-color: #292d32;
+    overflow: scroll;
+    padding: 2vw;
+  }
+
+  .modalBottom {
+    height: 38vh;
+    background-color: #55606a;
+    overflow: scroll;
+    padding: 2vw;
+  }
 }
 
-@media all and (min-width: 992px){
-    .modalTop{
-      height: 80vh;
-      background-color: #292d32;
-      overflow: scroll;
-      padding: 2vw;
-    }
-
-    .modalTopWithDetails{
-      height: 42vh;
-      background-color: #292d32;
-      overflow: scroll;
-      padding: 2vw;
-    }
-
-    .modalBottom{
-      height: 38vh;
-      background-color: #55606a;
-      overflow: scroll;
-      padding: 2vw;
-    }
+@media all and (min-width: 1400px) {
+  .savedLoadoutContainer {
+    max-width: 60vw;
+  }
 }
-
-@media all and (min-width: 1400px){
-    .savedLoadoutContainer{
-      max-width: 60vw; 
-    }
-}
-
-

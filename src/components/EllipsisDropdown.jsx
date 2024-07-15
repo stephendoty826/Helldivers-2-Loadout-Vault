@@ -1,42 +1,75 @@
+import { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faEllipsisVertical, faTrashCan
+  faEllipsisVertical,
+  faTrashCan,
+  faPenToSquare,
+  faCopy
 } from "@fortawesome/free-solid-svg-icons";
+import CopyOrEditModal from "./CopyOrEditModal";
 
-function EllipsisDropDown({id, name, savedLoadouts, setSavedLoadouts}) {
+function EllipsisDropDown({ loadout, savedLoadouts, setSavedLoadouts }) {
+  const [showEditModal, setShowEditModal] = useState(false);
+  const [showCopyModal, setShowCopyModal] = useState(false);
 
   const deleteLoadout = () => {
-
-    let deleteLoadout = window.confirm(`Delete this loadout: \"${name}\"?`);
+    let deleteLoadout = window.confirm(
+      `Delete this loadout: "${loadout.loadoutName}"?`
+    );
     if (deleteLoadout) {
       let filteredSavedLoadouts = savedLoadouts.filter(
-      (savedLoadout) => id !== savedLoadout.id
-    );
-    setSavedLoadouts(filteredSavedLoadouts)
-    let savedLoadoutsJSON = JSON.stringify(filteredSavedLoadouts);
-    localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+        (savedLoadout) => loadout.id !== savedLoadout.id
+      );
+      setSavedLoadouts(filteredSavedLoadouts);
+      let savedLoadoutsJSON = JSON.stringify(filteredSavedLoadouts);
+      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
     }
-
-
-    
-  }
+  };
 
   return (
-    <Dropdown className="e-caret-hide custom-dropdown-menu">
-      <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-        <FontAwesomeIcon icon={faEllipsisVertical} />
-      </Dropdown.Toggle>
+    <>
+      <Dropdown className="e-caret-hide custom-dropdown-menu">
+        <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+          <FontAwesomeIcon icon={faEllipsisVertical} />
+        </Dropdown.Toggle>
 
-      <Dropdown.Menu>
-        {/* <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item> */}
-        <Dropdown.Item onClick={deleteLoadout}>
-          Delete Loadout
-          <FontAwesomeIcon icon={faTrashCan} className="ms-3"/>
-        </Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
+        <Dropdown.Menu>
+          <Dropdown.Item onClick={() => setShowEditModal(true)}>
+            <FontAwesomeIcon icon={faPenToSquare} className="me-2" />
+            Edit Loadout
+          </Dropdown.Item>
+          <Dropdown.Item onClick={() => setShowCopyModal(true)}>
+            <FontAwesomeIcon icon={faCopy} className="me-2" />
+            Copy Loadout
+          </Dropdown.Item>
+          <Dropdown.Item onClick={deleteLoadout} style={{ color: "red" }}>
+            <FontAwesomeIcon icon={faTrashCan} className="me-2" />
+            <strong>Delete Loadout</strong>
+          </Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+      {showEditModal && (
+        <CopyOrEditModal
+          loadout={loadout}
+          onHide={() => setShowEditModal(false)}
+          show={true}
+          savedLoadouts={savedLoadouts}
+          setSavedLoadouts={setSavedLoadouts}
+          variant="edit"
+        />
+      )}
+      {showCopyModal && (
+        <CopyOrEditModal
+          loadout={loadout}
+          onHide={() => setShowCopyModal(false)}
+          show={true}
+          savedLoadouts={savedLoadouts}
+          setSavedLoadouts={setSavedLoadouts}
+          variant="copy"
+        />
+      )}
+    </>
   );
 }
 

@@ -1,18 +1,29 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import ArmorButton from "./ArmorButton";
 import HelmetButton from "./HelmetButton";
 import CapeButton from "./CapeButton";
-import PrimaryButton from "./PrimaryButton"
+import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import ThrowableButton from "./ThrowableButton";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-const EquipmentBuilder = ({armor, setArmor, helmet, setHelmet, cape, setCape, primary, setPrimary, secondary, setSecondary, throwable, setThrowable}) => {
-
+const EquipmentBuilder = ({
+  armor,
+  setArmor,
+  helmet,
+  setHelmet,
+  cape,
+  setCape,
+  primary,
+  setPrimary,
+  secondary,
+  setSecondary,
+  throwable,
+  setThrowable,
+}) => {
   return (
-    <div className="mt-5">
+    <div className="mt-4">
       <label className="h3">Equipment</label>
       <div className="d-flex justify-content-around mt-3">
         <div className="d-flex flex-column">
