@@ -56,8 +56,22 @@ code {
   padding: 2vw;
 }
 
+.modalTopWithDetailsCape {
+  height: 68vh;
+  background-color: #292d32;
+  overflow: scroll;
+  padding: 2vw;
+}
+
 .modalBottom {
   height: 40vh;
+  background-color: #55606a;
+  overflow: scroll;
+  padding: 2vw;
+}
+
+.modalBottomCape {
+  height: 17vh;
   background-color: #55606a;
   overflow: scroll;
   padding: 2vw;
@@ -146,6 +160,10 @@ code {
 .faChevronDown {
   font-size: 2.25em; /* Size for extra large devices */
   padding: 8px;
+}
+
+a{
+  color: lightblue;
 }
 
 @media all and (max-device-height: 700px) {
