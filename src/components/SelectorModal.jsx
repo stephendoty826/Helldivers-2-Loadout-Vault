@@ -511,6 +511,27 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
             <div className="pt-1">DAMAGE: {selected.damage}</div>
             <div className="pt-1">CAPACITY: {selected.capacity}</div>
             <div className="py-1">RECOIL: {selected.recoil}</div>
+            {selected["fire rate"] && (
+              <div className="pt-1">
+                FIRE RATE (RPM): {selected["fire rate"]}
+              </div>
+            )}
+            {selected["fire limit"] && (
+              <div className="pt-1">FIRE LIMIT: {selected["fire limit"]}</div>
+            )}
+            {selected["spare magazines"] && (
+              <div className="pt-1">
+                SPARE MAGAZINES: {selected["spare magazines"]}
+              </div>
+            )}
+            {selected["reload time"] && (
+              <div className="pt-1">RELOAD TIME: {selected["reload time"]}</div>
+            )}
+            {selected["tactical reload"] && (
+              <div className="pt-1">
+                TACTICAL RELOAD: {selected["tactical reload"]}
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-2">
@@ -589,6 +610,27 @@ const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
             <div className="pt-1">DAMAGE: {selected.damage}</div>
             <div className="pt-1">CAPACITY: {selected.capacity}</div>
             <div className="py-1">RECOIL: {selected.recoil}</div>
+            {selected["fire rate"] && (
+              <div className="pt-1">
+                FIRE RATE (RPM): {selected["fire rate"]}
+              </div>
+            )}
+            {selected["fire limit"] && (
+              <div className="pt-1">FIRE LIMIT: {selected["fire limit"]}</div>
+            )}
+            {selected["spare magazines"] && (
+              <div className="pt-1">
+                SPARE MAGAZINES: {selected["spare magazines"]}
+              </div>
+            )}
+            {selected["reload time"] && (
+              <div className="pt-1">RELOAD TIME: {selected["reload time"]}</div>
+            )}
+            {selected["tactical reload"] && (
+              <div className="pt-1">
+                TACTICAL RELOAD: {selected["tactical reload"]}
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-2">
