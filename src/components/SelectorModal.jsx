@@ -112,7 +112,7 @@ const stratagemJSX = (selected, setSelected, showDetails, itemArray) => {
         {keysArray.map((stratagemKey, idx) => {
           return (
             <div key={stratagemKey + idx}>
-              <p>{stratagemKey}</p>
+              <p>{stratagemKey.toUpperCase()}</p>
               <div className="row">
                 {itemArray[stratagemKey].map((equipment) => {
                   let isSelected = selected.name === equipment.name;
@@ -252,7 +252,7 @@ const armorJSX = (selected, setSelected, showDetails, itemArray) => {
         {keysArray.map((armorKey, idx) => {
           return (
             <div key={armorKey + idx}>
-              <p>{armorKey}</p>
+              <p>{armorKey.toUpperCase()}</p>
               <div className="row">
                 {itemArray[armorKey].map((equipment) => {
                   let isSelected = selected.name === equipment.name;
@@ -346,7 +346,7 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
         {keysArray.map((weaponKey, idx) => {
           return (
             <div key={weaponKey + idx}>
-              <p>{weaponKey}</p>
+              <p>{weaponKey.toUpperCase()}</p>
               <div className="row">
                 {itemArray[weaponKey].map((equipment) => {
                   let isSelected = selected.name === equipment.name;
@@ -436,7 +436,7 @@ const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
         {keysArray.map((weaponKey, idx) => {
           return (
             <div key={weaponKey + idx}>
-              <p>{weaponKey}</p>
+              <p>{weaponKey.toUpperCase()}</p>
               <div className="row">
                 {itemArray[weaponKey].map((equipment) => {
                   let isSelected = selected.name === equipment.name;
@@ -526,7 +526,7 @@ const throwableJSX = (selected, setSelected, showDetails, itemArray) => {
         {keysArray.map((throwableKey, idx) => {
           return (
             <div key={throwableKey + idx}>
-              <p>{throwableKey}</p>
+              <p>{throwableKey.toUpperCase()}</p>
               <div className="row">
                 {itemArray[throwableKey].map((equipment) => {
                   let isSelected = selected.name === equipment.name;
