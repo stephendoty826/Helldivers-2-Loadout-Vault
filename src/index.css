@@ -45,21 +45,24 @@ code {
 .modalTop {
   height: 85vh;
   background-color: #292d32;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 2vw;
 }
 
 .modalTopWithDetails {
   height: 45vh;
   background-color: #292d32;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 2vw;
 }
 
 .modalTopWithDetailsCape {
   height: 68vh;
   background-color: #292d32;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 2vw;
 }
 
@@ -67,13 +70,15 @@ code {
   height: 40vh;
   background-color: #55606a;
   overflow: scroll;
+  overflow-x: hidden;
   padding: 2vw;
 }
 
 .modalBottomCape {
   height: 17vh;
   background-color: #55606a;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 2vw;
 }
 
@@ -217,21 +222,24 @@ a{
   .modalTop {
     height: 80vh;
     background-color: #292d32;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     padding: 2vw;
   }
 
   .modalTopWithDetails {
     height: 42vh;
     background-color: #292d32;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     padding: 2vw;
   }
 
   .modalBottom {
     height: 38vh;
     background-color: #55606a;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     padding: 2vw;
   }
 }
