@@ -105,63 +105,35 @@ const jsxSwitch = (selected, setSelected, showDetails, itemArray, variant) => {
 };
 
 const stratagemJSX = (selected, setSelected, showDetails, itemArray) => {
+  let keysArray = Object.keys(itemArray)
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
-        <p>Offensive</p>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
-          {itemArray.offensive.map((stratagem) => {
-            let isSelected = selected.name === stratagem.name;
-
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={stratagem.image}
-                key={stratagem.image}
-                alt=""
-                onClick={() => setSelected(stratagem)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Supply</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.supply.map((stratagem) => {
-            let isSelected = selected.name === stratagem.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={stratagem.image}
-                key={stratagem.image}
-                alt=""
-                onClick={() => setSelected(stratagem)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Defensive</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.defensive.map((stratagem) => {
-            let isSelected = selected.name === stratagem.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={stratagem.image}
-                key={stratagem.image}
-                alt=""
-                onClick={() => setSelected(stratagem)}
-              />
-            );
-          })}
-        </div>
+        {keysArray.map((stratagemKey, idx) => {
+          return (
+            <div key={stratagemKey + idx}>
+              <p>{stratagemKey}</p>
+              <div className="row">
+                {itemArray[stratagemKey].map((equipment) => {
+                  let isSelected = selected.name === equipment.name;
+                  return (
+                    <div className="col-3" key={equipment.image}>
+                      <img
+                        className={
+                          isSelected ? "selected itemSelector" : "itemSelector"
+                        }
+                        src={equipment.image}
+                        alt=""
+                        onClick={() => setSelected(equipment)}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+              <hr />
+            </div>
+          );
+        })}
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
         <div>{selected.description}</div>
@@ -228,19 +200,20 @@ const helmetJSX = (selected, setSelected, showDetails, itemArray) => {
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
+        <div className="row">
           {itemArray.map((equipment) => {
             let isSelected = selected.name === equipment.name;
             return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
+              <div className="col-4" key={equipment.image}>
+                <img
+                  className={
+                    isSelected ? "selected itemSelector" : "itemSelector"
+                  }
+                  src={equipment.image}
+                  alt=""
+                  onClick={() => setSelected(equipment)}
+                />
+              </div>
             );
           })}
         </div>
@@ -272,62 +245,35 @@ const helmetJSX = (selected, setSelected, showDetails, itemArray) => {
 };
 
 const armorJSX = (selected, setSelected, showDetails, itemArray) => {
+  let keysArray = Object.keys(itemArray)
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
-        <p>Light Armor</p>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
-          {itemArray.light.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Medium Armor</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.medium.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Heavy Armor</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.heavy.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
+        {keysArray.map((armorKey, idx) => {
+          return (
+            <div key={armorKey + idx}>
+              <p>{armorKey}</p>
+              <div className="row">
+                {itemArray[armorKey].map((equipment) => {
+                  let isSelected = selected.name === equipment.name;
+                  return (
+                    <div className="col-4" key={equipment.image}>
+                      <img
+                        className={
+                          isSelected ? "selected itemSelector" : "itemSelector"
+                        }
+                        src={equipment.image}
+                        alt=""
+                        onClick={() => setSelected(equipment)}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+              <hr />
+            </div>
+          );
+        })}
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
         <div>{selected.description}</div>
@@ -364,19 +310,20 @@ const capeJSX = (selected, setSelected, showDetails, itemArray) => {
   return (
     <>
       <div className={showDetails ? "modalTopWithDetailsCape" : "modalTop"}>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
+        <div className="row">
           {itemArray.map((equipment) => {
             let isSelected = selected.name === equipment.name;
             return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
+              <div className="col-4" key={equipment.image}>
+                <img
+                  className={
+                    isSelected ? "selected itemSelector" : "itemSelector"
+                  }
+                  src={equipment.image}
+                  alt=""
+                  onClick={() => setSelected(equipment)}
+                />
+              </div>
             );
           })}
         </div>
@@ -392,116 +339,35 @@ const capeJSX = (selected, setSelected, showDetails, itemArray) => {
 };
 
 const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
+  let keysArray = Object.keys(itemArray);
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
-        <p>Assault Rifles</p>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
-          {itemArray["Assault Rifle"].map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Marksman Rifles</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray["Marksman Rifle"].map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Submachine Guns</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray["Submachine Gun"].map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Shotguns</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.Shotgun.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Explosive</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.Explosive.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Energy-Based</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray["Energy-Based"].map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
+        {keysArray.map((weaponKey, idx) => {
+          return (
+            <div key={weaponKey + idx}>
+              <p>{weaponKey}</p>
+              <div className="row">
+                {itemArray[weaponKey].map((equipment) => {
+                  let isSelected = selected.name === equipment.name;
+                  return (
+                    <div className="col-6" key={equipment.image}>
+                      <img
+                        className={
+                          isSelected ? "selected itemSelector" : "itemSelector"
+                        }
+                        src={equipment.image}
+                        alt=""
+                        onClick={() => setSelected(equipment)}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+              <hr />
+            </div>
+          );
+        })}
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
         <div>{selected.description}</div>
@@ -563,44 +429,35 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
 };
 
 const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
+  let keysArray = Object.keys(itemArray);
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
-        <p>Shotgun</p>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
-          {itemArray.Shotgun.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Pistol</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray.Pistol.map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
+        {keysArray.map((weaponKey, idx) => {
+          return (
+            <div key={weaponKey + idx}>
+              <p>{weaponKey}</p>
+              <div className="row">
+                {itemArray[weaponKey].map((equipment) => {
+                  let isSelected = selected.name === equipment.name;
+                  return (
+                    <div className="col-6" key={equipment.image}>
+                      <img
+                        className={
+                          isSelected ? "selected itemSelector" : "itemSelector"
+                        }
+                        src={equipment.image}
+                        alt=""
+                        onClick={() => setSelected(equipment)}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+              <hr />
+            </div>
+          );
+        })}
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
         <div>{selected.description}</div>
@@ -662,44 +519,35 @@ const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
 };
 
 const throwableJSX = (selected, setSelected, showDetails, itemArray) => {
+  let keysArray = Object.keys(itemArray);
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
-        <p>Standard Throwables</p>
-        <div className="col-12 d-flex flex-wrap justify-content-between">
-          {itemArray["Standard Throwables"].map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
-        <hr />
-        <p>Special Throwables</p>
-        <div className="d-flex flex-wrap justify-content-between">
-          {itemArray["Special Throwables"].map((equipment) => {
-            let isSelected = selected.name === equipment.name;
-            return (
-              <img
-                className={
-                  isSelected ? "selected itemSelector" : "itemSelector"
-                }
-                src={equipment.image}
-                key={equipment.image}
-                alt=""
-                onClick={() => setSelected(equipment)}
-              />
-            );
-          })}
-        </div>
+        {keysArray.map((throwableKey, idx) => {
+          return (
+            <div key={throwableKey + idx}>
+              <p>{throwableKey}</p>
+              <div className="row">
+                {itemArray[throwableKey].map((equipment) => {
+                  let isSelected = selected.name === equipment.name;
+                  return (
+                    <div className="col-4" key={equipment.image}>
+                      <img
+                        className={
+                          isSelected ? "selected itemSelector" : "itemSelector"
+                        }
+                        src={equipment.image}
+                        alt=""
+                        onClick={() => setSelected(equipment)}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+              <hr />
+            </div>
+          );
+        })}
       </div>
       <div className={showDetails ? "modalBottom" : "modalBottomClosed"}>
         <div>{selected.description}</div>
