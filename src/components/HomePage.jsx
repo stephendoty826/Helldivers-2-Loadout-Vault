@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import MessageModal from "./MessageModal";
 import helldivers2 from "../gameData/helldivers2.json";
 import { Link } from "react-router-dom";
 
@@ -72,6 +73,7 @@ const HomePage = () => {
           </div>
         </div>
       </Container>
+      <MessageModal />
     </div>
   );
 };
