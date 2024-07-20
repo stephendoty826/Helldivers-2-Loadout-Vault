@@ -366,7 +366,7 @@
     ]
   },
   "secondaries": {
-    "Shotgun": [
+    "Shotguns": [
       {
         "name": "SG-22 Bushwhacker",
         "class": "Shotgun",
@@ -383,7 +383,7 @@
         "image": "./images/bushwacker.png"
       }
     ],
-    "Pistol": [
+    "Pistols": [
       {
         "name": "P-2 Peacemaker",
         "class": "Pistol",
