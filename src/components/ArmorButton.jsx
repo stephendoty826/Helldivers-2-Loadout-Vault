@@ -18,7 +18,7 @@ const ArmorButton = ({
         onClick={() => setShowModal(true)}
       >
         {armor.image && (
-          <img src={armor.image} alt="" className="armorButton" />
+          <img src={armor.image} alt="" className="equippedImageCropBorder" />
         )}
       </Button>
       <SelectorModal
