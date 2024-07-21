@@ -94,7 +94,6 @@ const LoadoutBuilder = () => {
   }
 
   return (
-    <div>
       <Container>
         <div className="d-flex align-items-center flex-column vh-85">
           <p className="display-6 mt-3">Loadout Builder</p>
@@ -181,7 +180,6 @@ const LoadoutBuilder = () => {
           </div>
         </div>
       </Container>
-    </div>
   );
 };
 
