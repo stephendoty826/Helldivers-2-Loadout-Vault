@@ -24,9 +24,6 @@ const Header = () => {
               <NavDropdown.Item as={Link} to="/saved_loadouts">
                 Saved Loadouts
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/randomizer">
-                Loadout Randomizer
-              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/feedback">
                 Feedback
               </NavDropdown.Item>
