@@ -18,7 +18,7 @@ const PrimaryButton = ({
         onClick={() => setShowModal(true)}
       >
         {primary.image && (
-          <img src={primary.image} alt="" className="centerWeaponImage" />
+          <img src={primary.image} alt="" className="equippedImageCropBorder" />
         )}
       </Button>
       <SelectorModal

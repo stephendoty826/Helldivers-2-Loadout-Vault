@@ -17,7 +17,9 @@ const CapeButton = ({
         className="armorButton"
         onClick={() => setShowModal(true)}
       >
-        {cape.image && <img src={cape.image} alt="" className="armorButton" />}
+        {cape.image && (
+          <img src={cape.image} alt="" className="equippedImageCropBorder" />
+        )}
       </Button>
       <SelectorModal
         variant="cape"

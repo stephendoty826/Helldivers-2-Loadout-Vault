@@ -13,7 +13,7 @@ const StratagemButton = ({ stratagem, setStratagem, stratagemArray }) => {
         onClick={() => setShowModal(true)}
       >
         {stratagem.image && (
-          <img src={stratagem.image} alt="" className="stratButton" />
+          <img src={stratagem.image} alt="" className="equippedImage" />
         )}
       </Button>
       <SelectorModal

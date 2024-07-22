@@ -13,7 +13,11 @@ const SecondaryButton = ({ secondary, setSecondary, secondaryArray }) => {
         onClick={() => setShowModal(true)}
       >
         {secondary.image && (
-          <img src={secondary.image} alt="" className="centerWeaponImage" />
+          <img
+            src={secondary.image}
+            alt=""
+            className="equippedImageCropBorder"
+          />
         )}
       </Button>
       <SelectorModal
