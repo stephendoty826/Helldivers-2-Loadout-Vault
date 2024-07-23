@@ -101,7 +101,7 @@ code {
   box-sizing: border-box
 }
 
-.armorButton:hover{
+button.armorButton:hover{
   border: 3px dashed #f6e11e;
   background-color: #303030;
 }
@@ -120,7 +120,7 @@ code {
   box-sizing: border-box
 }
 
-.weaponButton:hover{
+button.weaponButton:hover{
   border: 3px dashed #f6e11e;
   background-color: #303030;
 }
