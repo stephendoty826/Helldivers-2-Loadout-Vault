@@ -74,7 +74,7 @@ const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
                         <img
                           src={armorPiece.image}
                           alt=""
-                          className="armorButton"
+                          className="equippedImageCropBorder"
                         />
                       </div>
                     );
@@ -92,7 +92,7 @@ const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
                           className={
                             isThrowable
                               ? "centerThrowableImage"
-                              : "centerWeaponImage"
+                              : "equippedImageCropBorder"
                           }
                         />
                       </div>
