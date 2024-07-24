@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import MessageModal from "./MessageModal";
 import helldivers2 from "../gameData/helldivers2.json";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -44,49 +44,54 @@ const HomePage = () => {
   }
 
   return (
-    <div>
-      <Container className="mt-3 ">
-        <div className="d-flex align-items-center flex-column vh-85">
-          <Helmet>
-            <meta
-              name="description"
-              content="This site allows helldivers to build and save loadouts as they continue to spread Managed Democracy across the galaxy."
-            />
-            <meta name="keywords" content="Helldivers 2, Helldivers, loadout builder, loadout saver, save loadouts, build loadouts, save stratagems, save equipment, save armor" />
-          </Helmet>
-          <div className="display-1 mb-2">Helldivers 2</div>
-          <div className="display-6">Loadout Vault</div>
-          <div className="px-5 pt-5 text-center">
-            <p className="homePageFont saira-font">
-              Welcome, fellow Helldivers
-            </p>
-            <p className="homePageFont saira-font">
-              I am General Pyro, and Super Earth high command has entrusted me
-              with the creation of this loadout vault.
-            </p>
-            <p className="homePageFont saira-font">
-              This vault will allow you to save loadouts as you continue to
-              spread Managed Democracy across the galaxy.
-            </p>
-            <p className="homePageFont saira-font">
-              Choose your stratagems, weapons, and armor...for Liberty.
-            </p>
+    <HelmetProvider>
+      <div>
+        <Container className="mt-3 ">
+          <div className="d-flex align-items-center flex-column vh-85">
+            <Helmet>
+              <meta
+                name="description"
+                content="This site allows helldivers to build and save loadouts as they continue to spread Managed Democracy across the galaxy."
+              />
+              <meta
+                name="keywords"
+                content="Helldivers 2, Helldivers, loadout builder, loadout saver, save loadouts, build loadouts, save stratagems, save equipment, save armor"
+              />
+            </Helmet>
+            <div className="display-1 mb-2">Helldivers 2</div>
+            <div className="display-6">Loadout Vault</div>
+            <div className="px-5 pt-5 text-center">
+              <p className="homePageFont saira-font">
+                Welcome, fellow Helldivers
+              </p>
+              <p className="homePageFont saira-font">
+                I am General Pyro, and Super Earth high command has entrusted me
+                with the creation of this loadout vault.
+              </p>
+              <p className="homePageFont saira-font">
+                This vault will allow you to save loadouts as you continue to
+                spread Managed Democracy across the galaxy.
+              </p>
+              <p className="homePageFont saira-font">
+                Choose your stratagems, weapons, and armor...for Liberty.
+              </p>
+            </div>
+            <Button
+              variant="secondary"
+              className="mt-4 fs-3"
+              as={Link}
+              to="/loadout_builder"
+            >
+              Build Loadout
+            </Button>{" "}
+            <div className="text-center mx-3 h-100 d-flex align-items-center">
+              <p className="text-center mx-3 mt-4">{tip}</p>
+            </div>
           </div>
-          <Button
-            variant="secondary"
-            className="mt-4 fs-3"
-            as={Link}
-            to="/loadout_builder"
-          >
-            Build Loadout
-          </Button>{" "}
-          <div className="text-center mx-3 h-100 d-flex align-items-center">
-            <p className="text-center mx-3 mt-4">{tip}</p>
-          </div>
-        </div>
-      </Container>
-      <MessageModal />
-    </div>
+        </Container>
+        <MessageModal />
+      </div>
+    </HelmetProvider>
   );
 };
 
