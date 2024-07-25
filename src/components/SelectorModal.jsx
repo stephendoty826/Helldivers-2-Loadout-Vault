@@ -2,7 +2,14 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
+const SelectorModal = ({
+  otherStratagems,
+  show,
+  setItem,
+  onHide,
+  itemArray,
+  variant,
+}) => {
   const [selected, setSelected] = useState({});
   const [showDetails, setShowDetails] = useState(false);
 
@@ -52,7 +59,14 @@ const SelectorModal = ({ show, setItem, onHide, itemArray, variant }) => {
         )}
       </Modal.Header>
       <Modal.Body style={{ padding: "0px" }}>
-        {jsxSwitch(selected, setSelected, showDetails, itemArray, variant)}
+        {jsxSwitch(
+          selected,
+          setSelected,
+          showDetails,
+          itemArray,
+          variant,
+          otherStratagems
+        )}
       </Modal.Body>
       <Modal.Footer
         className={selected.name ? "d-flex justify-content-between" : ""}
@@ -83,10 +97,23 @@ export default SelectorModal;
 
 //********* */
 
-const jsxSwitch = (selected, setSelected, showDetails, itemArray, variant) => {
+const jsxSwitch = (
+  selected,
+  setSelected,
+  showDetails,
+  itemArray,
+  variant,
+  otherStratagems
+) => {
   switch (variant) {
     case "stratagem":
-      return stratagemJSX(selected, setSelected, showDetails, itemArray);
+      return stratagemJSX(
+        selected,
+        setSelected,
+        showDetails,
+        itemArray,
+        otherStratagems
+      );
     case "helmet":
       return helmetJSX(selected, setSelected, showDetails, itemArray);
     case "armor":
@@ -104,8 +131,15 @@ const jsxSwitch = (selected, setSelected, showDetails, itemArray, variant) => {
   }
 };
 
-const stratagemJSX = (selected, setSelected, showDetails, itemArray) => {
-  let keysArray = Object.keys(itemArray)
+const stratagemJSX = (
+  selected,
+  setSelected,
+  showDetails,
+  itemArray,
+  otherStratagems
+) => {
+  console.log(itemArray);
+  let keysArray = Object.keys(itemArray);
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>
@@ -116,15 +150,24 @@ const stratagemJSX = (selected, setSelected, showDetails, itemArray) => {
               <div className="row">
                 {itemArray[stratagemKey].map((equipment) => {
                   let isSelected = selected.name === equipment.name;
+                  let inOtherStratagems = otherStratagems.includes(
+                    equipment.name
+                  );
                   return (
                     <div className="col-3" key={equipment.image}>
                       <img
                         className={
-                          isSelected ? "selected itemSelector" : "itemSelector"
+                          isSelected
+                            ? "selected itemSelector"
+                            : inOtherStratagems
+                            ? "equipped itemSelector"
+                            : "itemSelector"
                         }
                         src={equipment.image}
                         alt=""
-                        onClick={() => setSelected(equipment)}
+                        onClick={() => {
+                          !inOtherStratagems && setSelected(equipment);
+                        }} // "disables" click when inOtherStratagems is true
                       />
                     </div>
                   );
@@ -245,7 +288,7 @@ const helmetJSX = (selected, setSelected, showDetails, itemArray) => {
 };
 
 const armorJSX = (selected, setSelected, showDetails, itemArray) => {
-  let keysArray = Object.keys(itemArray)
+  let keysArray = Object.keys(itemArray);
   return (
     <>
       <div className={showDetails ? "modalTopWithDetails" : "modalTop"}>

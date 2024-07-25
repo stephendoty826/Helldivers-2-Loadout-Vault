@@ -1,13 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import SelectorModal from "./SelectorModal";
 
-const PrimaryButton = ({
-  primary,
-  setPrimary,
-  primaryArray,
-}) => {
-
+const PrimaryButton = ({ primary, setPrimary, primaryArray }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (

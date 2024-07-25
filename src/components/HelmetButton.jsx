@@ -1,13 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import SelectorModal from "./SelectorModal";
 
-const HelmetButton = ({
-  helmet,
-  setHelmet,
-  helmetArray,
-}) => {
-
+const HelmetButton = ({ helmet, setHelmet, helmetArray }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (

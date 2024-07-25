@@ -174,7 +174,7 @@ button.weaponButton:hover{
 }
 
 .equipped {
-  box-shadow: 0px 0px 10px 0px #fffca3;
+  filter: opacity(35%);
 }
 
 .itemSelector {
