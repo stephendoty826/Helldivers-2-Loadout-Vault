@@ -5,6 +5,8 @@ import helldivers2 from "../gameData/helldivers2.json"
 import MessageModal from "./MessageModal";
 import { Link } from "react-router-dom";
 
+let tipsArray = []
+
 const HomePage = () => {
   const [tip, setTip] = useState("");
 
@@ -35,9 +37,18 @@ const HomePage = () => {
   }
 
   function getRandomTip() {
-    let tipsArray = helldivers2["loading screen tips"];
+    if(tipsArray.length === 0){
+      tipsArray = [...helldivers2["loading screen tips"]]
+      // shuffle tipsArray
+      for (var i = tipsArray.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = tipsArray[i];
+        tipsArray[i] = tipsArray[j];
+        tipsArray[j] = temp;
+      }
+    }
 
-    let tempTip = tipsArray[(tipsArray.length * Math.random()) | 0];
+    let tempTip = tipsArray.pop();
 
     setTip(tempTip);
   }
@@ -65,15 +76,22 @@ const HomePage = () => {
             </p>
           </div>
           <Button
-            variant="secondary"
+            variant="primary"
             className="mt-4 fs-3"
             as={Link}
             to="/loadout_builder"
           >
             Build Loadout
           </Button>{" "}
-          <div className="text-center mx-3 h-100 d-flex align-items-center">
-            <p className="text-center mx-3 mt-4">{tip}</p>
+          <Button
+            variant="secondary"
+            className="mt-5 fs-4"
+            onClick={getRandomTip}
+          >
+            Next Tip
+          </Button>{" "}
+          <div className="text-center mx-3 mt-3 d-flex align-items-center">
+            <div className="text-center mx-3">{tip}</div>
           </div>
         </div>
       </Container>
