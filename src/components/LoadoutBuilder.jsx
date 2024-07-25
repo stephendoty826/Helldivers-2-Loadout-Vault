@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import StratBuilder from "./StratBuilder";
 import EquipmentBuilder from "./EquipmentBuilder";
+import FactionCheckboxes from "./FactionCheckboxes";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { v4 as uuidv4 } from "uuid";
@@ -86,100 +87,71 @@ const LoadoutBuilder = () => {
       );
     }
   };
-  
+
   const handleKeyUp = (e) => {
     if (e.key === "Enter") {
-      saveLoadout()
+      saveLoadout();
     }
-  }
+  };
 
   return (
-      <Container>
-        <div className="d-flex align-items-center flex-column vh-85">
-          <p className="display-6 mt-3">Loadout Builder</p>
-          <div className="text-center w-100">
-            <StratBuilder
-              stratagem1={stratagem1}
-              setStratagem1={setStratagem1}
-              stratagem2={stratagem2}
-              setStratagem2={setStratagem2}
-              stratagem3={stratagem3}
-              setStratagem3={setStratagem3}
-              stratagem4={stratagem4}
-              setStratagem4={setStratagem4}
-            />
-            <EquipmentBuilder
-              armor={armor}
-              setArmor={setArmor}
-              helmet={helmet}
-              setHelmet={setHelmet}
-              cape={cape}
-              setCape={setCape}
-              primary={primary}
-              setPrimary={setPrimary}
-              secondary={secondary}
-              setSecondary={setSecondary}
-              throwable={throwable}
-              setThrowable={setThrowable}
-            />
-            <div className="d-flex flex-column align-items-center w-100">
-              <Form.Group className="mb-4 mt-4 w-75">
-                <label className="h3">Faction</label>
-                <div className="mb-4">
-                  <Form.Check
-                    inline
-                    type="radio"
-                    id="allBuilder"
-                    label="All"
-                    checked={faction === "all"}
-                    onChange={() => {
-                      setFaction("all");
-                    }}
-                  />
-                  <Form.Check
-                    inline
-                    type="radio"
-                    id="bugsBuilder"
-                    label="Bugs"
-                    className="me-3"
-                    checked={faction === "bugs"}
-                    onChange={() => {
-                      setFaction("bugs");
-                    }}
-                  />
-                  <Form.Check
-                    inline
-                    type="radio"
-                    id="botsBuilder"
-                    label="Bots"
-                    className="me-3"
-                    checked={faction === "bots"}
-                    onChange={() => {
-                      setFaction("bots");
-                    }}
-                  />
-                </div>
-                <Form.Label>Loadout Name</Form.Label>
-                <Form.Control
-                  type="text"
-                  onChange={(e) => setLoadoutName(e.target.value)}
-                  value={loadoutName}
-                  placeholder="Enter loadout name"
-                  onKeyUp={(e) => handleKeyUp(e)}
-                />
-              </Form.Group>
-              <div className="d-flex justify-content-between w-50 mb-3">
-                <Button variant="secondary" onClick={resetLoadout}>
-                  Reset
-                </Button>
-                <Button variant="primary" onClick={saveLoadout}>
-                  Save
-                </Button>
-              </div>
+    <Container>
+      <div className="d-flex align-items-center flex-column vh-85">
+        <p className="display-6 mt-3">Loadout Builder</p>
+        <div className="text-center w-100">
+          <StratBuilder
+            stratagem1={stratagem1}
+            setStratagem1={setStratagem1}
+            stratagem2={stratagem2}
+            setStratagem2={setStratagem2}
+            stratagem3={stratagem3}
+            setStratagem3={setStratagem3}
+            stratagem4={stratagem4}
+            setStratagem4={setStratagem4}
+          />
+          <EquipmentBuilder
+            armor={armor}
+            setArmor={setArmor}
+            helmet={helmet}
+            setHelmet={setHelmet}
+            cape={cape}
+            setCape={setCape}
+            primary={primary}
+            setPrimary={setPrimary}
+            secondary={secondary}
+            setSecondary={setSecondary}
+            throwable={throwable}
+            setThrowable={setThrowable}
+          />
+          <div className="d-flex flex-column align-items-center w-100">
+            <Form.Group className="mb-4 mt-4 w-75">
+              <label className="h3">Faction</label>
+              <FactionCheckboxes
+                id="builder"
+                faction={faction}
+                setFaction={setFaction}
+              />
+              <Form.Label>Loadout Name</Form.Label>
+              <Form.Control
+                type="text"
+                onChange={(e) => setLoadoutName(e.target.value)}
+                value={loadoutName}
+                placeholder="Enter loadout name"
+                onKeyUp={(e) => handleKeyUp(e)}
+              />
+            </Form.Group>
+            <div className="d-flex justify-content-between w-50 mb-3">
+              <Button variant="secondary" onClick={resetLoadout}>
+                Reset
+              </Button>
+              <Button variant="primary" onClick={saveLoadout}>
+                Save
+              </Button>
             </div>
           </div>
         </div>
-      </Container>
+      </div>
+    </Container>
   );
 };
 

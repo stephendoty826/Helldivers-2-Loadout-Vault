@@ -9,7 +9,7 @@ const ThrowableButton = ({ throwable, setThrowable, throwableArray }) => {
     <>
       <Button
         variant="secondary"
-        className="weaponButton"
+        className="weaponButton selectorBorder"
         onClick={() => setShowModal(true)}
       >
         {throwable.image && (
