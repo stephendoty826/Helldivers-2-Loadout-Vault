@@ -39,10 +39,21 @@ function ContextAwareToggle({ eventKey, callback }) {
 }
 
 const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
+  console.log(savedLoadout)
+
   return (
     <div>
       <div className="fs-4 my-2`">
-        {savedLoadout.faction.toUpperCase() + " - " + savedLoadout.loadoutName}
+        {savedLoadout.faction === "all" ? (
+          savedLoadout.faction.toUpperCase()
+        ) : savedLoadout.faction === "bugs" ? (
+          <img src="./images/terminid_logo.webp" style={{ width: "3vh" }} />
+        ) : (
+          savedLoadout.faction === "bots" && (
+            <img src="./images/automaton_logo.webp" style={{ width: "3.4vh" }} />
+          )
+        )}
+        {" - " + savedLoadout.loadoutName}
       </div>
       <Accordion className="custom-accordion">
         <Card>
