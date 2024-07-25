@@ -64,7 +64,7 @@ const HomePage = () => {
               Welcome, fellow Helldivers
             </p>
             <p className="homePageFont saira-font">
-              I am General Pyro, and Super Earth high command has entrusted me
+              I am Helldiver Pyro, and Super Earth high command has entrusted me
               with the creation of this loadout vault.
             </p>
             <p className="homePageFont saira-font">
