@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import helldivers2 from "../gameData/helldivers2.json"
 import MessageModal from "./MessageModal";
-import helldivers2 from "../gameData/helldivers2.json";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+
+let tipsArray = []
 
 const HomePage = () => {
   const [tip, setTip] = useState("");
@@ -36,9 +37,18 @@ const HomePage = () => {
   }
 
   function getRandomTip() {
-    let tipsArray = helldivers2["loading screen tips"];
+    if(tipsArray.length === 0){
+      tipsArray = [...helldivers2["loading screen tips"]]
+      // shuffle tipsArray
+      for (var i = tipsArray.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = tipsArray[i];
+        tipsArray[i] = tipsArray[j];
+        tipsArray[j] = temp;
+      }
+    }
 
-    let tempTip = tipsArray[(tipsArray.length * Math.random()) | 0];
+    let tempTip = tipsArray.pop();
 
     setTip(tempTip);
   }
@@ -47,13 +57,6 @@ const HomePage = () => {
     <div>
       <Container className="mt-3 ">
         <div className="d-flex align-items-center flex-column vh-85">
-          <Helmet>
-            <meta
-              name="description"
-              content="This site allows helldivers to build and save loadouts as they continue to spread Managed Democracy across the galaxy."
-            />
-            <meta name="keywords" content="Helldivers 2, Helldivers, loadout builder, loadout saver, save loadouts, build loadouts, save stratagems, save equipment, save armor" />
-          </Helmet>
           <div className="display-1 mb-2">Helldivers 2</div>
           <div className="display-6">Loadout Vault</div>
           <div className="px-5 pt-5 text-center">
@@ -61,7 +64,7 @@ const HomePage = () => {
               Welcome, fellow Helldivers
             </p>
             <p className="homePageFont saira-font">
-              I am General Pyro, and Super Earth high command has entrusted me
+              I am Helldiver Pyro, and Super Earth high command has entrusted me
               with the creation of this loadout vault.
             </p>
             <p className="homePageFont saira-font">
@@ -73,15 +76,22 @@ const HomePage = () => {
             </p>
           </div>
           <Button
-            variant="secondary"
+            variant="primary"
             className="mt-4 fs-3"
             as={Link}
             to="/loadout_builder"
           >
             Build Loadout
           </Button>{" "}
-          <div className="text-center mx-3 h-100 d-flex align-items-center">
-            <p className="text-center mx-3 mt-4">{tip}</p>
+          <Button
+            variant="secondary"
+            className="mt-5 fs-4"
+            onClick={getRandomTip}
+          >
+            Next Tip
+          </Button>{" "}
+          <div className="text-center mx-3 mt-3 d-flex align-items-center">
+            <div className="text-center mx-3">{tip}</div>
           </div>
         </div>
       </Container>
