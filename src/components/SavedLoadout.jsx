@@ -39,7 +39,6 @@ function ContextAwareToggle({ eventKey, callback }) {
 }
 
 const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
-  console.log(savedLoadout)
 
   return (
     <div>
