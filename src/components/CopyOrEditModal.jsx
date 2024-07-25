@@ -4,6 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import Container from "react-bootstrap/Container";
 import StratBuilder from "./StratBuilder";
 import EquipmentBuilder from "./EquipmentBuilder";
+import FactionCheckboxes from "./FactionCheckboxes"
 import Form from "react-bootstrap/Form";
 import { v4 as uuidv4 } from "uuid";
 
@@ -127,43 +128,11 @@ const CopyOrEditModal = ({
               <div className="d-flex flex-column align-items-center w-100">
                 <Form.Group className="mb-4 mt-5  w-75">
                   <label className="h3">Faction</label>
-                  <div className="mb-4">
-                    <Form.Check
-                      inline
-                      type="radio"
-                      id="allEdit"
-                      label="All"
-                      value="all"
-                      checked={faction === "all"}
-                      onChange={(e) => {
-                        setFaction(e.target.value);
-                      }}
-                    />
-                    <Form.Check
-                      inline
-                      type="radio"
-                      id="bugsEdit"
-                      label="Bugs"
-                      className="me-3"
-                      value="bugs"
-                      checked={faction === "bugs"}
-                      onChange={(e) => {
-                        setFaction(e.target.value);
-                      }}
-                    />
-                    <Form.Check
-                      inline
-                      type="radio"
-                      id="botsEdit"
-                      label="Bots"
-                      className="me-3"
-                      value="bots"
-                      checked={faction === "bots"}
-                      onChange={(e) => {
-                        setFaction(e.target.value);
-                      }}
-                    />
-                  </div>
+                  <FactionCheckboxes
+                    id="edit/copy"
+                    faction={faction}
+                    setFaction={setFaction}
+                  />
                   <Form.Label>Loadout Name</Form.Label>
                   <Form.Control
                     type="text"

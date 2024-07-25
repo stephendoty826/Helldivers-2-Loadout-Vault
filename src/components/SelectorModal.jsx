@@ -138,7 +138,7 @@ const stratagemJSX = (
   itemArray,
   otherStratagems
 ) => {
-  console.log(itemArray);
+  
   let keysArray = Object.keys(itemArray);
   return (
     <>
