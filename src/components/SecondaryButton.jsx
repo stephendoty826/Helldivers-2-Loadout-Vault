@@ -9,7 +9,7 @@ const SecondaryButton = ({ secondary, setSecondary, secondaryArray }) => {
     <>
       <Button
         variant="secondary"
-        className="weaponButton"
+        className="weaponButton selectorBorder"
         onClick={() => setShowModal(true)}
       >
         {secondary.image && (

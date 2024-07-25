@@ -70,7 +70,10 @@ const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
                 <div className="d-flex justify-content-around">
                   {savedLoadout.armorSet.map((armorPiece) => {
                     return (
-                      <div className="armorButton" key={armorPiece.image}>
+                      <div
+                        className="armorButton imageBorder"
+                        key={armorPiece.image}
+                      >
                         <img
                           src={armorPiece.image}
                           alt=""
@@ -85,7 +88,10 @@ const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
                   {savedLoadout.equipment.map((equipment) => {
                     let isThrowable = equipment.class.includes("Throwable");
                     return (
-                      <div className="weaponButton" key={equipment.image}>
+                      <div
+                        className="weaponButton imageBorder"
+                        key={equipment.image}
+                      >
                         <img
                           src={equipment.image}
                           alt=""

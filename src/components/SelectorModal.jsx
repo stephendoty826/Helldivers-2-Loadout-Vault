@@ -373,10 +373,10 @@ const capeJSX = (selected, setSelected, showDetails, itemArray) => {
       </div>
       <div className={showDetails ? "modalBottomCape" : "modalBottomClosed"}>
         <div>{selected.description}</div>
+        <a href={selected.credit} target="_blank" rel="noreferrer">
+          Image credit
+        </a>
       </div>
-      <a href={selected.credit} target="_blank" rel="noreferrer">
-        Image credit
-      </a>
     </>
   );
 };

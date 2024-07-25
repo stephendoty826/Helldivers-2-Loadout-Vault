@@ -9,7 +9,7 @@ const CapeButton = ({ cape, setCape, capesArray }) => {
     <>
       <Button
         variant="secondary"
-        className="armorButton"
+        className="armorButton selectorBorder"
         onClick={() => setShowModal(true)}
       >
         {cape.image && (

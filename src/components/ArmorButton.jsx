@@ -9,7 +9,7 @@ const ArmorButton = ({ armor, setArmor, armorArray }) => {
     <>
       <Button
         variant="secondary"
-        className="armorButton"
+        className="armorButton selectorBorder"
         onClick={() => setShowModal(true)}
       >
         {armor.image && (

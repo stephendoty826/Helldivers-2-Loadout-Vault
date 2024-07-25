@@ -9,7 +9,7 @@ const HelmetButton = ({ helmet, setHelmet, helmetArray }) => {
     <>
       <Button
         variant="secondary"
-        className="armorButton"
+        className="armorButton selectorBorder"
         onClick={() => setShowModal(true)}
       >
         {helmet.image && (
