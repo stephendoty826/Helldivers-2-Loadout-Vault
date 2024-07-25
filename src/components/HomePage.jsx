@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import helldivers2 from "../gameData/helldivers2.json"
 import MessageModal from "./MessageModal";
-import helldivers2 from "../gameData/helldivers2.json";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -47,13 +46,6 @@ const HomePage = () => {
     <div>
       <Container className="mt-3 ">
         <div className="d-flex align-items-center flex-column vh-85">
-          <Helmet>
-            <meta
-              name="description"
-              content="This site allows helldivers to build and save loadouts as they continue to spread Managed Democracy across the galaxy."
-            />
-            <meta name="keywords" content="Helldivers 2, Helldivers, loadout builder, loadout saver, save loadouts, build loadouts, save stratagems, save equipment, save armor" />
-          </Helmet>
           <div className="display-1 mb-2">Helldivers 2</div>
           <div className="display-6">Loadout Vault</div>
           <div className="px-5 pt-5 text-center">
