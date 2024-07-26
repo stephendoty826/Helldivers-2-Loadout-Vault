@@ -46,10 +46,18 @@ const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
         {savedLoadout.faction === "all" ? (
           savedLoadout.faction.toUpperCase()
         ) : savedLoadout.faction === "bugs" ? (
-          <img src="./images/terminid_logo.webp" style={{ width: "3vh" }} />
+          <img
+            src="./images/terminid_logo.webp"
+            style={{ width: "3vh" }}
+            alt="terminid logo"
+          />
         ) : (
           savedLoadout.faction === "bots" && (
-            <img src="./images/automaton_logo.webp" style={{ width: "3.4vh" }} />
+            <img
+              src="./images/automaton_logo.webp"
+              style={{ width: "3.4vh" }}
+              alt="automaton logo"
+            />
           )
         )}
         {" - " + savedLoadout.loadoutName}
