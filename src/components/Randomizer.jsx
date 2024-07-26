@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
-import StratBuilder from "./StratBuilder";
-import EquipmentBuilder from "./EquipmentBuilder";
+import StratRandomizer from "./StratRandomizer";
+import EquipmentRandomizer from "./EquipmentRandomizer";
+import FactionCheckboxes from "./FactionCheckboxes";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShuffle } from "@fortawesome/free-solid-svg-icons";
+import { shuffleArray } from "../misc/utils";
 import { v4 as uuidv4 } from "uuid";
+import helldivers2Data from "../gameData/helldivers2.json";
 
 const Randomizer = () => {
   const [stratagem1, setStratagem1] = useState({});
@@ -20,6 +25,16 @@ const Randomizer = () => {
   const [faction, setFaction] = useState("all");
   const [loadoutName, setLoadoutName] = useState("");
   const [savedLoadouts, setSavedLoadouts] = useState([]);
+  const [isStratagem1Locked, setIsStratagem1Locked] = useState(false);
+  const [isStratagem2Locked, setIsStratagem2Locked] = useState(false);
+  const [isStratagem3Locked, setIsStratagem3Locked] = useState(false);
+  const [isStratagem4Locked, setIsStratagem4Locked] = useState(false);
+  const [isHelmetLocked, setIsHelmetLocked] = useState(false);
+  const [isArmorLocked, setIsArmorLocked] = useState(false);
+  const [isCapeLocked, setIsCapeLocked] = useState(false);
+  const [isPrimaryLocked, setIsPrimaryLocked] = useState(false);
+  const [isSecondaryLocked, setIsSecondaryLocked] = useState(false);
+  const [isThrowableLocked, setIsThrowableLocked] = useState(false);
 
   useEffect(() => {
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
@@ -31,15 +46,25 @@ const Randomizer = () => {
 
   const resetLoadout = () => {
     setStratagem1({});
+    setIsStratagem1Locked(false);
     setStratagem2({});
+    setIsStratagem2Locked(false);
     setStratagem3({});
+    setIsStratagem3Locked(false);
     setStratagem4({});
+    setIsStratagem4Locked(false);
     setArmor({});
+    setIsArmorLocked(false);
     setHelmet({});
+    setIsHelmetLocked(false);
     setCape({});
+    setIsCapeLocked(false);
     setPrimary({});
+    setIsPrimaryLocked(false);
     setSecondary({});
+    setIsSecondaryLocked(false);
     setThrowable({});
+    setIsThrowableLocked(false);
     setLoadoutName("");
     setFaction("all");
   };
@@ -93,72 +118,126 @@ const Randomizer = () => {
     }
   };
 
+  function randomizeLoadout() {
+    // randomize Stratagems
+    let allStratagems = [
+      ...helldivers2Data.stratagems.offensive,
+      ...helldivers2Data.stratagems.supply,
+      ...helldivers2Data.stratagems.defensive,
+    ];
+
+    shuffleArray(allStratagems);
+
+    setStratagem1(allStratagems.pop());
+    setStratagem2(allStratagems.pop());
+    setStratagem3(allStratagems.pop());
+    setStratagem4(allStratagems.pop());
+
+    // randomize equipment
+    // helmet
+    let helmetsArray = [...helldivers2Data.helmets];
+    shuffleArray(helmetsArray);
+    setHelmet(helmetsArray.pop());
+
+    // armor
+    let armorArray = [
+      ...helldivers2Data.armor.light,
+      ...helldivers2Data.armor.medium,
+      ...helldivers2Data.armor.heavy,
+    ];
+    shuffleArray(armorArray);
+    setArmor(armorArray.pop());
+
+    // cape
+    let capesArray = [...helldivers2Data.capes];
+    shuffleArray(capesArray);
+    setCape(capesArray.pop());
+
+    // primary
+    let primaryArray = [
+      ...helldivers2Data.primaries["Assault Rifles"],
+      ...helldivers2Data.primaries["Marksman Rifles"],
+      ...helldivers2Data.primaries["Submachine Guns"],
+      ...helldivers2Data.primaries.Shotguns,
+      ...helldivers2Data.primaries.Explosive,
+      ...helldivers2Data.primaries["Energy-Based"],
+    ];
+    shuffleArray(primaryArray);
+    setPrimary(primaryArray.pop());
+  }
+
+  function runMultipleTimes(func, times, delay) {
+    for (let i = 0; i < times; i++) {
+      setTimeout(func, i * delay);
+    }
+  }
+
   return (
     <Container>
       <div className="d-flex align-items-center flex-column vh-85">
-        <p className="display-6 mt-3">Loadout Builder</p>
+        <p className="display-6 mt-3">Loadout Randomizer</p>
+        <Button
+          variant="outline-light"
+          // onClick={randomizeLoadout}
+          onClick={() => {runMultipleTimes(randomizeLoadout, 20, 50)}}
+          className="d-flex flex-column align-items-center my-4 fs-2"
+        >
+          <FontAwesomeIcon icon={faShuffle} className="my-1" />
+          Randomize
+        </Button>
         <div className="text-center w-100">
-          <StratBuilder
+          <StratRandomizer
             stratagem1={stratagem1}
             setStratagem1={setStratagem1}
+            isStratagem1Locked={isStratagem1Locked}
+            setIsStratagem1Locked={setIsStratagem1Locked}
             stratagem2={stratagem2}
             setStratagem2={setStratagem2}
+            isStratagem2Locked={isStratagem2Locked}
+            setIsStratagem2Locked={setIsStratagem2Locked}
             stratagem3={stratagem3}
             setStratagem3={setStratagem3}
+            isStratagem3Locked={isStratagem3Locked}
+            setIsStratagem3Locked={setIsStratagem3Locked}
             stratagem4={stratagem4}
             setStratagem4={setStratagem4}
+            isStratagem4Locked={isStratagem4Locked}
+            setIsStratagem4Locked={setIsStratagem4Locked}
           />
-          <EquipmentBuilder
+          <EquipmentRandomizer
             armor={armor}
             setArmor={setArmor}
+            isArmorLocked={isArmorLocked}
+            setIsArmorLocked={setIsArmorLocked}
             helmet={helmet}
             setHelmet={setHelmet}
+            isHelmetLocked={isHelmetLocked}
+            setIsHelmetLocked={setIsHelmetLocked}
             cape={cape}
             setCape={setCape}
+            isCapeLocked={isCapeLocked}
+            setIsCapeLocked={setIsCapeLocked}
             primary={primary}
             setPrimary={setPrimary}
+            isPrimaryLocked={isPrimaryLocked}
+            setIsPrimaryLocked={setIsPrimaryLocked}
             secondary={secondary}
             setSecondary={setSecondary}
+            isSecondaryLocked={isSecondaryLocked}
+            setIsSecondaryLocked={setIsSecondaryLocked}
             throwable={throwable}
             setThrowable={setThrowable}
+            isThrowableLocked={isThrowableLocked}
+            setIsThrowableLocked={setIsThrowableLocked}
           />
           <div className="d-flex flex-column align-items-center w-100">
             <Form.Group className="mb-4 mt-4 w-75">
               <label className="h3">Faction</label>
-              <div className="mb-4">
-                <Form.Check
-                  inline
-                  type="radio"
-                  id="allBuilder"
-                  label="All"
-                  checked={faction === "all"}
-                  onChange={() => {
-                    setFaction("all");
-                  }}
-                />
-                <Form.Check
-                  inline
-                  type="radio"
-                  id="bugsBuilder"
-                  label="Bugs"
-                  className="me-3"
-                  checked={faction === "bugs"}
-                  onChange={() => {
-                    setFaction("bugs");
-                  }}
-                />
-                <Form.Check
-                  inline
-                  type="radio"
-                  id="botsBuilder"
-                  label="Bots"
-                  className="me-3"
-                  checked={faction === "bots"}
-                  onChange={() => {
-                    setFaction("bots");
-                  }}
-                />
-              </div>
+              <FactionCheckboxes
+                id="builder"
+                faction={faction}
+                setFaction={setFaction}
+              />
               <Form.Label>Loadout Name</Form.Label>
               <Form.Control
                 type="text"
