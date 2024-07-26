@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import SavedLoadout from "./SavedLoadout";
 import FactionCheckboxes from "./FactionCheckboxes";
-import Form from "react-bootstrap/Form";
 
 const SavedLoadouts = () => {
   const [savedLoadouts, setSavedLoadouts] = useState([]);
