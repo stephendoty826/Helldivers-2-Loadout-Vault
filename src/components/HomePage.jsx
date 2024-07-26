@@ -91,7 +91,7 @@ const HomePage = () => {
             Next Tip
           </Button>{" "}
           <div className="text-center mx-3 mt-3 d-flex align-items-center">
-            <div className="text-center mx-3 mb-2">{tip}</div>
+            <div className="text-center mx-3 mb-5">{tip}</div>
           </div>
         </div>
       </Container>
