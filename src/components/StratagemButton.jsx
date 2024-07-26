@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import SelectorModal from "./SelectorModal";
 
-const StratagemButton = ({ stratagem, setStratagem, stratagemArray }) => {
+const StratagemButton = ({
+  otherStratagems,
+  stratagem,
+  setStratagem,
+  stratagemArray,
+}) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -18,6 +23,7 @@ const StratagemButton = ({ stratagem, setStratagem, stratagemArray }) => {
       </Button>
       <SelectorModal
         variant="stratagem"
+        otherStratagems={otherStratagems}
         setItem={setStratagem}
         show={showModal}
         onHide={() => setShowModal(false)}
