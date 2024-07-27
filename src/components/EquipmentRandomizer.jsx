@@ -45,13 +45,14 @@ const EquipmentRandomizer = ({
             Helmet
             <FontAwesomeIcon
               icon={isHelmetLocked ? faLock : faLockOpen}
-              className="fs-4 ms-2"
+              className={isHelmetLocked ? "fs-4 ms-2 text-danger" : "fs-4 ms-2"}
               onClick={() => {
                 setIsHelmetLocked(!isHelmetLocked);
               }}
             />
           </Form.Label>
           <HelmetButton
+            disabled={isHelmetLocked}
             helmet={helmet}
             setHelmet={setHelmet}
             helmetArray={helldivers2Data.helmets}
@@ -62,13 +63,14 @@ const EquipmentRandomizer = ({
             Armor
             <FontAwesomeIcon
               icon={isArmorLocked ? faLock : faLockOpen}
-              className="fs-4 ms-2"
+              className={isArmorLocked ? "fs-4 ms-2 text-danger" : "fs-4 ms-2"}
               onClick={() => {
                 setIsArmorLocked(!isArmorLocked);
               }}
             />
           </Form.Label>
           <ArmorButton
+            disabled={isArmorLocked}
             armor={armor}
             setArmor={setArmor}
             armorArray={helldivers2Data.armor}
@@ -79,13 +81,14 @@ const EquipmentRandomizer = ({
             Cape
             <FontAwesomeIcon
               icon={isCapeLocked ? faLock : faLockOpen}
-              className="fs-4 ms-2"
+              className={isCapeLocked ? "fs-4 ms-2 text-danger" : "fs-4 ms-2"}
               onClick={() => {
                 setIsCapeLocked(!isCapeLocked);
               }}
             />
           </Form.Label>
           <CapeButton
+            disabled={isCapeLocked}
             cape={cape}
             setCape={setCape}
             capesArray={helldivers2Data.capes}
@@ -98,13 +101,16 @@ const EquipmentRandomizer = ({
             Primary
             <FontAwesomeIcon
               icon={isPrimaryLocked ? faLock : faLockOpen}
-              className="fs-4 ms-2"
+              className={
+                isPrimaryLocked ? "fs-4 ms-2 text-danger" : "fs-4 ms-2"
+              }
               onClick={() => {
                 setIsPrimaryLocked(!isPrimaryLocked);
               }}
             />
           </Form.Label>
           <PrimaryButton
+            disabled={isPrimaryLocked}
             primary={primary}
             setPrimary={setPrimary}
             primaryArray={helldivers2Data.primaries}
@@ -115,13 +121,16 @@ const EquipmentRandomizer = ({
             Secondary
             <FontAwesomeIcon
               icon={isSecondaryLocked ? faLock : faLockOpen}
-              className="fs-4 ms-2"
+              className={
+                isSecondaryLocked ? "fs-4 ms-2 text-danger" : "fs-4 ms-2"
+              }
               onClick={() => {
                 setIsSecondaryLocked(!isSecondaryLocked);
               }}
             />
           </Form.Label>
           <SecondaryButton
+            disabled={isSecondaryLocked}
             secondary={secondary}
             setSecondary={setSecondary}
             secondaryArray={helldivers2Data.secondaries}
@@ -132,13 +141,16 @@ const EquipmentRandomizer = ({
             Throwable
             <FontAwesomeIcon
               icon={isThrowableLocked ? faLock : faLockOpen}
-              className="fs-4 ms-2"
+              className={
+                isThrowableLocked ? "fs-4 ms-2 text-danger" : "fs-4 ms-2"
+              }
               onClick={() => {
                 setIsThrowableLocked(!isThrowableLocked);
               }}
             />
           </Form.Label>
           <ThrowableButton
+            disabled={isThrowableLocked}
             throwable={throwable}
             setThrowable={setThrowable}
             throwableArray={helldivers2Data.throwables}
