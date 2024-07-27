@@ -25,6 +25,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
               setStratagems([stratagem, ...stratagems.slice(1)])
             }
             stratagemArray={helldivers2Data.stratagems}
+            disabled={locks[0]}
           />
         </div>
         <div className="d-flex flex-column align-items-center">
@@ -47,6 +48,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
               ])
             }
             stratagemArray={helldivers2Data.stratagems}
+            disabled={locks[1]}
           />
         </div>
         <div className="d-flex flex-column align-items-center">
@@ -69,6 +71,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
               ])
             }
             stratagemArray={helldivers2Data.stratagems}
+            disabled={locks[2]}
           />
         </div>
         <div className="d-flex flex-column align-items-center">
@@ -84,12 +87,10 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
             otherStratagems={[stratagems[0], stratagems[1], stratagems[2]]}
             stratagem={stratagems[3]}
             setStratagem={(stratagem) =>
-              setStratagems([
-                ...stratagems.slice(0, 3),
-                stratagem,
-              ])
+              setStratagems([...stratagems.slice(0, 3), stratagem])
             }
             stratagemArray={helldivers2Data.stratagems}
+            disabled={locks[3]}
           />
         </div>
       </div>
