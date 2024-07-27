@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import helldivers2 from "../gameData/helldivers2.json"
 import MessageModal from "./MessageModal";
 import { Link } from "react-router-dom";
+import { shuffleArray } from "../misc/utils";
 
 let tipsArray = []
 
@@ -39,13 +40,8 @@ const HomePage = () => {
   function getRandomTip() {
     if(tipsArray.length === 0){
       tipsArray = [...helldivers2["loading screen tips"]]
-      // shuffle tipsArray
-      for (var i = tipsArray.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = tipsArray[i];
-        tipsArray[i] = tipsArray[j];
-        tipsArray[j] = temp;
-      }
+
+      shuffleArray(tipsArray);
     }
 
     let tempTip = tipsArray.pop();
