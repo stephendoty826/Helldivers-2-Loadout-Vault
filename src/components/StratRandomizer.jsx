@@ -12,7 +12,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
             icon={locks[0] ? faLock : faLockOpen}
-            className="fs-4 mb-2"
+            className={locks[0] ? "fs-4 mb-2 text-danger" : "fs-4 mb-2"}
             onClick={() => {
               locks[0] = !locks[0];
               setLocks(locks);
@@ -35,7 +35,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
             icon={locks[1] ? faLock : faLockOpen}
-            className="fs-4 mb-2"
+            className={locks[1] ? "fs-4 mb-2 text-danger" : "fs-4 mb-2"}
             onClick={() => {
               locks[1] = !locks[1];
               setLocks(locks);
@@ -62,7 +62,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
             icon={locks[2] ? faLock : faLockOpen}
-            className="fs-4 mb-2"
+            className={locks[2] ? "fs-4 mb-2 text-danger" : "fs-4 mb-2"}
             onClick={() => {
               locks[2] = !locks[2];
               setLocks(locks);
@@ -89,7 +89,7 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
             icon={locks[3] ? faLock : faLockOpen}
-            className="fs-4 mb-2"
+            className={locks[3] ? "fs-4 mb-2 text-danger" : "fs-4 mb-2"}
             onClick={() => {
               locks[3] = !locks[3];
               setLocks(locks);
