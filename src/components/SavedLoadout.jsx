@@ -38,8 +38,12 @@ function ContextAwareToggle({ eventKey, callback }) {
   );
 }
 
-const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
-
+const SavedLoadout = ({
+  savedLoadout,
+  savedLoadouts,
+  setSavedLoadouts,
+  defaultActiveKey,
+}) => {
   return (
     <div>
       <div className="fs-4 my-2`">
@@ -62,7 +66,10 @@ const SavedLoadout = ({ savedLoadout, savedLoadouts, setSavedLoadouts }) => {
         )}
         {" - " + savedLoadout.loadoutName}
       </div>
-      <Accordion className="custom-accordion">
+      <Accordion
+        className="custom-accordion"
+        defaultActiveKey={defaultActiveKey}
+      >
         <Card>
           <Card.Header className="d-flex justify-content-between">
             <ContextAwareToggle eventKey="0" />

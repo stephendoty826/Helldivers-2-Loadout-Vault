@@ -5,21 +5,21 @@ import Form from "react-bootstrap/Form";
 
 function MessageModal() {
   const [show, setShow] = useState(true);
-  const [doNotShow, setDoNotShow] = useState(false)
+  const [doNotShow, setDoNotShow] = useState(false);
 
   useEffect(() => {
-    let tempDoNotShow = localStorage.getItem("doNotShow")
-    if(tempDoNotShow){
-      setShow(false)
+    let tempDoNotShow = localStorage.getItem("doNotShow");
+    if (tempDoNotShow) {
+      setShow(false);
     }
-  }, [])
+  }, []);
 
   const handleCloseModal = () => {
-    setShow(false)
-    if(doNotShow){
-      localStorage.setItem("doNotShow", true)
+    setShow(false);
+    if (doNotShow) {
+      localStorage.setItem("doNotShow", true);
     }
-  }
+  };
 
   return (
     <>
