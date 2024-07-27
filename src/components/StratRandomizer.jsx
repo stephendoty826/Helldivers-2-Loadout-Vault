@@ -4,101 +4,91 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLock, faLockOpen } from "@fortawesome/free-solid-svg-icons";
 import helldivers2Data from "../gameData/helldivers2.json";
 
-const StratRandomizer = ({
-  stratagem1,
-  setStratagem1,
-  isStratagem1Locked,
-  setIsStratagem1Locked,
-  stratagem2,
-  setStratagem2,
-  isStratagem2Locked,
-  setIsStratagem2Locked,
-  stratagem3,
-  setStratagem3,
-  isStratagem3Locked,
-  setIsStratagem3Locked,
-  stratagem4,
-  setStratagem4,
-  isStratagem4Locked,
-  setIsStratagem4Locked,
-}) => {
+const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
   return (
     <div>
       <label className="h3 mt-2">Stratagems</label>
       <div className="d-flex justify-content-around mt-3">
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
-            icon={isStratagem1Locked ? faLock : faLockOpen}
+            icon={locks[0] ? faLock : faLockOpen}
             className="fs-4 mb-2"
             onClick={() => {
-              setIsStratagem1Locked(!isStratagem1Locked);
+              locks[0] = !locks[0];
+              setLocks(locks);
             }}
           />
           <StratagemButton
-            otherStratagems={[
-              stratagem2.name,
-              stratagem3.name,
-              stratagem4.name,
-            ]}
-            stratagem={stratagem1}
-            setStratagem={setStratagem1}
+            otherStratagems={[stratagems[1], stratagems[2], stratagems[3]]}
+            stratagem={stratagems[0]}
+            setStratagem={(stratagem) =>
+              setStratagems([stratagem, ...stratagems.slice(1)])
+            }
             stratagemArray={helldivers2Data.stratagems}
           />
         </div>
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
-            icon={isStratagem2Locked ? faLock : faLockOpen}
+            icon={locks[1] ? faLock : faLockOpen}
             className="fs-4 mb-2"
             onClick={() => {
-              setIsStratagem2Locked(!isStratagem2Locked);
+              locks[1] = !locks[1];
+              setLocks(locks);
             }}
           />
           <StratagemButton
-            otherStratagems={[
-              stratagem1.name,
-              stratagem3.name,
-              stratagem4.name,
-            ]}
-            stratagem={stratagem2}
-            setStratagem={setStratagem2}
+            otherStratagems={[stratagems[0], stratagems[2], stratagems[3]]}
+            stratagem={stratagems[1]}
+            setStratagem={(stratagem) =>
+              setStratagems([
+                ...stratagems.slice(0, 1),
+                stratagem,
+                ...stratagems.slice(2),
+              ])
+            }
             stratagemArray={helldivers2Data.stratagems}
           />
         </div>
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
-            icon={isStratagem3Locked ? faLock : faLockOpen}
+            icon={locks[2] ? faLock : faLockOpen}
             className="fs-4 mb-2"
             onClick={() => {
-              setIsStratagem3Locked(!isStratagem3Locked);
+              locks[2] = !locks[2];
+              setLocks(locks);
             }}
           />
           <StratagemButton
-            otherStratagems={[
-              stratagem1.name,
-              stratagem2.name,
-              stratagem4.name,
-            ]}
-            stratagem={stratagem3}
-            setStratagem={setStratagem3}
+            otherStratagems={[stratagems[0], stratagems[1], stratagems[3]]}
+            stratagem={stratagems[2]}
+            setStratagem={(stratagem) =>
+              setStratagems([
+                ...stratagems.slice(0, 2),
+                stratagem,
+                ...stratagems.slice(3),
+              ])
+            }
             stratagemArray={helldivers2Data.stratagems}
           />
         </div>
         <div className="d-flex flex-column align-items-center">
           <FontAwesomeIcon
-            icon={isStratagem4Locked ? faLock : faLockOpen}
+            icon={locks[3] ? faLock : faLockOpen}
             className="fs-4 mb-2"
             onClick={() => {
-              setIsStratagem4Locked(!isStratagem4Locked);
+              locks[3] = !locks[3];
+              setLocks(locks);
             }}
           />
           <StratagemButton
-            otherStratagems={[
-              stratagem1.name,
-              stratagem2.name,
-              stratagem3.name,
-            ]}
-            stratagem={stratagem4}
-            setStratagem={setStratagem4}
+            otherStratagems={[stratagems[0], stratagems[1], stratagems[2]]}
+            stratagem={stratagems[3]}
+            setStratagem={(stratagem) =>
+              setStratagems([
+                ...stratagems.slice(0, 3),
+                stratagem,
+              ])
+            }
             stratagemArray={helldivers2Data.stratagems}
           />
         </div>

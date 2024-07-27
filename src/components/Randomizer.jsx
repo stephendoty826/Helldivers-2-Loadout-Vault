@@ -1,3 +1,5 @@
+// To make your randomizeLoadout function more efficient, you can combine the logic for shuffling and selecting items to reduce redundant operations. Additionally, you can ensure that the state updates are batched to minimize re-renders. Here is an optimized version of your component:
+
 import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import StratRandomizer from "./StratRandomizer";
@@ -12,98 +14,83 @@ import { v4 as uuidv4 } from "uuid";
 import helldivers2Data from "../gameData/helldivers2.json";
 
 const Randomizer = () => {
-  const [stratagem1, setStratagem1] = useState({});
-  const [stratagem2, setStratagem2] = useState({});
-  const [stratagem3, setStratagem3] = useState({});
-  const [stratagem4, setStratagem4] = useState({});
-  const [armor, setArmor] = useState({});
-  const [helmet, setHelmet] = useState({});
-  const [cape, setCape] = useState({});
-  const [primary, setPrimary] = useState({});
-  const [secondary, setSecondary] = useState({});
-  const [throwable, setThrowable] = useState({});
+  const [loadout, setLoadout] = useState({
+    stratagems: [{}, {}, {}, {}],
+    armor: {},
+    helmet: {},
+    cape: {},
+    primary: {},
+    secondary: {},
+    throwable: {},
+  });
+
   const [faction, setFaction] = useState("all");
   const [loadoutName, setLoadoutName] = useState("");
   const [savedLoadouts, setSavedLoadouts] = useState([]);
-  const [isStratagem1Locked, setIsStratagem1Locked] = useState(false);
-  const [isStratagem2Locked, setIsStratagem2Locked] = useState(false);
-  const [isStratagem3Locked, setIsStratagem3Locked] = useState(false);
-  const [isStratagem4Locked, setIsStratagem4Locked] = useState(false);
-  const [isHelmetLocked, setIsHelmetLocked] = useState(false);
-  const [isArmorLocked, setIsArmorLocked] = useState(false);
-  const [isCapeLocked, setIsCapeLocked] = useState(false);
-  const [isPrimaryLocked, setIsPrimaryLocked] = useState(false);
-  const [isSecondaryLocked, setIsSecondaryLocked] = useState(false);
-  const [isThrowableLocked, setIsThrowableLocked] = useState(false);
+  const [locks, setLocks] = useState({
+    stratagems: [false, false, false, false],
+    armor: false,
+    helmet: false,
+    cape: false,
+    primary: false,
+    secondary: false,
+    throwable: false,
+  });
 
   useEffect(() => {
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
-
     if (savedLoadoutsJSON) {
       setSavedLoadouts(JSON.parse(savedLoadoutsJSON));
     }
   }, []);
 
   const resetLoadout = () => {
-    setStratagem1({});
-    setIsStratagem1Locked(false);
-    setStratagem2({});
-    setIsStratagem2Locked(false);
-    setStratagem3({});
-    setIsStratagem3Locked(false);
-    setStratagem4({});
-    setIsStratagem4Locked(false);
-    setArmor({});
-    setIsArmorLocked(false);
-    setHelmet({});
-    setIsHelmetLocked(false);
-    setCape({});
-    setIsCapeLocked(false);
-    setPrimary({});
-    setIsPrimaryLocked(false);
-    setSecondary({});
-    setIsSecondaryLocked(false);
-    setThrowable({});
-    setIsThrowableLocked(false);
+    setLoadout({
+      stratagems: [{}, {}, {}, {}],
+      armor: {},
+      helmet: {},
+      cape: {},
+      primary: {},
+      secondary: {},
+      throwable: {},
+    });
+    setLocks({
+      stratagems: [false, false, false, false],
+      armor: false,
+      helmet: false,
+      cape: false,
+      primary: false,
+      secondary: false,
+      throwable: false,
+    });
     setLoadoutName("");
     setFaction("all");
   };
 
   const saveLoadout = () => {
     let isLoadoutFilled =
-      stratagem1.name &&
-      stratagem2.name &&
-      stratagem3.name &&
-      stratagem4.name &&
-      armor.name &&
-      helmet.name &&
-      cape.name &&
-      primary.name &&
-      secondary.name &&
-      throwable.name &&
+      loadout.stratagems.every((strat) => strat.name) &&
+      loadout.armor.name &&
+      loadout.helmet.name &&
+      loadout.cape.name &&
+      loadout.primary.name &&
+      loadout.secondary.name &&
+      loadout.throwable.name &&
       loadoutName;
 
     if (isLoadoutFilled) {
-      let loadout = {
+      let newLoadout = {
         loadoutName,
         faction,
-        stratagems: [stratagem1, stratagem2, stratagem3, stratagem4],
-        armorSet: [helmet, armor, cape],
-        equipment: [primary, secondary, throwable],
+        ...loadout,
         id: uuidv4(),
       };
 
-      // using temp array to ensure latest savedloadouts are saved to localStorage
-      let tempSavedLoadouts = savedLoadouts;
-
-      tempSavedLoadouts.unshift(loadout);
-      // use setSavedLoadouts to update state
+      let tempSavedLoadouts = [newLoadout, ...savedLoadouts];
+      // use setSavedLoadouts to trigger re-render
       setSavedLoadouts(tempSavedLoadouts);
-      // stringify array
-      let savedLoadoutsJSON = JSON.stringify(tempSavedLoadouts);
-      // save array to local storage
-      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
-
+      //save array to local storage
+      localStorage.setItem("savedLoadouts", JSON.stringify(tempSavedLoadouts));
       resetLoadout();
     } else {
       alert(
@@ -118,59 +105,79 @@ const Randomizer = () => {
     }
   };
 
-  function randomizeLoadout() {
-    // randomize Stratagems
-    let allStratagems = [
-      ...helldivers2Data.stratagems.offensive,
-      ...helldivers2Data.stratagems.supply,
-      ...helldivers2Data.stratagems.defensive,
-    ];
+  const randomizeLoadout = () => {
+    const getRandomItem = (array) => {
+      shuffleArray(array);
+      return array.pop();
+    };
 
-    shuffleArray(allStratagems);
+    setLoadout((prevLoadout) => {
+      let allStratagems = [
+        ...helldivers2Data.stratagems.offensive,
+        ...helldivers2Data.stratagems.supply,
+        ...helldivers2Data.stratagems.defensive,
+      ];
 
-    setStratagem1(allStratagems.pop());
-    setStratagem2(allStratagems.pop());
-    setStratagem3(allStratagems.pop());
-    setStratagem4(allStratagems.pop());
+      if (locks.stratagems.includes(true)) {
+        for (let i = 0; i < locks.stratagems.length; i++) {
+          let stratLocked = locks.stratagems[i];
+          allStratagems = allStratagems.filter((strat) => {
+            if (stratLocked) {
+              return strat.name !== loadout.stratagems[i].name;
+            }
+            return true;
+          });
+        }
+      }
 
-    // randomize equipment
-    // helmet
-    let helmetsArray = [...helldivers2Data.helmets];
-    shuffleArray(helmetsArray);
-    setHelmet(helmetsArray.pop());
+      return {
+        stratagems: prevLoadout.stratagems.map((strat, index) => {
+          return locks.stratagems[index] ? strat : getRandomItem(allStratagems);
+        }),
+        helmet: locks.helmet
+          ? prevLoadout.helmet
+          : getRandomItem([...helldivers2Data.helmets]),
+        armor: locks.armor
+          ? prevLoadout.armor
+          : getRandomItem([
+              ...helldivers2Data.armor.light,
+              ...helldivers2Data.armor.medium,
+              ...helldivers2Data.armor.heavy,
+            ]),
+        cape: locks.cape
+          ? prevLoadout.cape
+          : getRandomItem([...helldivers2Data.capes]),
+        primary: locks.primary
+          ? prevLoadout.primary
+          : getRandomItem([
+              ...helldivers2Data.primaries["Assault Rifles"],
+              ...helldivers2Data.primaries["Marksman Rifles"],
+              ...helldivers2Data.primaries["Submachine Guns"],
+              ...helldivers2Data.primaries.Shotguns,
+              ...helldivers2Data.primaries.Explosive,
+              ...helldivers2Data.primaries["Energy-Based"],
+            ]),
+        secondary: locks.secondary
+          ? prevLoadout.secondary
+          : getRandomItem([
+              ...helldivers2Data.secondaries.Shotguns,
+              ...helldivers2Data.secondaries.Pistols,
+            ]),
+        throwable: locks.throwable
+          ? prevLoadout.throwable
+          : getRandomItem([
+              ...helldivers2Data.throwables["Standard Throwables"],
+              ...helldivers2Data.throwables["Special Throwables"],
+            ]),
+      };
+    });
+  };
 
-    // armor
-    let armorArray = [
-      ...helldivers2Data.armor.light,
-      ...helldivers2Data.armor.medium,
-      ...helldivers2Data.armor.heavy,
-    ];
-    shuffleArray(armorArray);
-    setArmor(armorArray.pop());
-
-    // cape
-    let capesArray = [...helldivers2Data.capes];
-    shuffleArray(capesArray);
-    setCape(capesArray.pop());
-
-    // primary
-    let primaryArray = [
-      ...helldivers2Data.primaries["Assault Rifles"],
-      ...helldivers2Data.primaries["Marksman Rifles"],
-      ...helldivers2Data.primaries["Submachine Guns"],
-      ...helldivers2Data.primaries.Shotguns,
-      ...helldivers2Data.primaries.Explosive,
-      ...helldivers2Data.primaries["Energy-Based"],
-    ];
-    shuffleArray(primaryArray);
-    setPrimary(primaryArray.pop());
-  }
-
-  function runMultipleTimes(func, times, delay) {
+  const runMultipleTimes = (func, times, delay) => {
     for (let i = 0; i < times; i++) {
       setTimeout(func, i * delay);
     }
-  }
+  };
 
   return (
     <Container>
@@ -178,8 +185,9 @@ const Randomizer = () => {
         <p className="display-6 mt-3">Loadout Randomizer</p>
         <Button
           variant="outline-light"
-          // onClick={randomizeLoadout}
-          onClick={() => {runMultipleTimes(randomizeLoadout, 20, 50)}}
+          onClick={() => {
+            runMultipleTimes(randomizeLoadout, 8, 150);
+          }}
           className="d-flex flex-column align-items-center my-4 fs-2"
         >
           <FontAwesomeIcon icon={faShuffle} className="my-1" />
@@ -187,48 +195,58 @@ const Randomizer = () => {
         </Button>
         <div className="text-center w-100">
           <StratRandomizer
-            stratagem1={stratagem1}
-            setStratagem1={setStratagem1}
-            isStratagem1Locked={isStratagem1Locked}
-            setIsStratagem1Locked={setIsStratagem1Locked}
-            stratagem2={stratagem2}
-            setStratagem2={setStratagem2}
-            isStratagem2Locked={isStratagem2Locked}
-            setIsStratagem2Locked={setIsStratagem2Locked}
-            stratagem3={stratagem3}
-            setStratagem3={setStratagem3}
-            isStratagem3Locked={isStratagem3Locked}
-            setIsStratagem3Locked={setIsStratagem3Locked}
-            stratagem4={stratagem4}
-            setStratagem4={setStratagem4}
-            isStratagem4Locked={isStratagem4Locked}
-            setIsStratagem4Locked={setIsStratagem4Locked}
+            stratagems={loadout.stratagems}
+            setStratagems={(stratagems) =>
+              setLoadout((prev) => ({ ...prev, stratagems }))
+            }
+            locks={locks.stratagems}
+            setLocks={(newLocks) =>
+              setLocks((prev) => ({ ...prev, stratagems: newLocks }))
+            }
           />
           <EquipmentRandomizer
-            armor={armor}
-            setArmor={setArmor}
-            isArmorLocked={isArmorLocked}
-            setIsArmorLocked={setIsArmorLocked}
-            helmet={helmet}
-            setHelmet={setHelmet}
-            isHelmetLocked={isHelmetLocked}
-            setIsHelmetLocked={setIsHelmetLocked}
-            cape={cape}
-            setCape={setCape}
-            isCapeLocked={isCapeLocked}
-            setIsCapeLocked={setIsCapeLocked}
-            primary={primary}
-            setPrimary={setPrimary}
-            isPrimaryLocked={isPrimaryLocked}
-            setIsPrimaryLocked={setIsPrimaryLocked}
-            secondary={secondary}
-            setSecondary={setSecondary}
-            isSecondaryLocked={isSecondaryLocked}
-            setIsSecondaryLocked={setIsSecondaryLocked}
-            throwable={throwable}
-            setThrowable={setThrowable}
-            isThrowableLocked={isThrowableLocked}
-            setIsThrowableLocked={setIsThrowableLocked}
+            armor={loadout.armor}
+            setArmor={(armor) => setLoadout((prev) => ({ ...prev, armor }))}
+            isArmorLocked={locks.armor}
+            setIsArmorLocked={(isArmorLocked) =>
+              setLocks((prev) => ({ ...prev, armor: isArmorLocked }))
+            }
+            helmet={loadout.helmet}
+            setHelmet={(helmet) => setLoadout((prev) => ({ ...prev, helmet }))}
+            isHelmetLocked={locks.helmet}
+            setIsHelmetLocked={(isHelmetLocked) =>
+              setLocks((prev) => ({ ...prev, helmet: isHelmetLocked }))
+            }
+            cape={loadout.cape}
+            setCape={(cape) => setLoadout((prev) => ({ ...prev, cape }))}
+            isCapeLocked={locks.cape}
+            setIsCapeLocked={(isCapeLocked) =>
+              setLocks((prev) => ({ ...prev, cape: isCapeLocked }))
+            }
+            primary={loadout.primary}
+            setPrimary={(primary) =>
+              setLoadout((prev) => ({ ...prev, primary }))
+            }
+            isPrimaryLocked={locks.primary}
+            setIsPrimaryLocked={(isPrimaryLocked) =>
+              setLocks((prev) => ({ ...prev, primary: isPrimaryLocked }))
+            }
+            secondary={loadout.secondary}
+            setSecondary={(secondary) =>
+              setLoadout((prev) => ({ ...prev, secondary }))
+            }
+            isSecondaryLocked={locks.secondary}
+            setIsSecondaryLocked={(isSecondaryLocked) =>
+              setLocks((prev) => ({ ...prev, secondary: isSecondaryLocked }))
+            }
+            throwable={loadout.throwable}
+            setThrowable={(throwable) =>
+              setLoadout((prev) => ({ ...prev, throwable }))
+            }
+            isThrowableLocked={locks.throwable}
+            setIsThrowableLocked={(isThrowableLocked) =>
+              setLocks((prev) => ({ ...prev, throwable: isThrowableLocked }))
+            }
           />
           <div className="d-flex flex-column align-items-center w-100">
             <Form.Group className="mb-4 mt-4 w-75">
