@@ -138,7 +138,6 @@ const stratagemJSX = (
   itemArray,
   otherStratagems
 ) => {
-  
   let keysArray = Object.keys(itemArray);
   return (
     <>
@@ -148,13 +147,13 @@ const stratagemJSX = (
             <div key={stratagemKey + idx}>
               <p>{stratagemKey.toUpperCase()}</p>
               <div className="row">
-                {itemArray[stratagemKey].map((equipment) => {
-                  let isSelected = selected.name === equipment.name;
+                {itemArray[stratagemKey].map((stratagem) => {
+                  let isSelected = selected.name === stratagem.name;
                   let inOtherStratagems = otherStratagems.includes(
-                    equipment.name
+                    stratagem.name
                   );
                   return (
-                    <div className="col-3" key={equipment.image}>
+                    <div className="col-3" key={stratagem.image}>
                       <img
                         className={
                           isSelected
@@ -163,10 +162,10 @@ const stratagemJSX = (
                             ? "equipped itemSelector"
                             : "itemSelector"
                         }
-                        src={equipment.image}
+                        src={stratagem.image}
                         alt=""
                         onClick={() => {
-                          !inOtherStratagems && setSelected(equipment);
+                          !inOtherStratagems && setSelected(stratagem);
                         }} // "disables" click when inOtherStratagems is true
                       />
                     </div>

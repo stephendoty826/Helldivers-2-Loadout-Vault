@@ -19,7 +19,11 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
             }}
           />
           <StratagemButton
-            otherStratagems={[stratagems[1], stratagems[2], stratagems[3]]}
+            otherStratagems={[
+              stratagems[1].name,
+              stratagems[2].name,
+              stratagems[3].name,
+            ]}
             stratagem={stratagems[0]}
             setStratagem={(stratagem) =>
               setStratagems([stratagem, ...stratagems.slice(1)])
@@ -38,7 +42,11 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
             }}
           />
           <StratagemButton
-            otherStratagems={[stratagems[0], stratagems[2], stratagems[3]]}
+            otherStratagems={[
+              stratagems[0].name,
+              stratagems[2].name,
+              stratagems[3].name,
+            ]}
             stratagem={stratagems[1]}
             setStratagem={(stratagem) =>
               setStratagems([
@@ -61,7 +69,11 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
             }}
           />
           <StratagemButton
-            otherStratagems={[stratagems[0], stratagems[1], stratagems[3]]}
+            otherStratagems={[
+              stratagems[0].name,
+              stratagems[1].name,
+              stratagems[3].name,
+            ]}
             stratagem={stratagems[2]}
             setStratagem={(stratagem) =>
               setStratagems([
@@ -84,7 +96,11 @@ const StratRandomizer = ({ stratagems, setStratagems, locks, setLocks }) => {
             }}
           />
           <StratagemButton
-            otherStratagems={[stratagems[0], stratagems[1], stratagems[2]]}
+            otherStratagems={[
+              stratagems[0].name,
+              stratagems[1].name,
+              stratagems[2].name,
+            ]}
             stratagem={stratagems[3]}
             setStratagem={(stratagem) =>
               setStratagems([...stratagems.slice(0, 3), stratagem])

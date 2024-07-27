@@ -82,7 +82,9 @@ const Randomizer = () => {
       let newLoadout = {
         loadoutName,
         faction,
-        ...loadout,
+        stratagems: loadout.stratagems,
+        armorSet: [loadout.helmet, loadout.armor, loadout.cape],
+        equipment: [loadout.primary, loadout.secondary, loadout.throwable],
         id: uuidv4(),
       };
 
