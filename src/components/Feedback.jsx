@@ -17,7 +17,7 @@ const Feedback = () => {
         Join the Discord Server
       </Button>
       <img
-        src="/images/what_face.png"
+        src="/images/what_face.PNG"
         alt=""
         style={{ maxWidth: "650px", width: "75%", height: "auto" }}
       />
