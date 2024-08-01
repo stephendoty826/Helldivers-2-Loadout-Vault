@@ -827,6 +827,19 @@
         "image": "./images/bonesnapper.webp"
       },
       {
+        "name": "CM-10 Clinician",
+        "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Med-Kit",
+          "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=5579",
+        "image": "./images/clinician.webp"
+      },
+      {
         "name": "SC-15 Drone Master",
         "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
         "armor rating": 100,
@@ -1035,19 +1048,6 @@
         "image": "./images/combat_technician.webp"
       },
       {
-        "name": "CM-10 Clinician",
-        "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
-        "armor rating": 100,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Med-Kit",
-          "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=5579",
-        "image": "./images/clinician.webp"
-      },
-      {
         "name": "DP-53 Savior of the Free",
         "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
         "armor rating": 100,
@@ -1247,6 +1247,15 @@
     ]
   },
   "helmets": [
+    {
+      "name": "FS-37 Ravager",
+      "description": "Contains many small pockets, allowing the user to evenly distribute weight of ammunition sample, and cool rocks.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5582",
+      "image": "./images/ravager_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
     {
       "name": "FS-55 Devastator",
       "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
@@ -1645,15 +1654,6 @@
       "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6511",
       "image": "./images/winter_warrior_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "FS-37 Ravager",
-      "description": "Contains many small pockets, allowing the user to evenly distribute weight of ammunition sample, and cool rocks.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=5582",
-      "image": "./images/ravager_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
