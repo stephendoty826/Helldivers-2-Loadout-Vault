@@ -1,372 +1,138 @@
 {
-  "primaries": {
-    "Assault Rifles": [
-      {
-        "name": "AR-23 Liberator",
-        "class": "Assault Rifle",
-        "description": "The SEAF standard assault rifle, balancing power, fire rate, and weight for a reliable weapon against smaller targets.",
-        "damage": 60,
-        "capacity": 45,
-        "recoil": 15,
-        "fire rate": 640,
-        "spare magazines": 7,
-        "reload time": "3s",
-        "tactical reload": "2s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2596",
-        "image": "./images/liberator.png"
-      },
-      {
-        "name": "AR-23P Liberator Penetrator",
-        "class": "Assault Rifle",
-        "description": "A modified Liberator fitted with a scope and firing armor-piercing rounds, to help users take down armored targets.",
-        "damage": 45,
-        "capacity": 30,
-        "recoil": 19,
-        "fire rate": 640,
-        "spare magazines": 10,
-        "reload time": "3s",
-        "tactical reload": "2s",
-        "weapon traits": ["medium armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2591",
-        "image": "./images/liberator_penetrator.png"
-      },
-      {
-        "name": "AR-23C Liberator Concussive",
-        "class": "Assault Rifle",
-        "description": "A modified Liberator firing concussive rounds which do less damage but stagger enemies.",
-        "damage": 65,
-        "capacity": 30,
-        "recoil": 28,
-        "fire rate": 320,
-        "spare magazines": 10,
-        "reload time": "3s",
-        "tactical reload": "2s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2597",
-        "image": "./images/liberator_concussive.webp"
-      },
-      {
-        "name": "AR-23A Liberator Carbine",
-        "class": "Assault Rifle",
-        "description": "A compact version of the Liberator designed to increase viability in close quarters. Has an increased fire rate at the cost of higher spread.",
-        "damage": 60,
-        "capacity": 45,
-        "recoil": 26,
-        "fire rate": 920,
-        "spare magazines": 7,
-        "reload time": "3s",
-        "tactical reload": "2s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6745",
-        "image": "./images/liberator_carbine.webp"
-      },
-      {
-        "name": "AR-61 Tenderizer",
-        "class": "Assault Rifle",
-        "description": "A high-caliber assault rifle with a restrictive magazine size but more stopping power.",
-        "damage": 95,
-        "capacity": 30,
-        "recoil": 10,
-        "fire rate": 600,
-        "spare magazines": 7,
-        "reload time": "3.3s",
-        "tactical reload": "2.2s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6271",
-        "image": "./images/tenderizer.png"
-      },
-      {
-        "name": "BR-14 Adjudicator",
-        "class": "Assault Rifle",
-        "description": "An accurate, armor-penetrating rifle, the BR-14 Adjudicator delivers righteous judgement to medium-sized enemies, though its restrictive magazine limits its effectiveness against large groups.",
-        "damage": 80,
-        "capacity": 30,
-        "recoil": 40,
-        "fire rate": 550,
-        "spare magazines": 8,
-        "reload time": "3s",
-        "tactical reload": "1.7s",
-        "weapon traits": ["medium armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=5361",
-        "image": "./images/adjudicator.png"
-      }
-    ],
-    "Marksman Rifles": [
-      {
-        "name": "R-63 Diligence",
-        "class": "Marksman Rifle",
-        "description": "This high-caliber marksman rifle trades magazine capacity and rate of fire for powerful, accurate shots.",
-        "damage": 125,
-        "capacity": 20,
-        "recoil": 35,
-        "fire rate": 350,
-        "spare magazines": 8,
-        "reload time": "3s",
-        "tactical reload": "1.9s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2593",
-        "image": "./images/diligence.webp"
-      },
-      {
-        "name": "R-63CS Diligence Counter Sniper",
-        "class": "Marksman Rifle",
-        "description": "A modified Diligence rifle offering increased damage, but a reduced rate of fire. Fires a single bullet at a time.",
-        "damage": 140,
-        "capacity": 15,
-        "recoil": 53,
-        "fire rate": 350,
-        "spare magazines": 8,
-        "reload time": "3s",
-        "tactical reload": "1.9s",
-        "weapon traits": ["medium armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3102",
-        "image": "./images/diligence_counter_sniper.png"
-      }
-    ],
-    "Submachine Guns": [
-      {
-        "name": "SMG-37 Defender",
-        "class": "Submachine Gun",
-        "description": "A high-caliber submachine gun which can be fired with one hand. Has a relatively low rate of fire.",
-        "damage": 70,
-        "capacity": 45,
-        "recoil": 10,
-        "fire rate": 520,
-        "spare magazines": 7,
-        "reload time": "2.8s",
-        "tactical reload": "2s",
-        "weapon traits": ["light armor penetrating", "one handed"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2595",
-        "image": "./images/defender.webp"
-      },
-      {
-        "name": "SMG-72 Pummeler",
-        "class": "Submachine Gun",
-        "description": "Fires concussive rounds that stagger enemies. Slower rate of fire than other SMGs.",
-        "damage": 65,
-        "capacity": 45,
-        "recoil": 10,
-        "fire rate": 475,
-        "spare magazines": 7,
-        "reload time": "3s",
-        "tactical reload": "2.1s",
-        "weapon traits": ["light armor penetrating", "one handed"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6274",
-        "image": "./images/pummeler.png"
-      }
-    ],
-    "Shotguns": [
-      {
-        "name": "SG-8 Punisher",
-        "class": "Shotgun",
-        "description": "A powerful dual magazine pump-action shotgun, with limited armor penetration. Ideal for small and fast targets.",
-        "damage": 405,
-        "capacity": 16,
-        "recoil": 120,
-        "fire rate": 80,
-        "spare magazines": 60,
-        "reload time": "6.9s",
-        "tactical reload": "0.8s per round",
-        "weapon traits": ["light armor penetrating", "rounds reload"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2594",
-        "image": "./images/punisher.png"
-      },
-      {
-        "name": "SG-8S Slugger",
-        "class": "Shotgun",
-        "description": "A modified Punisher shotgun firing heavy, high-damage slug rounds. Perfect for punching big holes in big targets.",
-        "damage": 250,
-        "capacity": 16,
-        "recoil": 120,
-        "fire rate": 80,
-        "spare magazines": 60,
-        "reload time": "6.9s",
-        "tactical reload": "0.8s per round",
-        "weapon traits": ["medium armor penetrating", "rounds reload"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3262",
-        "image": "./images/slugger.webp"
-      },
-      {
-        "name": "SG-225 Breaker",
-        "class": "Shotgun",
-        "description": "A fully-automatic shotgun with a high rate of fire, excellent for controlling crowds. Requires frequent reloading.",
-        "damage": 330,
-        "capacity": 13,
-        "recoil": 55,
-        "fire rate": 300,
-        "spare magazines": 7,
-        "reload time": "2.5s",
-        "tactical reload": "1.8s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3103",
-        "image": "./images/breaker.webp"
-      },
-      {
-        "name": "SG-225SP Breaker Spray&Pray",
-        "class": "Shotgun",
-        "description": "A modified Breaker Shotgun firing birdshot, small pellets which saturate an area to clear up smaller targets.",
-        "damage": 192,
-        "capacity": 26,
-        "recoil": 45,
-        "fire rate": 330,
-        "spare magazines": 8,
-        "reload time": "3s",
-        "tactical reload": "2.1s",
-        "weapon traits": ["light armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3263",
-        "image": "./images/breaker_spray&pray.webp"
-      },
-      {
-        "name": "SG-225IE Breaker Incendiary",
-        "class": "Shotgun",
-        "description": "A modified Breaker Shotgun firing incendiary projectiles. Generates heat during use, so limited to burst fire.",
-        "damage": 240,
-        "capacity": 25,
-        "recoil": 28,
-        "fire rate": 300,
-        "spare magazines": 6,
-        "reload time": "2.5s",
-        "tactical reload": "1.8s",
-        "weapon traits": ["light armor penetrating", "incendiary"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3256",
-        "image": "./images/breaker_incendiary.webp"
-      }
-    ],
-    "Explosive": [
-      {
-        "name": "CB-9 Exploding Crossbow",
-        "class": "Explosive",
-        "description": "Fires powerful exploding bolts which do maximum damage upon direct impact. Gravity must be accounted for when aiming.",
-        "damage": 420,
-        "capacity": 5,
-        "recoil": 35,
-        "fire rate": 50,
-        "spare magazines": 8,
-        "reload time": "3.3s",
-        "tactical reload": "",
-        "weapon traits": ["medium armor penetrating", "explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=5515",
-        "image": "./images/crossbow.webp"
-      },
-      {
-        "name": "JAR-5 Dominator",
-        "class": "Explosive",
-        "description": "Firing jet-propelled rounds, the Dominator trades fire rate and magazine capacity for increased damage per projectile.",
-        "damage": 275,
-        "capacity": 15,
-        "recoil": 75,
-        "fire rate": 250,
-        "spare magazines": 6,
-        "reload time": "3.8s",
-        "tactical reload": "2.6s",
-        "weapon traits": ["medium armor penetrating"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2999",
-        "image": "./images/dominator.webp"
-      },
-      {
-        "name": "R-35 Eruptor",
-        "class": "Explosive",
-        "description": "This bolt-action rifle fires jet-assisted shells that explode shrapnel in all directions upon impact. Not recommended for close-quarters use.",
-        "damage": 570,
-        "capacity": 5,
-        "recoil": 75,
-        "fire rate": 25,
-        "spare magazines": 6,
-        "reload time": "4.7s",
-        "tactical reload": "2.8s",
-        "weapon traits": ["medium armor penetrating", "explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=5360",
-        "image": "./images/eruptor.webp"
-      }
-    ],
-    "Energy-Based": [
-      {
-        "name": "SG-8P Punisher Plasma",
-        "class": "Energy-Based",
-        "description": "A modified Punisher shotgun firing exploding plasma rounds. Fire carefully - exploding plasma can injure squadmates.",
-        "damage": 250,
-        "capacity": 8,
-        "recoil": 110,
-        "fire rate": 80,
-        "spare magazines": 8,
-        "reload time": "2.5s",
-        "weapon traits": ["explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3264",
-        "image": "./images/punisher_plasma.webp"
-      },
-      {
-        "name": "ARC-12 Blitzer",
-        "class": "Energy-Based",
-        "description": "This shotgun blasts a wide burst of high-voltage electricity that arcs between all units—enemy or otherwise—within range.",
-        "damage": 250,
-        "capacity": "infinite",
-        "recoil": 60,
-        "fire rate": 45,
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3499",
-        "image": "./images/blitzer.webp"
-      },
-      {
-        "name": "LAS-5 Scythe",
-        "class": "Energy-Based",
-        "description": "A laser rifle firing a continuous beam. Does not need reloading, but if it overheats a new heat sink must be fitted.",
-        "damage/sec": 350,
-        "fire limit": 8,
-        "recoil": 1,
-        "spare magazines": 4,
-        "reload time": "1.8s",
-        "tactical reload": "3s",
-        "weapon traits": ["light armor penetrating", "beam", "heat"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3000",
-        "image": "./images/scythe.webp"
-      },
-      {
-        "name": "LAS-16 Sickle",
-        "class": "Energy-Based",
-        "description": "A laser rifle, firing in short bursts. Does not need reloading, but if it overheats a new heat sink must be fitted.",
-        "damage": 55,
-        "fire limit": 9,
-        "recoil": 2,
-        "fire rate": 750,
-        "spare magazines": 3,
-        "reload time": "2.1s",
-        "tactical reload": "3s",
-        "weapon traits": ["light armor penetrating", "heat"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3240",
-        "image": "./images/sickle.webp"
-      },
-      {
-        "name": "PLAS-1 Scorcher",
-        "class": "Energy-Based",
-        "description": "A plasma rifle, firing a bolt of superheated gas which explodes on impact. Avoid standing in proximity to the blast.",
-        "damage": 200,
-        "capacity": 15,
-        "recoil": 20,
-        "fire rate": 250,
-        "spare magazines": 6,
-        "reload time": "2.5s",
-        "weapon traits": ["light armor penetrating", "explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3249",
-        "image": "./images/scorcher.webp"
-      },
-      {
-        "name": "PLAS-101 Purifier",
-        "class": "Energy-Based",
-        "description": "A plasma rifle firing a bolt of superheated gase which explodes on impact. Each shot must be charged up fully before it can be fired.",
-        "damage": 250,
-        "capacity": 15,
-        "recoil": 20,
-        "fire rate": 250,
-        "spare magazines": 6,
-        "reload time": "2.5s",
-        "weapon traits": ["medium armor penetrating", "chargeup", "explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6285",
-        "image": "./images/purifier.webp"
-      }
-    ]
-  },
+  "primaries": [
+    {
+      "name": "Assault Rifle",
+      "data": [
+        {
+          "name": "AR-23 Liberator",
+          "class": "Assault Rifle",
+          "description": "The SEAF standard assault rifle, balancing power, fire rate, and weight for a reliable weapon against smaller targets.",
+          "damage": 60,
+          "capacity": 45,
+          "recoil": 15,
+          "fire rate": 640,
+          "spare magazines": 7,
+          "reload time": "3s",
+          "tactical reload": "2s",
+          "weapon traits": ["light armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=2596",
+          "image": "./images/liberator.png"
+        },
+        {
+          "name": "AR-23P Liberator Penetrator",
+          "class": "Assault Rifle",
+          "description": "A modified Liberator fitted with a scope and firing armor-piercing rounds, to help users take down armored targets.",
+          "damage": 45,
+          "capacity": 30,
+          "recoil": 19,
+          "fire rate": 640,
+          "spare magazines": 10,
+          "reload time": "3s",
+          "tactical reload": "2s",
+          "weapon traits": ["medium armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=2591",
+          "image": "./images/liberator_penetrator.png"
+        },
+        {
+          "name": "AR-23C Liberator Concussive",
+          "class": "Assault Rifle",
+          "description": "A modified Liberator firing concussive rounds which do less damage but stagger enemies.",
+          "damage": 65,
+          "capacity": 30,
+          "recoil": 28,
+          "fire rate": 320,
+          "spare magazines": 10,
+          "reload time": "3s",
+          "tactical reload": "2s",
+          "weapon traits": ["light armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=2597",
+          "image": "./images/liberator_concussive.webp"
+        },
+        {
+          "name": "AR-23A Liberator Carbine",
+          "class": "Assault Rifle",
+          "description": "A compact version of the Liberator designed to increase viability in close quarters. Has an increased fire rate at the cost of higher spread.",
+          "damage": 60,
+          "capacity": 45,
+          "recoil": 26,
+          "fire rate": 920,
+          "spare magazines": 7,
+          "reload time": "3s",
+          "tactical reload": "2s",
+          "weapon traits": ["light armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=6745",
+          "image": "./images/liberator_carbine.webp"
+        },
+        {
+          "name": "AR-61 Tenderizer",
+          "class": "Assault Rifle",
+          "description": "A high-caliber assault rifle with a restrictive magazine size but more stopping power.",
+          "damage": 95,
+          "capacity": 30,
+          "recoil": 10,
+          "fire rate": 600,
+          "spare magazines": 7,
+          "reload time": "3.3s",
+          "tactical reload": "2.2s",
+          "weapon traits": ["light armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=6271",
+          "image": "./images/tenderizer.png"
+        },
+        {
+          "name": "BR-14 Adjudicator",
+          "class": "Assault Rifle",
+          "description": "An accurate, armor-penetrating rifle, the BR-14 Adjudicator delivers righteous judgement to medium-sized enemies, though its restrictive magazine limits its effectiveness against large groups.",
+          "damage": 80,
+          "capacity": 30,
+          "recoil": 40,
+          "fire rate": 550,
+          "spare magazines": 8,
+          "reload time": "3s",
+          "tactical reload": "1.7s",
+          "weapon traits": ["medium armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=5361",
+          "image": "./images/adjudicator.png"
+        }
+      ]
+    },
+    {
+      "name": "Marksman Rifle",
+      "data": [
+        {
+          "name": "R-63 Diligence",
+          "class": "Marksman Rifle",
+          "description": "This high-caliber marksman rifle trades magazine capacity and rate of fire for powerful, accurate shots.",
+          "damage": 125,
+          "capacity": 20,
+          "recoil": 35,
+          "fire rate": 350,
+          "spare magazines": 8,
+          "reload time": "3s",
+          "tactical reload": "1.9s",
+          "weapon traits": ["light armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=2593",
+          "image": "./images/diligence.webp"
+        },
+        {
+          "name": "R-63CS Diligence Counter Sniper",
+          "class": "Marksman Rifle",
+          "description": "A modified Diligence rifle offering increased damage, but a reduced rate of fire. Fires a single bullet at a time.",
+          "damage": 140,
+          "capacity": 15,
+          "recoil": 53,
+          "fire rate": 350,
+          "spare magazines": 8,
+          "reload time": "3s",
+          "tactical reload": "1.9s",
+          "weapon traits": ["medium armor penetrating"],
+          "credit": "https://helldivers.wiki.gg/index.php?curid=3102",
+          "image": "./images/diligence_counter_sniper.png"
+        }
+      ]
+    }
+  ],
   "secondaries": {
-    "Shotguns": [
+    "Shotgun": [
       {
         "name": "SG-22 Bushwhacker",
         "class": "Shotgun",
@@ -383,7 +149,7 @@
         "image": "./images/bushwacker.png"
       }
     ],
-    "Pistols": [
+    "Pistol": [
       {
         "name": "P-2 Peacemaker",
         "class": "Pistol",
@@ -695,19 +461,6 @@
         "image": "./images/prototype_x.webp"
       },
       {
-        "name": "SC-37 Legionnaire",
-        "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
-        "armor rating": 50,
-        "speed": 550,
-        "stamina regen": 125,
-        "armor passive": {
-          "name": "Servo-Assisted",
-          "description": "Increased throwing range by 30%. Provides +50% limb health."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2835",
-        "image": "./images/legionnaire.webp"
-      },
-      {
         "name": "B-08 Light Gunner",
         "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
         "armor rating": 100,
@@ -758,6 +511,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6750",
         "image": "./images/predator.webp"
+      },
+      {
+        "name": "SC-37 Legionnaire",
+        "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
+        "armor rating": 50,
+        "speed": 550,
+        "stamina regen": 125,
+        "armor passive": {
+          "name": "Servo-Assisted",
+          "description": "Increased throwing range by 30%. Provides +50% limb health."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2835",
+        "image": "./images/legionnaire.webp"
       }
     ],
     "medium": [
@@ -825,19 +591,6 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2572",
         "image": "./images/bonesnapper.webp"
-      },
-      {
-        "name": "CM-10 Clinician",
-        "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
-        "armor rating": 100,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Med-Kit",
-          "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=5579",
-        "image": "./images/clinician.webp"
       },
       {
         "name": "SC-15 Drone Master",
@@ -957,7 +710,7 @@
         "image": "./images/enforcer.webp"
       },
       {
-        "name": "B-01 Tactical v1",
+        "name": "B-01 Tactical",
         "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
         "armor rating": 150,
         "speed": 500,
@@ -968,71 +721,6 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2581",
         "image": "./images/tactical.webp"
-      },
-      {
-        "name": "B-01 Tactical v2",
-        "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-        "armor rating": 150,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Extra Padding",
-          "description": "Provides a higher armor rating."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2862",
-        "image": "./images/tactical_v2.webp"
-      },
-      {
-        "name": "B-01 Tactical v3",
-        "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-        "armor rating": 150,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Extra Padding",
-          "description": "Provides a higher armor rating."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2863",
-        "image": "./images/tactical_v3.png"
-      },
-      {
-        "name": "B-01 Tactical v4",
-        "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-        "armor rating": 150,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Extra Padding",
-          "description": "Provides a higher armor rating."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2864",
-        "image": "./images/tactical_v4.webp"
-      },
-      {
-        "name": "CW-9 White Wolf",
-        "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
-        "armor rating": 150,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Extra Padding",
-          "description": "Provides a higher armor rating."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
-        "image": "./images/white_wolf.webp"
-      },
-      {
-        "name": "PH-56 Jaguar",
-        "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
-        "armor rating": 100,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Peak Physique",
-          "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
-        "image": "./images/jaguar.webp"
       },
       {
         "name": "SA-04 Combat Technician",
@@ -1048,6 +736,32 @@
         "image": "./images/combat_technician.webp"
       },
       {
+        "name": "CM-10 Clinician",
+        "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Med-Kit",
+          "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=5579",
+        "image": "./images/clinician.webp"
+      },
+      {
+        "name": "CW-9 White Wolf",
+        "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+        "armor rating": 150,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Extra Padding",
+          "description": "Provides a higher armor rating."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
+        "image": "./images/white_wolf.webp"
+      },
+      {
         "name": "DP-53 Savior of the Free",
         "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
         "armor rating": 100,
@@ -1059,6 +773,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
         "image": "./images/savior_of_the_free.webp"
+      },
+      {
+        "name": "PH-56 Jaguar",
+        "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Peak Physique",
+          "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
+        "image": "./images/jaguar.webp"
       },
       {
         "name": "TR-117 Alpha Commander",
@@ -1180,19 +907,6 @@
         "image": "./images/grenadier.webp"
       },
       {
-        "name": "CE-101 Guerilla Gorilla",
-        "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
-        "armor rating": 150,
-        "speed": 450,
-        "stamina regen": 50,
-        "armor passive": {
-          "name": "Engineering Kit",
-          "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
-        "image": "./images/guerilla_gorilla.webp"
-      },
-      {
         "name": "PH-202 Twigsnapper",
         "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
         "armor rating": 150,
@@ -1232,6 +946,19 @@
         "image": "./images/winter_warrior.png"
       },
       {
+        "name": "CE-101 Guerilla Gorilla",
+        "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
+        "armor rating": 150,
+        "speed": 450,
+        "stamina regen": 50,
+        "armor passive": {
+          "name": "Engineering Kit",
+          "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
+        "image": "./images/guerilla_gorilla.webp"
+      },
+      {
         "name": "FS-61 Dreadnought",
         "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
         "armor rating": 150,
@@ -1257,15 +984,6 @@
       "stamina regen": 100
     },
     {
-      "name": "FS-55 Devastator",
-      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6512",
-      "image": "./images/devastator_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "CW-4 Arctic Ranger",
       "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6490",
@@ -1275,10 +993,100 @@
       "stamina regen": 100
     },
     {
-      "name": "CW-22 Kodiak",
-      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6510",
-      "image": "./images/kodiak_helmet.webp",
+      "name": "CE-74 Breaker",
+      "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6488",
+      "image": "./images/breaker_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CE-67 Titan",
+      "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6487",
+      "image": "./images/titan_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CM-21 Trench Paramedic",
+      "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6489",
+      "image": "./images/trench_paramedic_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CE-07 Demolition Specialist",
+      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6486",
+      "image": "./images/demolition_specialist_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "FS-38 Eradicator",
+      "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6493",
+      "image": "./images/eradicator_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "EX-00 Prototype X",
+      "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\"",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6491",
+      "image": "./images/prototype_x_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "B-08 Light Gunner",
+      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6485",
+      "image": "./images/light_gunner_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "SC-30 TrailBlazer Scout",
+      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5937",
+      "image": "./images/trailblazer_scout_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "SC-34 Infiltrator",
+      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2569",
+      "image": "./images/infiltrator_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "PH-9 Predator",
+      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6748",
+      "image": "./images/predator_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "SC-37 Legionnaire",
+      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6494",
+      "image": "./images/legionnaire_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1299,37 +1107,10 @@
       "image": "./images/servo_assisted_helmet.webp"
     },
     {
-      "name": "SA-32 Dynamo",
-      "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6514",
-      "image": "./images/dynamo_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CE-74 Breaker",
-      "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6488",
-      "image": "./images/breaker_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "CE-35 Trench Engineer",
       "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5902",
       "image": "./images/trench_engineer_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CE-67 Titan",
-      "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6487",
-      "image": "./images/titan_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1353,55 +1134,10 @@
       "stamina regen": 100
     },
     {
-      "name": "CM-21 Trench Paramedic",
-      "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6489",
-      "image": "./images/trench_paramedic_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CM-17 Butcher",
-      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6509",
-      "image": "./images/butcher_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CM-10 Clinician",
-      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6315",
-      "image": "./images/clinician_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CE-07 Demolition Specialist",
-      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6486",
-      "image": "./images/demolition_specialist_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "SC-15 Drone Master",
       "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6506",
       "image": "./images/drone_master_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "FS-38 Eradicator",
-      "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6493",
-      "image": "./images/eradicator_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1461,24 +1197,6 @@
       "stamina regen": 100
     },
     {
-      "name": "B-27 Fortified Commando",
-      "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6508",
-      "image": "./images/fortified_commando_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "EX-00 Prototype X",
-      "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\"",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6491",
-      "image": "./images/prototype_x_helmet.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "CE-81 Juggernaut",
       "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6500",
@@ -1488,28 +1206,118 @@
       "stamina regen": 100
     },
     {
-      "name": "B-08 Light Gunner",
-      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6485",
-      "image": "./images/light_gunner_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "SC-30 TrailBlazer Scout",
-      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=5937",
-      "image": "./images/trailblazer_scout_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "B-24 Enforcer",
       "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6498",
       "image": "./images/enforcer_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "B-01 Tactical",
+      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2562",
+      "image": "./images/tactical_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "SA-04 Combat Technician",
+      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=5932",
+      "image": "./images/combat_technician_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CM-10 Clinician",
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6315",
+      "image": "./images/clinician_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CW-9 White Wolf",
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
+      "image": "./images/white_wolf_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "DP-53 Savior of the Free",
+      "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
+      "image": "./images/savior_of_the_free_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "PH-56 Jaguar Armor",
+      "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
+      "image": "./images/jaguar_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "TR-117 Alpha Commander",
+      "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
+      "image": "./images/alpha_commander_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "FS-55 Devastator",
+      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6512",
+      "image": "./images/devastator_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CW-22 Kodiak",
+      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6510",
+      "image": "./images/kodiak_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "SA-32 Dynamo",
+      "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6514",
+      "image": "./images/dynamo_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "CM-17 Butcher",
+      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6509",
+      "image": "./images/butcher_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "B-27 Fortified Commando",
+      "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6508",
+      "image": "./images/fortified_commando_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1533,100 +1341,10 @@
       "stamina regen": 100
     },
     {
-      "name": "SC-34 Infiltrator",
-      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=2569",
-      "image": "./images/infiltrator_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "B-01 Tactical v1",
-      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=2562",
-      "image": "./images/tactical_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "B-01 Tactical v2",
-      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6495",
-      "image": "./images/tactical_helmet_v2.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "B-01 Tactical v3",
-      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6496",
-      "image": "./images/tactical_helmet_v3.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "B-01 Tactical v4",
-      "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6497",
-      "image": "./images/tactical_helmet_v4.png",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CW-9 White Wolf",
-      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
-      "image": "./images/white_wolf_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "CE-64 Grenadier",
       "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6305",
       "image": "./images/grenadier_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "PH-56 Jaguar",
-      "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
-      "image": "./images/jaguar_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "CE-101 Guerilla Gorilla",
-      "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
-      "image": "./images/guerilla_gorilla_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "SA-04 Combat Technician",
-      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=5932",
-      "image": "./images/combat_technician_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "PH-9 Predator",
-      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6748",
-      "image": "./images/predator_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1659,28 +1377,10 @@
       "stamina regen": 100
     },
     {
-      "name": "SC-37 Legionnaire",
-      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6494",
-      "image": "./images/legionnaire_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "DP-53 Savior of the Free",
-      "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
-      "image": "./images/savior_of_the_free_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "TR-117 Alpha Commander",
-      "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
-      "image": "./images/alpha_commander_helmet.webp",
+      "name": "CE-101 Guerilla Gorilla",
+      "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
+      "image": "./images/guerilla_gorilla_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1701,6 +1401,12 @@
       "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2587",
       "image": "./images/tyrant_hunter.png"
+    },
+    {
+      "name": "Will of the People",
+      "description": "Contains a grain of sand from Super Earth—so its bearers carry a small piece of Liberty with them, wherever they go.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2589",
+      "image": "./images/will_of_the_people.webp"
     },
     {
       "name": "Bastion of Integrity",
@@ -1857,12 +1563,6 @@
       "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6516",
       "image": "./images/drape_of_glory.png"
-    },
-    {
-      "name": "Will of the People",
-      "description": "Contains a grain of sand from Super Earth—so its bearers carry a small piece of Liberty with them, wherever they go.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=2589",
-      "image": "./images/will_of_the_people.webp"
     }
   ],
   "stratagems": {
@@ -2049,16 +1749,6 @@
       }
     ],
     "supply": [
-      {
-        "name": "MLS-4X Commando",
-        "description": "An expendable missile launcher equipped with four laser-guided missiles.",
-        "call-in time": "0s",
-        "uses": "unlimited",
-        "cooldown time": "120s",
-        "stratagem traits": ["support weapon", "hellpod", "explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=7113",
-        "image": "./images/commando.webp"
-      },
       {
         "name": "EXO-49 Emancipator Exosuit",
         "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
@@ -2482,6 +2172,7 @@
     ]
   },
   "loading screen tips": [
+    "Did you know tips are shown during these transition sequences?",
     "Don't die!",
     "Helldivers traveling the galaxy might come across ancient ruins and other curiosities. Just remember: Only a traitor is curious about alien artifacts!",
     "Practice your daily desensitization exercises to ensure you remain unfazed by enemy atrocities.",
@@ -2527,7 +2218,6 @@
     "If a squadmate dies during a mission, make sure you pick up their dropped samples. There will be time for mourning later!",
     "Reloading discards the remaining rounds in your magazine.",
     "Your stance has a significant impact on accuracy. The S.E.A.F. manual lists the following stances in order of least to most accurate: Moving < Standing < Crouching < Prone.",
-    "Remember to share when calling down supplies. An armed helldiver is a happy helldiver.",
-    "Explosive grenades are great against crowds of smaller enemies. Super Earth grenades put the \"Demo\" in Democracy."
+    "Remember to share when calling down supplies. An armed helldiver is a happy helldiver."
   ]
 }

@@ -19,7 +19,11 @@ const FactionCheckboxes = ({ id, faction , setFaction}) => {
         type="radio"
         id={"bugs_" + id}
         label={
-          <img src="./images/terminid_logo.webp" style={{ width: "3vh" }} />
+          <img
+            src="./images/terminid_logo.webp"
+            style={{ width: "3vh" }}
+            alt="terminid logo"
+          />
         }
         className="me-3"
         checked={faction === "bugs"}
@@ -32,7 +36,11 @@ const FactionCheckboxes = ({ id, faction , setFaction}) => {
         type="radio"
         id={"bots_" + id}
         label={
-          <img src="./images/automaton_logo.webp" style={{ width: "3.4vh" }} />
+          <img
+            src="./images/automaton_logo.webp"
+            style={{ width: "3.4vh" }}
+            alt="automaton logo"
+          />
         }
         className="me-3"
         checked={faction === "bots"}
