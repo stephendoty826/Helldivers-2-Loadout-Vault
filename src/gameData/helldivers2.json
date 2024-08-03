@@ -14,7 +14,7 @@
         "tactical reload": "2s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2596",
-        "image": "./images/liberator.png"
+        "image": "./images/primaries/liberator.png"
       },
       {
         "name": "AR-23P Liberator Penetrator",
@@ -29,7 +29,7 @@
         "tactical reload": "2s",
         "weapon traits": ["medium armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2591",
-        "image": "./images/liberator_penetrator.png"
+        "image": "./images/primaries/liberator_penetrator.png"
       },
       {
         "name": "AR-23C Liberator Concussive",
@@ -44,7 +44,7 @@
         "tactical reload": "2s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2597",
-        "image": "./images/liberator_concussive.webp"
+        "image": "./images/primaries/liberator_concussive.webp"
       },
       {
         "name": "AR-23A Liberator Carbine",
@@ -59,7 +59,7 @@
         "tactical reload": "2s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6745",
-        "image": "./images/liberator_carbine.webp"
+        "image": "./images/primaries/liberator_carbine.webp"
       },
       {
         "name": "AR-61 Tenderizer",
@@ -74,7 +74,7 @@
         "tactical reload": "2.2s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6271",
-        "image": "./images/tenderizer.png"
+        "image": "./images/primaries/tenderizer.png"
       },
       {
         "name": "BR-14 Adjudicator",
@@ -89,7 +89,7 @@
         "tactical reload": "1.7s",
         "weapon traits": ["medium armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5361",
-        "image": "./images/adjudicator.png"
+        "image": "./images/primaries/adjudicator.png"
       }
     ],
     "Marksman Rifles": [
@@ -106,7 +106,7 @@
         "tactical reload": "1.9s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2593",
-        "image": "./images/diligence.webp"
+        "image": "./images/primaries/diligence.webp"
       },
       {
         "name": "R-63CS Diligence Counter Sniper",
@@ -121,7 +121,7 @@
         "tactical reload": "1.9s",
         "weapon traits": ["medium armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3102",
-        "image": "./images/diligence_counter_sniper.png"
+        "image": "./images/primaries/diligence_counter_sniper.png"
       }
     ],
     "Submachine Guns": [
@@ -138,7 +138,7 @@
         "tactical reload": "2s",
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2595",
-        "image": "./images/defender.webp"
+        "image": "./images/primaries/defender.webp"
       },
       {
         "name": "SMG-72 Pummeler",
@@ -153,7 +153,7 @@
         "tactical reload": "2.1s",
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6274",
-        "image": "./images/pummeler.png"
+        "image": "./images/primaries/pummeler.png"
       }
     ],
     "Shotguns": [
@@ -170,7 +170,7 @@
         "tactical reload": "0.8s per round",
         "weapon traits": ["light armor penetrating", "rounds reload"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2594",
-        "image": "./images/punisher.png"
+        "image": "./images/primaries/punisher.png"
       },
       {
         "name": "SG-8S Slugger",
@@ -185,7 +185,7 @@
         "tactical reload": "0.8s per round",
         "weapon traits": ["medium armor penetrating", "rounds reload"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3262",
-        "image": "./images/slugger.webp"
+        "image": "./images/primaries/slugger.webp"
       },
       {
         "name": "SG-225 Breaker",
@@ -200,7 +200,7 @@
         "tactical reload": "1.8s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3103",
-        "image": "./images/breaker.webp"
+        "image": "./images/primaries/breaker.webp"
       },
       {
         "name": "SG-225SP Breaker Spray&Pray",
@@ -215,7 +215,7 @@
         "tactical reload": "2.1s",
         "weapon traits": ["light armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3263",
-        "image": "./images/breaker_spray&pray.webp"
+        "image": "./images/primaries/breaker_spray&pray.webp"
       },
       {
         "name": "SG-225IE Breaker Incendiary",
@@ -230,7 +230,7 @@
         "tactical reload": "1.8s",
         "weapon traits": ["light armor penetrating", "incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3256",
-        "image": "./images/breaker_incendiary.webp"
+        "image": "./images/primaries/breaker_incendiary.webp"
       }
     ],
     "Explosive": [
@@ -247,7 +247,7 @@
         "tactical reload": "",
         "weapon traits": ["medium armor penetrating", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5515",
-        "image": "./images/crossbow.webp"
+        "image": "./images/primaries/crossbow.webp"
       },
       {
         "name": "JAR-5 Dominator",
@@ -262,7 +262,7 @@
         "tactical reload": "2.6s",
         "weapon traits": ["medium armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2999",
-        "image": "./images/dominator.webp"
+        "image": "./images/primaries/dominator.webp"
       },
       {
         "name": "R-35 Eruptor",
@@ -277,7 +277,7 @@
         "tactical reload": "2.8s",
         "weapon traits": ["medium armor penetrating", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5360",
-        "image": "./images/eruptor.webp"
+        "image": "./images/primaries/eruptor.webp"
       }
     ],
     "Energy-Based": [
@@ -293,7 +293,7 @@
         "reload time": "2.5s",
         "weapon traits": ["explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3264",
-        "image": "./images/punisher_plasma.webp"
+        "image": "./images/primaries/punisher_plasma.webp"
       },
       {
         "name": "ARC-12 Blitzer",
@@ -304,7 +304,7 @@
         "recoil": 60,
         "fire rate": 45,
         "credit": "https://helldivers.wiki.gg/index.php?curid=3499",
-        "image": "./images/blitzer.webp"
+        "image": "./images/primaries/blitzer.webp"
       },
       {
         "name": "LAS-5 Scythe",
@@ -318,7 +318,7 @@
         "tactical reload": "3s",
         "weapon traits": ["light armor penetrating", "beam", "heat"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3000",
-        "image": "./images/scythe.webp"
+        "image": "./images/primaries/scythe.webp"
       },
       {
         "name": "LAS-16 Sickle",
@@ -333,7 +333,7 @@
         "tactical reload": "3s",
         "weapon traits": ["light armor penetrating", "heat"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3240",
-        "image": "./images/sickle.webp"
+        "image": "./images/primaries/sickle.webp"
       },
       {
         "name": "PLAS-1 Scorcher",
@@ -347,7 +347,7 @@
         "reload time": "2.5s",
         "weapon traits": ["light armor penetrating", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3249",
-        "image": "./images/scorcher.webp"
+        "image": "./images/primaries/scorcher.webp"
       },
       {
         "name": "PLAS-101 Purifier",
@@ -361,7 +361,7 @@
         "reload time": "2.5s",
         "weapon traits": ["medium armor penetrating", "chargeup", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6285",
-        "image": "./images/purifier.webp"
+        "image": "./images/primaries/purifier.webp"
       }
     ]
   },
@@ -380,7 +380,7 @@
         "tactical reload": "1.2s for 1 round & 1.7 for 2 rounds",
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6767",
-        "image": "./images/bushwacker.png"
+        "image": "./images/secondaries/bushwacker.png"
       }
     ],
     "Pistols": [
@@ -397,7 +397,7 @@
         "tactical reload": "1.4s",
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2598",
-        "image": "./images/peacemaker.png"
+        "image": "./images/secondaries/peacemaker.png"
       },
       {
         "name": "P-19 Redeemer",
@@ -412,7 +412,7 @@
         "tactical reload": "1.4s",
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2600",
-        "image": "./images/redeemer.png"
+        "image": "./images/secondaries/redeemer.png"
       },
       {
         "name": "GP-31 Grenade Pistol",
@@ -426,7 +426,7 @@
         "reload time": "2s",
         "weapon traits": ["one handed", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5467",
-        "image": "./images/grenade_pistol.webp"
+        "image": "./images/secondaries/grenade_pistol.webp"
       },
       {
         "name": "LAS-7 Dagger",
@@ -445,7 +445,7 @@
           "heat"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3500",
-        "image": "./images/dagger.png"
+        "image": "./images/secondaries/dagger.png"
       },
       {
         "name": "P-113 Verdict",
@@ -460,7 +460,7 @@
         "tactical reload": "1.4s",
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6286",
-        "image": "./images/verdict.webp"
+        "image": "./images/secondaries/verdict.webp"
       },
       {
         "name": "P-4 Senator",
@@ -479,7 +479,7 @@
           "rounds reload"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2599",
-        "image": "./images/senator.JPEG"
+        "image": "./images/secondaries/senator.JPEG"
       }
     ]
   },
@@ -494,7 +494,7 @@
         "outer_radius": 8,
         "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2539",
-        "image": "./images/frag.JPEG"
+        "image": "./images/throwables/frag.JPEG"
       },
       {
         "name": "G-10 Incendiary",
@@ -506,7 +506,7 @@
         "fuse_time": "2.9s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3265",
-        "image": "./images/incendiary.JPEG"
+        "image": "./images/throwables/incendiary.JPEG"
       },
       {
         "name": "G-12 High Explosive",
@@ -517,7 +517,7 @@
         "outer_radius": 7,
         "fuse_time": "3.5s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
-        "image": "./images/high_explosive.JPEG"
+        "image": "./images/throwables/high_explosive.JPEG"
       }
     ],
     "Special Throwables": [
@@ -530,7 +530,7 @@
         "outer_radius": 7,
         "fuse_time": "0.0s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2590",
-        "image": "./images/impact.JPEG"
+        "image": "./images/throwables/impact.JPEG"
       },
       {
         "name": "G-13 Incendiary Impact",
@@ -542,7 +542,7 @@
         "fuse_time": "0.0s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6265",
-        "image": "./images/incendiary_impact.JPEG"
+        "image": "./images/throwables/incendiary_impact.JPEG"
       },
       {
         "name": "G-23 Stun",
@@ -553,7 +553,7 @@
         "outer_radius": 10,
         "fuse_time": "1.8s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
-        "image": "./images/stun.JPEG"
+        "image": "./images/throwables/stun.JPEG"
       },
       {
         "name": "G-3 Smoke",
@@ -564,7 +564,7 @@
         "outer_radius": 5,
         "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3266",
-        "image": "./images/smoke.JPEG"
+        "image": "./images/throwables/smoke.JPEG"
       },
       {
         "name": "G-123 Thermite",
@@ -575,7 +575,7 @@
         "outer_radius": 2,
         "fuse_time": "2.9s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
-        "image": "./images/thermite.JPEG"
+        "image": "./images/throwables/thermite.JPEG"
       },
       {
         "name": "K-2 Throwing Knife",
@@ -584,7 +584,7 @@
         "damage": 250,
         "penetration": 3,
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
-        "image": "./images/throwing_knife.JPEG"
+        "image": "./images/throwables/throwing_knife.JPEG"
       }
     ]
   },
@@ -601,7 +601,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=5580",
-        "image": "./images/ravager.webp"
+        "image": "./images/armor/ravager.webp"
       },
       {
         "name": "CW-4 Arctic Ranger",
@@ -614,7 +614,7 @@
           "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6325",
-        "image": "./images/arctic_ranger.webp"
+        "image": "./images/armor/arctic_ranger.webp"
       },
       {
         "name": "CE-74 Breaker",
@@ -627,7 +627,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2571",
-        "image": "./images/breaker_armor.webp"
+        "image": "./images/armor/breaker_armor.webp"
       },
       {
         "name": "CE-67 Titan",
@@ -640,7 +640,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=3296",
-        "image": "./images/titan.webp"
+        "image": "./images/armor/titan.webp"
       },
       {
         "name": "CM-21 Trench Paramedic",
@@ -653,7 +653,7 @@
           "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2829",
-        "image": "./images/trench_paramedic.webp"
+        "image": "./images/armor/trench_paramedic.webp"
       },
       {
         "name": "CE-07 Demolition Specialist",
@@ -666,7 +666,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6035",
-        "image": "./images/demolition_specialist.webp"
+        "image": "./images/armor/demolition_specialist.webp"
       },
       {
         "name": "FS-38 Eradicator",
@@ -679,7 +679,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2831",
-        "image": "./images/eradicator.webp"
+        "image": "./images/armor/eradicator.webp"
       },
       {
         "name": "EX-00 Prototype X",
@@ -692,7 +692,7 @@
           "description": "Provides 95% resistance to arc damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=5824",
-        "image": "./images/prototype_x.webp"
+        "image": "./images/armor/prototype_x.webp"
       },
       {
         "name": "SC-37 Legionnaire",
@@ -705,7 +705,7 @@
           "description": "Increased throwing range by 30%. Provides +50% limb health."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2835",
-        "image": "./images/legionnaire.webp"
+        "image": "./images/armor/legionnaire.webp"
       },
       {
         "name": "B-08 Light Gunner",
@@ -718,7 +718,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2797",
-        "image": "./images/light_gunner.webp"
+        "image": "./images/armor/light_gunner.webp"
       },
       {
         "name": "SC-30 TrailBlazer Scout",
@@ -731,7 +731,7 @@
           "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2833",
-        "image": "./images/trailblazer_scout.webp"
+        "image": "./images/armor/trailblazer_scout.webp"
       },
       {
         "name": "SC-34 Infiltrator",
@@ -744,7 +744,7 @@
           "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2577",
-        "image": "./images/infiltrator.webp"
+        "image": "./images/armor/infiltrator.webp"
       },
       {
         "name": "PH-9 Predator",
@@ -757,7 +757,7 @@
           "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6750",
-        "image": "./images/predator.webp"
+        "image": "./images/armor/predator.webp"
       }
     ],
     "medium": [
@@ -772,7 +772,7 @@
           "description": "Increased throwing range by 30%. Provides +50% limb health."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2838",
-        "image": "./images/steel_trooper.webp"
+        "image": "./images/armor/steel_trooper.webp"
       },
       {
         "name": "SA-12 Servo Assisted",
@@ -785,7 +785,7 @@
           "description": "Increased throwing range by 30%. Provides +50% limb health."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2840",
-        "image": "./images/servo_assisted.webp"
+        "image": "./images/armor/servo_assisted.webp"
       },
       {
         "name": "CE-35 Trench Engineer",
@@ -798,7 +798,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2842",
-        "image": "./images/trench_engineer.webp"
+        "image": "./images/armor/trench_engineer.webp"
       },
       {
         "name": "CE-27 Ground Breaker",
@@ -811,7 +811,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6036",
-        "image": "./images/ground_breaker.png"
+        "image": "./images/armor/ground_breaker.png"
       },
       {
         "name": "CM-09 Bonesnapper",
@@ -824,7 +824,7 @@
           "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2572",
-        "image": "./images/bonesnapper.webp"
+        "image": "./images/armor/bonesnapper.webp"
       },
       {
         "name": "CM-10 Clinician",
@@ -837,7 +837,7 @@
           "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=5579",
-        "image": "./images/clinician.webp"
+        "image": "./images/armor/clinician.webp"
       },
       {
         "name": "SC-15 Drone Master",
@@ -850,7 +850,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2845",
-        "image": "./images/drone_master.webp"
+        "image": "./images/armor/drone_master.webp"
       },
       {
         "name": "EX-03 Prototype 3",
@@ -863,7 +863,7 @@
           "description": "Provides 95% resistance to arc damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=5818",
-        "image": "./images/prototype_3.webp"
+        "image": "./images/armor/prototype_3.webp"
       },
       {
         "name": "EX-16 Prototype 16",
@@ -876,7 +876,7 @@
           "description": "Provides 95% resistance to arc damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6037",
-        "image": "./images/prototype_16.png"
+        "image": "./images/armor/prototype_16.png"
       },
       {
         "name": "FS-34 Exterminator",
@@ -889,7 +889,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2847",
-        "image": "./images/exterminator.webp"
+        "image": "./images/armor/exterminator.webp"
       },
       {
         "name": "DP-40 Hero of the Federation",
@@ -902,7 +902,7 @@
           "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2849",
-        "image": "./images/hero_of_the_federation.webp"
+        "image": "./images/armor/hero_of_the_federation.webp"
       },
       {
         "name": "DP-11 Champion of the People",
@@ -915,7 +915,7 @@
           "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2851",
-        "image": "./images/champion_of_the_people.png"
+        "image": "./images/armor/champion_of_the_people.png"
       },
       {
         "name": "CM-14 Physician",
@@ -928,7 +928,7 @@
           "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2853",
-        "image": "./images/physician.png"
+        "image": "./images/armor/physician.png"
       },
       {
         "name": "CE-81 Jugganaut",
@@ -941,7 +941,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2855",
-        "image": "./images/juggernaut.webp"
+        "image": "./images/armor/juggernaut.webp"
       },
       {
         "name": "B-24 Enforcer",
@@ -954,7 +954,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=3295",
-        "image": "./images/enforcer.webp"
+        "image": "./images/armor/enforcer.webp"
       },
       {
         "name": "B-01 Tactical v1",
@@ -967,7 +967,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2581",
-        "image": "./images/tactical.webp"
+        "image": "./images/armor/tactical.webp"
       },
       {
         "name": "B-01 Tactical v2",
@@ -980,7 +980,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2862",
-        "image": "./images/tactical_v2.webp"
+        "image": "./images/armor/tactical_v2.webp"
       },
       {
         "name": "B-01 Tactical v3",
@@ -993,7 +993,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2863",
-        "image": "./images/tactical_v3.png"
+        "image": "./images/armor/tactical_v3.png"
       },
       {
         "name": "B-01 Tactical v4",
@@ -1006,7 +1006,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2864",
-        "image": "./images/tactical_v4.webp"
+        "image": "./images/armor/tactical_v4.webp"
       },
       {
         "name": "CW-9 White Wolf",
@@ -1019,7 +1019,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
-        "image": "./images/white_wolf.webp"
+        "image": "./images/armor/white_wolf.webp"
       },
       {
         "name": "PH-56 Jaguar",
@@ -1032,7 +1032,7 @@
           "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
-        "image": "./images/jaguar.webp"
+        "image": "./images/armor/jaguar.webp"
       },
       {
         "name": "SA-04 Combat Technician",
@@ -1045,7 +1045,7 @@
           "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2859",
-        "image": "./images/combat_technician.webp"
+        "image": "./images/armor/combat_technician.webp"
       },
       {
         "name": "DP-53 Savior of the Free",
@@ -1058,7 +1058,7 @@
           "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
-        "image": "./images/savior_of_the_free.webp"
+        "image": "./images/armor/savior_of_the_free.webp"
       },
       {
         "name": "TR-117 Alpha Commander",
@@ -1071,7 +1071,7 @@
           "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
-        "image": "./images/alpha_commander.webp"
+        "image": "./images/armor/alpha_commander.webp"
       }
     ],
     "heavy": [
@@ -1086,7 +1086,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6038",
-        "image": "./images/devastator.webp"
+        "image": "./images/armor/devastator.webp"
       },
       {
         "name": "CW-22 Kodiak",
@@ -1099,7 +1099,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6263",
-        "image": "./images/kodiak.webp"
+        "image": "./images/armor/kodiak.webp"
       },
       {
         "name": "SA-32 Dynamo",
@@ -1112,7 +1112,7 @@
           "description": "Increased throwing range by 30%. Provides +50% limb health."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2868",
-        "image": "./images/dynamo.webp"
+        "image": "./images/armor/dynamo.webp"
       },
       {
         "name": "CM-17 Butcher",
@@ -1125,7 +1125,7 @@
           "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=3294",
-        "image": "./images/butcher.webp"
+        "image": "./images/armor/butcher.webp"
       },
       {
         "name": "B-27 Fortified Commando",
@@ -1138,7 +1138,7 @@
           "description": "Provides a higher armor rating."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2870",
-        "image": "./images/fortified_commando.webp"
+        "image": "./images/armor/fortified_commando.webp"
       },
       {
         "name": "FS-05 Marksman",
@@ -1151,7 +1151,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2575",
-        "image": "./images/marksman.webp"
+        "image": "./images/armor/marksman.webp"
       },
       {
         "name": "FS-11 Executioner",
@@ -1164,7 +1164,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2576",
-        "image": "./images/executioner.png"
+        "image": "./images/armor/executioner.png"
       },
       {
         "name": "CE-64 Grenadier",
@@ -1177,7 +1177,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6304",
-        "image": "./images/grenadier.webp"
+        "image": "./images/armor/grenadier.webp"
       },
       {
         "name": "CE-101 Guerilla Gorilla",
@@ -1190,7 +1190,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
-        "image": "./images/guerilla_gorilla.webp"
+        "image": "./images/armor/guerilla_gorilla.webp"
       },
       {
         "name": "PH-202 Twigsnapper",
@@ -1203,7 +1203,7 @@
           "description": "Increases melee damage by 50%. Improves weapons handling with less drag on weapon movement."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6751",
-        "image": "./images/twigsnapper.webp"
+        "image": "./images/armor/twigsnapper.webp"
       },
       {
         "name": "FS-23 Battle Master",
@@ -1216,7 +1216,7 @@
           "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2874",
-        "image": "./images/battle_master.webp"
+        "image": "./images/armor/battle_master.webp"
       },
       {
         "name": "CW-Winter Warrior",
@@ -1229,7 +1229,7 @@
           "description": "Increased throwing range by 30%. Provides +50% limb health."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2874",
-        "image": "./images/winter_warrior.png"
+        "image": "./images/armor/winter_warrior.png"
       },
       {
         "name": "FS-61 Dreadnought",
@@ -1242,7 +1242,7 @@
           "description": "Increased throwing range by 30%. Provides +50% limb health."
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
-        "image": "./images/dreadnought.webp"
+        "image": "./images/armor/dreadnought.webp"
       }
     ]
   },
@@ -1251,7 +1251,7 @@
       "name": "FS-37 Ravager",
       "description": "Contains many small pockets, allowing the user to evenly distribute weight of ammunition sample, and cool rocks.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5582",
-      "image": "./images/ravager_helmet.webp",
+      "image": "./images/helmets/ravager_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1260,7 +1260,7 @@
       "name": "FS-55 Devastator",
       "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples and cool rocks.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6512",
-      "image": "./images/devastator_helmet.png",
+      "image": "./images/helmets/devastator_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1269,7 +1269,7 @@
       "name": "CW-4 Arctic Ranger",
       "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6490",
-      "image": "./images/arctic_ranger_helmet.webp",
+      "image": "./images/helmets/arctic_ranger_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1278,7 +1278,7 @@
       "name": "CW-22 Kodiak",
       "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the \"Test Subjects for Super-Earth\" Citizen Advancement Program.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6510",
-      "image": "./images/kodiak_helmet.webp",
+      "image": "./images/helmets/kodiak_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1287,7 +1287,7 @@
       "name": "SA-25 Steel Trooper",
       "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2568",
-      "image": "./images/steel_trooper_helmet.png",
+      "image": "./images/helmets/steel_trooper_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1296,13 +1296,13 @@
       "name": "SA-12 Servo Assisted",
       "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6505",
-      "image": "./images/servo_assisted_helmet.webp"
+      "image": "./images/helmets/servo_assisted_helmet.webp"
     },
     {
       "name": "SA-32 Dynamo",
       "description": "In mountainous colonies, domestic variants of this armore are used to throw weather monitoring equipment uphill.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6514",
-      "image": "./images/dynamo_helmet.png",
+      "image": "./images/helmets/dynamo_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1311,7 +1311,7 @@
       "name": "CE-74 Breaker",
       "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6488",
-      "image": "./images/breaker_helmet.png",
+      "image": "./images/helmets/breaker_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1320,7 +1320,7 @@
       "name": "CE-35 Trench Engineer",
       "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5902",
-      "image": "./images/trench_engineer_helmet.png",
+      "image": "./images/helmets/trench_engineer_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1329,7 +1329,7 @@
       "name": "CE-67 Titan",
       "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6487",
-      "image": "./images/titan_helmet.png",
+      "image": "./images/helmets/titan_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1338,7 +1338,7 @@
       "name": "CE-27 Ground Breaker",
       "description": "\"The ground is just another obstable that hasn't yet been cleared.\" - SGM Janet Jones, Excavation Corps Founder",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6499",
-      "image": "./images/ground_breaker_helmet.png",
+      "image": "./images/helmets/ground_breaker_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1347,7 +1347,7 @@
       "name": "CM-09 Bonesnapper",
       "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2563",
-      "image": "./images/bonesnapper_helmet.png",
+      "image": "./images/helmets/bonesnapper_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1356,7 +1356,7 @@
       "name": "CM-21 Trench Paramedic",
       "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6489",
-      "image": "./images/trench_paramedic_helmet.webp",
+      "image": "./images/helmets/trench_paramedic_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1365,7 +1365,7 @@
       "name": "CM-17 Butcher",
       "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6509",
-      "image": "./images/butcher_helmet.webp",
+      "image": "./images/helmets/butcher_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1374,7 +1374,7 @@
       "name": "CM-10 Clinician",
       "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6315",
-      "image": "./images/clinician_helmet.webp",
+      "image": "./images/helmets/clinician_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1383,7 +1383,7 @@
       "name": "CE-07 Demolition Specialist",
       "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6486",
-      "image": "./images/demolition_specialist_helmet.png",
+      "image": "./images/helmets/demolition_specialist_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1392,7 +1392,7 @@
       "name": "SC-15 Drone Master",
       "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6506",
-      "image": "./images/drone_master_helmet.webp",
+      "image": "./images/helmets/drone_master_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1401,7 +1401,7 @@
       "name": "FS-38 Eradicator",
       "description": "First deployed in the minds of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6493",
-      "image": "./images/eradicator_helmet.png",
+      "image": "./images/helmets/eradicator_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1410,7 +1410,7 @@
       "name": "EX-03 Prototype 3",
       "description": "Because this prototype's wire operates at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6502",
-      "image": "./images/prototype_3_helmet.png",
+      "image": "./images/helmets/prototype_3_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1419,7 +1419,7 @@
       "name": "EX-16 Prototype 16",
       "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vinicity of stapled paperwork.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6503",
-      "image": "./images/prototype_16_helmet.webp",
+      "image": "./images/helmets/prototype_16_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1428,7 +1428,7 @@
       "name": "FS-34 Exterminator",
       "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6504",
-      "image": "./images/exterminator_helmet.webp",
+      "image": "./images/helmets/exterminator_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1437,7 +1437,7 @@
       "name": "DP-40 Hero of the Federation",
       "description": "Though originally indended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2564",
-      "image": "./images/hero_of_the_federation_helmet.png",
+      "image": "./images/helmets/hero_of_the_federation_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1446,7 +1446,7 @@
       "name": "DP-11 Champion of the People",
       "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6501",
-      "image": "./images/champion_of_the_people_helmet.png",
+      "image": "./images/helmets/champion_of_the_people_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1455,7 +1455,7 @@
       "name": "CM-14 Physician",
       "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signals to all Helldivers that help is at hand.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5939",
-      "image": "./images/physician_helmet.webp",
+      "image": "./images/helmets/physician_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1464,7 +1464,7 @@
       "name": "B-27 Fortified Commando",
       "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6508",
-      "image": "./images/fortified_commando_helmet.webp",
+      "image": "./images/helmets/fortified_commando_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1473,7 +1473,7 @@
       "name": "EX-00 Prototype X",
       "description": "The end result of several billion Super Credits and 12 years of research into creating \"the Soldier of Tomorrow.\"",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6491",
-      "image": "./images/prototype_x_helmet.png",
+      "image": "./images/helmets/prototype_x_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1482,7 +1482,7 @@
       "name": "CE-81 Juggernaut",
       "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6500",
-      "image": "./images/juggernaut_helmet.webp",
+      "image": "./images/helmets/juggernaut_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1491,7 +1491,7 @@
       "name": "B-08 Light Gunner",
       "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6485",
-      "image": "./images/light_gunner_helmet.webp",
+      "image": "./images/helmets/light_gunner_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1500,7 +1500,7 @@
       "name": "SC-30 TrailBlazer Scout",
       "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5937",
-      "image": "./images/trailblazer_scout_helmet.webp",
+      "image": "./images/helmets/trailblazer_scout_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1509,7 +1509,7 @@
       "name": "B-24 Enforcer",
       "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6498",
-      "image": "./images/enforcer_helmet.webp",
+      "image": "./images/helmets/enforcer_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1518,7 +1518,7 @@
       "name": "FS-05 Marksman",
       "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2566",
-      "image": "./images/marksman_helmet.png",
+      "image": "./images/helmets/marksman_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1527,7 +1527,7 @@
       "name": "FS-11 Executioner",
       "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical \"Lost My Heart to a Man in a Helmet\".",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2567",
-      "image": "./images/executioner_helmet.webp",
+      "image": "./images/helmets/executioner_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1536,7 +1536,7 @@
       "name": "SC-34 Infiltrator",
       "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2569",
-      "image": "./images/infiltrator_helmet.webp",
+      "image": "./images/helmets/infiltrator_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1545,7 +1545,7 @@
       "name": "B-01 Tactical v1",
       "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2562",
-      "image": "./images/tactical_helmet.webp",
+      "image": "./images/helmets/tactical_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1554,7 +1554,7 @@
       "name": "B-01 Tactical v2",
       "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6495",
-      "image": "./images/tactical_helmet_v2.webp",
+      "image": "./images/helmets/tactical_helmet_v2.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1563,7 +1563,7 @@
       "name": "B-01 Tactical v3",
       "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6496",
-      "image": "./images/tactical_helmet_v3.png",
+      "image": "./images/helmets/tactical_helmet_v3.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1572,7 +1572,7 @@
       "name": "B-01 Tactical v4",
       "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6497",
-      "image": "./images/tactical_helmet_v4.png",
+      "image": "./images/helmets/tactical_helmet_v4.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1581,7 +1581,7 @@
       "name": "CW-9 White Wolf",
       "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
-      "image": "./images/white_wolf_helmet.webp",
+      "image": "./images/helmets/white_wolf_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1590,7 +1590,7 @@
       "name": "CE-64 Grenadier",
       "description": "The set's classic advertising campaign \"Have you tried a grenade?\" has remained unchanged for over 70 years.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6305",
-      "image": "./images/grenadier_helmet.webp",
+      "image": "./images/helmets/grenadier_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1599,7 +1599,7 @@
       "name": "PH-56 Jaguar",
       "description": "\"Prowl like a jaguar, strike like a viper.\" –Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series \"Tales of the Viper Commandos.\"",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6757",
-      "image": "./images/jaguar_helmet.webp",
+      "image": "./images/helmets/jaguar_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1608,7 +1608,7 @@
       "name": "CE-101 Guerilla Gorilla",
       "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
-      "image": "./images/guerilla_gorilla_helmet.webp",
+      "image": "./images/helmets/guerilla_gorilla_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1617,7 +1617,7 @@
       "name": "SA-04 Combat Technician",
       "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5932",
-      "image": "./images/combat_technician_helmet.webp",
+      "image": "./images/helmets/combat_technician_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1626,7 +1626,7 @@
       "name": "PH-9 Predator",
       "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6748",
-      "image": "./images/predator_helmet.webp",
+      "image": "./images/helmets/predator_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1635,7 +1635,7 @@
       "name": "PH-202 Twigsnapper",
       "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6749",
-      "image": "./images/twigsnapper_helmet.webp",
+      "image": "./images/helmets/twigsnapper_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1644,7 +1644,7 @@
       "name": "FS-23 Battle Master",
       "description": "This aim-stabalizing armor found suprising secondary market success among alien birdwatching enthusiasts.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5922",
-      "image": "./images/battle_master_helmet.png",
+      "image": "./images/helmets/battle_master_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1653,7 +1653,7 @@
       "name": "CW-Winter Warrior",
       "description": "Offering camouflage in snowy environements, surplus sets of this armor are used by nature photographers and keen hunters alike.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6511",
-      "image": "./images/winter_warrior_helmet.png",
+      "image": "./images/helmets/winter_warrior_helmet.png",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1662,7 +1662,7 @@
       "name": "SC-37 Legionnaire",
       "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6494",
-      "image": "./images/legionnaire_helmet.webp",
+      "image": "./images/helmets/legionnaire_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1671,7 +1671,7 @@
       "name": "DP-53 Savior of the Free",
       "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
-      "image": "./images/savior_of_the_free_helmet.webp",
+      "image": "./images/helmets/savior_of_the_free_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1680,7 +1680,7 @@
       "name": "TR-117 Alpha Commander",
       "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
-      "image": "./images/alpha_commander_helmet.webp",
+      "image": "./images/helmets/alpha_commander_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1689,7 +1689,7 @@
       "name": "FS-61 Dreadnought",
       "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
-      "image": "./images/dreadnought_helmet.webp",
+      "image": "./images/helmets/dreadnought_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1700,169 +1700,169 @@
       "name": "Tyrant Hunter",
       "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2587",
-      "image": "./images/tyrant_hunter.png"
+      "image": "./images/capes/tyrant_hunter.png"
     },
     {
       "name": "Bastion of Integrity",
       "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aeriel recovery crews.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4400",
-      "image": "./images/bastion_of_integrity.png"
+      "image": "./images/capes/bastion_of_integrity.png"
     },
     {
       "name": "Cloak of Posterity's Gratitude",
       "description": "A representation of the thankfulness of those infinite descendents whose liberated existence we strive to ensure.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4403",
-      "image": "./images/cloak_of_posteritys_gratitude.png"
+      "image": "./images/capes/cloak_of_posteritys_gratitude.png"
     },
     {
       "name": "Botslayer",
       "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4402",
-      "image": "./images/botslayer.png"
+      "image": "./images/capes/botslayer.png"
     },
     {
       "name": "Martyris Rex",
       "description": "It is said that only the truly Democratic can lift this cape to their shoulders.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4405",
-      "image": "./images/martyris_rex.png"
+      "image": "./images/capes/martyris_rex.png"
     },
     {
       "name": "Agent of Oblivion",
       "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's \"Greener Galaxy\" campaign.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4406",
-      "image": "./images/agent_of_oblivion.png"
+      "image": "./images/capes/agent_of_oblivion.png"
     },
     {
       "name": "Eagle's Fury",
       "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5416",
-      "image": "./images/eagles_fury.png"
+      "image": "./images/capes/eagles_fury.png"
     },
     {
       "name": "Judgment Day",
       "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak upon those wearing this cape.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5416",
-      "image": "./images/judgment_day.png"
+      "image": "./images/capes/judgment_day.png"
     },
     {
       "name": "Fallen Hero's Vengeance",
       "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5417",
-      "image": "./images/fallen_heros_vengeance.webp"
+      "image": "./images/capes/fallen_heros_vengeance.webp"
     },
     {
       "name": "Blazing Samaritan",
       "description": "Emblazoned with the red, white, and green of the 676th Democracy Regiment, who made their final stand on the slopes of Justice Hill.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4401",
-      "image": "./images/blazing_samaritan.png"
+      "image": "./images/capes/blazing_samaritan.png"
     },
     {
       "name": "The Cape of Stars and Suffrage",
       "description": "A symbol of Super Earth's Astral Promise: that every star shall one day illuminate throngs of joyous voters.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2585",
-      "image": "./images/cape_of_stars_and_suffrage.png"
+      "image": "./images/capes/cape_of_stars_and_suffrage.png"
     },
     {
       "name": "Mantle of True Citizenship",
       "description": "The featherlight construction belies the heavy burden this cape entails—to live the Creed of the True Citizen.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4380",
-      "image": "./images/mantle_of_true_citizenship.png"
+      "image": "./images/capes/mantle_of_true_citizenship.png"
     },
     {
       "name": "Freedom's Tapestry",
       "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5429",
-      "image": "./images/freedoms_tapestry.png"
+      "image": "./images/capes/freedoms_tapestry.png"
     },
     {
       "name": "Harbinger of True Equality",
       "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5418",
-      "image": "./images/harbinger_of_true_equality.webp"
+      "image": "./images/capes/harbinger_of_true_equality.webp"
     },
     {
       "name": "Dissident's Nightmare",
       "description": "After extensive testing in Patriotic Rehabilitation Centers, this design was proved most terrifying to dissent-afflicted individuals.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6518",
-      "image": "./images/dissidents_nightmare.png"
+      "image": "./images/capes/dissidents_nightmare.png"
     },
     {
       "name": "Pinions of Everlasting Glory",
       "description": "All but ensure ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6519",
-      "image": "./images/pinions_of_everlasting_glory.png"
+      "image": "./images/capes/pinions_of_everlasting_glory.png"
     },
     {
       "name": "Order of the Venerated Ballot",
       "description": "Adorned with the insignia of the Order of the Venerated Ballot, a Ministry-sanctioned Patriot's Club for citizens who pledge themselves to preserving the sanctity of voting.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6525",
-      "image": "./images/order_of_the_venerated_ballot.png"
+      "image": "./images/capes/order_of_the_venerated_ballot.png"
     },
     {
       "name": "Mark of the Crimson Fang",
       "description": "Marks the most obedient of the obedient, those who will strike headlong at the veins of Tyranny and administer the sweet antidote of Freedom.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6746",
-      "image": "./images/mark_of_the_crimson_fang.webp"
+      "image": "./images/capes/mark_of_the_crimson_fang.webp"
     },
     {
       "name": "Executioner's Canopy",
       "descripti": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6747",
-      "image": "./images/executioners_canopy.png"
+      "image": "./images/capes/executioners_canopy.png"
     },
     {
       "name": "Tideturner",
       "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2586",
-      "image": "./images/tideturner.png"
+      "image": "./images/capes/tideturner.png"
     },
     {
       "name": "Light of Eternal Liberty",
       "description": "The unimpeachable justice of this cape's design is said to blind the enemies of Freedom with its glorious light.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4404",
-      "image": "./images/light_of_eternal_liberty.webp"
+      "image": "./images/capes/light_of_eternal_liberty.webp"
     },
     {
       "name": "Cresting Honor",
       "description": "The yellow is the exact shade of the Ministry of Unity's 'Golden Gate', leading to the Chamber of Unanimous Decision.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=4381",
-      "image": "./images/cresting_honor.webp"
+      "image": "./images/capes/cresting_honor.webp"
     },
     {
       "name": "Liberty's Herald",
       "description": "The two stripes serve as a reminder of the two pillars of successful military campaigns: attack, and further attack.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2584",
-      "image": "./images/libertys_herald.webp"
+      "image": "./images/capes/libertys_herald.webp"
     },
     {
       "name": "Foesmasher",
       "description": "Durable, waterproof, and thermally-lined, surplus units of this cape are favored by domestic campers, to make tents.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2582",
-      "image": "./images/foesmasher.webp"
+      "image": "./images/capes/foesmasher.webp"
     },
     {
       "name": "Independence Bringer",
       "description": "This cape's cropped length symbolizes the brevity of galatic conflicts, thanks to the efficiency of the Helldivers.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2583",
-      "image": "./images/independence_bringer.webp"
+      "image": "./images/capes/independence_bringer.webp"
     },
     {
       "name": "Umblemished Allegiance",
       "description": "A choir of patriotic schoolchildren sings the Super Earth anthem to each cape as the final step in its productions.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2588",
-      "image": "./images/unblemished_allegiance.png"
+      "image": "./images/capes/unblemished_allegiance.png"
     },
     {
       "name": "Drape of Glory",
       "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6516",
-      "image": "./images/drape_of_glory.png"
+      "image": "./images/capes/drape_of_glory.png"
     },
     {
       "name": "Will of the People",
       "description": "Contains a grain of sand from Super Earth—so its bearers carry a small piece of Liberty with them, wherever they go.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2589",
-      "image": "./images/will_of_the_people.webp"
+      "image": "./images/capes/will_of_the_people.webp"
     }
   ],
   "stratagems": {
@@ -1875,7 +1875,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3091",
-        "image": "./images/eagle_500kg_bomb.webp"
+        "image": "./images/stratagems/eagle_500kg_bomb.webp"
       },
       {
         "name": "Orbital Gatling Barrage",
@@ -1885,7 +1885,7 @@
         "cooldown time": "70s — 63s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3083",
-        "image": "./images/orbital_gatling_barrage.webp"
+        "image": "./images/stratagems/orbital_gatling_barrage.webp"
       },
       {
         "name": "Eagle Airstrike",
@@ -1895,7 +1895,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3092",
-        "image": "./images/eagle_airstrike.webp"
+        "image": "./images/stratagems/eagle_airstrike.webp"
       },
       {
         "name": "Orbital Walking Barrage",
@@ -1905,7 +1905,7 @@
         "cooldown time": "240s — 216s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3088",
-        "image": "./images/orbital_walking_barrage.webp"
+        "image": "./images/stratagems/orbital_walking_barrage.webp"
       },
       {
         "name": "Eagle Strafing Run",
@@ -1915,7 +1915,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3097",
-        "image": "./images/eagle_strafing_run.webp"
+        "image": "./images/stratagems/eagle_strafing_run.webp"
       },
       {
         "name": "Orbital EMS Strike",
@@ -1925,7 +1925,7 @@
         "cooldown time": "75s — 68s with upgrade",
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3081",
-        "image": "./images/orbital_EMS_strike.webp"
+        "image": "./images/stratagems/orbital_EMS_strike.webp"
       },
       {
         "name": "Eagle Smoke Strike",
@@ -1935,7 +1935,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3096",
-        "image": "./images/eagle_smoke_strike.webp"
+        "image": "./images/stratagems/eagle_smoke_strike.webp"
       },
       {
         "name": "Orbital Gas Strike",
@@ -1945,7 +1945,7 @@
         "cooldown time": "75s — 68s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3082",
-        "image": "./images/orbital_gas_strike.webp"
+        "image": "./images/stratagems/orbital_gas_strike.webp"
       },
       {
         "name": "Orbital Railcannon Strike",
@@ -1955,7 +1955,7 @@
         "cooldown time": "210s — 189s with upgrade",
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3086",
-        "image": "./images/orbital_railcannon_strike.webp"
+        "image": "./images/stratagems/orbital_railcannon_strike.webp"
       },
       {
         "name": "Eagle Cluster Bomb",
@@ -1965,7 +1965,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3094",
-        "image": "./images/eagle_cluster_bomb.webp"
+        "image": "./images/stratagems/eagle_cluster_bomb.webp"
       },
       {
         "name": "Orbital Smoke Strike",
@@ -1975,7 +1975,7 @@
         "cooldown time": "100s — 90s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3087",
-        "image": "./images/orbital_smoke_strike.webp"
+        "image": "./images/stratagems/orbital_smoke_strike.webp"
       },
       {
         "name": "Orbital Airburst Strike",
@@ -1985,7 +1985,7 @@
         "cooldown time": "100s — 90s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3080",
-        "image": "./images/orbital_airburst_strike.webp"
+        "image": "./images/stratagems/orbital_airburst_strike.webp"
       },
       {
         "name": "Orbital Laser",
@@ -1995,7 +1995,7 @@
         "cooldown time": "300s — 270s with upgrade",
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3084",
-        "image": "./images/orbital_laser.webp"
+        "image": "./images/stratagems/orbital_laser.webp"
       },
       {
         "name": "Orbital Precision Strike",
@@ -2005,7 +2005,7 @@
         "cooldown time": "90s — 81s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3085",
-        "image": "./images/orbital_precision_strike.webp"
+        "image": "./images/stratagems/orbital_precision_strike.webp"
       },
       {
         "name": "Orbital 380mm HE Barrage",
@@ -2015,7 +2015,7 @@
         "cooldown time": "240s — 216s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3079",
-        "image": "./images/orbital_380mm_HE_barrage.webp"
+        "image": "./images/stratagems/orbital_380mm_HE_barrage.webp"
       },
       {
         "name": "Eagle Napalm Strike",
@@ -2025,7 +2025,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3095",
-        "image": "./images/eagle_napalm_strike.webp"
+        "image": "./images/stratagems/eagle_napalm_strike.webp"
       },
       {
         "name": "Orbital 120mm HE Barrage",
@@ -2035,7 +2035,7 @@
         "cooldown time": "240s — 216s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3078",
-        "image": "./images/orbital_120mm_HE_barrage.webp"
+        "image": "./images/stratagems/orbital_120mm_HE_barrage.webp"
       },
       {
         "name": "Eagle 110mm Rocket Pods",
@@ -2045,7 +2045,7 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "",
-        "image": "./images/eagle_110mm_rocket_pods.webp"
+        "image": "./images/stratagems/eagle_110mm_rocket_pods.webp"
       }
     ],
     "supply": [
@@ -2057,7 +2057,7 @@
         "cooldown time": "120s",
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7113",
-        "image": "./images/commando.webp"
+        "image": "./images/stratagems/commando.webp"
       },
       {
         "name": "EXO-49 Emancipator Exosuit",
@@ -2067,7 +2067,7 @@
         "cooldown time": "600s",
         "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6622",
-        "image": "./images/emancipator_exosuit.webp"
+        "image": "./images/stratagems/emancipator_exosuit.webp"
       },
       {
         "name": "M-105 Stalwart",
@@ -2082,7 +2082,7 @@
         "tactical reload": "4.4s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2996",
-        "image": "./images/stalwart.webp"
+        "image": "./images/stratagems/stalwart.webp"
       },
       {
         "name": "AC-8 Autocannon",
@@ -2097,7 +2097,7 @@
         "tactical reload": "1.7s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2976",
-        "image": "./images/autocannon.webp"
+        "image": "./images/stratagems/autocannon.webp"
       },
       {
         "name": "EXO-45 Patriot Exosuit",
@@ -2107,7 +2107,7 @@
         "cooldown time": "600s",
         "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3099",
-        "image": "./images/patriot_exosuit.webp"
+        "image": "./images/stratagems/patriot_exosuit.webp"
       },
       {
         "name": "MG-206 Heavy Machine Gun",
@@ -2122,7 +2122,7 @@
         "tactical reload": "3.9s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=4167",
-        "image": "./images/heavy_machine_gun.webp"
+        "image": "./images/stratagems/heavy_machine_gun.webp"
       },
       {
         "name": "SH-32 Shield Generator Pack",
@@ -2133,7 +2133,7 @@
         "recharge time": "12s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2993",
-        "image": "./images/shield_generator_pack.webp"
+        "image": "./images/stratagems/shield_generator_pack.webp"
       },
       {
         "name": "RL-77 Airburst Rocket Launcher",
@@ -2146,7 +2146,7 @@
         "reload time": "6.7s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5880",
-        "image": "./images/airburst_rocket_launcher.webp"
+        "image": "./images/stratagems/airburst_rocket_launcher.webp"
       },
       {
         "name": "RS-422 Railgun",
@@ -2159,7 +2159,7 @@
         "reload time": "1.3s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2990",
-        "image": "./images/railgun.webp"
+        "image": "./images/stratagems/railgun.webp"
       },
       {
         "name": "LAS-98 Laser Cannon",
@@ -2174,7 +2174,7 @@
         "tactical reload": "5s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2987",
-        "image": "./images/laser_cannon.webp"
+        "image": "./images/stratagems/laser_cannon.webp"
       },
       {
         "name": "ARC-3 Arc Thrower",
@@ -2186,7 +2186,7 @@
         "fire rate": 60,
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2974",
-        "image": "./images/arc_thrower.webp"
+        "image": "./images/stratagems/arc_thrower.webp"
       },
       {
         "name": "AX/AR-23 \"Guard Dog\"",
@@ -2197,7 +2197,7 @@
         "reload time": "",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2983",
-        "image": "./images/guard_dog.webp"
+        "image": "./images/stratagems/guard_dog.webp"
       },
       {
         "name": "FAF-14 Spear",
@@ -2210,7 +2210,7 @@
         "reload time": "5s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2995",
-        "image": "./images/spear.webp"
+        "image": "./images/stratagems/spear.webp"
       },
       {
         "name": "GL-21 Grenade Launcher",
@@ -2225,7 +2225,7 @@
         "tactical reload": "3s",
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2982",
-        "image": "./images/grenade_launcher.webp"
+        "image": "./images/stratagems/grenade_launcher.webp"
       },
       {
         "name": "MG-43 Machine Gun",
@@ -2240,7 +2240,7 @@
         "tactical reload": "4.2s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2989",
-        "image": "./images/machine_gun.webp"
+        "image": "./images/stratagems/machine_gun.webp"
       },
       {
         "name": "SH-20 Ballistic Shield Backpack",
@@ -2250,7 +2250,7 @@
         "cooldown time": "480s - 432s with upgrade",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2977",
-        "image": "./images/ballistic_shield_backpack.webp"
+        "image": "./images/stratagems/ballistic_shield_backpack.webp"
       },
       {
         "name": "B-1 Supply Pack",
@@ -2260,7 +2260,7 @@
         "cooldown time": "480s - 432s with upgrade",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2997",
-        "image": "./images/supply_pack.webp"
+        "image": "./images/stratagems/supply_pack.webp"
       },
       {
         "name": "FLAM-40 Flamethrower",
@@ -2273,7 +2273,7 @@
         "reload time": "3.9s",
         "stratagem traits": ["support weapon", "hellpod", "incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2980",
-        "image": "./images/flamethrower.webp"
+        "image": "./images/stratagems/flamethrower.webp"
       },
       {
         "name": "AX/LAS-5 \"Guard Dog\" Rover",
@@ -2283,7 +2283,7 @@
         "cooldown time": "480s - 432s with upgrade",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2984",
-        "image": "./images/rover.webp"
+        "image": "./images/stratagems/rover.webp"
       },
       {
         "name": "GR-8 Recoilless Rifle",
@@ -2301,7 +2301,7 @@
           "support backpack"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2991",
-        "image": "./images/recoilless_rifle.webp"
+        "image": "./images/stratagems/recoilless_rifle.webp"
       },
       {
         "name": "LIFT-850 Jump Pack",
@@ -2312,7 +2312,7 @@
         "recharge time": "20s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2986",
-        "image": "./images/jump_pack.webp"
+        "image": "./images/stratagems/jump_pack.webp"
       },
       {
         "name": "APW-1 Anti-Materiel Rifle",
@@ -2327,7 +2327,7 @@
         "tactical reload": "2.6s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2972",
-        "image": "./images/anti-materiel_rifle.webp"
+        "image": "./images/stratagems/anti-materiel_rifle.webp"
       },
       {
         "name": "EAT-17 Expendable Anti-tank",
@@ -2338,7 +2338,7 @@
         "capacity": 1,
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2979",
-        "image": "./images/expendable_anti-tank.webp"
+        "image": "./images/stratagems/expendable_anti-tank.webp"
       },
       {
         "name": "LAS-99 Quasar Cannon",
@@ -2351,7 +2351,7 @@
         "recharge time": "15s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=4166",
-        "image": "./images/quasar_cannon.webp"
+        "image": "./images/stratagems/quasar_cannon.webp"
       }
     ],
     "defensive": [
@@ -2363,7 +2363,7 @@
         "cooldown time": "90s - 81s with upgrade",
         "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2994",
-        "image": "./images/shield_generator_relay.webp"
+        "image": "./images/stratagems/shield_generator_relay.webp"
       },
       {
         "name": "A/M-23 EMS Mortar Sentry",
@@ -2375,7 +2375,7 @@
         "capacity": "15 — 22 with upgrade",
         "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3719",
-        "image": "./images/EMS_mortar_sentry.webp"
+        "image": "./images/stratagems/EMS_mortar_sentry.webp"
       },
       {
         "name": "A/MLS-4X Rocket Sentry",
@@ -2387,7 +2387,7 @@
         "capacity": "32 — 40 with upgrade",
         "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2992",
-        "image": "./images/rocket_sentry.webp"
+        "image": "./images/stratagems/rocket_sentry.webp"
       },
       {
         "name": "A/G-16 Gatling Sentry",
@@ -2399,7 +2399,7 @@
         "capacity": "390 — 585 with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2981",
-        "image": "./images/gatling_sentry.webp"
+        "image": "./images/stratagems/gatling_sentry.webp"
       },
       {
         "name": "A/ARC-3 Tesla Tower",
@@ -2409,7 +2409,7 @@
         "cooldown time": "150s - 135s with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2998",
-        "image": "./images/tesla_tower.webp"
+        "image": "./images/stratagems/tesla_tower.webp"
       },
       {
         "name": "A/M-12 Mortar Sentry",
@@ -2421,7 +2421,7 @@
         "capacity": "36 — 54 with upgrade",
         "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3077",
-        "image": "./images/mortar_sentry.webp"
+        "image": "./images/stratagems/mortar_sentry.webp"
       },
       {
         "name": "MD-6 Anti-personnel Minefield",
@@ -2431,7 +2431,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "stratagem traits": ["hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2973",
-        "image": "./images/anti-personnel_minefield.webp"
+        "image": "./images/stratagems/anti-personnel_minefield.webp"
       },
       {
         "name": "A/MG-43 Machine Gun Sentry",
@@ -2443,7 +2443,7 @@
         "capacity": "130 — 195 with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2988",
-        "image": "./images/machine_gun_sentry.webp"
+        "image": "./images/stratagems/machine_gun_sentry.webp"
       },
       {
         "name": "A/AC-8 Autocannon Sentry",
@@ -2455,7 +2455,7 @@
         "capacity": "24 — 36 with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2975",
-        "image": "./images/autocannon_sentry.webp"
+        "image": "./images/stratagems/autocannon_sentry.webp"
       },
       {
         "name": "MD-I4 Incendiary Minefield",
@@ -2465,7 +2465,7 @@
         "cooldown time": "180s - 162s with upgrade",
         "stratagem traits": ["hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3501",
-        "image": "./images/incendiary_minefield.webp"
+        "image": "./images/stratagems/incendiary_minefield.webp"
       },
       {
         "name": "E/MG-101 HMG Emplacement",
@@ -2477,7 +2477,7 @@
         "fire rate": 660,
         "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2985",
-        "image": "./images/hmg_emplacement.webp"
+        "image": "./images/stratagems/hmg_emplacement.webp"
       }
     ]
   },
