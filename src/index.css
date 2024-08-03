@@ -161,6 +161,8 @@ button.weaponButton:hover{
   overflow: scroll;
   overflow-x: hidden;
   padding: 2vw;
+  /* box-shadow: 5px 5px 5px 5px #000000; */
+  z-index:2;
 }
 
 .modalBottomCape {
