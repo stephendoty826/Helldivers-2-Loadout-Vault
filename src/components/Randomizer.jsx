@@ -162,8 +162,8 @@ const Randomizer = () => {
         secondary: locks.secondary
           ? prevLoadout.secondary
           : getRandomItem([
-              ...helldivers2Data.secondaries.Shotguns,
               ...helldivers2Data.secondaries.Pistols,
+              ...helldivers2Data.secondaries.Special,
             ]),
         throwable: locks.throwable
           ? prevLoadout.throwable

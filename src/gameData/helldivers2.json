@@ -136,7 +136,7 @@
         "spare magazines": 7,
         "reload time": "2.8s",
         "tactical reload": "2s",
-        "weapon traits": ["light armor penetrating", "one handed"],
+        "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2595",
         "image": "./images/primaries/defender.webp"
       },
@@ -151,7 +151,7 @@
         "spare magazines": 7,
         "reload time": "3s",
         "tactical reload": "2.1s",
-        "weapon traits": ["light armor penetrating", "one handed"],
+        "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6274",
         "image": "./images/primaries/pummeler.png"
       }
@@ -223,9 +223,9 @@
         "description": "A modified Breaker Shotgun firing incendiary projectiles. Generates heat during use, so limited to burst fire.",
         "damage": 240,
         "capacity": 25,
-        "recoil": 28,
+        "recoil": 41,
         "fire rate": 300,
-        "spare magazines": 6,
+        "spare magazines": 4,
         "reload time": "2.5s",
         "tactical reload": "1.8s",
         "weapon traits": ["light armor penetrating", "incendiary"],
@@ -245,7 +245,7 @@
         "spare magazines": 8,
         "reload time": "3.3s",
         "tactical reload": "",
-        "weapon traits": ["medium armor penetrating", "explosive"],
+        "weapon traits": ["medium armor penetrating", "explosive", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5515",
         "image": "./images/primaries/crossbow.webp"
       },
@@ -291,7 +291,7 @@
         "fire rate": 80,
         "spare magazines": 8,
         "reload time": "2.5s",
-        "weapon traits": ["explosive"],
+        "weapon traits": ["medium armor penetrating", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3264",
         "image": "./images/primaries/punisher_plasma.webp"
       },
@@ -303,6 +303,7 @@
         "capacity": "infinite",
         "recoil": 60,
         "fire rate": 45,
+        "weapon traits": ["medium armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3499",
         "image": "./images/primaries/blitzer.webp"
       },
@@ -378,7 +379,7 @@
         "spare magazines": 5,
         "reload time": "1.8s",
         "tactical reload": "1.4s",
-        "weapon traits": ["light armor penetrating", "one handed"],
+        "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2598",
         "image": "./images/secondaries/peacemaker.png"
       },
@@ -393,7 +394,7 @@
         "spare magazines": 4,
         "reload time": "2.1s",
         "tactical reload": "1.4s",
-        "weapon traits": ["light armor penetrating", "one handed"],
+        "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2600",
         "image": "./images/secondaries/redeemer.png"
       },
@@ -408,7 +409,7 @@
         "spare magazines": 8,
         "reload time": "2s",
         "tactical reload": "1.4s",
-        "weapon traits": ["light armor penetrating", "one handed"],
+        "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6286",
         "image": "./images/secondaries/verdict.webp"
       },
@@ -425,7 +426,7 @@
         "tactical reload": "2.2s for 1 round & 4.8s for 5 rounds",
         "weapon traits": [
           "medium armor penetrating",
-          "one handed",
+          "one-handed",
           "rounds reload"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2599",
@@ -444,7 +445,7 @@
         "spare magazines": 30,
         "reload time": "2.1s",
         "tactical reload": "1.2s for 1 round & 1.7 for 2 rounds",
-        "weapon traits": ["light armor penetrating", "one handed"],
+        "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6767",
         "image": "./images/secondaries/bushwacker.png"
       },
@@ -456,9 +457,9 @@
         "capacity": 1,
         "recoil": 43,
         "fire rate": 900,
-        "spare magazines": 8,
+        "spare magazines": 6,
         "reload time": "2s",
-        "weapon traits": ["one handed", "explosive"],
+        "weapon traits": ["one-handed", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5467",
         "image": "./images/secondaries/grenade_pistol.webp"
       },
@@ -474,7 +475,7 @@
         "tactical reload": "2.3s",
         "weapon traits": [
           "light armor penetrating",
-          "one handed",
+          "one-handed",
           "beam",
           "heat"
         ],
@@ -1870,8 +1871,9 @@
       {
         "name": "Eagle 500kg Bomb",
         "description": "A large bomb obliterating almost any target close to impact. Make sure to clear the area.",
-        "call-in time": "0s",
+        "call-in time": "3.45s",
         "uses": "1 — 2 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3091",
@@ -1892,6 +1894,7 @@
         "description": "A barrage of bombs creating a non-targeted carpet of explosions.",
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3092",
@@ -1912,6 +1915,7 @@
         "description": "A strafing run of the battlefield to clear small targets, delivered almost instantly.",
         "call-in time": "0s",
         "uses": "4 — 5 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3097",
@@ -1932,6 +1936,7 @@
         "description": "A barrage of smoke grenades, creating a thick smoke screen to block enemies' line of sight.",
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3096",
@@ -1962,6 +1967,7 @@
         "description": "A targeted air strike unable to destroy buildings, but efficient at clearing smaller targets.",
         "call-in time": "0s",
         "uses": "4 — 5 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3094",
@@ -2022,6 +2028,7 @@
         "description": "A barrage of napalm bombs, creating a wall of fire which will stop enemies in their tracks.",
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3095",
@@ -2042,6 +2049,7 @@
         "description": "A barrage of rocket pods, which the Eagle pilot will release on the largest target near the stratagem beacon.",
         "call-in time": "0s",
         "uses": "2 — 3 with upgrade",
+        "rearm time": "150s — 120s with upgrade",
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "",
@@ -2357,6 +2365,16 @@
     "defensive": [
       {
         "name": "FX-12 Shield Generator Relay",
+        "description": "A stationary energy shield which provides cover against projectiles. Has a limited lifetime once deployed.",
+        "call-in time": "0s",
+        "uses": "unlimited",
+        "cooldown time": "90s - 81s with upgrade",
+        "stratagem traits": ["hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2994",
+        "image": "./images/stratagems/shield_generator_relay.webp"
+      },
+      {
+        "name": "Anti-Tank Mines...",
         "description": "A stationary energy shield which provides cover against projectiles. Has a limited lifetime once deployed.",
         "call-in time": "0s",
         "uses": "unlimited",
