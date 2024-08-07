@@ -366,23 +366,6 @@
     ]
   },
   "secondaries": {
-    "Shotguns": [
-      {
-        "name": "SG-22 Bushwhacker",
-        "class": "Shotgun",
-        "description": "A triple-barreled, break-action, sawed-off shotgun. Switch firing modes to fire all three barrels at once.",
-        "damage": 405,
-        "capacity": 3,
-        "recoil": 170,
-        "fire rate": 650,
-        "spare magazines": 30,
-        "reload time": "2.1s",
-        "tactical reload": "1.2s for 1 round & 1.7 for 2 rounds",
-        "weapon traits": ["light armor penetrating", "one handed"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=6767",
-        "image": "./images/secondaries/bushwacker.png"
-      }
-    ],
     "Pistols": [
       {
         "name": "P-2 Peacemaker",
@@ -413,39 +396,6 @@
         "weapon traits": ["light armor penetrating", "one handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2600",
         "image": "./images/secondaries/redeemer.png"
-      },
-      {
-        "name": "GP-31 Grenade Pistol",
-        "class": "Pistol",
-        "description": "A pistol that fires grenades. Must be reloaded between shots.",
-        "damage": 650,
-        "capacity": 1,
-        "recoil": 43,
-        "fire rate": 900,
-        "spare magazines": 8,
-        "reload time": "2s",
-        "weapon traits": ["one handed", "explosive"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=5467",
-        "image": "./images/secondaries/grenade_pistol.webp"
-      },
-      {
-        "name": "LAS-7 Dagger",
-        "class": "Pistol",
-        "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
-        "damage/sec": 200,
-        "fire limit": 5,
-        "recoil": 1,
-        "spare magazines": 3,
-        "reload time": "1.8s",
-        "tactical reload": "2.3s",
-        "weapon traits": [
-          "light armor penetrating",
-          "one handed",
-          "beam",
-          "heat"
-        ],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3500",
-        "image": "./images/secondaries/dagger.png"
       },
       {
         "name": "P-113 Verdict",
@@ -479,7 +429,57 @@
           "rounds reload"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2599",
-        "image": "./images/secondaries/senator.JPEG"
+        "image": "./images/secondaries/senator.jpeg"
+      }
+    ],
+    "Special": [
+      {
+        "name": "SG-22 Bushwhacker",
+        "class": "Shotgun",
+        "description": "A triple-barreled, break-action, sawed-off shotgun. Switch firing modes to fire all three barrels at once.",
+        "damage": 405,
+        "capacity": 3,
+        "recoil": 170,
+        "fire rate": 650,
+        "spare magazines": 30,
+        "reload time": "2.1s",
+        "tactical reload": "1.2s for 1 round & 1.7 for 2 rounds",
+        "weapon traits": ["light armor penetrating", "one handed"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=6767",
+        "image": "./images/secondaries/bushwacker.png"
+      },
+      {
+        "name": "GP-31 Grenade Pistol",
+        "class": "Pistol",
+        "description": "A pistol that fires grenades. Must be reloaded between shots.",
+        "damage": 650,
+        "capacity": 1,
+        "recoil": 43,
+        "fire rate": 900,
+        "spare magazines": 8,
+        "reload time": "2s",
+        "weapon traits": ["one handed", "explosive"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=5467",
+        "image": "./images/secondaries/grenade_pistol.webp"
+      },
+      {
+        "name": "LAS-7 Dagger",
+        "class": "Pistol",
+        "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
+        "damage/sec": 200,
+        "fire limit": 5,
+        "recoil": 1,
+        "spare magazines": 3,
+        "reload time": "1.8s",
+        "tactical reload": "2.3s",
+        "weapon traits": [
+          "light armor penetrating",
+          "one handed",
+          "beam",
+          "heat"
+        ],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3500",
+        "image": "./images/secondaries/dagger.png"
       }
     ]
   },
@@ -494,7 +494,7 @@
         "outer_radius": 8,
         "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2539",
-        "image": "./images/throwables/frag.JPEG"
+        "image": "./images/throwables/frag.jpeg"
       },
       {
         "name": "G-10 Incendiary",
@@ -506,7 +506,7 @@
         "fuse_time": "2.9s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3265",
-        "image": "./images/throwables/incendiary.JPEG"
+        "image": "./images/throwables/incendiary.jpeg"
       },
       {
         "name": "G-12 High Explosive",
@@ -517,7 +517,7 @@
         "outer_radius": 7,
         "fuse_time": "3.5s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
-        "image": "./images/throwables/high_explosive.JPEG"
+        "image": "./images/throwables/high_explosive.jpeg"
       }
     ],
     "Special Throwables": [
@@ -530,7 +530,7 @@
         "outer_radius": 7,
         "fuse_time": "0.0s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2590",
-        "image": "./images/throwables/impact.JPEG"
+        "image": "./images/throwables/impact.jpeg"
       },
       {
         "name": "G-13 Incendiary Impact",
@@ -542,7 +542,7 @@
         "fuse_time": "0.0s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6265",
-        "image": "./images/throwables/incendiary_impact.JPEG"
+        "image": "./images/throwables/incendiary_impact.jpeg"
       },
       {
         "name": "G-23 Stun",
@@ -553,7 +553,7 @@
         "outer_radius": 10,
         "fuse_time": "1.8s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
-        "image": "./images/throwables/stun.JPEG"
+        "image": "./images/throwables/stun.jpeg"
       },
       {
         "name": "G-3 Smoke",
@@ -564,7 +564,7 @@
         "outer_radius": 5,
         "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3266",
-        "image": "./images/throwables/smoke.JPEG"
+        "image": "./images/throwables/smoke.jpeg"
       },
       {
         "name": "G-123 Thermite",
@@ -575,7 +575,7 @@
         "outer_radius": 2,
         "fuse_time": "2.9s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
-        "image": "./images/throwables/thermite.JPEG"
+        "image": "./images/throwables/thermite.jpeg"
       },
       {
         "name": "K-2 Throwing Knife",
@@ -584,7 +584,7 @@
         "damage": 250,
         "penetration": 3,
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
-        "image": "./images/throwables/throwing_knife.JPEG"
+        "image": "./images/throwables/throwing_knife.jpeg"
       }
     ]
   },
@@ -1380,6 +1380,15 @@
       "stamina regen": 100
     },
     {
+      "name": "FS-61 Dreadnought",
+      "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
+      "image": "./images/helmets/dreadnought_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
       "name": "CE-07 Demolition Specialist",
       "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in preasure, heat, and personal velocity.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6486",
@@ -1483,6 +1492,15 @@
       "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6500",
       "image": "./images/helmets/juggernaut_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "SC-37 Legionnaire",
+      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=6494",
+      "image": "./images/helmets/legionnaire_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1659,15 +1677,6 @@
       "stamina regen": 100
     },
     {
-      "name": "SC-37 Legionnaire",
-      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=6494",
-      "image": "./images/helmets/legionnaire_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
       "name": "DP-53 Savior of the Free",
       "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
@@ -1681,15 +1690,6 @@
       "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
       "image": "./images/helmets/alpha_commander_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "FS-61 Dreadnought",
-      "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
-      "image": "./images/helmets/dreadnought_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
