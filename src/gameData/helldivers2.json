@@ -188,6 +188,21 @@
         "image": "./images/primaries/slugger.webp"
       },
       {
+        "name": "SG-451 Cookout",
+        "class": "Shotgun",
+        "description": "A pump shotgun that fires a burst of incendiary phosphorus pellets, setting targets ablaze.",
+        "damage": 320,
+        "capacity": 16,
+        "recoil": 100,
+        "fire rate": 80,
+        "spare magazines": 60,
+        "reload time": "6.9s",
+        "tactical reload": "0.8s per round",
+        "weapon traits": ["light armor penetrating", "rounds reload", "incendiary"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7197",
+        "image": "./images/primaries/cookout.webp"
+      },
+      {
         "name": "SG-225 Breaker",
         "class": "Shotgun",
         "description": "A fully-automatic shotgun with a high rate of fire, excellent for controlling crowds. Requires frequent reloading.",
@@ -759,6 +774,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6750",
         "image": "./images/armor/predator.webp"
+      },
+      {
+        "name": "I-09 Heatseeker",
+        "description": "The burnished blood-red plates are forged in righteous fire, like the heroes they were wrought to protect.",
+        "armor rating": 50,
+        "speed": 550,
+        "stamina regen": 125,
+        "armor passive": {
+          "name": "Inflammable",
+          "description": "Provides 75% damage resistance to fire allowing bearer to rest assured in their inflammability"
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7200",
+        "image": "./images/armor/heatseeker.webp"
       }
     ],
     "medium": [
@@ -1019,8 +1047,8 @@
           "name": "Extra Padding",
           "description": "Provides a higher armor rating."
         },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2864",
-        "image": "./images/armor/tactical_v4.webp"
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7199",
+        "image": "./images/armor/gold_eagle.webp"
       },
       {
         "name": "CW-9 White Wolf",
@@ -1610,6 +1638,15 @@
       "stamina regen": 100
     },
     {
+      "name": "TR-40 Gold Eagle",
+      "description": "This high-visibility armor allows its bearer to be easily seen through smoke, fog, and spewing viscera.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7204",
+      "image": "./images/helmets/gold_eagle_helmet.png",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
       "name": "CW-9 White Wolf",
       "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
@@ -1668,6 +1705,24 @@
       "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6749",
       "image": "./images/helmets/twigsnapper_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "I-09 Heatseeker",
+      "description": "The burnished blood-red plates are forged in righteous fire, like the heroes they were wrought to protect.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7205",
+      "image": "./images/helmets/heatseeker_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "I-102 Draconaught",
+      "description": "Completely sheathed in 14-cm silica fiber foam, except for a thin tube to the ear canal to enable hearing the satifying screeches of Freedom's enemies as they burn.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7208",
+      "image": "./images/helmets/draconaught_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1823,6 +1878,18 @@
       "descripti": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6747",
       "image": "./images/capes/executioners_canopy.png"
+    },
+    {
+      "name": "Purifying Eclipse",
+      "descripti": "A tribute to the Liberation of Choepessa IV in the First Galactic War, in which so much orbital ordnance was detonated that its sun was occluded by ash for an entire lunar cycle.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7209",
+      "image": "./images/capes/purifying_eclipse.webp"
+    },
+    {
+      "name": "The Breach",
+      "descripti": "As documented in the bestselling graphic novel \"The Breach,\" the final mission of the 361st \"Freedom's Flame\" saw the storied unit deploy straight into the heart of a Supervolcano, sacrificing themselves to trigger an eruption and wipe out a massive Terminid swarm.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7210",
+      "image": "./images/capes/the_breach.webp"
     },
     {
       "name": "Tideturner",
