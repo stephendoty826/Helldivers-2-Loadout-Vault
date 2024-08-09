@@ -208,6 +208,11 @@ const stratagemJSX = (
                 TACTICAL RELOAD: {selected["tactical reload"]}
               </div>
             )}
+            {selected["rearm time"] && (
+              <div className="pt-1">
+                REARM TIME: {selected["rearm time"]}
+              </div>
+            )}
             <div className="py-1">
               COOLDOWN TIME: {selected["cooldown time"]}
             </div>
