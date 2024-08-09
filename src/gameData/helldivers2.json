@@ -1926,19 +1926,19 @@
     },
     {
       "name": "Executioner's Canopy",
-      "descripti": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
+      "description": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6747",
       "image": "./images/capes/executioners_canopy.png"
     },
     {
       "name": "Purifying Eclipse",
-      "descripti": "A tribute to the Liberation of Choepessa IV in the First Galactic War, in which so much orbital ordnance was detonated that its sun was occluded by ash for an entire lunar cycle.",
+      "description": "A tribute to the Liberation of Choepessa IV in the First Galactic War, in which so much orbital ordnance was detonated that its sun was occluded by ash for an entire lunar cycle.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=7209",
       "image": "./images/capes/purifying_eclipse.webp"
     },
     {
       "name": "The Breach",
-      "descripti": "As documented in the bestselling graphic novel \"The Breach,\" the final mission of the 361st \"Freedom's Flame\" saw the storied unit deploy straight into the heart of a Supervolcano, sacrificing themselves to trigger an eruption and wipe out a massive Terminid swarm.",
+      "description": "As documented in the bestselling graphic novel \"The Breach,\" the final mission of the 361st \"Freedom's Flame\" saw the storied unit deploy straight into the heart of a Supervolcano, sacrificing themselves to trigger an eruption and wipe out a massive Terminid swarm.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=7210",
       "image": "./images/capes/the_breach.webp"
     },
