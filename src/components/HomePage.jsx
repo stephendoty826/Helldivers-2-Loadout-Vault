@@ -14,7 +14,94 @@ const HomePage = () => {
   useEffect(() => {
     getRandomTip();
     checkAndAddFaction();
+    fixImagePath()
   }, []);
+
+  function fixImagePath() {
+    let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
+
+    if (savedLoadoutsJSON) {
+      let savedLoadouts = JSON.parse(savedLoadoutsJSON);
+
+      savedLoadouts = savedLoadouts.map((loadout) => {
+        
+        // loop through and fix stratagem image path
+        let stratagems = loadout.stratagems.map(stratagem => {
+          if(!stratagem.image.includes("stratagem")){
+            let image = stratagem.image.slice(0, 8) + "/stratagems" + stratagem.image.slice(8)
+            stratagem.image = image
+          }
+          return stratagem
+        })
+        loadout.stratagems = stratagems
+
+        // loop through armorSet and fix helmet, armor, and cape image path
+        let armorSet = loadout.armorSet.map((item, i) => {
+          switch(i){
+            case 0:
+              if(!item.image.includes("helmets")){
+                let image = item.image.slice(0, 8) + "/helmets" + item.image.slice(8)
+                item.image = image
+              }
+              break
+            case 1:
+              if(!item.image.includes("armor")){
+                let image = item.image.slice(0, 8) + "/armor" + item.image.slice(8)
+                item.image = image
+              }
+              break
+            case 2:
+              if(!item.image.includes("capes")){
+                let image = item.image.slice(0, 8) + "/capes" + item.image.slice(8)
+                item.image = image
+              }
+              break
+            default: 
+              break
+          }
+          return item
+        })
+        loadout.armorSet = armorSet
+
+        // loop through equipment and fix primary, secondary, and throwable image path
+        let equipment = loadout.equipment.map((item, i) => {
+          switch(i){
+            case 0:
+              if(!item.image.includes("primaries")){
+                let image = item.image.slice(0, 8) + "/primaries" + item.image.slice(8)
+                item.image = image
+              }
+              break
+            case 1:
+              if(!item.image.includes("secondaries")){
+                let image = item.image.slice(0, 8) + "/secondaries" + item.image.slice(8)
+                item.image = image
+              }
+              break
+            case 2:
+              if(!item.image.includes("throwables")){
+                let image = item.image.slice(0, 8) + "/throwables" + item.image.slice(8)
+                item.image = image
+              }
+              break
+            default: 
+              break
+          }
+          return item
+        })
+        loadout.equipment = equipment
+
+        return loadout
+      });
+
+      console.log(savedLoadouts)
+
+      // stringify array
+      savedLoadoutsJSON = JSON.stringify(savedLoadouts);
+      // save array to local storage
+      localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+    }
+  }
 
   function checkAndAddFaction() {
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
