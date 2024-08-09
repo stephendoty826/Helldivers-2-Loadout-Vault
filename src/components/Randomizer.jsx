@@ -158,6 +158,7 @@ const Randomizer = () => {
               ...helldivers2Data.primaries.Shotguns,
               ...helldivers2Data.primaries.Explosive,
               ...helldivers2Data.primaries["Energy-Based"],
+              ...helldivers2Data.primaries.Special
             ]),
         secondary: locks.secondary
           ? prevLoadout.secondary
