@@ -326,7 +326,7 @@
         "class": "Energy-Based",
         "description": "A laser rifle, firing in short bursts. Does not need reloading, but if it overheats a new heat sink must be fitted.",
         "damage": 55,
-        "fire limit": 9,
+        "fire limit": 7,
         "recoil": 2,
         "fire rate": 750,
         "spare magazines": 3,
@@ -999,6 +999,19 @@
       {
         "name": "B-01 Tactical v4",
         "description": "This armor is the Super Earch Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
+        "armor rating": 150,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Extra Padding",
+          "description": "Provides a higher armor rating."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2864",
+        "image": "./images/armor/tactical_v4.webp"
+      },
+      {
+        "name": "TR-40 Gold Eagle",
+        "description": "This high-visibility armor allows its bearer to be easily seen through smoke, fog, and spewing viscera.",
         "armor rating": 150,
         "speed": 500,
         "stamina regen": 100,
