@@ -2514,24 +2514,24 @@
         "credit": "https://helldivers.wiki.gg/index.php?curid=4166",
         "image": "./images/stratagems/quasar_cannon.webp"
       }
-    ],
+    ],  
     "defensive": [
+      {
+        "name": "Anti-Tank Mines",
+        "description": "Scatters powerful anti-tank mines that deal heavy, armor-penetrating damage. Minefield is less densely packed relative to smaller mines.",
+        "call-in time": "7.15s",
+        "uses": "unlimited",
+        "cooldown time": "180s - 153s fully upgraded",
+        "stratagem traits": ["hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=5881",
+        "image": "./images/stratagems/anti-tank_mines.webp"
+      },
       {
         "name": "FX-12 Shield Generator Relay",
         "description": "A stationary energy shield which provides cover against projectiles. Has a limited lifetime once deployed.",
-        "call-in time": "0s",
+        "call-in time": "7.15s",
         "uses": "unlimited",
         "cooldown time": "90s - 76.5s fully upgraded",
-        "stratagem traits": ["hellpod"],
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2994",
-        "image": "./images/stratagems/shield_generator_relay.webp"
-      },
-      {
-        "name": "Anti-Tank Mines...",
-        "description": "A stationary energy shield which provides cover against projectiles. Has a limited lifetime once deployed.",
-        "call-in time": "4.75s",
-        "uses": "unlimited",
-        "cooldown time": "180s - 153s fully upgraded",
         "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2994",
         "image": "./images/stratagems/shield_generator_relay.webp"
