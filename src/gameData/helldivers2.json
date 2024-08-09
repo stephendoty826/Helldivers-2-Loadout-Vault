@@ -1143,6 +1143,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
         "image": "./images/armor/alpha_commander.webp"
+      },
+      {
+        "name": "I-92 Fire Fighter",
+        "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Inflammable",
+          "description": "Provides 75% damage resistance to fire allowing bearer to rest assured in their inflammability"
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7202",
+        "image": "./images/armor/fire_fighter.webp"
       }
     ],
     "heavy": [
@@ -1810,6 +1823,15 @@
       "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=7206",
       "image": "./images/helmets/salamander_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "I-92 Fire Fighter",
+      "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7207",
+      "image": "./images/helmets/fire_fighter_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
