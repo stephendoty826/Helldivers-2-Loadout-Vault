@@ -158,12 +158,13 @@ const Randomizer = () => {
               ...helldivers2Data.primaries.Shotguns,
               ...helldivers2Data.primaries.Explosive,
               ...helldivers2Data.primaries["Energy-Based"],
+              ...helldivers2Data.primaries.Special
             ]),
         secondary: locks.secondary
           ? prevLoadout.secondary
           : getRandomItem([
-              ...helldivers2Data.secondaries.Shotguns,
               ...helldivers2Data.secondaries.Pistols,
+              ...helldivers2Data.secondaries.Special,
             ]),
         throwable: locks.throwable
           ? prevLoadout.throwable
