@@ -28,7 +28,7 @@ const HomePage = () => {
         // loop through and fix stratagem image path
         let stratagems = loadout.stratagems.map(stratagem => {
           if(!stratagem.image.includes("stratagem")){
-            let image = stratagem.image.slice(0, 8) + "/stratagems" + stratagem.image.slice(8)
+            let image = stratagem.image.slice(0, 8) + "/stratagems" + stratagem.image.toLowerCase().slice(8)
             stratagem.image = image
           }
           return stratagem
@@ -40,19 +40,19 @@ const HomePage = () => {
           switch(i){
             case 0:
               if(!item.image.includes("helmets")){
-                let image = item.image.slice(0, 8) + "/helmets" + item.image.slice(8)
+                let image = item.image.slice(0, 8) + "/helmets" + item.image.toLowerCase().slice(8)
                 item.image = image
               }
               break
             case 1:
               if(!item.image.includes("armor")){
-                let image = item.image.slice(0, 8) + "/armor" + item.image.slice(8)
+                let image = item.image.slice(0, 8) + "/armor" + item.image.toLowerCase().slice(8)
                 item.image = image
               }
               break
             case 2:
               if(!item.image.includes("capes")){
-                let image = item.image.slice(0, 8) + "/capes" + item.image.slice(8)
+                let image = item.image.slice(0, 8) + "/capes" + item.image.toLowerCase().slice(8)
                 item.image = image
               }
               break
@@ -68,19 +68,19 @@ const HomePage = () => {
           switch(i){
             case 0:
               if(!item.image.includes("primaries")){
-                let image = item.image.slice(0, 8) + "/primaries" + item.image.slice(8)
+                let image = item.image.slice(0, 8) + "/primaries" + item.image.toLowerCase().slice(8)
                 item.image = image
               }
               break
             case 1:
               if(!item.image.includes("secondaries")){
-                let image = item.image.slice(0, 8) + "/secondaries" + item.image.slice(8)
+                let image = item.image.slice(0, 8) + "/secondaries" + item.image.toLowerCase().slice(8)
                 item.image = image
               }
               break
             case 2:
               if(!item.image.includes("throwables")){
-                let image = item.image.slice(0, 8) + "/throwables" + item.image.slice(8)
+                let image = item.image.slice(0, 8) + "/throwables" + item.image.toLowerCase().slice(8)
                 item.image = image
               }
               break
