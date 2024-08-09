@@ -379,6 +379,22 @@
         "credit": "https://helldivers.wiki.gg/index.php?curid=6285",
         "image": "./images/primaries/purifier.webp"
       }
+    ],
+    "Special": [
+      {
+        "name": "FLAM-66 Torcher",
+        "class": "Special",
+        "description": "A lightweight flamethrower. Shoots pressurized fuel through a dispersion nozzle into an open flame. Safe.",
+        "damage": 250,
+        "capacity": 80,
+        "recoil": 3,
+        "fire rate": 250,
+        "spare magazines": 6,
+        "reload time": "",
+        "weapon traits": ["medium armor penetrating", "incendiary"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7198",
+        "image": "./images/primaries/torcher.webp"
+      }
     ]
   },
   "secondaries": {
@@ -1090,6 +1106,19 @@
         "image": "./images/armor/combat_technician.webp"
       },
       {
+        "name": "I-102 Draconaught",
+        "description": "Completely sheathed in 14-cm silica fiber foam, except for a thin tube to the ear canal to enable hearing the satifying screeches of Freedom's enemies as they burn.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Inflammable",
+          "description": "Provides 75% damage resistance to fire allowing bearer to rest assured in their inflammability"
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7203",
+        "image": "./images/armor/draconaught.webp"
+      },
+      {
         "name": "DP-53 Savior of the Free",
         "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
         "armor rating": 100,
@@ -1233,6 +1262,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=6754",
         "image": "./images/armor/guerilla_gorilla.webp"
+      },
+      {
+        "name": "I-44 Salamander",
+        "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields.",
+        "armor rating": 150,
+        "speed": 450,
+        "stamina regen": 50,
+        "armor passive": {
+          "name": "Inflammable",
+          "description": "Provides 75% damage resistance to fire allowing bearer to rest assured in their inflammability"
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7201",
+        "image": "./images/armor/salamander.webp"
       },
       {
         "name": "PH-202 Twigsnapper",
@@ -1759,6 +1801,15 @@
       "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
       "image": "./images/helmets/alpha_commander_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "I-44 Salamander",
+      "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7206",
+      "image": "./images/helmets/salamander_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
