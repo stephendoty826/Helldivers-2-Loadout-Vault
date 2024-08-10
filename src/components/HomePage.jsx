@@ -18,6 +18,7 @@ const HomePage = () => {
   }, []);
 
   function fixImagePath() {
+    console.log("inside fixImagePath")
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
 
     if (savedLoadoutsJSON) {
@@ -28,7 +29,7 @@ const HomePage = () => {
         // loop through and fix stratagem image path
         let stratagems = loadout.stratagems.map(stratagem => {
           if(!stratagem.image.includes("stratagem")){
-            let image = stratagem.image.slice(0, 8) + "/stratagems" + stratagem.image.toLowerCase().slice(8)
+            let image = stratagem.image.slice(0, 8) + "/stratagems" + stratagem.image.slice(8,-4) + stratagem.image.slice(-4).toLowerCase()
             stratagem.image = image
           }
           return stratagem
@@ -93,8 +94,6 @@ const HomePage = () => {
 
         return loadout
       });
-
-      console.log(savedLoadouts)
 
       // stringify array
       savedLoadoutsJSON = JSON.stringify(savedLoadouts);
