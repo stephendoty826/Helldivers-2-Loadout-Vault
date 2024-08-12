@@ -467,7 +467,7 @@
     "Special": [
       {
         "name": "SG-22 Bushwhacker",
-        "class": "Shotgun",
+        "class": "Special",
         "description": "A triple-barreled, break-action, sawed-off shotgun. Switch firing modes to fire all three barrels at once.",
         "damage": 405,
         "capacity": 3,
@@ -481,8 +481,21 @@
         "image": "./images/secondaries/bushwacker.png"
       },
       {
+        "name": "P-72 Crisper",
+        "class": "Special",
+        "description": "A compact handgun-style flamethrower, able to project a jet of fire over short distances.",
+        "damage/sec": 250,
+        "capacity": 30,
+        "recoil": 3,
+        "spare magazines": 4,
+        "reload time": "2.3s",
+        "weapon traits": ["medium armor penetrating", "incendiary", "one-handed"],
+        "credit": "",
+        "image": "./images/secondaries/crisper.png"
+      },
+      {
         "name": "GP-31 Grenade Pistol",
-        "class": "Pistol",
+        "class": "Special",
         "description": "A pistol that fires grenades. Must be reloaded between shots.",
         "damage": 650,
         "capacity": 1,
@@ -496,7 +509,7 @@
       },
       {
         "name": "LAS-7 Dagger",
-        "class": "Pistol",
+        "class": "Special",
         "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
         "damage/sec": 200,
         "fire limit": 5,
