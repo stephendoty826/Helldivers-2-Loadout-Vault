@@ -209,9 +209,7 @@ const stratagemJSX = (
               </div>
             )}
             {selected["rearm time"] && (
-              <div className="pt-1">
-                REARM TIME: {selected["rearm time"]}
-              </div>
+              <div className="pt-1">REARM TIME: {selected["rearm time"]}</div>
             )}
             <div className="py-1">
               COOLDOWN TIME: {selected["cooldown time"]}
@@ -421,8 +419,15 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
           <div className="px-2 infoBox">
-            <div className="pt-1">DAMAGE: {selected.damage}</div>
-            <div className="pt-1">CAPACITY: {selected.capacity}</div>
+            {selected.damage && (
+              <div className="pt-1">DAMAGE: {selected.damage}</div>
+            )}
+            {selected["damage/sec"] && (
+              <div className="pt-1">DAMAGE/SEC: {selected["damage/sec"]}</div>
+            )}
+            {selected.capacity && (
+              <div className="pt-1">CAPACITY: {selected.capacity}</div>
+            )}
             <div className="py-1">RECOIL: {selected.recoil}</div>
             {selected["fire rate"] && (
               <div className="pt-1">
@@ -511,8 +516,15 @@ const secondaryJSX = (selected, setSelected, showDetails, itemArray) => {
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
           <div className="px-2 infoBox">
-            <div className="pt-1">DAMAGE: {selected.damage}</div>
-            <div className="pt-1">CAPACITY: {selected.capacity}</div>
+            {selected.damage && (
+              <div className="pt-1">DAMAGE: {selected.damage}</div>
+            )}
+            {selected["damage/sec"] && (
+              <div className="pt-1">DAMAGE/SEC: {selected["damage/sec"]}</div>
+            )}
+            {selected.capacity && (
+              <div className="pt-1">CAPACITY: {selected.capacity}</div>
+            )}
             <div className="py-1">RECOIL: {selected.recoil}</div>
             {selected["fire rate"] && (
               <div className="pt-1">
