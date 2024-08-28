@@ -542,6 +542,17 @@
         "image": "./images/throwables/frag.jpeg"
       },
       {
+        "name": "G-12 High Explosive",
+        "class": "Standard Throwable",
+        "description": "A high explosive grenade which damages lightly armored targets. Creates high damage over a small area when detonated.",
+        "damage": 400,
+        "penetration": 4,
+        "outer_radius": 7,
+        "fuse_time": "3.5s",
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
+        "image": "./images/throwables/high_explosive.jpeg"
+      },
+      {
         "name": "G-10 Incendiary",
         "class": "Standard Throwable",
         "description": "An incendiary grenade which ignites any targets and terrain within the blast radius. Use with caution.",
@@ -552,17 +563,6 @@
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3265",
         "image": "./images/throwables/incendiary.jpeg"
-      },
-      {
-        "name": "G-12 High Explosive",
-        "class": "Standard Throwable",
-        "description": "A high explosive grenade which damages lightly armored targets. Creates high damage over a small area when detonated.",
-        "damage": 400,
-        "penetration": 4,
-        "outer_radius": 7,
-        "fuse_time": "3.5s",
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
-        "image": "./images/throwables/high_explosive.jpeg"
       }
     ],
     "Special Throwables": [
