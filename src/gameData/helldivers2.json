@@ -1106,6 +1106,19 @@
         "image": "./images/armor/jaguar.webp"
       },
       {
+        "name": "I-92 Fire Fighter",
+        "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Inflammable",
+          "description": "Provides 75% damage resistance to fire allowing bearer to rest assured in their inflammability"
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7202",
+        "image": "./images/armor/fire_fighter.webp"
+      },
+      {
         "name": "SA-04 Combat Technician",
         "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
         "armor rating": 100,
@@ -1156,19 +1169,6 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
         "image": "./images/armor/alpha_commander.webp"
-      },
-      {
-        "name": "I-92 Fire Fighter",
-        "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
-        "armor rating": 100,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Inflammable",
-          "description": "Provides 75% damage resistance to fire allowing bearer to rest assured in their inflammability"
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=7202",
-        "image": "./images/armor/fire_fighter.webp"
       }
     ],
     "heavy": [
