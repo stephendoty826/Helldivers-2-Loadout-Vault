@@ -989,6 +989,19 @@
         "image": "./images/armor/physician.png"
       },
       {
+        "name": "TR-117 Alpha Commander",
+        "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Med-Kit",
+          "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
+        "image": "./images/armor/alpha_commander.webp"
+      },
+      {
         "name": "CE-81 Jugganaut",
         "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
         "armor rating": 100,
@@ -1000,6 +1013,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2855",
         "image": "./images/armor/juggernaut.webp"
+      },
+      {
+        "name": "DP-53 Savior of the Free",
+        "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Democracy Protects",
+          "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
+        "image": "./images/armor/savior_of_the_free.webp"
       },
       {
         "name": "B-24 Enforcer",
@@ -1143,32 +1169,6 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=7203",
         "image": "./images/armor/draconaught.webp"
-      },
-      {
-        "name": "DP-53 Savior of the Free",
-        "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
-        "armor rating": 100,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Democracy Protects",
-          "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2857",
-        "image": "./images/armor/savior_of_the_free.webp"
-      },
-      {
-        "name": "TR-117 Alpha Commander",
-        "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
-        "armor rating": 100,
-        "speed": 500,
-        "stamina regen": 100,
-        "armor passive": {
-          "name": "Med-Kit",
-          "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
-        "image": "./images/armor/alpha_commander.webp"
       }
     ],
     "heavy": [
