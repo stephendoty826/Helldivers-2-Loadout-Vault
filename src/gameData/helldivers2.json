@@ -1760,6 +1760,15 @@
       "stamina regen": 100
     },
     {
+      "name": "I-92 Fire Fighter",
+      "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7207",
+      "image": "./images/helmets/fire_fighter_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
       "name": "SA-04 Combat Technician",
       "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5932",
@@ -1836,15 +1845,6 @@
       "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=3298",
       "image": "./images/helmets/alpha_commander_helmet.webp",
-      "armor rating": 100,
-      "speed": 100,
-      "stamina regen": 100
-    },
-    {
-      "name": "I-92 Fire Fighter",
-      "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
-      "credit": "https://helldivers.wiki.gg/index.php?curid=7207",
-      "image": "./images/helmets/fire_fighter_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
