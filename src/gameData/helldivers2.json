@@ -1225,6 +1225,19 @@
         "image": "./images/armor/butcher.webp"
       },
       {
+        "name": "FS-61 Dreadnought",
+        "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
+        "armor rating": 150,
+        "speed": 450,
+        "stamina regen": 50,
+        "armor passive": {
+          "name": "Servo-Assisted",
+          "description": "Increased throwing range by 30%. Provides +50% limb health."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
+        "image": "./images/armor/dreadnought.webp"
+      },
+      {
         "name": "B-27 Fortified Commando",
         "description": "This armor set first appeared in the music video for the summer anthem 'Out Love is Like Liberty (Indestructible)'.",
         "armor rating": 200,
@@ -1340,19 +1353,6 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2874",
         "image": "./images/armor/winter_warrior.png"
-      },
-      {
-        "name": "FS-61 Dreadnought",
-        "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
-        "armor rating": 150,
-        "speed": 450,
-        "stamina regen": 50,
-        "armor passive": {
-          "name": "Servo-Assisted",
-          "description": "Increased throwing range by 30%. Provides +50% limb health."
-        },
-        "credit": "https://helldivers.wiki.gg/index.php?curid=2866",
-        "image": "./images/armor/dreadnought.webp"
       }
     ]
   },
