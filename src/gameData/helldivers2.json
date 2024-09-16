@@ -2069,9 +2069,9 @@
       {
         "name": "Orbital Walking Barrage",
         "description": "A linear artillery barrage which moves at intervals, driving the enemy out from cover while allowing an advance.",
-        "call-in time": "3s — 2s with upgrade",
+        "call-in time": "5.45s — 4.45s fully upgraded",
         "uses": "unlimited",
-        "cooldown time": "240s — 216s with upgrade",
+        "cooldown time": "240s — 205s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3088",
         "image": "./images/stratagems/orbital_walking_barrage.webp"
@@ -2160,6 +2160,16 @@
         "image": "./images/stratagems/orbital_airburst_strike.webp"
       },
       {
+        "name": "Orbital Napalm Barrage",
+        "description": "Launches a prolonged barrage of napalm shells over a wide area, setting a swath of land ablaze in mere moments.",
+        "call-in time": "7.45s — 6.45s fully upgraded",
+        "uses": "unlimited",
+        "cooldown time": "240s — 205s fully upgraded",
+        "stratagem traits": ["explosive", "orbital"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7410",
+        "image": "./images/stratagems/orbital_napalm_barrage.webp"
+      },
+      {
         "name": "Orbital Laser",
         "description": "The Destroyer's laser cannon will sweep over the designated area, vaporizing all targets within the effective radius.",
         "call-in time": "2s — 1s with upgrade",
@@ -2182,9 +2192,9 @@
       {
         "name": "Orbital 380mm HE Barrage",
         "description": "A prolonged barrage, wreaking extended destruction over a large area. Communication with teammates is advised.",
-        "call-in time": "6s — 5s with upgrade",
+        "call-in time": "8.45s — 7.45s fully upgraded",
         "uses": "unlimited",
-        "cooldown time": "240s — 216s with upgrade",
+        "cooldown time": "240s — 205s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3079",
         "image": "./images/stratagems/orbital_380mm_HE_barrage.webp"
@@ -2203,9 +2213,9 @@
       {
         "name": "Orbital 120mm HE Barrage",
         "description": "A precision artillery salvo over a small area, perfect for taking out concentrated enemy units.",
-        "call-in time": "5s — 4s with upgrade",
+        "call-in time": "7.45s — 6.45s fully upgraded",
         "uses": "unlimited",
-        "cooldown time": "240s — 216s with upgrade",
+        "cooldown time": "180s — 154s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3078",
         "image": "./images/stratagems/orbital_120mm_HE_barrage.webp"
