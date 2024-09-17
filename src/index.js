@@ -10,6 +10,7 @@ import SavedLoadouts from './components/SavedLoadouts';
 import NotFound from './components/NotFound';
 import Randomizer from './components/Randomizer';
 import Feedback from './components/Feedback';
+import Riddler from './components/Riddler';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
           <Route path="/saved_loadouts" element={<SavedLoadouts />} />
           <Route path="/randomizer" element={<Randomizer />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/riddler" element={<Riddler />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BaseLayout>
