@@ -529,7 +529,7 @@
         "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
         "damage/sec": 200,
         "fire limit": 5,
-        "recoil": 1,
+        "recoil": 0,
         "spare magazines": 3,
         "reload time": "1.8s",
         "tactical reload": "2.3s",
