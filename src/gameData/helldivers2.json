@@ -617,6 +617,18 @@
         "image": "./images/throwables/stun.jpeg"
       },
       {
+        "name": "G-4 Gas",
+        "class": "Special Throwable",
+        "description": "A grenade that releases a cloud of caustic gas, effective against both organic and inorganic enemies.",
+        "damage": 3,
+        "penetration": 6,
+        "outer_radius": 7,
+        "fuse_time": "2.9s",
+        "weapon traits": ["caustic"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
+        "image": "./images/throwables/gas.webp"
+      },
+      {
         "name": "G-3 Smoke",
         "class": "Special Throwable",
         "description": "A 'compliance weapon' to modify enemy behaviour. Creates a thick smoke screen to block targets' line of sight.",
@@ -806,6 +818,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2577",
         "image": "./images/armor/infiltrator.webp"
+      },
+      {
+        "name": "AF-50 Noxious Ranger",
+        "description": "\"We fear not poison, fear not death; spite our foes with every breath.\" From the beloved classic Hazard Pay: The Musical.",
+        "armor rating": 50,
+        "speed": 550,
+        "stamina regen": 125,
+        "armor passive": {
+          "name": "Advanced Filtration",
+          "description": "Provides 80% resistance to gas damage and effects."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7431",
+        "image": "./images/armor/noxious_ranger.webp"
       },
       {
         "name": "PH-9 Predator",
@@ -1122,6 +1147,19 @@
         "image": "./images/armor/gold_eagle.webp"
       },
       {
+        "name": "AF-91 Field Chemist",
+        "description": "This armor, together with its friendly-faced helmet, is instantly recognizable from the beloved children's show \"Jen Shriver the Science Diver.\"",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Advanced Filtration",
+          "description": "Provides 80% resistance to gas damage and effects."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7424",
+        "image": "./images/armor/field_chemist.webp"
+      },
+      {
         "name": "CW-9 White Wolf",
         "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
         "armor rating": 150,
@@ -1172,6 +1210,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2859",
         "image": "./images/armor/combat_technician.webp"
+      },
+      {
+        "name": "AF-02 Haz-Master",
+        "description": "Developed by the Ministry of Science while investigating the phenomenon known as The Gloom, this armor is non-permeable and squeak resistant.",
+        "armor rating": 100,
+        "speed": 500,
+        "stamina regen": 100,
+        "armor passive": {
+          "name": "Advanced Filtration",
+          "description": "Provides 80% resistance to gas damage and effects."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7434",
+        "image": "./images/armor/haz_master.webp"
       },
       {
         "name": "I-102 Draconaught",
@@ -1291,6 +1342,19 @@
         },
         "credit": "https://helldivers.wiki.gg/index.php?curid=2576",
         "image": "./images/armor/executioner.png"
+      },
+      {
+        "name": "AF-52 Lockdown",
+        "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback.",
+        "armor rating": 150,
+        "speed": 450,
+        "stamina regen": 50,
+        "armor passive": {
+          "name": "Advanced Filtration",
+          "description": "Provides 80% resistance to gas damage and effects."
+        },
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7423",
+        "image": "./images/armor/lockdown.webp"
       },
       {
         "name": "CE-64 Grenadier",
@@ -1731,6 +1795,24 @@
       "stamina regen": 100
     },
     {
+      "name": "AF-52 Lockdown",
+      "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7426",
+      "image": "./images/helmets/lockdown_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "AF-91 Field Chemist",
+      "description": "This armor, together with its friendly-faced helmet, is instantly recognizable from the beloved children's show \"Jen Shriver the Science Diver.\"",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7425",
+      "image": "./images/helmets/field_chemist_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
       "name": "CW-9 White Wolf",
       "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=6302",
@@ -1789,6 +1871,24 @@
       "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5932",
       "image": "./images/helmets/combat_technician_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "AF-50 Noxious Ranger",
+      "description": "\"We fear not poison, fear not death; spite our foes with every breath.\" From the beloved classic Hazard Pay: The Musical.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7432",
+      "image": "./images/helmets/noxious_ranger_helmet.webp",
+      "armor rating": 100,
+      "speed": 100,
+      "stamina regen": 100
+    },
+    {
+      "name": "AF-02 Haz-Master",
+      "description": "Developed by the Ministry of Science while investigating the phenomenon known as The Gloom, this armor is non-permeable and squeak resistant.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7433",
+      "image": "./images/helmets/haz_master_helmet.webp",
       "armor rating": 100,
       "speed": 100,
       "stamina regen": 100
@@ -1950,6 +2050,12 @@
       "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=5418",
       "image": "./images/capes/harbinger_of_true_equality.webp"
+    },
+    {
+      "name": "Standard of Safe Distance",
+      "description": "By reminding Chemical Agents of proper distancing rules, this extraordinary innovation in cape design ensures that they never cause another unfortunate outbreak of Carcino-Plague",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7436",
+      "image": "./images/capes/standard_of_safe_distance.webp"
     },
     {
       "name": "Dissident's Nightmare",
@@ -2252,9 +2358,9 @@
       {
         "name": "MLS-4X Commando",
         "description": "An expendable missile launcher equipped with four laser-guided missiles.",
-        "call-in time": "0s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "120s",
+        "cooldown time": "120s - 103s fully upgraded",
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7113",
         "image": "./images/stratagems/commando.webp"
@@ -2262,9 +2368,9 @@
       {
         "name": "EXO-49 Emancipator Exosuit",
         "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
-        "call-in time": "0s",
+        "call-in time": "10.50s",
         "uses": "2",
-        "cooldown time": "600s",
+        "cooldown time": "600s - 570s fully upgraded",
         "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6622",
         "image": "./images/stratagems/emancipator_exosuit.webp"
@@ -2272,9 +2378,9 @@
       {
         "name": "M-105 Stalwart",
         "description": "A compact, low caliber machine gun. Trades power for ease of use, with faster reloading than heavier machine guns.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 250,
         "fire rate": "700, 850, 1150",
         "spare magazines": 3,
@@ -2287,9 +2393,9 @@
       {
         "name": "AC-8 Autocannon",
         "description": "A fully-automatic cannon effective against light vehicle armor. Includes support backpack required for reloading.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 10,
         "fire rate": 250,
         "spare magazines": 10,
@@ -2302,9 +2408,9 @@
       {
         "name": "EXO-45 Patriot Exosuit",
         "description": "A heavily-armored walking exosuit equipped with a rocket launcher and a heavy machine gun.",
-        "call-in time": "0s",
+        "call-in time": "10.50s",
         "uses": "2",
-        "cooldown time": "600s",
+        "cooldown time": "600s - 570s fully upgraded",
         "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3099",
         "image": "./images/stratagems/patriot_exosuit.webp"
@@ -2312,9 +2418,9 @@
       {
         "name": "MG-206 Heavy Machine Gun",
         "description": "A very powerful but difficult-to-wield machine gun with intense recoil.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 75,
         "fire rate": "450, 600, 750",
         "spare magazines": 2,
@@ -2327,9 +2433,9 @@
       {
         "name": "SH-32 Shield Generator Pack",
         "description": "Encloses the wearer in a spherical shield which blocks high-speed projectiles. Has a limited lifetime once deployed.",
-        "call-in time": "5s",
+        "call-in time": "9.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "recharge time": "12s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2993",
@@ -2338,9 +2444,9 @@
       {
         "name": "RL-77 Airburst Rocket Launcher",
         "description": "Fires a rocket that detonates within proximity of a target, and deploys a cluster of explosive bomblets.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6.7s",
@@ -2351,9 +2457,9 @@
       {
         "name": "RS-422 Railgun",
         "description": "An experimental weapon which prioritizes armor penetration. Must be charged between shots - so choose targets carefully.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 1,
         "spare magazines": 20,
         "reload time": "1.3s",
@@ -2362,11 +2468,24 @@
         "image": "./images/stratagems/railgun.webp"
       },
       {
+        "name": "TX-41 Sterilizer",
+        "description": "Atomizes caustic chemicals into a fine mist that liquifies sensitive electronics and tissues. Blinds and slows most enemies.",
+        "call-in time": "4.75s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 410s fully upgraded",
+        "capacity": "TBD",
+        "spare magazines": "TBD",
+        "reload time": "TBD",
+        "stratagem traits": ["support weapon", "hellpod", "caustic"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7448",
+        "image": "./images/stratagems/sterilizer.webp"
+      },
+      {
         "name": "LAS-98 Laser Cannon",
         "description": "A laser weapon firing a continuous beam. Doesn't require ammunition, but will need a heat sink replaced if it overheats.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": "infinite",
         "fire limit": "10s",
         "spare magazines": 1,
@@ -2379,9 +2498,9 @@
       {
         "name": "ARC-3 Arc Thrower",
         "description": "Projects an arc of lightning at close range. Charges up to project bolts, and may discharge through multiple targets.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": "infinite",
         "fire rate": 60,
         "stratagem traits": ["support weapon", "hellpod"],
@@ -2391,9 +2510,9 @@
       {
         "name": "AX/AR-23 \"Guard Dog\"",
         "description": "An autonomous drone equipped with a Liberator assault rifle, providing 360° cover. Returns to backpack to rearm.",
-        "call-in time": "5s",
+        "call-in time": "9.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "reload time": "",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2983",
@@ -2402,9 +2521,9 @@
       {
         "name": "FAF-14 Spear",
         "description": "An anti-tank homing missile which must lock onto its target before launch. Effective against large and armored enemies.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 1,
         "spare magazines": 3,
         "reload time": "5s",
@@ -2415,9 +2534,9 @@
       {
         "name": "GL-21 Grenade Launcher",
         "description": "A grenade launcher effective against armored infantry. Not intended for use against vehicle armor or fortified buildings.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 10,
         "fire rate": "176",
         "spare magazines": 3,
@@ -2430,9 +2549,9 @@
       {
         "name": "MG-43 Machine Gun",
         "description": "A machine gun designed for stationary use. Trades higher power for increased recoil and reduced accuracy.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 150,
         "fire rate": "630, 760, 900",
         "spare magazines": 3,
@@ -2445,9 +2564,9 @@
       {
         "name": "SH-20 Ballistic Shield Backpack",
         "description": "A backpack which can be wielded as a one-handed balistic shield, protecting against small arms fire.",
-        "call-in time": "5s",
+        "call-in time": "9.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2977",
         "image": "./images/stratagems/ballistic_shield_backpack.webp"
@@ -2455,9 +2574,9 @@
       {
         "name": "B-1 Supply Pack",
         "description": "Supply boxes containing ammunition, with a backpack that allows the user to distribute boxes to fellow Helldivers.",
-        "call-in time": "5s",
+        "call-in time": "9.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2997",
         "image": "./images/stratagems/supply_pack.webp"
@@ -2465,9 +2584,9 @@
       {
         "name": "FLAM-40 Flamethrower",
         "description": "An incendiary weapon for close range. Will ignite targets, terrain, and any flammable teammates.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "fire limit": "12.5s",
         "spare magazines": 4,
         "reload time": "3.9s",
@@ -2478,9 +2597,9 @@
       {
         "name": "AX/LAS-5 \"Guard Dog\" Rover",
         "description": "An autonomous drone equipped with a laser rifle, providing 360° cover. Returns to backpack to cool down.",
-        "call-in time": "5s",
+        "call-in time": "9.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2984",
         "image": "./images/stratagems/rover.webp"
@@ -2488,9 +2607,9 @@
       {
         "name": "GR-8 Recoilless Rifle",
         "description": "A recoiless rifle effective against vehicle armor. Includes support backpack required for reloading.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6s",
@@ -2506,9 +2625,9 @@
       {
         "name": "LIFT-850 Jump Pack",
         "description": "Enables the user to jump higher than 'gravity' and 'safety' would normally allow. Must be charged before use.",
-        "call-in time": "5s",
+        "call-in time": "9.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "recharge time": "20s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2986",
@@ -2517,9 +2636,9 @@
       {
         "name": "APW-1 Anti-Materiel Rifle",
         "description": "A high-caliber sniper rifle effective over long distances against light vehicle armor. This rifle must be aimed downscope.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": 7,
         "fire rate": "350",
         "spare magazines": 6,
@@ -2532,9 +2651,9 @@
       {
         "name": "EAT-17 Expendable Anti-tank",
         "description": "A single-use weapon specialized for damaging vehicle armor. Discards after every use.",
-        "call-in time": "2s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "70s - 63 with upgrade",
+        "cooldown time": "70s - 60s fully upgraded",
         "capacity": 1,
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2979",
@@ -2543,9 +2662,9 @@
       {
         "name": "LAS-99 Quasar Cannon",
         "description": "Charges up to fire a powerful, explosive energy burst. Has a long cooldown period after firing.",
-        "call-in time": "3s",
+        "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "480s - 408s fully upgraded",
+        "cooldown time": "480s - 410s fully upgraded",
         "capacity": "infinite",
         "charge time": "3s",
         "recharge time": "15s",
