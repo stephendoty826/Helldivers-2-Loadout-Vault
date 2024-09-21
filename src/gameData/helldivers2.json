@@ -506,8 +506,8 @@
         "spare magazines": 4,
         "reload time": "2.3s",
         "weapon traits": ["medium armor penetrating", "incendiary", "one-handed"],
-        "credit": "",
-        "image": "./images/secondaries/crisper.png"
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7259",
+        "image": "./images/secondaries/crisper.webp"
       },
       {
         "name": "GP-31 Grenade Pistol",
