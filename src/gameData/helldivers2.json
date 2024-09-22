@@ -2649,6 +2649,16 @@
         "image": "./images/stratagems/anti-materiel_rifle.webp"
       },
       {
+        "name": "AX/TX-13 \"Guard Dog\" Dog Breath",
+        "description": "A drone that defends its user by firing caustic gas at nearby enemies. Returns to backpack to refill.",
+        "call-in time": "9.75s",
+        "uses": "unlimited",
+        "cooldown time": "480s - 410s fully upgraded",
+        "stratagem traits": ["support weapon", "hellpod"],
+        "credit": "https://helldivers.wiki.gg/index.php?curid=7454",
+        "image": "./images/stratagems/dog_breath.webp"
+      },
+      {
         "name": "EAT-17 Expendable Anti-tank",
         "description": "A single-use weapon specialized for damaging vehicle armor. Discards after every use.",
         "call-in time": "4.75s",
