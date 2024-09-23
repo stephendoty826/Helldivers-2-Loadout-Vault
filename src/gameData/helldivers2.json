@@ -481,6 +481,21 @@
     ],
     "Special": [
       {
+        "name": "P-11 Stim Pistol",
+        "class": "Special",
+        "description": "Fires a balistic dart at near-supersonic speeds, allowing the user to stim allies from a distance. Might sting. ",
+        "damage": "0",
+        "capacity": 6,
+        "recoil": 23,
+        "fire rate": 70,
+        "spare magazines": 24,
+        "reload time": "2.8s",
+        "tactical reload": "2.2s for 1 round & 4.8s for 5 rounds",
+        "weapon traits": ["one-handed", "rounds reload", "stimulative"],
+        "credit": "",
+        "image": "./images/secondaries/stim_pistol.png"
+      },
+      {
         "name": "SG-22 Bushwhacker",
         "class": "Special",
         "description": "A triple-barreled, break-action, sawed-off shotgun. Switch firing modes to fire all three barrels at once.",
