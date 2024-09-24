@@ -489,8 +489,8 @@
         "recoil": 23,
         "fire rate": 70,
         "spare magazines": 24,
-        "reload time": "2.8s",
-        "tactical reload": "2.2s for 1 round & 4.8s for 5 rounds",
+        "reload time": "2.6s",
+        "tactical reload": "2s for 1 round & 4.9s for 5 rounds",
         "weapon traits": ["one-handed", "rounds reload", "stimulative"],
         "credit": "",
         "image": "./images/secondaries/stim_pistol.png"
