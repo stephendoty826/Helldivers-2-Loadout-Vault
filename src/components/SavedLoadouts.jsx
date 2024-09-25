@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import SavedLoadout from "./SavedLoadout";
 import FactionCheckboxes from "./FactionCheckboxes";
+import SearchLoadouts from "./SearchLoadouts";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,6 +12,7 @@ const SavedLoadouts = () => {
   const [savedLoadouts, setSavedLoadouts] = useState([]);
   const [faction, setFaction] = useState("all");
   const [shownLoadouts, setShownLoadouts] = useState([]);
+  const [searchedLoadouts, setSearchedLoadouts] = useState([]);
   const [randomLoadout, setRandomLoadout] = useState([]);
   const [show, setShow] = useState(false);
 
@@ -35,7 +37,8 @@ const SavedLoadouts = () => {
 
   const getRandomLoadout = () => {
     setShow(false);
-    setRandomLoadout(shownLoadouts[(shownLoadouts.length * Math.random()) | 0]);
+    let loadoutArray = searchedLoadouts.length > 0 ? searchedLoadouts : shownLoadouts
+    setRandomLoadout(loadoutArray[(loadoutArray.length * Math.random()) | 0]);
     setShow(true);
   };
 
@@ -51,6 +54,9 @@ const SavedLoadouts = () => {
           >
             <FontAwesomeIcon icon={faShuffle} className="py-1 px-2" />
           </Button>
+          <div className="d-flex">
+            <SearchLoadouts shownLoadouts={shownLoadouts} setSearchedLoadouts={setSearchedLoadouts}/>
+          </div>
           <FactionCheckboxes
             id="saved"
             faction={faction}
@@ -58,6 +64,20 @@ const SavedLoadouts = () => {
           />
           <div className="text-center w-100">
             {shownLoadouts.length > 0 ? (
+              searchedLoadouts.length > 0 ? 
+              searchedLoadouts.map((savedLoadout) => {
+                return (
+                  <div key={savedLoadout.id}>
+                    <SavedLoadout
+                      savedLoadout={savedLoadout}
+                      savedLoadouts={savedLoadouts}
+                      setSavedLoadouts={setSavedLoadouts}
+                    />
+                    <br />
+                  </div>
+                );
+              })
+              :
               shownLoadouts.map((savedLoadout) => {
                 return (
                   <div key={savedLoadout.id}>
