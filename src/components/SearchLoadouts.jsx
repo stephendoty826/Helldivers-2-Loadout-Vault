@@ -11,7 +11,6 @@ const SearchLoadouts = ({ shownLoadouts, setSearchedLoadouts }) => {
     let resultsArray = []
     let remainderArray = []
 
-
     // loops through shownLoadouts and puts matched loadouts in resultsArray
     shownLoadouts.forEach(loadout => {
       let name = loadout.loadoutName.toLowerCase(); // takes name from loadout and makes it lowercase
@@ -48,14 +47,6 @@ const SearchLoadouts = ({ shownLoadouts, setSearchedLoadouts }) => {
     setSearchedLoadouts(resultsArray)
 
   }
-
-
-  // const filterLoadouts = () => {
-  //   let results = shownLoadouts.filter((loadout) =>
-  //     loadout.loadoutName.toLowerCase()?.includes(searchedLoadouts)
-  //   );
-  //   setShownLoadouts(results);
-  // };
 
   const handleKeyUp = (e) => {
     if (e.key === "Enter") {
