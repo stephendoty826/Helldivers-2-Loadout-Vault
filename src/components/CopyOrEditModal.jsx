@@ -70,7 +70,7 @@ const CopyOrEditModal = ({
 
     setSavedLoadouts([loadout, ...savedLoadouts]);
     // stringify array
-    let savedLoadoutsJSON = JSON.stringify([...savedLoadouts, loadout]);
+    let savedLoadoutsJSON = JSON.stringify([loadout, ...savedLoadouts]);
     // save array to local storage
     localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
     onHide();
