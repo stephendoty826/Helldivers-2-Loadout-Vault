@@ -2068,9 +2068,15 @@
     },
     {
       "name": "Standard of Safe Distance",
-      "description": "By reminding Chemical Agents of proper distancing rules, this extraordinary innovation in cape design ensures that they never cause another unfortunate outbreak of Carcino-Plague",
+      "description": "By reminding Chemical Agents of proper distancing rules, this extraordinary innovation in cape design ensures that they never cause another unfortunate outbreak of Carcino-Plague.",
       "credit": "https://helldivers.wiki.gg/index.php?curid=7436",
       "image": "./images/capes/standard_of_safe_distance.webp"
+    },
+    {
+      "name": "Patient Zero's Rememberance",
+      "description": "With this cape we honor the bio-warfare pioneers of Division Zero, conscripted from quarantine zones and hospices to spread their Carcino-Plague on the battlefield.",
+      "credit": "https://helldivers.wiki.gg/index.php?curid=7437",
+      "image": "./images/capes/patient_zeros_rememberance.webp"
     },
     {
       "name": "Dissident's Nightmare",
