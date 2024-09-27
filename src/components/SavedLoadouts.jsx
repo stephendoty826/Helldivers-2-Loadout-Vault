@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import SavedLoadout from "./SavedLoadout";
 import FactionCheckboxes from "./FactionCheckboxes";
-import SearchLoadouts from "./SearchLoadouts";
+import SearchBar from "./SearchBar";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShuffle } from "@fortawesome/free-solid-svg-icons";
+import { searchLoadouts } from "../misc/utils";
 
 const SavedLoadouts = () => {
   const [savedLoadouts, setSavedLoadouts] = useState([]);
@@ -15,6 +16,7 @@ const SavedLoadouts = () => {
   const [searchedLoadouts, setSearchedLoadouts] = useState([]);
   const [randomLoadout, setRandomLoadout] = useState([]);
   const [show, setShow] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
@@ -25,20 +27,26 @@ const SavedLoadouts = () => {
   }, []);
 
   useEffect(() => {
+    filterShownLoadouts();
+  }, [faction, savedLoadouts]);
+
+  const filterShownLoadouts = () => {
     let filteredLoadouts = savedLoadouts.filter((loadout) => {
       if (faction !== "all") {
+        // if faction is bugs or bots show bugs or bots respectively along with loadouts with faction value of "all"
         return loadout.faction === faction || loadout.faction === "all";
       } else {
+        // if faction is "all" filter in that loadout
         return true;
       }
     });
+    filteredLoadouts = searchLoadouts(filteredLoadouts, searchTerm);
     setShownLoadouts(filteredLoadouts);
-  }, [faction, savedLoadouts]);
+  };
 
   const getRandomLoadout = () => {
     setShow(false);
-    let loadoutArray = searchedLoadouts.length > 0 ? searchedLoadouts : shownLoadouts
-    setRandomLoadout(loadoutArray[(loadoutArray.length * Math.random()) | 0]);
+    setRandomLoadout(shownLoadouts[(shownLoadouts.length * Math.random()) | 0]);
     setShow(true);
   };
 
@@ -55,7 +63,11 @@ const SavedLoadouts = () => {
             <FontAwesomeIcon icon={faShuffle} className="py-1 px-2" />
           </Button>
           <div className="d-flex">
-            <SearchLoadouts shownLoadouts={shownLoadouts} setSearchedLoadouts={setSearchedLoadouts}/>
+            <SearchBar
+              filterShownLoadouts={filterShownLoadouts}
+              searchTerm={searchTerm}
+              setSearchTerm={setSearchTerm}
+            />
           </div>
           <FactionCheckboxes
             id="saved"
@@ -64,32 +76,19 @@ const SavedLoadouts = () => {
           />
           <div className="text-center w-100">
             {shownLoadouts.length > 0 ? (
-              searchedLoadouts.length > 0 ? 
-              searchedLoadouts.map((savedLoadout) => {
-                return (
-                  <div key={savedLoadout.id}>
-                    <SavedLoadout
-                      savedLoadout={savedLoadout}
-                      savedLoadouts={savedLoadouts}
-                      setSavedLoadouts={setSavedLoadouts}
-                    />
-                    <br />
-                  </div>
-                );
-              })
-              :
-              shownLoadouts.map((savedLoadout) => {
-                return (
-                  <div key={savedLoadout.id}>
-                    <SavedLoadout
-                      savedLoadout={savedLoadout}
-                      savedLoadouts={savedLoadouts}
-                      setSavedLoadouts={setSavedLoadouts}
-                    />
-                    <br />
-                  </div>
-                );
-              })
+              
+                shownLoadouts.map((savedLoadout) => {
+                  return (
+                    <div key={savedLoadout.id}>
+                      <SavedLoadout
+                        savedLoadout={savedLoadout}
+                        savedLoadouts={savedLoadouts}
+                        setSavedLoadouts={setSavedLoadouts}
+                      />
+                      <br />
+                    </div>
+                  );
+                })
             ) : (
               <p>
                 {faction === "all"
