@@ -18,7 +18,6 @@ const HomePage = () => {
   }, []);
 
   function fixImagePath() {
-    console.log("inside fixImagePath")
     let savedLoadoutsJSON = localStorage.getItem("savedLoadouts");
 
     if (savedLoadoutsJSON) {
