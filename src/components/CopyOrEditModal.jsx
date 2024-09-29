@@ -78,7 +78,7 @@ const CopyOrEditModal = ({
 
   const handleKeyUp = (e) => {
     if (e.key === "Enter") {
-      saveLoadout();
+      variant === "edit" ? updateLoadout() : saveLoadout()
     }
   };
 
