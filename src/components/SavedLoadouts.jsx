@@ -13,7 +13,6 @@ const SavedLoadouts = () => {
   const [savedLoadouts, setSavedLoadouts] = useState([]);
   const [faction, setFaction] = useState("all");
   const [shownLoadouts, setShownLoadouts] = useState([]);
-  const [searchedLoadouts, setSearchedLoadouts] = useState([]);
   const [randomLoadout, setRandomLoadout] = useState([]);
   const [show, setShow] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
