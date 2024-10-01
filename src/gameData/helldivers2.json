@@ -2389,6 +2389,7 @@
       {
         "name": "EXO-49 Emancipator Exosuit",
         "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
+        "capacity": "200 rounds",
         "call-in time": "10.50s",
         "uses": "2",
         "cooldown time": "600s - 570s fully upgraded",
@@ -2429,6 +2430,7 @@
       {
         "name": "EXO-45 Patriot Exosuit",
         "description": "A heavily-armored walking exosuit equipped with a rocket launcher and a heavy machine gun.",
+        "capacity": "15 rockets & 1000 HMG rounds",
         "call-in time": "10.50s",
         "uses": "2",
         "cooldown time": "600s - 570s fully upgraded",
@@ -2494,9 +2496,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
-        "capacity": "TBD",
-        "spare magazines": "TBD",
-        "reload time": "TBD",
+        "capacity": "100",
+        "spare magazines": "4",
+        "reload time": "3.5s",
         "stratagem traits": ["support weapon", "hellpod", "caustic"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7448",
         "image": "./images/stratagems/sterilizer.webp"
