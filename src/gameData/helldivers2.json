@@ -542,7 +542,7 @@
         "name": "LAS-7 Dagger",
         "class": "Special",
         "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
-        "damage/sec": 200,
+        "damage/sec": 250,
         "fire limit": 5,
         "recoil": 0,
         "spare magazines": 3,
