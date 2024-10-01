@@ -2186,7 +2186,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3091",
-        "image": "./images/stratagems/eagle_500kg_bomb.webp"
+        "image": "./images/stratagems/eagle_500kg_bomb.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_500kg_Bomb"
       },
       {
         "name": "Orbital Gatling Barrage",
@@ -2196,7 +2197,8 @@
         "cooldown time": "70s — 59.85 fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3083",
-        "image": "./images/stratagems/orbital_gatling_barrage.webp"
+        "image": "./images/stratagems/orbital_gatling_barrage.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Gatling_Barrage"
       },
       {
         "name": "Eagle Airstrike",
@@ -2207,7 +2209,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3092",
-        "image": "./images/stratagems/eagle_airstrike.webp"
+        "image": "./images/stratagems/eagle_airstrike.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_Airstrike"
       },
       {
         "name": "Orbital Walking Barrage",
@@ -2217,7 +2220,8 @@
         "cooldown time": "240s — 205s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3088",
-        "image": "./images/stratagems/orbital_walking_barrage.webp"
+        "image": "./images/stratagems/orbital_walking_barrage.webp",
+        "more info": ""
       },
       {
         "name": "Eagle Strafing Run",
@@ -2228,7 +2232,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3097",
-        "image": "./images/stratagems/eagle_strafing_run.webp"
+        "image": "./images/stratagems/eagle_strafing_run.webp",
+        "more info": ""
       },
       {
         "name": "Orbital EMS Strike",
@@ -2238,7 +2243,8 @@
         "cooldown time": "75s — 68s with upgrade",
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3081",
-        "image": "./images/stratagems/orbital_EMS_strike.webp"
+        "image": "./images/stratagems/orbital_EMS_strike.webp",
+        "more info": ""
       },
       {
         "name": "Eagle Smoke Strike",
@@ -2249,7 +2255,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3096",
-        "image": "./images/stratagems/eagle_smoke_strike.webp"
+        "image": "./images/stratagems/eagle_smoke_strike.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Gas Strike",
@@ -2259,7 +2266,8 @@
         "cooldown time": "75s — 68s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3082",
-        "image": "./images/stratagems/orbital_gas_strike.webp"
+        "image": "./images/stratagems/orbital_gas_strike.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Railcannon Strike",
@@ -2269,7 +2277,8 @@
         "cooldown time": "210s — 189s with upgrade",
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3086",
-        "image": "./images/stratagems/orbital_railcannon_strike.webp"
+        "image": "./images/stratagems/orbital_railcannon_strike.webp",
+        "more info": ""
       },
       {
         "name": "Eagle Cluster Bomb",
@@ -2280,7 +2289,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3094",
-        "image": "./images/stratagems/eagle_cluster_bomb.webp"
+        "image": "./images/stratagems/eagle_cluster_bomb.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Smoke Strike",
@@ -2290,7 +2300,8 @@
         "cooldown time": "100s — 90s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3087",
-        "image": "./images/stratagems/orbital_smoke_strike.webp"
+        "image": "./images/stratagems/orbital_smoke_strike.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Airburst Strike",
@@ -2300,7 +2311,8 @@
         "cooldown time": "100s — 90s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3080",
-        "image": "./images/stratagems/orbital_airburst_strike.webp"
+        "image": "./images/stratagems/orbital_airburst_strike.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Napalm Barrage",
@@ -2310,7 +2322,8 @@
         "cooldown time": "240s — 205s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7410",
-        "image": "./images/stratagems/orbital_napalm_barrage.webp"
+        "image": "./images/stratagems/orbital_napalm_barrage.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Laser",
@@ -2320,7 +2333,8 @@
         "cooldown time": "300s — 270s with upgrade",
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3084",
-        "image": "./images/stratagems/orbital_laser.webp"
+        "image": "./images/stratagems/orbital_laser.webp",
+        "more info": ""
       },
       {
         "name": "Orbital Precision Strike",
@@ -2330,7 +2344,8 @@
         "cooldown time": "90s — 81s with upgrade",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3085",
-        "image": "./images/stratagems/orbital_precision_strike.webp"
+        "image": "./images/stratagems/orbital_precision_strike.webp",
+        "more info": ""
       },
       {
         "name": "Orbital 380mm HE Barrage",
@@ -2340,7 +2355,8 @@
         "cooldown time": "240s — 205s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3079",
-        "image": "./images/stratagems/orbital_380mm_HE_barrage.webp"
+        "image": "./images/stratagems/orbital_380mm_HE_barrage.webp",
+        "more info": ""
       },
       {
         "name": "Eagle Napalm Strike",
@@ -2351,7 +2367,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3095",
-        "image": "./images/stratagems/eagle_napalm_strike.webp"
+        "image": "./images/stratagems/eagle_napalm_strike.webp",
+        "more info": ""
       },
       {
         "name": "Orbital 120mm HE Barrage",
@@ -2361,7 +2378,8 @@
         "cooldown time": "180s — 154s fully upgraded",
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3078",
-        "image": "./images/stratagems/orbital_120mm_HE_barrage.webp"
+        "image": "./images/stratagems/orbital_120mm_HE_barrage.webp",
+        "more info": ""
       },
       {
         "name": "Eagle 110mm Rocket Pods",
@@ -2372,7 +2390,8 @@
         "cooldown time": "15s — 8s with upgrade",
         "stratagem traits": ["explosive", "eagle"],
         "credit": "",
-        "image": "./images/stratagems/eagle_110mm_rocket_pods.webp"
+        "image": "./images/stratagems/eagle_110mm_rocket_pods.webp",
+        "more info": ""
       }
     ],
     "supply": [
@@ -2529,12 +2548,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": "TBD",
+        "durability damage": "TBD",
+        "armor penetration": "TBD",
         "capacity": "100",
         "spare magazines": "4",
         "reload time": "3.5s",
         "stratagem traits": ["support weapon", "hellpod", "caustic"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7448",
-        "image": "./images/stratagems/sterilizer.webp"
+        "image": "./images/stratagems/sterilizer.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer"
       },
       {
         "name": "LAS-98 Laser Cannon",
@@ -2542,6 +2565,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 350,
+        "durability damage": 200,
+        "armor penetration": "Medium II (4)",
         "capacity": "infinite",
         "fire limit": "10s",
         "spare magazines": 1,
@@ -2549,7 +2575,8 @@
         "tactical reload": "5s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2987",
-        "image": "./images/stratagems/laser_cannon.webp"
+        "image": "./images/stratagems/laser_cannon.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/LAS-98_Laser_Cannon"
       },
       {
         "name": "ARC-3 Arc Thrower",
@@ -2557,11 +2584,15 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 250,
+        "durability damage": 100,
+        "armor penetration": "Heavy III (7)",
         "capacity": "infinite",
         "fire rate": 60,
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2974",
-        "image": "./images/stratagems/arc_thrower.webp"
+        "image": "./images/stratagems/arc_thrower.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/ARC-3_Arc_Thrower"
       },
       {
         "name": "AX/AR-23 \"Guard Dog\"",
@@ -2569,10 +2600,16 @@
         "call-in time": "9.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
-        "reload time": "",
+        "damage": 70,
+        "durability damage": 15,
+        "armor penetration": "Light II (2)",
+        "capacity": 45,
+        "spare magazines": "8",
+        "reload time": "9.2s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2983",
-        "image": "./images/stratagems/guard_dog.webp"
+        "image": "./images/stratagems/guard_dog.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/AX/AR-23_%22Guard_Dog%22"
       },
       {
         "name": "FAF-14 Spear",
@@ -2580,12 +2617,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 4000,
+        "durability damage": 4000,
+        "armor penetration": "Heavy III (7)",
         "capacity": 1,
         "spare magazines": 3,
         "reload time": "5s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2995",
-        "image": "./images/stratagems/spear.webp"
+        "image": "./images/stratagems/spear.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/FAF-14_Spear"
       },
       {
         "name": "GL-21 Grenade Launcher",
@@ -2593,6 +2634,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 400,
+        "durability damage": "",
+        "armor penetration": "Medium I (3)",
         "capacity": 10,
         "fire rate": "176",
         "spare magazines": 3,
@@ -2600,7 +2644,8 @@
         "tactical reload": "3s",
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2982",
-        "image": "./images/stratagems/grenade_launcher.webp"
+        "image": "./images/stratagems/grenade_launcher.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/GL-21_Grenade_Launcher"
       },
       {
         "name": "MG-43 Machine Gun",
@@ -2608,6 +2653,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 90,
+        "durability damage": 23,
+        "armor penetration": "Medium I (3)",
         "capacity": 150,
         "fire rate": "630, 760, 900",
         "spare magazines": 3,
@@ -2615,7 +2663,8 @@
         "tactical reload": "4.2s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2989",
-        "image": "./images/stratagems/machine_gun.webp"
+        "image": "./images/stratagems/machine_gun.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/MG-43_Machine_Gun"
       },
       {
         "name": "SH-20 Ballistic Shield Backpack",
@@ -2625,7 +2674,8 @@
         "cooldown time": "480s - 410s fully upgraded",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2977",
-        "image": "./images/stratagems/ballistic_shield_backpack.webp"
+        "image": "./images/stratagems/ballistic_shield_backpack.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/SH-20_Ballistic_Shield_Backpack"
       },
       {
         "name": "B-1 Supply Pack",
@@ -2635,7 +2685,8 @@
         "cooldown time": "480s - 410s fully upgraded",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2997",
-        "image": "./images/stratagems/supply_pack.webp"
+        "image": "./images/stratagems/supply_pack.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack"
       },
       {
         "name": "FLAM-40 Flamethrower",
@@ -2643,12 +2694,17 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage/sec": 450,
+        "durability damage": "450/sec",
+        "armor penetration": "Medium II (4)",
+        "capacity": 100,
         "fire limit": "12.5s",
         "spare magazines": 4,
         "reload time": "3.9s",
         "stratagem traits": ["support weapon", "hellpod", "incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2980",
-        "image": "./images/stratagems/flamethrower.webp"
+        "image": "./images/stratagems/flamethrower.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower"
       },
       {
         "name": "AX/LAS-5 \"Guard Dog\" Rover",
@@ -2656,9 +2712,13 @@
         "call-in time": "9.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage/sec": 350,
+        "durability damage": "70/sec",
+        "armor penetration": "Light II (2)",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2984",
-        "image": "./images/stratagems/rover.webp"
+        "image": "./images/stratagems/rover.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/AX/LAS-5_%22Guard_Dog%22_Rover"
       },
       {
         "name": "GR-8 Recoilless Rifle",
@@ -2666,6 +2726,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 3200,
+        "durability damage": 3200,
+        "armor penetration": "Heavy II (6)",
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6s",
@@ -2676,7 +2739,8 @@
           "support backpack"
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2991",
-        "image": "./images/stratagems/recoilless_rifle.webp"
+        "image": "./images/stratagems/recoilless_rifle.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/GR-8_Recoilless_Rifle"
       },
       {
         "name": "LIFT-850 Jump Pack",
@@ -2687,7 +2751,8 @@
         "recharge time": "20s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2986",
-        "image": "./images/stratagems/jump_pack.webp"
+        "image": "./images/stratagems/jump_pack.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/LIFT-850_Jump_Pack"
       },
       {
         "name": "APW-1 Anti-Materiel Rifle",
@@ -2695,6 +2760,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 450,
+        "durability damage": 180,
+        "armor penetration": "Medium II (4)",
         "capacity": 7,
         "fire rate": "350",
         "spare magazines": 6,
@@ -2702,7 +2770,8 @@
         "tactical reload": "2.6s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2972",
-        "image": "./images/stratagems/anti-materiel_rifle.webp"
+        "image": "./images/stratagems/anti-materiel_rifle.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/APW-1_Anti-Materiel_Rifle"
       },
       {
         "name": "AX/TX-13 \"Guard Dog\" Dog Breath",
@@ -2710,9 +2779,13 @@
         "call-in time": "9.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": "TBD",
+        "durability damage": "TBD",
+        "armor penetration": "TBD",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7454",
-        "image": "./images/stratagems/dog_breath.webp"
+        "image": "./images/stratagems/dog_breath.webp",
+        "more info": ""
       },
       {
         "name": "EAT-17 Expendable Anti-tank",
@@ -2720,10 +2793,14 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "70s - 60s fully upgraded",
+        "damage": 2000,
+        "durability damage": 2000,
+        "armor penetration": "Heavy II (6)",
         "capacity": 1,
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2979",
-        "image": "./images/stratagems/expendable_anti-tank.webp"
+        "image": "./images/stratagems/expendable_anti-tank.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/EAT-17_Expendable_Anti-Tank"
       },
       {
         "name": "LAS-99 Quasar Cannon",
@@ -2731,12 +2808,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 2000,
+        "durability damage": 2000,
+        "armor penetration": "Heavy II (6)",
         "capacity": "infinite",
         "charge time": "3s",
         "recharge time": "15s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=4166",
-        "image": "./images/stratagems/quasar_cannon.webp"
+        "image": "./images/stratagems/quasar_cannon.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon"
       }
     ],  
     "defensive": [
@@ -2748,7 +2829,8 @@
         "cooldown time": "180s - 153s fully upgraded",
         "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5881",
-        "image": "./images/stratagems/anti-tank_mines.webp"
+        "image": "./images/stratagems/anti-tank_mines.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/MD-17_Anti-Tank_Mines"
       },
       {
         "name": "FX-12 Shield Generator Relay",
@@ -2758,7 +2840,8 @@
         "cooldown time": "90s - 76.5s fully upgraded",
         "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2994",
-        "image": "./images/stratagems/shield_generator_relay.webp"
+        "image": "./images/stratagems/shield_generator_relay.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/FX-12_Shield_Generator_Relay"
       },
       {
         "name": "A/M-23 EMS Mortar Sentry",
@@ -2770,7 +2853,8 @@
         "capacity": "15 — 22 with upgrade",
         "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3719",
-        "image": "./images/stratagems/EMS_mortar_sentry.webp"
+        "image": "./images/stratagems/EMS_mortar_sentry.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/M-23_EMS_Mortar_Sentry"
       },
       {
         "name": "A/MLS-4X Rocket Sentry",
@@ -2782,7 +2866,8 @@
         "capacity": "32 — 40 with upgrade",
         "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2992",
-        "image": "./images/stratagems/rocket_sentry.webp"
+        "image": "./images/stratagems/rocket_sentry.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry"
       },
       {
         "name": "A/G-16 Gatling Sentry",
@@ -2794,7 +2879,8 @@
         "capacity": "390 — 585 with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2981",
-        "image": "./images/stratagems/gatling_sentry.webp"
+        "image": "./images/stratagems/gatling_sentry.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/G-16_Gatling_Sentry"
       },
       {
         "name": "A/ARC-3 Tesla Tower",
@@ -2804,7 +2890,8 @@
         "cooldown time": "150s - 135s with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2998",
-        "image": "./images/stratagems/tesla_tower.webp"
+        "image": "./images/stratagems/tesla_tower.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/ARC-3_Tesla_Tower"
       },
       {
         "name": "A/M-12 Mortar Sentry",
@@ -2816,7 +2903,8 @@
         "capacity": "36 — 54 with upgrade",
         "stratagem traits": ["hellpod", "explosive", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3077",
-        "image": "./images/stratagems/mortar_sentry.webp"
+        "image": "./images/stratagems/mortar_sentry.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/M-12_Mortar_Sentry"
       },
       {
         "name": "MD-6 Anti-personnel Minefield",
@@ -2826,7 +2914,8 @@
         "cooldown time": "180s - 153s fully upgraded",
         "stratagem traits": ["hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2973",
-        "image": "./images/stratagems/anti-personnel_minefield.webp"
+        "image": "./images/stratagems/anti-personnel_minefield.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/MD-6_Anti-Personnel_Minefield"
       },
       {
         "name": "A/MG-43 Machine Gun Sentry",
@@ -2838,7 +2927,8 @@
         "capacity": "130 — 195 with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2988",
-        "image": "./images/stratagems/machine_gun_sentry.webp"
+        "image": "./images/stratagems/machine_gun_sentry.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/MG-43_Machine_Gun_Sentry"
       },
       {
         "name": "A/AC-8 Autocannon Sentry",
@@ -2850,7 +2940,8 @@
         "capacity": "24 — 36 with upgrade",
         "stratagem traits": ["hellpod", "sentry"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2975",
-        "image": "./images/stratagems/autocannon_sentry.webp"
+        "image": "./images/stratagems/autocannon_sentry.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/A/AC-8_Autocannon_Sentry"
       },
       {
         "name": "MD-I4 Incendiary Minefield",
@@ -2860,7 +2951,8 @@
         "cooldown time": "180s - 153s fully upgraded",
         "stratagem traits": ["hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3501",
-        "image": "./images/stratagems/incendiary_minefield.webp"
+        "image": "./images/stratagems/incendiary_minefield.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/MD-I4_Incendiary_Mines"
       },
       {
         "name": "E/MG-101 HMG Emplacement",
@@ -2872,7 +2964,8 @@
         "fire rate": 660,
         "stratagem traits": ["hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2985",
-        "image": "./images/stratagems/hmg_emplacement.webp"
+        "image": "./images/stratagems/hmg_emplacement.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/E/MG-101_HMG_Emplacement"
       }
     ]
   },
