@@ -182,6 +182,15 @@ const stratagemJSX = (
         <div className="mt-2">
           <div className="mx-2 fs-5">STATS</div>
           <div className="px-2 infoBox">
+            {selected.damage && (
+              <div className="pt-1">DAMAGE: {selected.damage}</div>
+            )}
+            {selected["durability damage"] && (
+              <div className="pt-1">DURABILITY DAMAGE: {selected["durability damage"]}</div>
+            )}
+            {selected["armor penetration"] && (
+              <div className="pt-1">ARMOR PENETRATION: {selected["armor penetration"]}</div>
+            )}
             <div className="pt-1">CALL-IN TIME: {selected["call-in time"]}</div>
             <div className="pt-1">USES: {selected.uses}</div>
             {selected.capacity && (
@@ -214,6 +223,11 @@ const stratagemJSX = (
             <div className="py-1">
               COOLDOWN TIME: {selected["cooldown time"]}
             </div>
+            {selected["more info"] && (
+              <div className="pt-1">
+                <a href={selected["more info"]} target="_blank" rel="noreferrer">MORE INFO</a>
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-2">

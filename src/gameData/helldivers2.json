@@ -542,7 +542,7 @@
         "name": "LAS-7 Dagger",
         "class": "Special",
         "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
-        "damage/sec": 200,
+        "damage/sec": 250,
         "fire limit": 5,
         "recoil": 0,
         "spare magazines": 3,
@@ -2379,23 +2379,31 @@
       {
         "name": "MLS-4X Commando",
         "description": "An expendable missile launcher equipped with four laser-guided missiles.",
+        "damage": 1100,
+        "durability damage": 1100,
+        "armor penetration": "Heavy II (6)",
+        "cooldown time": "120s - 103s fully upgraded",
         "call-in time": "4.75s",
         "uses": "unlimited",
-        "cooldown time": "120s - 103s fully upgraded",
         "stratagem traits": ["support weapon", "hellpod", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7113",
-        "image": "./images/stratagems/commando.webp"
+        "image": "./images/stratagems/commando.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/MLS-4X_Commando"
       },
       {
         "name": "EXO-49 Emancipator Exosuit",
         "description": "A heavily-armored walking exosuit equipped with dual autocannons.",
+        "damage": 300,
+        "durability damage": 150,
+        "armor penetration": "Heavy I (5)",
+        "cooldown time": "600s - 570s fully upgraded",
         "capacity": "200 rounds",
         "call-in time": "10.50s",
         "uses": "2",
-        "cooldown time": "600s - 570s fully upgraded",
         "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6622",
-        "image": "./images/stratagems/emancipator_exosuit.webp"
+        "image": "./images/stratagems/emancipator_exosuit.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/EXO-49_Emancipator_Exosuit"
       },
       {
         "name": "M-105 Stalwart",
@@ -2403,6 +2411,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 70,
+        "durability damage": 17,
+        "armor penetration": "Light II (2)",
         "capacity": 250,
         "fire rate": "700, 850, 1150",
         "spare magazines": 3,
@@ -2410,7 +2421,8 @@
         "tactical reload": "4.4s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2996",
-        "image": "./images/stratagems/stalwart.webp"
+        "image": "./images/stratagems/stalwart.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/M-105_Stalwart"
       },
       {
         "name": "AC-8 Autocannon",
@@ -2418,6 +2430,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 260,
+        "durability damage": 260,
+        "armor penetration": "Medium II (4)",
         "capacity": 10,
         "fire rate": 250,
         "spare magazines": 10,
@@ -2425,18 +2440,23 @@
         "tactical reload": "1.7s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2976",
-        "image": "./images/stratagems/autocannon.webp"
+        "image": "./images/stratagems/autocannon.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon"
       },
       {
         "name": "EXO-45 Patriot Exosuit",
         "description": "A heavily-armored walking exosuit equipped with a rocket launcher and a heavy machine gun.",
+        "damage": "HMG - 90 / Rocket - 1250",
+        "durability damage": "HMG - 23 / Rocket - 1250",
+        "armor penetration": "HMG - Medium I (3) & Rockets - Heavy II (6)",
         "capacity": "15 rockets & 1000 HMG rounds",
         "call-in time": "10.50s",
         "uses": "2",
         "cooldown time": "600s - 570s fully upgraded",
         "stratagem traits": ["explosive", "vehicle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3099",
-        "image": "./images/stratagems/patriot_exosuit.webp"
+        "image": "./images/stratagems/patriot_exosuit.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit"
       },
       {
         "name": "MG-206 Heavy Machine Gun",
@@ -2444,6 +2464,9 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 150,
+        "durability damage": 35,
+        "armor penetration": "Medium II (4)",
         "capacity": 75,
         "fire rate": "450, 600, 750",
         "spare magazines": 2,
@@ -2451,7 +2474,8 @@
         "tactical reload": "3.9s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=4167",
-        "image": "./images/stratagems/heavy_machine_gun.webp"
+        "image": "./images/stratagems/heavy_machine_gun.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/MG-206_Heavy_Machine_Gun"
       },
       {
         "name": "SH-32 Shield Generator Pack",
@@ -2462,7 +2486,8 @@
         "recharge time": "12s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2993",
-        "image": "./images/stratagems/shield_generator_pack.webp"
+        "image": "./images/stratagems/shield_generator_pack.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack"
       },
       {
         "name": "RL-77 Airburst Rocket Launcher",
@@ -2470,12 +2495,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 350,
+        "durability damage": 350,
+        "armor penetration": "Medium I (3)",
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6.7s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5880",
-        "image": "./images/stratagems/airburst_rocket_launcher.webp"
+        "image": "./images/stratagems/airburst_rocket_launcher.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher"
       },
       {
         "name": "RS-422 Railgun",
@@ -2483,12 +2512,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": "Safe Mode - 600 / 100% charge - 1500",
+        "durability damage": "Safe Mode - 225 / 100% charge - 562.5",
+        "armor penetration": "Medium II (4)",
         "capacity": 1,
         "spare magazines": 20,
         "reload time": "1.3s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2990",
-        "image": "./images/stratagems/railgun.webp"
+        "image": "./images/stratagems/railgun.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/RS-422_Railgun"
       },
       {
         "name": "TX-41 Sterilizer",
