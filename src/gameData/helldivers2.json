@@ -2432,6 +2432,7 @@
         "cooldown time": "480s - 410s fully upgraded",
         "damage": 260,
         "durability damage": 260,
+        "armor penetration": "Medium II (4)",
         "capacity": 10,
         "fire rate": 250,
         "spare magazines": 10,
@@ -2447,6 +2448,7 @@
         "description": "A heavily-armored walking exosuit equipped with a rocket launcher and a heavy machine gun.",
         "damage": "HMG - 90 / Rocket - 1250",
         "durability damage": "HMG - 23 / Rocket - 1250",
+        "armor penetration": "HMG - Medium I (3) & Rockets - Heavy II (6)",
         "capacity": "15 rockets & 1000 HMG rounds",
         "call-in time": "10.50s",
         "uses": "2",
@@ -2464,6 +2466,7 @@
         "cooldown time": "480s - 410s fully upgraded",
         "damage": 150,
         "durability damage": 35,
+        "armor penetration": "Medium II (4)",
         "capacity": 75,
         "fire rate": "450, 600, 750",
         "spare magazines": 2,
@@ -2483,7 +2486,8 @@
         "recharge time": "12s",
         "stratagem traits": ["hellpod", "backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2993",
-        "image": "./images/stratagems/shield_generator_pack.webp"
+        "image": "./images/stratagems/shield_generator_pack.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack"
       },
       {
         "name": "RL-77 Airburst Rocket Launcher",
@@ -2491,12 +2495,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": 350,
+        "durability damage": 350,
+        "armor penetration": "Medium I (3)",
         "capacity": 1,
         "spare magazines": 5,
         "reload time": "6.7s",
         "stratagem traits": ["support weapon", "hellpod", "support backpack"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5880",
-        "image": "./images/stratagems/airburst_rocket_launcher.webp"
+        "image": "./images/stratagems/airburst_rocket_launcher.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher"
       },
       {
         "name": "RS-422 Railgun",
@@ -2504,12 +2512,16 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
+        "damage": "Safe Mode - 600 / 100% charge - 1500",
+        "durability damage": "Safe Mode - 225 / 100% charge - 562.5",
+        "armor penetration": "Medium II (4)",
         "capacity": 1,
         "spare magazines": 20,
         "reload time": "1.3s",
         "stratagem traits": ["support weapon", "hellpod"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2990",
-        "image": "./images/stratagems/railgun.webp"
+        "image": "./images/stratagems/railgun.webp",
+        "more info": "https://helldivers.wiki.gg/wiki/RS-422_Railgun"
       },
       {
         "name": "TX-41 Sterilizer",
