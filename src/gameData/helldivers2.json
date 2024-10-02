@@ -2221,7 +2221,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3088",
         "image": "./images/stratagems/orbital_walking_barrage.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Walking_Barrage"
       },
       {
         "name": "Eagle Strafing Run",
@@ -2233,7 +2233,7 @@
         "stratagem traits": ["eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3097",
         "image": "./images/stratagems/eagle_strafing_run.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_Strafing_Run"
       },
       {
         "name": "Orbital EMS Strike",
@@ -2244,7 +2244,7 @@
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3081",
         "image": "./images/stratagems/orbital_EMS_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_EMS_Strike"
       },
       {
         "name": "Eagle Smoke Strike",
@@ -2256,7 +2256,7 @@
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3096",
         "image": "./images/stratagems/eagle_smoke_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_Smoke_Strike"
       },
       {
         "name": "Orbital Gas Strike",
@@ -2267,7 +2267,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3082",
         "image": "./images/stratagems/orbital_gas_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Gas_Strike"
       },
       {
         "name": "Orbital Railcannon Strike",
@@ -2278,7 +2278,7 @@
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3086",
         "image": "./images/stratagems/orbital_railcannon_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Railcannon_Strike"
       },
       {
         "name": "Eagle Cluster Bomb",
@@ -2290,7 +2290,7 @@
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3094",
         "image": "./images/stratagems/eagle_cluster_bomb.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_Cluster_Bomb"
       },
       {
         "name": "Orbital Smoke Strike",
@@ -2301,7 +2301,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3087",
         "image": "./images/stratagems/orbital_smoke_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Smoke_Strike"
       },
       {
         "name": "Orbital Airburst Strike",
@@ -2312,7 +2312,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3080",
         "image": "./images/stratagems/orbital_airburst_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Airburst_Strike"
       },
       {
         "name": "Orbital Napalm Barrage",
@@ -2323,7 +2323,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7410",
         "image": "./images/stratagems/orbital_napalm_barrage.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Napalm_Barrage"
       },
       {
         "name": "Orbital Laser",
@@ -2334,7 +2334,7 @@
         "stratagem traits": ["orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3084",
         "image": "./images/stratagems/orbital_laser.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Laser"
       },
       {
         "name": "Orbital Precision Strike",
@@ -2345,7 +2345,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3085",
         "image": "./images/stratagems/orbital_precision_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike"
       },
       {
         "name": "Orbital 380mm HE Barrage",
@@ -2356,7 +2356,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3079",
         "image": "./images/stratagems/orbital_380mm_HE_barrage.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_380mm_HE_Barrage"
       },
       {
         "name": "Eagle Napalm Strike",
@@ -2368,7 +2368,7 @@
         "stratagem traits": ["explosive", "eagle"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3095",
         "image": "./images/stratagems/eagle_napalm_strike.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_Napalm_Airstrike"
       },
       {
         "name": "Orbital 120mm HE Barrage",
@@ -2379,7 +2379,7 @@
         "stratagem traits": ["explosive", "orbital"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3078",
         "image": "./images/stratagems/orbital_120mm_HE_barrage.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Orbital_120mm_HE_Barrage"
       },
       {
         "name": "Eagle 110mm Rocket Pods",
@@ -2391,7 +2391,7 @@
         "stratagem traits": ["explosive", "eagle"],
         "credit": "",
         "image": "./images/stratagems/eagle_110mm_rocket_pods.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/Eagle_110mm_Rocket_Pods"
       }
     ],
     "supply": [
