@@ -245,8 +245,8 @@
         "name": "SG-451 Cookout",
         "class": "Shotgun",
         "description": "A pump shotgun that fires a burst of incendiary phosphorus pellets, setting targets ablaze.",
-        "damage": 320,
-        "durability damage": "TBD",
+        "damage": "320 & 50 DPS",
+        "durability damage": "60 & 50 DPS",
         "armor penetration": "Light II (2)",
         "capacity": 16,
         "recoil": 100,
@@ -299,8 +299,8 @@
         "name": "SG-225IE Breaker Incendiary",
         "class": "Shotgun",
         "description": "A modified Breaker Shotgun firing incendiary projectiles. Generates heat during use, so limited to burst fire.",
-        "damage": 240,
-        "durability damage": 120,
+        "damage": "240 & 50 DPS",
+        "durability damage": "120 & 50 DPS",
         "armor penetration": "Light II (2)",
         "capacity": 25,
         "recoil": 41,
@@ -320,7 +320,7 @@
         "class": "Explosive",
         "description": "Fires powerful exploding bolts which do maximum damage upon direct impact. Gravity must be accounted for when aiming.",
         "damage": 620,
-        "durability damage": 50,
+        "durability damage": 400,
         "armor penetration": "Medium I (3)",
         "capacity": 5,
         "recoil": 35,
@@ -356,7 +356,7 @@
         "class": "Explosive",
         "description": "This bolt-action rifle fires jet-assisted shells that explode shrapnel in all directions upon impact. Not recommended for close-quarters use.",
         "damage": 455,
-        "durability damage": 115,
+        "durability damage": 340,
         "armor penetration": "Medium I (3)",
         "capacity": 5,
         "recoil": 75,
@@ -376,6 +376,8 @@
         "class": "Energy-Based",
         "description": "A modified Punisher shotgun firing exploding plasma rounds. Fire carefully - exploding plasma can injure squadmates.",
         "damage": 250,
+        "durability damage": 50,
+        "armor penetration": "Light II (2)",
         "capacity": 8,
         "recoil": 110,
         "fire rate": 80,
@@ -384,26 +386,30 @@
         "weapon traits": ["medium armor penetrating", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3264",
         "image": "./images/primaries/punisher_plasma.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma"
       },
       {
         "name": "ARC-12 Blitzer",
         "class": "Energy-Based",
         "description": "This shotgun blasts a wide burst of high-voltage electricity that arcs between all units—enemy or otherwise—within range.",
         "damage": 250,
+        "durability damage": 175,
+        "armor penetration": "Medium I (3)",
         "capacity": "infinite",
         "recoil": 60,
         "fire rate": 45,
         "weapon traits": ["medium armor penetrating"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3499",
         "image": "./images/primaries/blitzer.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer"
       },
       {
         "name": "LAS-5 Scythe",
         "class": "Energy-Based",
         "description": "A laser rifle firing a continuous beam. Does not need reloading, but if it overheats a new heat sink must be fitted.",
         "damage/sec": 350,
+        "durability damage": 70,
+        "armor penetration": "Light II (2)",
         "fire limit": 8,
         "recoil": 0,
         "spare magazines": 4,
@@ -412,13 +418,15 @@
         "weapon traits": ["light armor penetrating", "beam", "heat"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3000",
         "image": "./images/primaries/scythe.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe"
       },
       {
         "name": "LAS-16 Sickle",
         "class": "Energy-Based",
         "description": "A laser rifle, firing in short bursts. Does not need reloading, but if it overheats a new heat sink must be fitted.",
         "damage": 55,
+        "durability damage": 5,
+        "armor penetration": "Light II (2)",
         "fire limit": 7,
         "recoil": 2,
         "fire rate": 750,
@@ -428,13 +436,15 @@
         "weapon traits": ["light armor penetrating", "heat"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3240",
         "image": "./images/primaries/sickle.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle"
       },
       {
         "name": "PLAS-1 Scorcher",
         "class": "Energy-Based",
         "description": "A plasma rifle, firing a bolt of superheated gas which explodes on impact. Avoid standing in proximity to the blast.",
         "damage": 200,
+        "durability damage": 50,
+        "armor penetration": "Light II (2)",
         "capacity": 15,
         "recoil": 20,
         "fire rate": 250,
@@ -443,13 +453,15 @@
         "weapon traits": ["light armor penetrating", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3249",
         "image": "./images/primaries/scorcher.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher"
       },
       {
         "name": "PLAS-101 Purifier",
         "class": "Energy-Based",
         "description": "A plasma rifle firing a bolt of superheated gase which explodes on impact. Each shot must be charged up fully before it can be fired.",
         "damage": 250,
+        "durability damage": 50,
+        "armor penetration": "Medium I (3)",
         "capacity": 15,
         "recoil": 20,
         "fire rate": 250,
@@ -458,7 +470,7 @@
         "weapon traits": ["medium armor penetrating", "chargeup", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6285",
         "image": "./images/primaries/purifier.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier"
       }
     ],
     "Special": [
@@ -466,7 +478,9 @@
         "name": "FLAM-66 Torcher",
         "class": "Special",
         "description": "A lightweight flamethrower. Shoots pressurized fuel through a dispersion nozzle into an open flame. Safe.",
-        "damage": 375,
+        "damage": "375 & 50 DPS",
+        "durability damage": "375 & 50 DPS",
+        "armor penetration": "Medium II (4)",
         "capacity": 80,
         "recoil": 3,
         "fire limit": "9.9s",
@@ -475,7 +489,7 @@
         "weapon traits": ["medium armor penetrating", "incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7198",
         "image": "./images/primaries/torcher.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher"
       }
     ]
   },
@@ -486,6 +500,8 @@
         "class": "Pistol",
         "description": "The SEAF standard pistol - offering a high fire rate, generous capacity, and fast reloading.",
         "damage": 75,
+        "durability damage": 15,
+        "armor penetration": "Light II (2)",
         "capacity": 15,
         "recoil": 23,
         "fire rate": 900,
@@ -495,13 +511,15 @@
         "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2598",
         "image": "./images/secondaries/peacemaker.png",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker"
       },
       {
         "name": "P-19 Redeemer",
         "class": "Pistol",
         "description": "A fully-automatic pistol with an extremely high fire rate, allowing for efficient crowd control.",
         "damage": 60,
+        "durability damage": 5,
+        "armor penetration": "Light II (2)",
         "capacity": 31,
         "recoil": 15,
         "fire rate": 1100,
@@ -511,13 +529,15 @@
         "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2600",
         "image": "./images/secondaries/redeemer.png",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/P-19_Redeemer"
       },
       {
         "name": "P-113 Verdict",
         "class": "Pistol",
         "description": "The gas-operated, semiautomatic P-113 chambers the 14mm \"Rapid Deliberation,\" the largest centerfire cartridge of any magazine-fed pistol.",
         "damage": 125,
+        "durability damage": 12,
+        "armor penetration": "Light II (2)",
         "capacity": 10,
         "recoil": 40,
         "fire rate": 450,
@@ -527,13 +547,15 @@
         "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6286",
         "image": "./images/secondaries/verdict.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/P-113_Verdict"
       },
       {
         "name": "P-4 Senator",
         "class": "Pistol",
         "description": "A high-damage revolver, which can be reloaded with single rounds. A heavy-hitting and reliable sidearm.",
         "damage": 175,
+        "durability damage": 35,
+        "armor penetration": "Medium I (3)",
         "capacity": 6,
         "recoil": 43,
         "fire rate": 200,
@@ -547,7 +569,7 @@
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=2599",
         "image": "./images/secondaries/senator.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/P-4_Senator"
       }
     ],
     "Special": [
@@ -565,13 +587,15 @@
         "weapon traits": ["one-handed", "rounds reload", "stimulative"],
         "credit": "",
         "image": "./images/secondaries/stim_pistol.png",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol"
       },
       {
         "name": "SG-22 Bushwhacker",
         "class": "Special",
         "description": "A triple-barreled, break-action, sawed-off shotgun. Switch firing modes to fire all three barrels at once.",
         "damage": 405,
+        "durability damage": 108,
+        "armor penetration": "Light II (2)",
         "capacity": 3,
         "recoil": 170,
         "fire rate": 650,
@@ -581,13 +605,15 @@
         "weapon traits": ["light armor penetrating", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6767",
         "image": "./images/secondaries/bushwacker.png",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker"
       },
       {
         "name": "P-72 Crisper",
         "class": "Special",
         "description": "A compact handgun-style flamethrower, able to project a jet of fire over short distances.",
-        "damage/sec": 375,
+        "damage/sec": "375 & 50 DPS",
+        "durability damage": "375 & 50 DPS",
+        "armor penetration": "Medium II (4)",
         "capacity": 30,
         "recoil": 3,
         "fire limit": "3.6s",
@@ -596,13 +622,15 @@
         "weapon traits": ["medium armor penetrating", "incendiary", "one-handed"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=7259",
         "image": "./images/secondaries/crisper.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/P-72_Crisper"
       },
       {
         "name": "GP-31 Grenade Pistol",
         "class": "Special",
         "description": "A pistol that fires grenades. Must be reloaded between shots.",
         "damage": 650,
+        "durability damage": 250,
+        "armor penetration": "Medium I (3)",
         "capacity": 1,
         "recoil": 43,
         "fire rate": 900,
@@ -611,13 +639,15 @@
         "weapon traits": ["one-handed", "explosive"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=5467",
         "image": "./images/secondaries/grenade_pistol.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol"
       },
       {
         "name": "LAS-7 Dagger",
         "class": "Special",
         "description": "A laser pistol that fires a continuous beam. Does not require ammo but can overheat and need to change batteries.",
         "damage/sec": 250,
+        "durability damage": 50,
+        "armor penetration": "Light II (2)",
         "fire limit": 5,
         "recoil": 0,
         "spare magazines": 3,
@@ -631,7 +661,7 @@
         ],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3500",
         "image": "./images/secondaries/dagger.png",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger"
       }
     ]
   },
@@ -641,38 +671,41 @@
         "name": "G-6 Frag",
         "class": "Standard Throwable",
         "description": "An antipersonnel fragmentation grenade. Creates damage over a large area when detonated.",
-        "damage": 250,
+        "damage": "Explosion - 250 & Shrapnel - 110",
+        "durability damage": "Explosion - 250 & Shrapnel - 35",
         "penetration": 3,
         "outer_radius": 10,
         "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2539",
         "image": "./images/throwables/frag.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-6_Frag"
       },
       {
         "name": "G-12 High Explosive",
         "class": "Standard Throwable",
         "description": "A high explosive grenade which damages lightly armored targets. Creates high damage over a small area when detonated.",
         "damage": 400,
+        "durability damage": 400,
         "penetration": 4,
         "outer_radius": 7,
         "fuse_time": "3.5s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2541",
         "image": "./images/throwables/high_explosive.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-12_High_Explosive"
       },
       {
         "name": "G-10 Incendiary",
         "class": "Standard Throwable",
         "description": "An incendiary grenade which ignites any targets and terrain within the blast radius. Use with caution.",
-        "damage": 150,
+        "damage": "150 & 50 DPS",
+        "durability damage": "150 & 50 DPS",
         "penetration": 3,
         "outer_radius": 7,
         "fuse_time": "2.9s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3265",
         "image": "./images/throwables/incendiary.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-10_Incendiary"
       }
     ],
     "Special Throwables": [
@@ -681,25 +714,27 @@
         "class": "Special Throwable",
         "description": "A high explosive grenade which detonates on first impact.",
         "damage": 400,
+        "durability damage": 400,
         "penetration": 4,
         "outer_radius": 7,
         "fuse_time": "0.0s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=2590",
         "image": "./images/throwables/impact.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-16_Impact"
       },
       {
         "name": "G-13 Incendiary Impact",
         "class": "Special Throwable",
         "description": "Detonates on impact, covering the immediate vicinity in self-igniting white phosphorus.",
-        "damage": 400,
+        "damage": "150 & 50 DPS",
+        "durability damage": "150 & 50 DPS",
         "penetration": 4,
         "outer_radius": 7,
         "fuse_time": "0.0s",
         "weapon traits": ["incendiary"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=6265",
         "image": "./images/throwables/incendiary_impact.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-13_Incendiary_Impact"
       },
       {
         "name": "G-23 Stun",
@@ -711,20 +746,21 @@
         "fuse_time": "1.8s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
         "image": "./images/throwables/stun.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-23_Stun"
       },
       {
         "name": "G-4 Gas",
         "class": "Special Throwable",
         "description": "A grenade that releases a cloud of caustic gas, effective against both organic and inorganic enemies.",
-        "damage": 3,
+        "damage": "3 & 25 DPS",
+        "durability damage": "3 & 25 DPS",
         "penetration": 6,
         "outer_radius": 7,
         "fuse_time": "2.9s",
         "weapon traits": ["caustic"],
         "credit": "https://helldivers.wiki.gg/index.php?curid=3267",
         "image": "./images/throwables/gas.webp",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-4_Gas"
       },
       {
         "name": "G-3 Smoke",
@@ -736,19 +772,20 @@
         "fuse_time": "2.4s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=3266",
         "image": "./images/throwables/smoke.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-3_Smoke"
       },
       {
         "name": "G-123 Thermite",
         "class": "Special Throwable",
         "description": "A thermite grenade designed to adhere to surfaces before burning at 2000°C. Capable of burning through some armor.",
         "damage": 2000,
+        "durability damage": 2000,
         "penetration": 7,
         "outer_radius": 3,
         "fuse_time": "2.9s",
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
         "image": "./images/throwables/thermite.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/G-123_Thermite"
       },
       {
         "name": "K-2 Throwing Knife",
@@ -758,7 +795,7 @@
         "penetration": 3,
         "credit": "https://helldivers.wiki.gg/index.php?curid=5359",
         "image": "./images/throwables/throwing_knife.jpeg",
-        "more info": ""
+        "more info": "https://helldivers.wiki.gg/wiki/K-2_Throwing_Knife"
       }
     ]
   },
@@ -2780,8 +2817,8 @@
         "call-in time": "4.75s",
         "uses": "unlimited",
         "cooldown time": "480s - 410s fully upgraded",
-        "damage/sec": 450,
-        "durability damage": "450/sec",
+        "damage/sec": "450 & 50 DPS",
+        "durability damage": "450 & 50 DPS",
         "armor penetration": "Medium II (4)",
         "capacity": 100,
         "fire limit": "12.5s",
