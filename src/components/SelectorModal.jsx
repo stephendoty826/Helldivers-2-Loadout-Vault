@@ -201,6 +201,12 @@ const stratagemJSX = (
                 FIRE RATE (RPM): {selected["fire rate"]}
               </div>
             )}
+            {selected["charge time"] && (
+              <div className="pt-1">CHARGE TIME: {selected["charge time"]}</div>
+            )}
+            {selected["recharge time"] && (
+              <div className="pt-1">RECHARGE TIME: {selected["recharge time"]}</div>
+            )}
             {selected["fire limit"] && (
               <div className="pt-1">FIRE LIMIT: {selected["fire limit"]}</div>
             )}
