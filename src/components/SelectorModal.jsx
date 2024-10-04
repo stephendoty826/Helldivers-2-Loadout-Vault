@@ -436,6 +436,12 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
             {selected.damage && (
               <div className="pt-1">DAMAGE: {selected.damage}</div>
             )}
+            {selected["durability damage"] && (
+              <div className="pt-1">DURABILITY DAMAGE: {selected["durability damage"]}</div>
+            )}
+            {selected["armor penetration"] && (
+              <div className="pt-1">ARMOR PENETRATION: {selected["armor penetration"]}</div>
+            )}
             {selected["damage/sec"] && (
               <div className="pt-1">DAMAGE/SEC: {selected["damage/sec"]}</div>
             )}
@@ -462,6 +468,11 @@ const primaryJSX = (selected, setSelected, showDetails, itemArray) => {
             {selected["tactical reload"] && (
               <div className="pt-1">
                 TACTICAL RELOAD: {selected["tactical reload"]}
+              </div>
+            )}
+            {selected["more info"] && (
+              <div className="pt-1">
+                <a href={selected["more info"]} target="_blank" rel="noreferrer">MORE INFO</a>
               </div>
             )}
           </div>
