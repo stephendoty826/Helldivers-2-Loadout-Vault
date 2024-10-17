@@ -446,7 +446,7 @@
         "armor penetration": "Medium (3)",
         "capacity": 15,
         "recoil": 20,
-        "fire rate": 250,
+        "fire rate": 1000,
         "spare magazines": 6,
         "reload time": "2.5s",
         "weapon traits": ["medium armor penetrating", "chargeup", "explosive"],
