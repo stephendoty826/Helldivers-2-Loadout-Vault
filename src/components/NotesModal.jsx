@@ -5,9 +5,13 @@ import Form from "react-bootstrap/Form";
 
 const NotesModal = ({
   notes,
-  setNotes,
   show,
-  onHide
+  setNotes,
+  onHide,
+  loadout,
+  savedLoadouts,
+  setSavedLoadouts,
+  variant
 }) => {
   
   const [shownNotes, setShownNotes] = useState(notes)
@@ -25,6 +29,28 @@ const NotesModal = ({
   function handleOKClick(){
     setNotes(shownNotes)
     onHide()
+  }
+
+  function updateNotes() {
+    let loadoutIndex = savedLoadouts.findIndex(
+      (savedloadout) => loadout.id === savedloadout.id
+    );
+
+    let updatedLoadout = {
+      ...loadout, notes: shownNotes
+    };
+
+    // using temp array to not edit state
+    let tempSavedLoadouts = savedLoadouts;
+    // update loadout at index
+    tempSavedLoadouts[loadoutIndex] = updatedLoadout;
+    // use setSavedLoadouts to update state
+    setSavedLoadouts([...tempSavedLoadouts]);
+    // stringify array
+    let savedLoadoutsJSON = JSON.stringify(tempSavedLoadouts);
+    // save array to local storage
+    localStorage.setItem("savedLoadouts", savedLoadoutsJSON);
+    onHide();
   }
 
   return (
@@ -63,10 +89,12 @@ const NotesModal = ({
         </Form>
       </Modal.Body>
       <Modal.Footer className="d-flex justify-content-between">
-        <Button variant="secondary" onClick={handleCancelClick}>
+        <Button 
+        variant="secondary" 
+        onClick={handleCancelClick}>
           Cancel
         </Button>
-        <Button variant="primary" onClick={handleOKClick}>
+        <Button variant="primary" onClick={variant === "edit" ? updateNotes : handleOKClick}>
           OK
         </Button>
       </Modal.Footer>
